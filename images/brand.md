@@ -2,7 +2,7 @@
 
 ## Purpose
 
-FreeIndexer hero images should make indexing workflows feel practical, technical, and trustworthy. The visual system supports articles about URL submission, backlink discovery, search indexing delays, dashboards, queues, desktop software, and SEO operations.
+FreeIndexer hero images should make indexing workflows feel practical, technical, and trustworthy. The visual system supports articles about URL submission, backlink discovery, search indexing delays, dashboards, queues, desktop software, and SEO operations. The main FreeIndexer accent is green, supported by blue for technical URL and dashboard elements.
 
 ## Palette
 
@@ -10,12 +10,14 @@ Use a clean product palette with enough contrast for blog hero titles.
 
 | Role | Color | Usage |
 |---|---|---|
-| Primary blue | `#2563EB` | URL paths, buttons, dashboard highlights, search accents |
-| Discovery green | `#10B981` | successful submission states, checkmarks, crawl/discovery signals |
+| Primary green | `#11E299` | brand accent, successful submission states, checkmarks, crawl/discovery signals |
+| Technical blue | `#2563EB` | URL paths, buttons, dashboard highlights, search accents |
+| Soft mint | `#EFFFF8` | hero gradients, subtle backgrounds, quiet brand washes |
 | Ink | `#111827` | title text, UI labels, strong contrast |
 | Slate | `#475569` | secondary UI, chart axes, muted text |
 | Cloud | `#F8FAFC` | main background |
 | Panel | `#FFFFFF` | dashboard cards, browser/search interface surfaces |
+| Border | `#E5E7EB` | cards, dividers, interface outlines |
 | Warning amber | `#F59E0B` | limited warning states only, not as a dominant theme |
 
 ## Typography
@@ -23,6 +25,7 @@ Use a clean product palette with enough contrast for blog hero titles.
 - Preferred title font: Inter SemiBold or Poppins SemiBold.
 - Fallback: Arial Bold.
 - Title color: `#111827`.
+- `#11E299` can be used for small accents or one highlighted word, not full title blocks.
 - Keep title text left-aligned unless a template explicitly calls for centered text.
 - Use 2 to 4 title lines. Avoid cramped all-caps blocks.
 
@@ -38,6 +41,9 @@ Use:
 - browser windows and status cards
 - indexing checklist concepts
 - desktop app window concepts for desktop articles
+- soft green accents that make the visual feel connected to FreeIndexer
+
+Every hero should include a small visible `#11E299` brand accent.
 
 Avoid:
 
@@ -47,6 +53,7 @@ Avoid:
 - exaggerated growth charts
 - spammy backlink blast imagery
 - dark hacker-style scenes
+- red-heavy visuals unless showing a small warning state
 - casino, crypto, adult, or churn-and-burn SEO aesthetics
 - cluttered 3D icons with no product meaning
 
@@ -73,6 +80,7 @@ Subject images must not include:
 - The article title is the main text element.
 - Do not add extra promotional copy to the hero unless the template specifies a short badge.
 - Allowed badges: `Guide`, `Workflow`, `Comparison`, `Troubleshooting`, `Desktop App`.
+- Badges should prefer `#11E299` accents or soft mint backgrounds.
 - Forbidden badges: `Guaranteed`, `100% Indexed`, `Instant Rankings`.
 
 ## Template Usage
@@ -85,4 +93,3 @@ Use the template that matches the article job:
 - Template 4: desktop app and product workflow articles.
 
 The final hero must be readable at social-card size and should still make sense if the subject image is partially cropped.
-
