@@ -1,0 +1,18 @@
+# Local secrets
+reference/blog_api.json
+reference/hetzner_object_storage.json
+.env
+.secrets/
+
+# Generated image outputs
+images/exports/*.png
+images/exports/subjects/*.png
+images/exports/heroes/*.png
+images/exports/validated/*.png
+
+# Python/runtime artifacts
+__pycache__/
+*.pyc
+.venv/
+venv/
+

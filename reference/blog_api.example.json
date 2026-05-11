@@ -1,0 +1,12 @@
+{
+  "api_flow": "FILL_IN_99SYNC_OR_OTHER",
+  "blog_api_endpoint": "FILL_IN_BLOG_API_ENDPOINT",
+  "application_id": "FILL_IN_APPLICATION_ID",
+  "api_key": "FILL_IN_API_KEY",
+  "secret_key": "FILL_IN_SECRET_KEY",
+  "author_id": "FILL_IN_AUTHOR_ID",
+  "blog_domain": "FILL_IN_BLOG_DOMAIN_OR_TARGET_BLOG_URL",
+  "upload_mode": "FILL_IN_DRAFT_ONLY_OR_PUBLISH_DIRECTLY",
+  "bootstrap5_post_processing_required": "FILL_IN_TRUE_OR_FALSE"
+}
+

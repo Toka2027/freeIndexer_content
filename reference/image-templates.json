@@ -1,0 +1,29 @@
+{
+  "templates": [
+    {
+      "id": 1,
+      "name": "Search Discovery Panel",
+      "doc": "images/templates/1-template.md",
+      "best_for": ["indexing education", "troubleshooting", "website owner guides"]
+    },
+    {
+      "id": 2,
+      "name": "Queue And Workflow",
+      "doc": "images/templates/2-template.md",
+      "best_for": ["agency workflows", "bulk indexing", "programmatic SEO"]
+    },
+    {
+      "id": 3,
+      "name": "Decision Matrix",
+      "doc": "images/templates/3-template.md",
+      "best_for": ["comparisons", "buying guides", "tool evaluation"]
+    },
+    {
+      "id": 4,
+      "name": "Desktop App Workspace",
+      "doc": "images/templates/4-template.md",
+      "best_for": ["desktop app", "Windows software", "product workflows"]
+    }
+  ]
+}
+

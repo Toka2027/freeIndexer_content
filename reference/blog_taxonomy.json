@@ -1,0 +1,50 @@
+{
+  "categories": [
+    {
+      "slug": "indexing-education",
+      "name": "Indexing Education",
+      "description": "Guides explaining URL indexing, backlink discovery, indexing delays, and search discovery workflows."
+    },
+    {
+      "slug": "use-cases",
+      "name": "Use Cases",
+      "description": "ICP-specific FreeIndexer workflows for website owners, agencies, affiliates, programmatic SEO builders, and SaaS teams."
+    },
+    {
+      "slug": "comparisons",
+      "name": "Comparisons",
+      "description": "Buying guides and comparisons for indexing tools, APIs, manual workflows, and FreeIndexer paths."
+    },
+    {
+      "slug": "bulk-indexing",
+      "name": "Bulk Indexing",
+      "description": "Batching, prioritization, daily points, and large URL-set indexing operations."
+    },
+    {
+      "slug": "desktop-app",
+      "name": "Desktop App",
+      "description": "FreeIndexer desktop app setup, usage, and Windows indexing workflows."
+    },
+    {
+      "slug": "troubleshooting",
+      "name": "Troubleshooting",
+      "description": "Diagnostic guides for indexing issues, submission expectations, points, and product usage."
+    }
+  ],
+  "tags": [
+    { "slug": "indexing", "name": "Indexing" },
+    { "slug": "google-indexing", "name": "Google Indexing" },
+    { "slug": "backlinks", "name": "Backlinks" },
+    { "slug": "url-submission", "name": "URL Submission" },
+    { "slug": "seo-agency", "name": "SEO Agency" },
+    { "slug": "affiliate-seo", "name": "Affiliate SEO" },
+    { "slug": "programmatic-seo", "name": "Programmatic SEO" },
+    { "slug": "saas-seo", "name": "SaaS SEO" },
+    { "slug": "bulk-indexing", "name": "Bulk Indexing" },
+    { "slug": "desktop-app", "name": "Desktop App" },
+    { "slug": "comparison", "name": "Comparison" },
+    { "slug": "troubleshooting", "name": "Troubleshooting" },
+    { "slug": "pricing", "name": "Pricing" }
+  ]
+}
+

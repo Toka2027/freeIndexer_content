@@ -1,0 +1,11 @@
+{
+  "provider": "FILL_IN_S3_OR_HETZNER_OR_OTHER",
+  "endpoint_url": "FILL_IN_OBJECT_STORAGE_ENDPOINT_URL",
+  "region": "FILL_IN_REGION",
+  "bucket": "FILL_IN_BUCKET_NAME",
+  "access_key": "FILL_IN_ACCESS_KEY",
+  "secret_key": "FILL_IN_SECRET_KEY",
+  "base_public_asset_url": "FILL_IN_BASE_PUBLIC_ASSET_URL",
+  "hero_upload_path_convention": "FILL_IN_PATH_CONVENTION_SUCH_AS_freeindexer/blog/{slug}-hero.png"
+}
+
