@@ -20,6 +20,7 @@ Expected output:
 from __future__ import annotations
 
 import json
+import argparse
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -28,9 +29,44 @@ LIVE = ROOT / "reference" / "blog_taxonomy_live.json"
 BLOG_API = ROOT / "reference" / "blog_api.json"
 
 
+def validate_taxonomy(taxonomy: dict) -> list[str]:
+    errors = []
+    for group in ("categories", "tags"):
+        seen = set()
+        for item in taxonomy.get(group, []):
+            slug = item.get("slug", "")
+            name = item.get("name", "")
+            if not slug:
+                errors.append(f"{group}: item missing slug")
+            if not name:
+                errors.append(f"{group}: {slug or '[missing slug]'} missing name")
+            if slug in seen:
+                errors.append(f"{group}: duplicate slug {slug}")
+            seen.add(slug)
+    return errors
+
+
 def main() -> int:
+    parser = argparse.ArgumentParser()
+    parser.add_argument("--validate-only", action="store_true")
+    args = parser.parse_args()
+
     if not TAXONOMY.exists():
         raise SystemExit("Missing reference/blog_taxonomy.json")
+
+    taxonomy = json.loads(TAXONOMY.read_text(encoding="utf-8"))
+    errors = validate_taxonomy(taxonomy)
+    if errors:
+        for error in errors:
+            print(f"ERROR: {error}")
+        return 1
+
+    if args.validate_only:
+        print("taxonomy validation passed")
+        print(f"categories: {len(taxonomy.get('categories', []))}")
+        print(f"tags: {len(taxonomy.get('tags', []))}")
+        return 0
+
     if not BLOG_API.exists():
         print("Blocked: missing reference/blog_api.json.")
         print("Copy reference/blog_api.example.json and replace FILL_IN_* values.")
@@ -41,7 +77,6 @@ def main() -> int:
         print("Blocked: reference/blog_api.json still contains FILL_IN_* placeholders.")
         return 2
 
-    taxonomy = json.loads(TAXONOMY.read_text(encoding="utf-8"))
     LIVE.write_text(
         json.dumps(
             {
@@ -66,4 +101,3 @@ def main() -> int:
 
 if __name__ == "__main__":
     raise SystemExit(main())
-

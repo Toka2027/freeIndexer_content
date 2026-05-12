@@ -10,6 +10,7 @@ Direct blog upload is currently blocked until the project owner provides the mis
 |---|---|---|
 | `blog_api.example.json` | Example blog API config with `FILL_IN_*` placeholders | Ready for owner values |
 | `hetzner_object_storage.example.json` | Example object storage config with `FILL_IN_*` placeholders | Ready for owner values |
+| `image_provider.example.json` | Example image provider config with `FILL_IN_*` placeholders | Ready for owner values |
 | `blog_taxonomy.json` | Proposed FreeIndexer categories and tags | Draft, needs owner approval |
 | `blog_taxonomy_live.json` | Live taxonomy IDs after sync | Not synced |
 | `source-notes.md` | Research notes from playbook, public site, and reference repos | Ready |
@@ -35,6 +36,10 @@ Direct blog upload cannot work until these values are provided:
 - whether FreeIndexer blog uses the same 99sync.com API flow as CaptchaRank
 - whether Bootstrap 5 HTML post-processing is required
 - whether posts should be uploaded as draft only or published directly
+- image generation provider
+- image generation model
+- image generation API key or approved environment variable name
+- final visual approval for 1200x630 hero template backgrounds and validator overlays
 
 ## Setup Steps After Owner Provides Values
 
@@ -43,9 +48,11 @@ Direct blog upload cannot work until these values are provided:
 3. Copy `reference/hetzner_object_storage.example.json` to `reference/hetzner_object_storage.json`.
 4. Replace every `FILL_IN_*` value.
 5. Confirm taxonomy in `reference/blog_taxonomy.json`.
-6. Run:
+6. Copy `reference/image_provider.example.json` to `reference/image_provider.json` if generated subject images should be created from this repo.
+7. Run:
 
 ```powershell
+python scripts/check_readiness.py
 python scripts/sync_blog_taxonomy.py
 python scripts/prepare_blog_draft.py content/commercial/free-url-indexer.md --upload-image
 python scripts/prepare_blog_draft.py content/commercial/free-url-indexer.md
@@ -54,4 +61,3 @@ python scripts/prepare_blog_draft.py content/commercial/free-url-indexer.md
 ## Security Rule
 
 Do not commit real `blog_api.json` or real `hetzner_object_storage.json` unless the owner explicitly confirms this repository is private and those files should be tracked.
-

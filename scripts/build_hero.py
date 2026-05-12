@@ -34,9 +34,12 @@ def main() -> int:
     parser.add_argument("--template", required=True, type=int)
     parser.add_argument("--subject")
     parser.add_argument("--validator", action="store_true")
+    parser.add_argument("--check-assets", action="store_true")
     args = parser.parse_args()
 
     template_doc = ROOT / "images" / "templates" / f"{args.template}-template.md"
+    template_png = ROOT / "images" / "templates" / f"{args.template}.png"
+    validator_png = ROOT / "images" / "templates" / f"{args.template}-v.png"
     default_subject = ROOT / "images" / "exports" / "subjects" / f"{args.slug}-subject.png"
     subject = Path(args.subject) if args.subject else default_subject
 
@@ -47,8 +50,37 @@ def main() -> int:
     if not template_doc.exists():
         raise SystemExit(f"Template documentation not found: {template_doc.relative_to(ROOT)}")
 
+    missing = []
+    if not template_png.exists():
+        missing.append(str(template_png.relative_to(ROOT)))
+    if not validator_png.exists():
+        missing.append(str(validator_png.relative_to(ROOT)))
+    if not subject.exists():
+        missing.append(str(subject.relative_to(ROOT) if subject.is_absolute() and ROOT in subject.parents else subject))
+
+    if args.check_assets:
+        if missing:
+            print("hero asset check failed; missing:")
+            for item in missing:
+                print(f"- {item}")
+            print("Required before end-to-end hero building: 1200x630 template PNG, validator overlay PNG, and subject PNG.")
+            return 2
+        print("hero asset check passed")
+        print(f"Template PNG: {template_png.relative_to(ROOT)}")
+        print(f"Validator PNG: {validator_png.relative_to(ROOT)}")
+        print(f"Subject: {subject.relative_to(ROOT) if subject.is_absolute() and ROOT in subject.parents else subject}")
+        return 0
+
+    if missing:
+        print("Hero building is blocked; missing required assets:")
+        for item in missing:
+            print(f"- {item}")
+        print("Template docs alone are not enough for real compositing.")
+        print("Add real 1200x630 template backgrounds and validator overlays before running build output.")
+        return 2
+
     print("TODO: hero compositing is not implemented yet.")
-    print("This script mirrors the CaptchaRank interface and is blocked until template PNG assets are approved.")
+    print("Assets are present, but Pillow compositing still needs implementation.")
     print(f"Template doc: {template_doc.relative_to(ROOT)}")
     print(f"Expected subject: {subject.relative_to(ROOT) if subject.is_absolute() and ROOT in subject.parents else subject}")
     print(f"Expected canonical hero: {canonical.relative_to(ROOT)}")
@@ -60,4 +92,3 @@ def main() -> int:
 
 if __name__ == "__main__":
     raise SystemExit(main())
-

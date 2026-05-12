@@ -23,11 +23,15 @@ Required credentials:
 from __future__ import annotations
 
 import argparse
+import json
+import os
 import re
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
 CONTENT_DIR = ROOT / "content"
+IMAGE_CONFIG = ROOT / "reference" / "image_provider.json"
+IMAGE_CONFIG_EXAMPLE = ROOT / "reference" / "image_provider.example.json"
 
 
 def find_article(slug: str) -> Path:
@@ -60,11 +64,33 @@ def build_prompt(article_path: Path) -> str:
     )
 
 
+def load_image_config() -> dict:
+    if not IMAGE_CONFIG.exists():
+        raise SystemExit(
+            "Image generation is blocked: missing reference/image_provider.json. "
+            "Copy reference/image_provider.example.json and replace FILL_IN_* values."
+        )
+    data = json.loads(IMAGE_CONFIG.read_text(encoding="utf-8"))
+    serialized = json.dumps(data)
+    if "FILL_IN_" in serialized:
+        raise SystemExit("Image generation is blocked: reference/image_provider.json still contains FILL_IN_* placeholders.")
+
+    api_key_env = data.get("api_key_env", "")
+    api_key = data.get("api_key", "")
+    if api_key_env and not os.getenv(api_key_env) and not api_key:
+        raise SystemExit(
+            f"Image generation is blocked: environment variable {api_key_env} is not set "
+            "and no approved api_key value is present in reference/image_provider.json."
+        )
+    return data
+
+
 def main() -> int:
     parser = argparse.ArgumentParser()
     parser.add_argument("--slug", required=True)
     parser.add_argument("--quality", default="low", choices=["low", "medium", "high"])
     parser.add_argument("--prompt-only", action="store_true")
+    parser.add_argument("--check-config", action="store_true")
     args = parser.parse_args()
 
     article = find_article(args.slug)
@@ -76,8 +102,27 @@ def main() -> int:
         print(f"expected output: {output.relative_to(ROOT)}")
         return 0
 
-    print("TODO: image generation provider integration is not implemented yet.")
-    print("Blocked until owner/team provides the approved image provider and credentials.")
+    if args.check_config:
+        data = load_image_config()
+        print("image provider config present")
+        print(f"provider: {data.get('provider')}")
+        print(f"model: {data.get('model')}")
+        print(f"expected output: {output.relative_to(ROOT)}")
+        return 0
+
+    try:
+        data = load_image_config()
+    except SystemExit as exc:
+        print(exc)
+        print(f"Example config: {IMAGE_CONFIG_EXAMPLE.relative_to(ROOT)}")
+        print(f"Prompt:\n{prompt}")
+        print(f"Expected output: {output.relative_to(ROOT)}")
+        return 2
+
+    print("TODO: real image API call is not implemented yet.")
+    print("Config is present, but provider-specific generation code still needs implementation.")
+    print(f"Provider: {data.get('provider')}")
+    print(f"Model: {data.get('model')}")
     print(f"Prompt:\n{prompt}")
     print(f"Expected output: {output.relative_to(ROOT)}")
     return 2
@@ -85,4 +130,3 @@ def main() -> int:
 
 if __name__ == "__main__":
     raise SystemExit(main())
-

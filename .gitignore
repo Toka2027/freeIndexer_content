@@ -1,6 +1,7 @@
 # Local secrets
 reference/blog_api.json
 reference/hetzner_object_storage.json
+reference/image_provider.json
 .env
 .secrets/
 
@@ -15,4 +16,3 @@ __pycache__/
 *.pyc
 .venv/
 venv/
-

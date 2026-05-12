@@ -6,6 +6,7 @@ This folder mirrors the CaptchaRank content production scripts, adapted for the 
 
 - `build_master_articles.py`: scans `content/**/*.md` and rebuilds `pipeline/master-articles.csv`.
 - `validate_content.py`: validates required frontmatter and basic content rules.
+- `check_readiness.py`: audits image, upload, config, and tracker readiness without generating images or uploading anything.
 
 ## Interfaces Defined, Blocked By Setup
 
@@ -20,8 +21,9 @@ This folder mirrors the CaptchaRank content production scripts, adapted for the 
 ```powershell
 python scripts/validate_content.py
 python scripts/build_master_articles.py
+python scripts/check_readiness.py
 python scripts/generate_image.py --slug free-url-indexer --prompt-only
-python scripts/build_hero.py --slug free-url-indexer --template 1
-python scripts/prepare_blog_draft.py content/commercial/free-url-indexer.md --upload-image
+python scripts/build_hero.py --slug free-url-indexer --template 1 --check-assets
+python scripts/prepare_blog_draft.py content/commercial/free-url-indexer.md --dry-run
+python scripts/prepare_blog_draft.py content/commercial/free-url-indexer.md --upload-image --dry-run
 ```
-

@@ -18,6 +18,12 @@ Direct upload is blocked until the owner provides blog API and object storage de
 | 8. Submit draft | `python scripts/prepare_blog_draft.py content/path/{slug}.md` | blog draft |
 | 9. Verify live URL | `python scripts/sync_publishing_tracker.py` | updated tracker |
 
+Readiness audit without generating images or uploading anything:
+
+```powershell
+python scripts/check_readiness.py
+```
+
 ## 1. Create Article Markdown
 
 Use the template that matches the article type:
@@ -78,6 +84,12 @@ Dry run:
 python scripts/generate_image.py --slug {slug} --prompt-only
 ```
 
+Image config check:
+
+```powershell
+python scripts/generate_image.py --slug {slug} --check-config
+```
+
 ## 5. Build Hero Image
 
 ```powershell
@@ -95,6 +107,12 @@ Optional overlay:
 
 ```powershell
 python scripts/build_hero.py --slug {slug} --template N --validator
+```
+
+Asset check without building:
+
+```powershell
+python scripts/build_hero.py --slug {slug} --template N --check-assets
 ```
 
 Expected output:
@@ -119,6 +137,12 @@ Check:
 python scripts/prepare_blog_draft.py content/path/{slug}.md --upload-image
 ```
 
+Dry-run upload payload:
+
+```powershell
+python scripts/prepare_blog_draft.py content/path/{slug}.md --upload-image --dry-run
+```
+
 Blocked until owner provides:
 
 - object storage provider
@@ -138,6 +162,12 @@ uploaded_image_url
 
 ```powershell
 python scripts/prepare_blog_draft.py content/path/{slug}.md
+```
+
+Dry-run draft payload:
+
+```powershell
+python scripts/prepare_blog_draft.py content/path/{slug}.md --dry-run
 ```
 
 Blocked until owner provides:
@@ -186,4 +216,3 @@ python scripts/build_master_articles.py
 - `prepare_blog_draft.py`: blocked by credentials and API contract.
 - `sync_blog_taxonomy.py`: blocked by API contract.
 - `sync_publishing_tracker.py`: local tracker checks present; live verification TODO until blog domain/API is provided.
-
