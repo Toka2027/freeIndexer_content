@@ -1,29 +1,111 @@
 {
+  "_comment": "FreeIndexer hero template definitions. scripts/build_hero.py auto-detects title and image zones from images/templates/{N}-v.png; percentage zones are cached fallback values.",
+  "canvas": {
+    "width": 1200,
+    "height": 630
+  },
+  "fonts": {
+    "title_family": "Poppins-SemiBold",
+    "title_path": "images/templates/fonts/Poppins-SemiBold.ttf",
+    "title_color": "#212529",
+    "title_min_pt": 32,
+    "title_max_pt": 52,
+    "title_line_height": 1.08,
+    "title_max_lines": 4,
+    "title_padding_px": 8,
+    "title_align": "left"
+  },
+  "image": {
+    "padding_pct": 7,
+    "remove_white_bg": true,
+    "remove_edge_connected_white": true,
+    "white_threshold": 245
+  },
+  "exports": {
+    "subjects_dir": "images/exports/subjects",
+    "heroes_dir": "images/exports/heroes",
+    "validated_dir": "images/exports/validated"
+  },
   "templates": [
     {
-      "id": 1,
+      "id": "T01",
       "name": "Search Discovery Panel",
+      "background_png": "images/templates/1.png",
+      "validator_png": "images/templates/1-v.png",
       "doc": "images/templates/1-template.md",
-      "best_for": ["indexing education", "troubleshooting", "website owner guides"]
+      "best_for": "indexing education, troubleshooting, website owner guides",
+      "title_zone": {
+        "x_pct": 5.33,
+        "y_pct": 24.29,
+        "width_pct": 37.50,
+        "height_pct": 48.25
+      },
+      "image_zone": {
+        "x_pct": 48.83,
+        "y_pct": 12.06,
+        "width_pct": 45.33,
+        "height_pct": 75.24
+      }
     },
     {
-      "id": 2,
+      "id": "T02",
       "name": "Queue And Workflow",
+      "background_png": "images/templates/2.png",
+      "validator_png": "images/templates/2-v.png",
       "doc": "images/templates/2-template.md",
-      "best_for": ["agency workflows", "bulk indexing", "programmatic SEO"]
+      "best_for": "SEO agency workflows, bulk indexing, programmatic SEO",
+      "title_zone": {
+        "x_pct": 5.67,
+        "y_pct": 18.41,
+        "width_pct": 37.83,
+        "height_pct": 48.89
+      },
+      "image_zone": {
+        "x_pct": 45.25,
+        "y_pct": 15.24,
+        "width_pct": 49.50,
+        "height_pct": 74.92
+      }
     },
     {
-      "id": 3,
+      "id": "T03",
       "name": "Decision Matrix",
+      "background_png": "images/templates/3.png",
+      "validator_png": "images/templates/3-v.png",
       "doc": "images/templates/3-template.md",
-      "best_for": ["comparisons", "buying guides", "tool evaluation"]
+      "best_for": "comparisons, buying guides, tool evaluation",
+      "title_zone": {
+        "x_pct": 6.17,
+        "y_pct": 21.59,
+        "width_pct": 36.50,
+        "height_pct": 52.38
+      },
+      "image_zone": {
+        "x_pct": 46.50,
+        "y_pct": 19.05,
+        "width_pct": 46.17,
+        "height_pct": 66.35
+      }
     },
     {
-      "id": 4,
+      "id": "T04",
       "name": "Desktop App Workspace",
+      "background_png": "images/templates/4.png",
+      "validator_png": "images/templates/4-v.png",
       "doc": "images/templates/4-template.md",
-      "best_for": ["desktop app", "Windows software", "product workflows"]
+      "best_for": "desktop app articles, Windows software, product workflows",
+      "title_zone": {
+        "x_pct": 6.00,
+        "y_pct": 19.05,
+        "width_pct": 36.25,
+        "height_pct": 55.56
+      },
+      "image_zone": {
+        "x_pct": 44.83,
+        "y_pct": 13.65,
+        "width_pct": 50.00,
+        "height_pct": 75.56
+      }
     }
   ]
 }
-

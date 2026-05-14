@@ -1,87 +1,129 @@
 # How To Create A FreeIndexer Hero Image
 
-FreeIndexer follows the CaptchaRank two-step image model: generate a subject image, then composite it into a branded 1200x630 hero template.
+FreeIndexer uses a two-step image pipeline:
 
 ```text
 content/**/{slug}.md
-        ↓
+        |
+        v
 scripts/generate_image.py --slug {slug}
-        ↓
+        |
+        v
 images/exports/subjects/{slug}-subject.png
-        ↓
+        |
+        v
 scripts/build_hero.py --slug {slug} --template N
-        ↓
+        |
+        v
 images/exports/{slug}-hero.png
 images/exports/heroes/{slug}-tNN-hero.png
 images/exports/validated/{slug}-tNN-validated.png
 ```
 
-## 1. Read Article Metadata
+The generated subject image is provider-created. The final hero is a local
+Pillow composite using a FreeIndexer template, the article title, and the
+subject PNG.
 
-Start with the article markdown file under `content/`.
+## 0. Prerequisites
 
-Required fields:
-
-- `title`
-- `slug`
-- `description`
-- `icp`
-- `type`
-- `meta.blog_category`
-- `seo.meta_title`
-
-The title becomes the hero title. The ICP, type, and category guide the subject prompt and template selection.
-
-## 2. Generate The Subject Image
-
-Expected command:
+Install the publishing/image dependencies:
 
 ```powershell
-python scripts/generate_image.py --slug {slug}
+pip install -r scripts/requirements-publishing.txt
 ```
 
-Expected output:
+For real image generation, add the API key to `.env`:
 
 ```text
-images/exports/subjects/{slug}-subject.png
+OPENAI_API_KEY=sk-...
 ```
 
-Useful dry run:
+`reference/image_provider.json` is optional. If it is absent, the generator
+uses the OpenAI defaults from `reference/image_provider.example.json`.
+
+Do not commit `.env`, `.secrets/`, or `reference/image_provider.json`.
+
+## 1. Generate The Subject Image
+
+Dry run:
 
 ```powershell
-python scripts/generate_image.py --slug {slug} --prompt-only
+python scripts/generate_image.py --slug free-url-indexer --prompt-only
 ```
 
-The script currently defines the expected interface and prompt rules. Actual image API integration is blocked until the team chooses the image provider and supplies credentials.
-
-## 3. Build The Hero Image
-
-Expected command:
+Check provider readiness:
 
 ```powershell
-python scripts/build_hero.py --slug {slug} --template 1
+python scripts/generate_image.py --slug free-url-indexer --check-config
 ```
 
-Expected outputs:
+Generate:
+
+```powershell
+python scripts/generate_image.py --slug free-url-indexer
+```
+
+Output:
 
 ```text
-images/exports/{slug}-hero.png
-images/exports/heroes/{slug}-t01-hero.png
+images/exports/subjects/free-url-indexer-subject.png
 ```
 
-With validation overlay:
+The prompt is FreeIndexer-specific. It asks for clean indexing workflow
+subjects such as URL queues, backlink discovery graphs, submitted/pending/
+discovered states, browser panels, desktop app windows, and SEO workflow
+dashboards.
+
+Prompt restrictions:
+
+- no real Google logos
+- no real Search Console screenshots
+- no 100% indexed claims
+- no guaranteed indexing or ranking claims
+- no fake exact numbers such as 15,000 sites or 300 sites
+- no spammy backlink blast visuals
+- no dark hacker visual language
+- no CaptchaRank mint/green branding
+
+## 2. Build The Hero Image
+
+Check local assets first:
 
 ```powershell
-python scripts/build_hero.py --slug {slug} --template 1 --validator
+python scripts/build_hero.py --slug free-url-indexer --template 1 --check-assets
 ```
 
-Expected overlay:
+Build the canonical and QA hero:
+
+```powershell
+python scripts/build_hero.py --slug free-url-indexer --template 1
+```
+
+Build with the QA overlay:
+
+```powershell
+python scripts/build_hero.py --slug free-url-indexer --template 1 --validator
+```
+
+Outputs:
 
 ```text
-images/exports/validated/{slug}-t01-validated.png
+images/exports/free-url-indexer-hero.png
+images/exports/heroes/free-url-indexer-t01-hero.png
+images/exports/validated/free-url-indexer-t01-validated.png
 ```
 
-## 4. Template Selection
+The builder:
+
+1. Loads `reference/image-templates.json`.
+2. Loads `images/templates/{N}.png`.
+3. Auto-detects the title zone and image zone from `images/templates/{N}-v.png`.
+4. Removes edge-connected white background from the subject image.
+5. Places the subject inside the image zone with breathing room.
+6. Renders the article title in Poppins SemiBold using FreeIndexer charcoal.
+7. Writes the canonical hero, per-template QA hero, and optional validated overlay.
+
+## 3. Template Selection
 
 | Template | Best for |
 |---|---|
@@ -92,28 +134,40 @@ images/exports/validated/{slug}-t01-validated.png
 
 Template docs live in `images/templates/`.
 
+## 4. Template Assets
+
+Each template needs:
+
+- `images/templates/{N}.png`: 1200x630 background
+- `images/templates/{N}-v.png`: same background with validator rectangles
+- `images/templates/{N}-template.md`: usage notes
+
+Validator colors:
+
+- title zone: blue `#1E5AD2`
+- image zone: pink `#DC0F87`
+
+The validator PNG is the source of truth. The percentage zones in
+`reference/image-templates.json` are fallback values for `--no-validator-detect`.
+
 ## 5. QA Checklist
 
-- Title is readable at 1200x630 and social-card size.
+- Title is readable at social-card size.
 - Subject reinforces the article topic.
-- No fake Google logo or official Search Console screenshot.
-- No `100% indexed`, guaranteed ranking, or exact unvalidated site-count claim.
-- CTA-like text is not added to the hero.
-- The canonical file exists at `images/exports/{slug}-hero.png`.
+- Orange `#f96332` appears as the main FreeIndexer accent.
+- Charcoal `#212529` is used for title and strong contrast.
+- No CaptchaRank mint/green branding.
+- No fake Google UI, indexing guarantees, ranking guarantees, or exact
+  unvalidated numbers.
+- Canonical hero exists at `images/exports/{slug}-hero.png`.
 
 ## 6. Upload
 
-After approval, upload with:
+After visual approval, upload through the publishing pipeline only:
 
 ```powershell
-python scripts/prepare_blog_draft.py content/path/{slug}.md --upload-image
+python scripts/prepare_blog_draft.py content/commercial/free-url-indexer.md --upload-image
 ```
 
-Direct upload is blocked until `reference/blog_api.json` and `reference/hetzner_object_storage.json` are created from the example files with owner-provided values.
-
-## TODO
-
-- Implement real image provider integration in `scripts/generate_image.py`.
-- Add actual 1200x630 PNG template backgrounds and validator overlays if the team wants pixel-perfect compositing.
-- Implement full Pillow-based compositing in `scripts/build_hero.py` after template art is approved.
-
+Direct upload still depends on owner-provided blog API and object storage
+configuration.

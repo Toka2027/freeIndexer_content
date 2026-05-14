@@ -1,8 +1,8 @@
 {
-  "provider": "FILL_IN_IMAGE_PROVIDER_SUCH_AS_OPENAI",
-  "model": "FILL_IN_IMAGE_MODEL",
-  "api_key_env": "FILL_IN_ENV_VAR_NAME_SUCH_AS_OPENAI_API_KEY",
-  "api_key": "FILL_IN_ONLY_IF_OWNER_APPROVES_TRACKED_KEY_STORAGE",
+  "provider": "openai",
+  "model": "gpt-image-1.5",
+  "api_key_env": "OPENAI_API_KEY",
+  "api_key": "",
   "default_size": "1024x1024",
   "default_quality": "low",
   "subject_output_path": "images/exports/subjects/{slug}-subject.png"

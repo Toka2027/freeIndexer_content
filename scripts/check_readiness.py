@@ -45,7 +45,13 @@ def audit_image() -> list[tuple[str, str]]:
 
     rows.append(("template PNG backgrounds", f"{count_files('images/templates', '[1-9].png')} found; required for real heroes"))
     rows.append(("validator overlay PNGs", f"{count_files('images/templates', '*-v.png')} found; required for zone validation"))
-    rows.append(("image provider config", "ready" if exists("reference/image_provider.json") and not has_placeholders("reference/image_provider.json") else "blocked"))
+    rows.append(("title fonts", f"{count_files('images/templates/fonts', '*.ttf')} found; required for title rendering"))
+    rows.append((
+        "image provider config",
+        "custom config ready"
+        if exists("reference/image_provider.json") and not has_placeholders("reference/image_provider.json")
+        else "using built-in OpenAI defaults; OPENAI_API_KEY still required for generation",
+    ))
     return rows
 
 

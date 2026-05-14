@@ -115,7 +115,7 @@ Asset check without building:
 python scripts/build_hero.py --slug {slug} --template N --check-assets
 ```
 
-Expected output:
+Validated overlay output:
 
 ```text
 images/exports/validated/{slug}-tNN-validated.png
@@ -199,7 +199,9 @@ pipeline/publishing-tracker.csv
 1. Copy `reference/blog_api.example.json` to `reference/blog_api.json`.
 2. Copy `reference/hetzner_object_storage.example.json` to `reference/hetzner_object_storage.json`.
 3. Replace all `FILL_IN_*` values with owner-provided values.
-4. Run:
+4. Add `OPENAI_API_KEY` to `.env` if generated subject images are needed.
+5. Optionally copy `reference/image_provider.example.json` to `reference/image_provider.json` to override image model, size, quality, or API key environment variable.
+6. Run:
 
 ```powershell
 python scripts/sync_blog_taxonomy.py
@@ -211,8 +213,8 @@ python scripts/build_master_articles.py
 
 - `build_master_articles.py`: working local inventory builder.
 - `validate_content.py`: working local metadata validator.
-- `generate_image.py`: interface and prompt builder present; provider integration TODO.
-- `build_hero.py`: interface present; full visual compositing TODO until templates/assets are approved.
+- `generate_image.py`: OpenAI subject generation implemented; requires `OPENAI_API_KEY` for real API calls.
+- `build_hero.py`: Pillow compositing implemented with template loading, validator zone detection, title rendering, white background removal, canonical output, QA output, and validated overlays.
 - `prepare_blog_draft.py`: blocked by credentials and API contract.
 - `sync_blog_taxonomy.py`: blocked by API contract.
 - `sync_publishing_tracker.py`: local tracker checks present; live verification TODO until blog domain/API is provided.

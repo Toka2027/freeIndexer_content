@@ -8,10 +8,13 @@ This folder mirrors the CaptchaRank content production scripts, adapted for the 
 - `validate_content.py`: validates required frontmatter and basic content rules.
 - `check_readiness.py`: audits image, upload, config, and tracker readiness without generating images or uploading anything.
 
-## Interfaces Defined, Blocked By Setup
+## Image Generation And Hero Building
 
-- `generate_image.py`: builds the expected FreeIndexer image prompt and output path; real provider integration is TODO.
-- `build_hero.py`: defines the canonical hero build interface; real compositing is TODO until template PNGs are approved.
+- `generate_image.py`: generates FreeIndexer subject PNGs with OpenAI when `OPENAI_API_KEY` is available; `--prompt-only` and `--check-config` are safe dry runs.
+- `build_hero.py`: composites subject PNGs into 1200x630 FreeIndexer heroes with template backgrounds, detected validator zones, title rendering, white background removal, canonical output, QA output, and optional validated overlays.
+
+## Publishing Interfaces Blocked By Setup
+
 - `prepare_blog_draft.py`: direct upload/draft submission interface; blocked until owner provides blog API and storage config.
 - `sync_blog_taxonomy.py`: taxonomy seeding interface; blocked until owner confirms API flow and taxonomy rules.
 - `sync_publishing_tracker.py`: tracker sync interface; live verification blocked until blog URL/API details are provided.
