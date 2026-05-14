@@ -28,7 +28,7 @@ Use a clean product palette with enough contrast for blog hero titles. The brand
 - Title color: `#212529`.
 - `#f96332` can be used for small accents or one highlighted word, not full title blocks.
 - Keep title text left-aligned unless a template explicitly calls for centered text.
-- Use 2 to 4 title lines. Avoid cramped all-caps blocks.
+- Use up to 3 title lines. Avoid cramped all-caps blocks.
 
 ## Visual Tone
 
@@ -90,7 +90,6 @@ Use the template that matches the article job:
 
 - Template 1: education and troubleshooting.
 - Template 2: agency, bulk, and programmatic workflows.
-- Template 3: comparisons and buying guides.
-- Template 4: desktop app and product workflow articles.
+- Template 3: comparisons, buying guides, and product workflow articles; uses white title text on the orange field.
 
 The final hero must be readable at social-card size and should still make sense if the subject image is partially cropped.

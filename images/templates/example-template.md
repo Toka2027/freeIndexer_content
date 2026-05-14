@@ -1,33 +1,39 @@
-# Template 1: Search Discovery Panel
+# Template Example
 
-## Best Article Types
+Use this structure when adding a new `images/templates/{N}-template.md` file.
+The markdown file should mirror the matching object in
+`reference/image-templates.json`.
 
-- indexing education
-- website owner guides
-- troubleshooting articles
-- beginner URL submission articles
+## JSON Definition
 
-## Title Zone
+```json
+{
+  "id": "TNN",
+  "name": "Template Name",
+  "background_png": "images/templates/N.png",
+  "validator_png": "images/templates/N-v.png",
+  "doc": "images/templates/N-template.md",
+  "best_for": "article type, workflow, or use case",
+  "title_color": "#212529",
+  "title_max_lines": 3,
+  "title_zone": {
+    "x_pct": 0,
+    "y_pct": 0,
+    "width_pct": 0,
+    "height_pct": 0
+  },
+  "image_zone": {
+    "x_pct": 0,
+    "y_pct": 0,
+    "width_pct": 0,
+    "height_pct": 0
+  }
+}
+```
 
-Left 48% of the canvas. Use a large, left-aligned title with 2 to 4 lines.
+## Design Notes
 
-## Image / Subject Zone
-
-Right 45% of the canvas. Use a browser window, search discovery panel, URL card, or indexing checklist subject.
-
-## Visual Mood
-
-Calm, clear, instructional. The reader should feel that the article will diagnose the indexing problem without hype.
-
-## When To Use It
-
-Use this for:
-
-- `why-google-is-not-indexing-my-url`
-- `faster-google-indexing-for-website-owners`
-- `indexing-education-hub`
-
-## When Not To Use It
-
-Avoid this template for dense comparison articles or desktop app articles where the subject needs more UI room.
-
+- Title must fit within 3 lines.
+- Use `#FFFFFF` for title text only when the title sits on the orange field.
+- Subject image is placed in the red validator zone with configured padding.
+- Validator source should use a blue title zone and red image zone.

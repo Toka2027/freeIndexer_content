@@ -12,7 +12,7 @@ Direct upload is blocked until the owner provides blog API and object storage de
 | 2. Validate article | `python scripts/validate_content.py` | validation report |
 | 3. Rebuild pipeline | `python scripts/build_master_articles.py` | `pipeline/master-articles.csv` |
 | 4. Generate subject | `python scripts/generate_image.py --slug {slug}` | `images/exports/subjects/{slug}-subject.png` |
-| 5. Build hero | `python scripts/build_hero.py --slug {slug} --template N` | canonical and QA hero files |
+| 5. Build hero | `python scripts/build_hero.py --slug {slug}` | canonical and QA hero files |
 | 6. Review hero | open `images/exports/{slug}-hero.png` | approved/rejected image |
 | 7. Upload hero | `python scripts/prepare_blog_draft.py content/path/{slug}.md --upload-image` | public image URL |
 | 8. Submit draft | `python scripts/prepare_blog_draft.py content/path/{slug}.md` | blog draft |
@@ -93,8 +93,13 @@ python scripts/generate_image.py --slug {slug} --check-config
 ## 5. Build Hero Image
 
 ```powershell
-python scripts/build_hero.py --slug {slug} --template N
+python scripts/build_hero.py --slug {slug}
 ```
+
+By default, the builder chooses a random configured template seeded by the
+article slug. This spreads templates among articles while keeping the same
+article reproducible. Use `--template 1`, `--template 2`, or `--template 3`
+to force one design, or `--template all` for QA examples.
 
 Expected outputs:
 
@@ -106,13 +111,13 @@ images/exports/heroes/{slug}-tNN-hero.png
 Optional overlay:
 
 ```powershell
-python scripts/build_hero.py --slug {slug} --template N --validator
+python scripts/build_hero.py --slug {slug} --template all --validator
 ```
 
 Asset check without building:
 
 ```powershell
-python scripts/build_hero.py --slug {slug} --template N --check-assets
+python scripts/build_hero.py --slug {slug} --template all --check-assets
 ```
 
 Validated overlay output:

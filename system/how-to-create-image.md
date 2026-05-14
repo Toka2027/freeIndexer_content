@@ -12,7 +12,7 @@ scripts/generate_image.py --slug {slug}
 images/exports/subjects/{slug}-subject.png
         |
         v
-scripts/build_hero.py --slug {slug} --template N
+scripts/build_hero.py --slug {slug}
         |
         v
 images/exports/{slug}-hero.png
@@ -90,19 +90,24 @@ Prompt restrictions:
 Check local assets first:
 
 ```powershell
-python scripts/build_hero.py --slug free-url-indexer --template 1 --check-assets
+python scripts/build_hero.py --slug free-url-indexer --template all --check-assets
 ```
 
-Build the canonical and QA hero:
+Build one hero with random template selection:
 
 ```powershell
-python scripts/build_hero.py --slug free-url-indexer --template 1
+python scripts/build_hero.py --slug free-url-indexer
 ```
 
-Build with the QA overlay:
+The default template selection is `random`, seeded by the article slug so
+templates vary among articles while staying reproducible for the same slug.
+Use `--seed VALUE` to change the selection, or pass `--template 1`, `2`, or
+`3` to force a specific template.
+
+Build all template examples with QA overlays:
 
 ```powershell
-python scripts/build_hero.py --slug free-url-indexer --template 1 --validator
+python scripts/build_hero.py --slug free-url-indexer --template all --validator
 ```
 
 Outputs:
@@ -120,7 +125,7 @@ The builder:
 3. Auto-detects the title zone and image zone from `images/templates/{N}-v.png`.
 4. Removes edge-connected white background from the subject image.
 5. Places the subject inside the image zone with breathing room.
-6. Renders the article title in Poppins SemiBold using FreeIndexer charcoal.
+6. Renders the article title in Poppins SemiBold using max 3 lines.
 7. Writes the canonical hero, per-template QA hero, and optional validated overlay.
 
 ## 3. Template Selection
@@ -129,8 +134,7 @@ The builder:
 |---|---|
 | 1 | education and troubleshooting |
 | 2 | agency, bulk, and programmatic workflows |
-| 3 | comparisons and buying guides |
-| 4 | desktop app and product workflow articles |
+| 3 | comparisons, buying guides, and product workflow articles; white title text |
 
 Template docs live in `images/templates/`.
 
@@ -145,7 +149,7 @@ Each template needs:
 Validator colors:
 
 - title zone: blue `#1E5AD2`
-- image zone: pink `#DC0F87`
+- image zone: red `#CC0000`
 
 The validator PNG is the source of truth. The percentage zones in
 `reference/image-templates.json` are fallback values for `--no-validator-detect`.

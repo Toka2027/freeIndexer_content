@@ -26,7 +26,9 @@ python scripts/validate_content.py
 python scripts/build_master_articles.py
 python scripts/check_readiness.py
 python scripts/generate_image.py --slug free-url-indexer --prompt-only
-python scripts/build_hero.py --slug free-url-indexer --template 1 --check-assets
+python scripts/build_hero.py --slug free-url-indexer --template all --check-assets
+python scripts/build_hero.py --slug free-url-indexer
+python scripts/build_hero.py --slug free-url-indexer --template all --validator
 python scripts/prepare_blog_draft.py content/commercial/free-url-indexer.md --dry-run
 python scripts/prepare_blog_draft.py content/commercial/free-url-indexer.md --upload-image --dry-run
 ```

@@ -11,12 +11,14 @@ Pipeline:
 Usage:
     python scripts/build_hero.py --slug free-url-indexer --template 1 --check-assets
     python scripts/build_hero.py --slug free-url-indexer --template 1 --validator
+    python scripts/build_hero.py --slug free-url-indexer --validator
 """
 
 from __future__ import annotations
 
 import argparse
 import json
+import random
 import re
 from collections import deque
 from pathlib import Path
@@ -32,7 +34,8 @@ TEMPLATES_JSON = ROOT / "reference" / "image-templates.json"
 FRONTMATTER_RE = re.compile(r"^---\s*\n(.*?)\n---", re.DOTALL)
 
 TITLE_ZONE_COLOR = (30, 90, 210)
-IMAGE_ZONE_COLOR = (220, 15, 135)
+IMAGE_ZONE_COLOR = (204, 0, 0)
+LEGACY_IMAGE_ZONE_COLOR = (220, 15, 135)
 
 
 def load_config() -> dict[str, Any]:
@@ -74,6 +77,17 @@ def get_template(cfg: dict[str, Any], template_id: str | int) -> dict[str, Any]:
     raise SystemExit(f"Template {template_id!r} not found in {TEMPLATES_JSON.relative_to(ROOT)}")
 
 
+def pick_template(cfg: dict[str, Any], template_id: str | int | None, seed: str | None = None) -> dict[str, Any]:
+    """Return a configured template, optionally choosing one at random."""
+    if template_id is None or str(template_id).lower() in {"random", "rand", "auto"}:
+        templates = list(cfg["templates"])
+        if not templates:
+            raise SystemExit(f"No templates configured in {TEMPLATES_JSON.relative_to(ROOT)}")
+        rng = random.Random(seed) if seed else random.SystemRandom()
+        return rng.choice(templates)
+    return get_template(cfg, template_id)
+
+
 def _bbox_of_color(
     img: Image.Image,
     target_rgb: tuple[int, int, int],
@@ -100,17 +114,38 @@ def _bbox_of_color(
     return (min_x, min_y, max_x, max_y)
 
 
+def _bbox_of_validator_red(img: Image.Image) -> tuple[int, int, int, int] | None:
+    """Find a red validator stroke without matching FreeIndexer orange art."""
+    rgb = img.convert("RGB")
+    px = rgb.load()
+    w, h = rgb.size
+    min_x, min_y, max_x, max_y = w, h, -1, -1
+
+    for y in range(h):
+        for x in range(w):
+            r, g, b = px[x, y]
+            if r >= 150 and g <= 80 and b <= 80:
+                min_x = min(min_x, x)
+                min_y = min(min_y, y)
+                max_x = max(max_x, x)
+                max_y = max(max_y, y)
+
+    if max_x < 0:
+        return None
+    return (min_x, min_y, max_x, max_y)
+
+
 def detect_zones(validator_path: Path) -> tuple[tuple[int, int, int, int], tuple[int, int, int, int]]:
     """Return (title_box, image_box) from the validator PNG."""
     img = Image.open(validator_path).convert("RGB")
     title_box = _bbox_of_color(img, TITLE_ZONE_COLOR, tol=50)
-    image_box = _bbox_of_color(img, IMAGE_ZONE_COLOR, tol=60)
+    image_box = _bbox_of_validator_red(img)
     if image_box is None:
-        image_box = _bbox_of_color(img, (215, 40, 80), tol=60)
+        image_box = _bbox_of_color(img, LEGACY_IMAGE_ZONE_COLOR, tol=25)
     if title_box is None or image_box is None:
         raise SystemExit(
             f"Could not find both validator zones in {validator_path.relative_to(ROOT)}. "
-            "Use blue #1E5AD2 for the title zone and pink #DC0F87 for the image zone."
+            "Use blue #1E5AD2 for the title zone and red #CC0000 for the image zone."
         )
     return title_box, image_box
 
@@ -355,10 +390,17 @@ def asset_paths(
 
 def check_assets(
     cfg: dict[str, Any],
-    tpl: dict[str, Any],
+    tpl: dict[str, Any] | None,
     slug: str,
     subject_override: str | None,
 ) -> int:
+    if tpl is None:
+        status = 0
+        for candidate in cfg["templates"]:
+            print(f"\nChecking {candidate['id']} ({candidate['name']})")
+            status = max(status, check_assets(cfg, candidate, slug, subject_override))
+        return status
+
     paths = asset_paths(cfg, tpl, slug, subject_override)
     missing = [f"{name}: {relative_or_absolute(path)}" for name, path in paths.items() if not path.exists()]
 
@@ -441,12 +483,12 @@ def build_hero(
         title,
         title_inner_box,
         font_path,
-        color=str(fonts_cfg.get("title_color", "#212529")),
+        color=str(tpl.get("title_color") or fonts_cfg.get("title_color", "#212529")),
         min_pt=int(fonts_cfg.get("title_min_pt", 32)),
         max_pt=int(fonts_cfg.get("title_max_pt", 52)),
         line_height=float(fonts_cfg.get("title_line_height", 1.08)),
         max_lines=int(fonts_cfg.get("title_max_lines", 4)),
-        align=str(fonts_cfg.get("title_align", "left")).lower(),
+        align=str(tpl.get("title_align") or fonts_cfg.get("title_align", "left")).lower(),
     )
 
     tpl_suffix = str(tpl["id"]).lower()
@@ -474,7 +516,12 @@ def build_hero(
 def build_parser() -> argparse.ArgumentParser:
     parser = argparse.ArgumentParser(description="Build a FreeIndexer 1200x630 hero from a subject and template.")
     parser.add_argument("--slug", required=True, help="Article slug, matching content/**/{slug}.md")
-    parser.add_argument("--template", required=True, help="Template id: 1, 2, 3, 4, or T01...")
+    parser.add_argument(
+        "--template",
+        default="random",
+        help="Template id: 1, 2, 3, T01... or random (default: random)",
+    )
+    parser.add_argument("--seed", help="Optional seed for reproducible random template selection")
     parser.add_argument("--subject", help="Subject PNG. Default: images/exports/subjects/{slug}-subject.png")
     parser.add_argument("--title", help="Override the title rendered onto the hero")
     parser.add_argument("--no-validator-detect", action="store_true", help="Use JSON zone percentages instead")
@@ -487,16 +534,38 @@ def build_parser() -> argparse.ArgumentParser:
 def main() -> int:
     args = build_parser().parse_args()
     cfg = load_config()
-    tpl = get_template(cfg, args.template)
+    check_all = str(args.template).lower() in {"all", "*"}
+    tpl = None if check_all else pick_template(cfg, args.template, seed=args.seed or args.slug)
 
     if args.check_assets:
         return check_assets(cfg, tpl, args.slug, args.subject)
+
+    if check_all:
+        last_canonical: Path | None = None
+        for candidate in cfg["templates"]:
+            paths = asset_paths(cfg, candidate, args.slug, args.subject)
+            canonical_path, qa_path, validated_path = build_hero(
+                slug=args.slug,
+                subject_path=paths["subject"],
+                template_id=candidate["id"],
+                title_override=args.title,
+                use_validator_detection=not args.no_validator_detect,
+                skip_bg_removal=args.no_bg_removal,
+                write_validator=args.validator,
+            )
+            last_canonical = canonical_path
+            print(f"{candidate['id']} -> {qa_path.relative_to(ROOT)}")
+            if validated_path:
+                print(f"{candidate['id']} validated -> {validated_path.relative_to(ROOT)}")
+        if last_canonical:
+            print(f"Canonical -> {last_canonical.relative_to(ROOT)}")
+        return 0
 
     paths = asset_paths(cfg, tpl, args.slug, args.subject)
     canonical_path, qa_path, validated_path = build_hero(
         slug=args.slug,
         subject_path=paths["subject"],
-        template_id=args.template,
+        template_id=tpl["id"],
         title_override=args.title,
         use_validator_detection=not args.no_validator_detect,
         skip_bg_removal=args.no_bg_removal,

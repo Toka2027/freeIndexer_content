@@ -68,8 +68,10 @@ python scripts/generate_image.py --slug {slug}
 7. Build the branded hero:
 
 ```powershell
-python scripts/build_hero.py --slug {slug} --template N
+python scripts/build_hero.py --slug {slug}
 ```
+
+The hero builder defaults to random template selection across configured templates, seeded by the article slug for reproducible article-to-template assignment.
 
 8. Upload the hero and prepare a draft after credentials are provided:
 
