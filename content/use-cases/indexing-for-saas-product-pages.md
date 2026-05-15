@@ -28,6 +28,8 @@ meta:
     - saas-seo
     - product-pages
     - documentation
+    - technical-seo
+    - content-discovery
   pillar: false
   cta: "Add FreeIndexer to your product publishing checklist."
   status: ready-for-publish
@@ -168,23 +170,23 @@ Search engines decide what gets indexed. A SaaS page that is public, useful, int
 
 ## FAQ
 
-## Should every docs page be submitted?
+### Should every docs page be submitted?
 
 Not always. Prioritize important docs, onboarding pages, integration docs, and major updates.
 
-## Is FreeIndexer useful for changelog posts?
+### Is FreeIndexer useful for changelog posts?
 
 Yes, especially for major releases or changelog entries connected to product search demand.
 
-## Can product teams run this without SEO?
+### Can product teams run this without SEO?
 
 Yes. The workflow is simple enough to include in release checklists, with SEO reviewing higher-value pages.
 
-## What if a SaaS page is not indexed after submission?
+### What if a SaaS page is not indexed after submission?
 
 Check technical blockers, internal links, duplication, and whether the page has enough standalone value.
 
-## Should we still use sitemaps?
+### Should we still use sitemaps?
 
 Yes. Sitemaps, internal links, and submission workflows support each other.
 

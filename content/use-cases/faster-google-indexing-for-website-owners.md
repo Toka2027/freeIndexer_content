@@ -23,11 +23,13 @@ meta:
     - why-google-is-not-indexing-my-url
     - free-url-indexer
     - best-google-indexing-tools
-  blog_category: use-cases
+  blog_category: webmaster-guides
   blog_tags:
     - website-owners
+    - webmasters
     - google-indexing
     - url-submission
+    - search-visibility
   pillar: false
   cta: "Register for FreeIndexer and submit the URLs that matter most first."
   status: ready-for-publish
@@ -146,23 +148,23 @@ That is why the best workflow is practical: improve the page, connect it interna
 
 ## FAQ
 
-## How can I get my website indexed faster?
+### How can I get my website indexed faster?
 
 Make sure important pages are crawlable, internally linked, included in your sitemap, and submitted through a consistent workflow.
 
-## Does FreeIndexer guarantee that my page will be indexed?
+### Does FreeIndexer guarantee that my page will be indexed?
 
 No. FreeIndexer supports URL submission and discovery workflows. Search engines make the indexing decision.
 
-## Should I submit my homepage first?
+### Should I submit my homepage first?
 
 If the site is new or the homepage changed significantly, yes. Also submit important service, product, or article pages.
 
-## How often should I submit URLs?
+### How often should I submit URLs?
 
 Submit when a page is new, significantly updated, or newly connected to important backlinks. Avoid repeated submission without changes.
 
-## What if nothing changes?
+### What if nothing changes?
 
 Use the [URL indexing troubleshooting guide](/why-google-is-not-indexing-my-url) and look for technical blockers, weak internal links, duplication, or low page value.
 

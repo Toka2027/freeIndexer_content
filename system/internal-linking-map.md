@@ -4,9 +4,14 @@
 
 1. Every cluster article links to its pillar first.
 2. Every pillar article links down to all clusters in its hub.
-3. Use-case articles link to the comparison hub when the reader is close to choosing a tool.
-4. Troubleshooting articles link to the education hub first, then the most relevant use case.
-5. Commercial articles link to pricing, desktop app, and product pages through CTA copy.
+3. Technical SEO, Search Console, and webmaster guides link to the most
+   relevant diagnostic or workflow article before linking to product content.
+4. Use-case articles link to the comparison hub when the reader is close to
+   choosing a tool.
+5. Troubleshooting articles link to the education hub first, then the most
+   relevant technical or use-case article.
+6. Commercial articles link to pricing, desktop app, and product pages through
+   reader-facing next-step copy.
 
 ## Current Article Link Map
 

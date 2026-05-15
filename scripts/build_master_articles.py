@@ -29,7 +29,7 @@ OUTPUT = ROOT / "pipeline" / "master-articles.csv"
 
 def read_frontmatter(path: Path) -> dict[str, str]:
     text = path.read_text(encoding="utf-8")
-    match = re.match(r"^---\s*\n(.*?)\n---\s*\n", text, flags=re.S)
+    match = re.match(r"^\ufeff?---\s*\n(.*?)\n---\s*\n", text, flags=re.S)
     if not match:
         return {}
 

@@ -49,9 +49,9 @@ Explain the FreeIndexer path without overstating claims.
 
 ## FAQ
 
-Answer commercial questions.
+Answer commercial questions. Use `###` for each question.
 
 ## Next Step
 
-Use the CTA from frontmatter.
+Use the reader-facing next step from frontmatter.
 

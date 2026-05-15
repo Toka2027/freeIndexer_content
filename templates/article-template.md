@@ -55,9 +55,9 @@ State that indexing depends on search engines and page quality.
 
 ## FAQ
 
-Add 3 to 5 search-aligned questions.
+Add 3 to 5 search-aligned questions. Use `###` for each question.
 
 ## Next Step
 
-Use the CTA from frontmatter.
+Use the reader-facing next step from frontmatter.
 

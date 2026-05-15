@@ -28,6 +28,10 @@ meta:
     - troubleshooting
     - google-indexing
     - crawlability
+    - noindex
+    - canonical-tags
+    - internal-linking
+    - google-search-console
   pillar: false
   cta: "Fix the blockers, then submit the URL through FreeIndexer."
   status: ready-for-publish
@@ -142,23 +146,23 @@ Submission is a discovery action. Indexing is a search engine decision.
 
 ## FAQ
 
-## Why is my page crawled but not indexed?
+### Why is my page crawled but not indexed?
 
 Google may have discovered the page but decided not to include it. Common reasons include duplication, thin content, weak internal links, canonical confusion, or low perceived value.
 
-## Should I submit the URL again?
+### Should I submit the URL again?
 
 Submit again only after something meaningful changed: a blocker was removed, internal links improved, the content was updated, or the URL was newly published.
 
-## Can FreeIndexer fix a noindex tag?
+### Can FreeIndexer fix a noindex tag?
 
 No. Remove technical blockers first. FreeIndexer helps with submission and discovery workflows after the URL is indexable.
 
-## How long does indexing take?
+### How long does indexing take?
 
 There is no fixed timeline. It depends on site authority, crawl frequency, URL quality, internal links, and search engine processing.
 
-## What should agencies tell clients?
+### What should agencies tell clients?
 
 Report the work honestly: URLs checked, blockers fixed, URLs submitted, and indexing status monitored. Do not promise outcomes that search engines control.
 

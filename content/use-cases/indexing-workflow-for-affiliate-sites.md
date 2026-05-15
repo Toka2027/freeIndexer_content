@@ -27,7 +27,9 @@ meta:
   blog_tags:
     - affiliate-seo
     - backlinks
-    - url-submission
+    - backlink-indexing
+    - backlink-discovery
+    - content-discovery
   pillar: false
   cta: "Use FreeIndexer to submit your priority affiliate URLs and backlinks."
   status: ready-for-publish
@@ -162,23 +164,23 @@ The strongest affiliate indexing workflow combines useful content, internal link
 
 ## FAQ
 
-## Should affiliate marketers submit every backlink?
+### Should affiliate marketers submit every backlink?
 
 No. Prioritize known backlinks that matter. Very low-quality or irrelevant URLs may not be worth submission effort.
 
-## Can FreeIndexer help affiliate pages get discovered faster?
+### Can FreeIndexer help affiliate pages get discovered faster?
 
 It can support discovery by giving you a repeatable submission workflow. Indexing still depends on search engine decisions and page quality.
 
-## Should I submit money pages or backlinks first?
+### Should I submit money pages or backlinks first?
 
 Start with money pages and important support pages, then submit selected backlinks that support those pages.
 
-## Is the desktop app useful for affiliate sites?
+### Is the desktop app useful for affiliate sites?
 
 It can be useful if your workflow is list-heavy and repeated from a local machine.
 
-## What if a money page still is not indexed?
+### What if a money page still is not indexed?
 
 Check technical blockers, duplication, internal links, and content usefulness. Submission alone may not be the missing piece.
 

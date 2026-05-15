@@ -28,6 +28,8 @@ meta:
     - comparison
     - indexing-tools
     - buying-guide
+    - url-indexing
+    - backlink-indexing
   pillar: true
   cta: "Compare FreeIndexer with your current indexing workflow."
   status: ready-for-publish
@@ -135,23 +137,23 @@ If a vendor claims that every submitted URL will be indexed, treat that claim ca
 
 ## FAQ
 
-## What is the best Google indexing tool?
+### What is the best Google indexing tool?
 
 The best tool depends on volume and workflow. FreeIndexer is a practical fit for users who want a low-cost URL and backlink submission workflow.
 
-## Do indexing tools guarantee results?
+### Do indexing tools guarantee results?
 
 No tool can control search engine indexing decisions. Tools can support discovery and submission.
 
-## Is manual submission enough?
+### Is manual submission enough?
 
 It can be enough for a very small site. It becomes inefficient for agencies, affiliates, and teams with many URLs.
 
-## Should I use an API instead of a tool?
+### Should I use an API instead of a tool?
 
 Use an API-style workflow if you need custom automation and have engineering resources. Otherwise, a managed tool is usually simpler.
 
-## Can FreeIndexer help with backlinks?
+### Can FreeIndexer help with backlinks?
 
 FreeIndexer is positioned for URL and backlink indexing workflows. Use it for known, relevant backlinks and track submissions honestly.
 

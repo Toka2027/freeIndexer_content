@@ -13,8 +13,8 @@ object storage values. Do not invent these values.
 | `blog_api.example.json` | Example blog API config with `FILL_IN_*` placeholders | Ready for owner values |
 | `hetzner_object_storage.example.json` | Example object storage config with `FILL_IN_*` placeholders | Ready for owner values |
 | `image_provider.example.json` | Optional OpenAI image provider override template | Ready |
-| `blog_taxonomy.json` | FreeIndexer categories and tags to sync | Draft, needs owner approval |
-| `blog_taxonomy_live.json` | Live taxonomy IDs after sync | Not synced |
+| `blog_taxonomy.json` | Expanded FreeIndexer categories and tags to sync after approval | Draft, needs owner approval |
+| `blog_taxonomy_live.json` | Live taxonomy IDs after sync | Existing live snapshot; do not treat as approved for new taxonomy |
 | `source-notes.md` | Research notes from playbook, public site, and reference repos | Ready |
 
 ## Required Owner Values
@@ -77,7 +77,7 @@ supplied through `.env` or filled locally in the ignored config file.
 
 ## Publishing Flow
 
-1. Confirm `reference/blog_taxonomy.json`.
+1. Confirm `reference/blog_taxonomy.json` and `system/taxonomy-strategy.md`.
 2. Run `python scripts/sync_blog_taxonomy.py` to write live category and tag IDs to `reference/blog_taxonomy_live.json`.
 3. Build a canonical hero at `images/exports/{slug}-hero.png`.
 4. Run `python scripts/prepare_blog_draft.py content/path/{slug}.md --upload-image`.
@@ -85,6 +85,9 @@ supplied through `.env` or filled locally in the ignored config file.
 
 Draft submission stays `draft` by default. The script resolves existing posts by
 slug and updates them instead of creating duplicates.
+
+Do not sync the expanded taxonomy until the owner approves the new categories,
+especially `bulk-seo-operations` and `ai-search-visibility`.
 
 ## Security Rule
 

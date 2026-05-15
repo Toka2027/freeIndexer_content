@@ -53,9 +53,9 @@ Help the reader choose the next article or product path.
 
 ## FAQ
 
-Answer broad hub-level questions.
+Answer broad hub-level questions. Use `###` for each question.
 
 ## Next Step
 
-Use the CTA from frontmatter.
+Use the reader-facing next step from frontmatter.
 

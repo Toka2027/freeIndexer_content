@@ -9,6 +9,7 @@ These files define how FreeIndexer content should be planned, written, linked, a
 - [icp-language-matrix.md](icp-language-matrix.md): ICPs, pains, preferred language, and article styles
 - [editorial-policy.md](editorial-policy.md): tone, risk rules, and claim standards
 - [article-blueprint.md](article-blueprint.md): required frontmatter and article structure
+- [taxonomy-strategy.md](taxonomy-strategy.md): category/tag decisions and approval rules
 - [how-to-create-image.md](how-to-create-image.md): FreeIndexer subject and hero image workflow
 - [full-content-flow.md](full-content-flow.md): end-to-end content, image, publishing, and tracker flow
 - [keyword-scoring.md](keyword-scoring.md): prioritization logic for article ideas
@@ -24,7 +25,9 @@ The structure combines two reference patterns:
 - CaptchaRank style: hub/pillar/cluster SEO map, strict metadata, internal links, article blueprints.
 - CAI style: governed content machine, ICP-first article files, pipeline inventory, editorial guardrails, and reusable templates.
 
-FreeIndexer keeps those patterns but changes the strategy to indexing, URL submission, backlinks, agencies, programmatic SEO, affiliate publishing, and comparison demand.
+FreeIndexer keeps those patterns but changes the strategy to search discovery
+operations for website owners, webmasters, SEO operators, agencies, affiliates,
+programmatic SEO builders, SaaS/product teams, and blog/network owners.
 
 ## Operational Surfaces
 

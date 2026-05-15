@@ -4,94 +4,151 @@
 
 Each article gets:
 
-1. One primary ICP
-2. One funnel stage
-3. One recommended article style
-4. One primary CTA
+1. One primary ICP.
+2. One secondary ICP when useful.
+3. One funnel stage.
+4. One recommended article style.
+5. One reader-facing next step.
 
-The shared ICP underneath every segment is a hands-on SEO operator responsible
-for URL and backlink discovery. Segment-specific articles should still be useful
-without FreeIndexer: they must teach prioritization, crawlability checks,
-internal linking, tracking, and expectation setting before introducing the
-product as the submission layer.
+The shared buyer is not simply "someone who wants to use FreeIndexer." The
+shared buyer is a hands-on search discovery operator who owns the practical work
+of helping pages, backlinks, and content assets become discoverable.
+
+FreeIndexer is the product layer for URL and backlink submission workflows. The
+blog should still cover the broader niche: SEO basics, Google Search Console,
+crawlability, sitemaps, internal linking, technical SEO, backlink discovery,
+bulk URL operations, webmaster routines, and emerging AI/GEO visibility topics
+when they help the same operator.
 
 ## ICP Definitions
 
 ### Website Owner
 
-Runs a business site, blog, portfolio, or local website and wants new pages found faster.
+Runs a business site, blog, portfolio, local site, or content site and wants
+important pages found faster.
 
 - Pain: "My page is live but Google is not showing it."
-- Needs: simple explanation, practical checklist, low technical burden.
-- Best article style: beginner-friendly troubleshooting or how-to.
-- Preferred CTA: register and submit URLs.
-- Content angle: explain what to check before submitting and keep jargon low.
+- Needs: plain explanation, a practical checklist, low technical burden.
+- Best article style: beginner-friendly how-to or troubleshooting guide.
+- Natural next step: fix obvious blockers, then submit priority URLs.
+- Content angle: explain crawlability, internal links, sitemaps, and realistic
+  indexing expectations before mentioning a product.
+
+### Webmaster
+
+Maintains one or more websites and owns recurring publishing, sitemap, robots,
+and Search Console checks.
+
+- Pain: "I need a repeatable maintenance workflow, not random fixes."
+- Needs: checklists, operating routines, diagnostic order, clean terminology.
+- Best article style: operational guide or checklist.
+- Natural next step: build a weekly workflow for discovery and visibility.
+- Content angle: connect technical checks to practical site maintenance.
+
+### SEO Operator
+
+Hands-on SEO practitioner responsible for discovery, indexing, technical checks,
+backlinks, and reporting.
+
+- Pain: indexing, crawlability, and discovery issues create recurring manual
+  work across many URLs.
+- Needs: prioritization, workflows, reporting language, tool evaluation.
+- Best article style: workflow guide, diagnostic guide, or comparison.
+- Natural next step: turn scattered URL work into a repeatable queue.
+- Content angle: focus on process quality and honest expectations.
 
 ### SEO Agency
 
-Manages indexing work for multiple clients and needs a repeatable bulk workflow.
+Manages SEO, indexing, and visibility work for multiple clients.
 
-- Pain: client URLs and backlinks need discovery, but manual work does not scale.
-- Needs: process, point planning, reporting language, pricing clarity.
+- Pain: client URLs and backlinks need discovery, but manual work does not
+  scale and reporting must be defensible.
+- Needs: process, point/capacity planning, client-safe language, repeatability.
 - Best article style: workflow guide or buying guide.
-- Preferred CTA: compare plans.
-- Content angle: emphasize repeatability, client reporting, and defensible language.
+- Natural next step: compare plans or standardize a client workflow.
+- Content angle: emphasize repeatability, proof of work, and honest reporting.
 
 ### Affiliate Marketer
 
-Publishes money pages, supporting posts, and backlinks where discovery speed affects testing cycles.
+Publishes money pages, supporting content, and backlinks where discovery speed
+affects testing cycles.
 
-- Pain: content and links can sit undiscovered during a campaign.
-- Needs: practical indexing sequence, risk-aware expectations, low cost.
-- Best article style: use-case guide.
-- Preferred CTA: use online app or desktop app.
-- Content angle: prioritize legitimate campaign pages and known backlinks, not spam blasts.
+- Pain: pages and known backlinks can sit undiscovered during campaigns.
+- Needs: campaign prioritization, backlink discovery, low-cost workflows,
+  realistic risk controls.
+- Best article style: use-case guide or backlink workflow.
+- Natural next step: prioritize money pages and known supporting links.
+- Content angle: avoid spam-blast framing; focus on legitimate pages and known
+  links worth discovery.
 
 ### Programmatic SEO Builder
 
-Publishes large sets of templated pages and needs indexing operations to keep up with publishing velocity.
+Publishes large sets of templated pages and needs operations that keep pace with
+publishing velocity.
 
-- Pain: thousands of generated URLs create discovery, crawl, and tracking problems.
-- Needs: batching, prioritization, indexing workflow design.
+- Pain: generated URL sets create discovery, crawlability, QA, and tracking
+  bottlenecks.
+- Needs: tiering, batching, quality gates, sitemap hygiene, capacity planning.
 - Best article style: advanced workflow guide.
-- Preferred CTA: compare higher-volume plans.
-- Content angle: focus on URL tiering, quality gates, and publishing velocity.
+- Natural next step: segment URL inventories before submission.
+- Content angle: submission is only useful after quality and crawlability gates.
 
 ### Blog Or Network Owner
 
-Owns multiple sites, supporting blogs, or backlink networks and needs bulk URL/backlink discovery.
+Owns multiple sites, support blogs, or link/content networks and needs organized
+URL and backlink discovery.
 
-- Pain: many backlinks exist but are not discovered quickly.
-- Needs: repeatable submission workflow and desktop-friendly operation.
-- Best article style: desktop app guide or bulk workflow article.
-- Preferred CTA: buy/download desktop app.
+- Pain: many pages or backlinks exist but are not discovered quickly or tracked
+  cleanly.
+- Needs: repeatable lists, desktop-friendly operation, backlink discovery
+  routines, bulk checks.
+- Best article style: desktop app guide, backlink guide, or bulk workflow.
+- Natural next step: maintain clean URL/backlink lists for repeat submission.
 
 ### SaaS Or Product Team
 
-Publishes docs, changelog posts, landing pages, integration pages, and support content.
+Publishes docs, changelog posts, landing pages, integration pages, comparison
+pages, and support content.
 
-- Pain: new product pages and docs need discovery without manual submission debt.
-- Needs: clean indexing checklist and team workflow.
-- Best article style: operational guide.
-- Preferred CTA: try online app.
-- Content angle: make indexing a post-publish checklist shared by marketing, docs, product, and support.
+- Pain: product content needs discovery without creating manual submission debt.
+- Needs: publishing checklists, internal handoff process, technical SEO checks,
+  Search Console routines.
+- Best article style: operational guide or technical SEO checklist.
+- Natural next step: add indexing and visibility checks to the publishing
+  checklist.
+- Content angle: make discovery a cross-functional workflow for marketing,
+  docs, product, and support.
 
 ### Tool/API Evaluator
 
-Compares indexing tools, APIs, desktop tools, and manual Search Console submission.
+Compares indexing tools, APIs, desktop tools, Search Console workflows, and SEO
+platforms.
 
-- Pain: unclear which indexing route fits the use case.
-- Needs: comparison tables, limitations, pricing, decision criteria.
+- Pain: unclear which workflow fits the use case, cost model, and technical
+  capability.
+- Needs: comparison tables, limitations, setup effort, pricing, decision rules.
 - Best article style: comparison or buying guide.
-- Preferred CTA: pricing or plan selection.
-- Content angle: compare workflow fit and maintenance cost, not just features.
+- Natural next step: choose the workflow with the right operating cost and
+  maintenance burden.
+- Content angle: compare workflow fit, not just feature lists.
 
 ## Funnel Mapping
 
 | Funnel stage | Reader state | Best content |
 |---|---|---|
-| top | Learns why indexing is slow | explainers and troubleshooting |
-| middle | Evaluates workflows and tools | use cases, checklists, comparisons |
-| bottom | Ready to choose a product | pricing, plans, desktop app, alternatives |
-| support | Already using FreeIndexer | points, dashboard, downloads, expectations |
+| top | Learns why pages, backlinks, or content assets are not being discovered | explainers, Search Console guides, troubleshooting |
+| middle | Builds a repeatable visibility workflow | use cases, checklists, technical SEO workflows |
+| bottom | Chooses a product or implementation path | comparisons, pricing support, product workflow guides |
+| support | Already using FreeIndexer or maintaining a recurring process | dashboard, points, desktop app, expectations, troubleshooting |
 
+## Product Mention Rule
+
+Use this order in public articles:
+
+1. Educate the reader.
+2. Diagnose the problem.
+3. Give the practical workflow.
+4. Mention FreeIndexer only where it helps with submission, batching, or repeat
+   operations.
+5. Keep claims honest: no guaranteed indexing, no ranking promises, no exact
+   unvalidated numbers.

@@ -42,21 +42,26 @@ editorial_review:
 ---
 ```
 
-## Article Body Structure
+## Public Article Body Structure
 
-1. Hook and answer
+1. Introduction and quick answer
    - State the reader's problem in 2 to 3 sentences.
    - Give the direct answer early.
-   - Use a reader-facing heading such as `## The Short Answer`.
+   - Use reader-facing headings such as `## Introduction` and
+     `## Quick Answer`, or keep the opening unheaded and use
+     `## The Short Answer`.
 
-2. Reader scenario
+2. Reader situation
    - Name the ICP and real workflow.
-   - Explain why indexing delay matters to them.
-   - Use a reader-facing heading such as `## When This Matters` or `## Who This Helps`.
+   - Explain why the problem matters to their work.
+   - Use reader-facing headings such as `## When This Matters`,
+     `## Who This Helps`, or `## Why This Happens`.
 
 3. Practical workflow
-   - Show what to check before submission.
-   - Show how FreeIndexer fits into the workflow.
+   - Show what to check before submission or tool use.
+   - Cover relevant SEO, Search Console, crawlability, sitemap, internal link,
+     backlink, and workflow checks.
+   - Mention FreeIndexer only where it naturally fits.
    - Include plan or desktop app guidance when useful.
 
 4. Limitations and expectations
@@ -65,14 +70,27 @@ editorial_review:
 
 5. FAQ
    - 3 to 5 questions that match the keyword family.
+   - `## FAQ` is the section heading.
+   - Each FAQ question must use `###`, not `##`.
 
-6. CTA
-   - Match CTA to funnel stage.
-   - Use `## Next Step`, not internal labels such as `## CTA`.
+6. Reader-facing next step
+   - Match the next step to funnel stage.
+   - Use `## Next Step`, `## Final Recommendation`, or another public heading.
 
 Do not leave production planning labels in article bodies. Forbidden public
-headings include `## Search Promise`, `## CTA`, `## Draft Notes`, and
-`## Internal Notes`.
+headings include `## Search Promise`, `## Reader Scenario`,
+`## Article Angle`, `## CTA`, `## Claim Guardrails`,
+`## Required Sections`, `## Draft Notes`, and `## Internal Notes`.
+
+## Product Mention Rules
+
+- The article must help the reader even if they never use FreeIndexer.
+- Educate first, diagnose second, give the workflow third.
+- Mention FreeIndexer where it solves a specific submission, batching,
+  backlink discovery, desktop, or repeat-operations problem.
+- Avoid forcing FreeIndexer into every section.
+- Keep claims honest: no guaranteed indexing, no ranking promises, no exact
+  unvalidated network numbers.
 
 ## Internal Linking Rules
 

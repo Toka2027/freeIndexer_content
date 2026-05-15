@@ -28,6 +28,8 @@ meta:
     - comparison
     - indexing-api
     - bulk-indexing
+    - indexing-tools
+    - technical-seo
   pillar: false
   cta: "Choose FreeIndexer if you want an indexing workflow without building API infrastructure."
   status: ready-for-publish
@@ -144,23 +146,23 @@ Both options are submission workflows. Neither option controls search engine ind
 
 ## FAQ
 
-## Is FreeIndexer an indexing API?
+### Is FreeIndexer an indexing API?
 
 Do not assume that unless the product owner confirms it. Treat FreeIndexer as an online and desktop indexing workflow unless official API details are provided.
 
-## Is an API always better for high volume?
+### Is an API always better for high volume?
 
 Not always. High volume also needs prioritization, quality checks, and maintenance. A tool can be better if your team does not need deep integration.
 
-## Can FreeIndexer handle agency workflows?
+### Can FreeIndexer handle agency workflows?
 
 Yes, it is a practical fit for agencies that need a repeatable submission process without custom infrastructure.
 
-## Can either option force Google to index URLs?
+### Can either option force Google to index URLs?
 
 No. Both support discovery and submission workflows. Search engines make the indexing decision.
 
-## What should I choose if I am unsure?
+### What should I choose if I am unsure?
 
 Start with the simpler workflow. Move toward API-style integration only when you have a clear technical requirement.
 

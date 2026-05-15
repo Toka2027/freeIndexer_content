@@ -23,11 +23,13 @@ meta:
     - url-indexing-for-seo-agencies
     - freeindexer-vs-indexing-api
     - best-google-indexing-tools
-  blog_category: use-cases
+  blog_category: bulk-seo-operations
   blog_tags:
     - programmatic-seo
     - bulk-indexing
+    - bulk-url-operations
     - technical-seo
+    - crawlability
   pillar: false
   cta: "Plan your FreeIndexer daily points around your publishing velocity."
   status: ready-for-publish
@@ -159,23 +161,23 @@ FreeIndexer can support discovery, but it cannot compensate for a weak programma
 
 ## FAQ
 
-## Should I submit all programmatic pages at once?
+### Should I submit all programmatic pages at once?
 
 Usually no. Prioritize high-value pages first and submit in batches. This helps you learn from results before pushing more URLs.
 
-## What is the best indexing strategy for large sites?
+### What is the best indexing strategy for large sites?
 
 Segment URLs by value and quality. Use internal links and sitemaps correctly, then submit prioritized batches.
 
-## Can FreeIndexer replace technical SEO for programmatic pages?
+### Can FreeIndexer replace technical SEO for programmatic pages?
 
 No. It supports submission workflows, but technical quality and page value still matter.
 
-## When should I use an API workflow instead?
+### When should I use an API workflow instead?
 
 Consider an API-style workflow if indexing submission must be deeply integrated into your publishing system and your team can maintain the integration.
 
-## What should I do with pages that never index?
+### What should I do with pages that never index?
 
 Review quality, duplication, canonical tags, internal links, and search demand. Some pages should be improved; others should not exist.
 

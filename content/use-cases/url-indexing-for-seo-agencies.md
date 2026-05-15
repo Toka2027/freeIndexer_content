@@ -26,8 +26,10 @@ meta:
   blog_category: use-cases
   blog_tags:
     - seo-agencies
+    - seo-operators
     - bulk-indexing
-    - pricing
+    - backlink-indexing
+    - webmaster-workflow
   pillar: false
   cta: "Compare FreeIndexer plans for repeat client indexing work."
   status: ready-for-publish
@@ -139,23 +141,23 @@ The online app is simpler for general team use. The desktop app is better for li
 
 ## FAQ
 
-## Can agencies promise clients that submitted URLs will be indexed?
+### Can agencies promise clients that submitted URLs will be indexed?
 
 No. Agencies should report submission work and indexing checks, but search engines decide what gets indexed.
 
-## Should every client URL be submitted?
+### Should every client URL be submitted?
 
 No. Submit priority URLs that are live, crawlable, and useful. Do not waste capacity on blocked or low-value URLs.
 
-## How often should agencies run indexing workflows?
+### How often should agencies run indexing workflows?
 
 Weekly is a practical cadence for many retainers. Campaign-heavy clients may need submission after each publishing or backlink batch.
 
-## Is FreeIndexer better than manual Search Console submission?
+### Is FreeIndexer better than manual Search Console submission?
 
 For repeated client work, FreeIndexer is more scalable as a workflow. Search Console remains useful for diagnostics and owned-site inspection.
 
-## What should be tracked?
+### What should be tracked?
 
 Track URL, client, URL type, submission date, later status, and notes about blockers or improvements.
 

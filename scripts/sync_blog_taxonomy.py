@@ -65,13 +65,14 @@ def derive_category_meta(name: str, description: str) -> tuple[str, str]:
 
 def derive_tag_meta(name: str, group: str) -> tuple[str, str, str]:
     descriptions = {
-        "topic": f"FreeIndexer articles about {name.lower()} workflows, checks, and expectations.",
-        "workflow": f"Workflow guides for {name.lower()} with FreeIndexer.",
-        "audience": f"FreeIndexer guidance for {name.lower()} and related SEO operators.",
+        "topic": f"Articles about {name.lower()} workflows, checks, and expectations.",
+        "workflow": f"Workflow guides for {name.lower()} and repeat search discovery operations.",
+        "audience": f"Guides for {name.lower()} and related SEO operators.",
         "product": f"FreeIndexer product and workflow articles related to {name.lower()}.",
         "comparison": f"Comparisons and buying guidance for {name.lower()}.",
         "content-type": f"{name} articles from the FreeIndexer content library.",
         "technical-seo": f"Technical SEO checks and diagnostics for {name.lower()}.",
+        "ai-search": f"AI search visibility and discovery guidance for {name.lower()} topics.",
         "commercial": f"Commercial evaluation and pricing guidance for FreeIndexer workflows.",
     }
     description = truncate(descriptions.get(group, f"{name} articles from FreeIndexer."))
