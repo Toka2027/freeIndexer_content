@@ -9,6 +9,12 @@ Each article gets:
 3. One recommended article style
 4. One primary CTA
 
+The shared ICP underneath every segment is a hands-on SEO operator responsible
+for URL and backlink discovery. Segment-specific articles should still be useful
+without FreeIndexer: they must teach prioritization, crawlability checks,
+internal linking, tracking, and expectation setting before introducing the
+product as the submission layer.
+
 ## ICP Definitions
 
 ### Website Owner
@@ -19,6 +25,7 @@ Runs a business site, blog, portfolio, or local website and wants new pages foun
 - Needs: simple explanation, practical checklist, low technical burden.
 - Best article style: beginner-friendly troubleshooting or how-to.
 - Preferred CTA: register and submit URLs.
+- Content angle: explain what to check before submitting and keep jargon low.
 
 ### SEO Agency
 
@@ -28,6 +35,7 @@ Manages indexing work for multiple clients and needs a repeatable bulk workflow.
 - Needs: process, point planning, reporting language, pricing clarity.
 - Best article style: workflow guide or buying guide.
 - Preferred CTA: compare plans.
+- Content angle: emphasize repeatability, client reporting, and defensible language.
 
 ### Affiliate Marketer
 
@@ -37,6 +45,7 @@ Publishes money pages, supporting posts, and backlinks where discovery speed aff
 - Needs: practical indexing sequence, risk-aware expectations, low cost.
 - Best article style: use-case guide.
 - Preferred CTA: use online app or desktop app.
+- Content angle: prioritize legitimate campaign pages and known backlinks, not spam blasts.
 
 ### Programmatic SEO Builder
 
@@ -46,6 +55,7 @@ Publishes large sets of templated pages and needs indexing operations to keep up
 - Needs: batching, prioritization, indexing workflow design.
 - Best article style: advanced workflow guide.
 - Preferred CTA: compare higher-volume plans.
+- Content angle: focus on URL tiering, quality gates, and publishing velocity.
 
 ### Blog Or Network Owner
 
@@ -64,6 +74,7 @@ Publishes docs, changelog posts, landing pages, integration pages, and support c
 - Needs: clean indexing checklist and team workflow.
 - Best article style: operational guide.
 - Preferred CTA: try online app.
+- Content angle: make indexing a post-publish checklist shared by marketing, docs, product, and support.
 
 ### Tool/API Evaluator
 
@@ -73,6 +84,7 @@ Compares indexing tools, APIs, desktop tools, and manual Search Console submissi
 - Needs: comparison tables, limitations, pricing, decision criteria.
 - Best article style: comparison or buying guide.
 - Preferred CTA: pricing or plan selection.
+- Content angle: compare workflow fit and maintenance cost, not just features.
 
 ## Funnel Mapping
 

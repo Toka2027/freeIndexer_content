@@ -1,0 +1,21 @@
+﻿{
+    "status":  "local-draft-ready-online-submission-blocked",
+    "blocked_reason":  "reference/blog_api.json and reference/hetzner_object_storage.json are missing, and reference/blog_taxonomy_live.json has not been synced.",
+    "mode":  "draft",
+    "slug":  "indexing-education-hub",
+    "title":  "FreeIndexer Indexing Education Hub",
+    "description":  "A practical hub for understanding URL indexing delays, backlink discovery, and how to build a repeatable indexing workflow with FreeIndexer.",
+    "seo":  {
+                "meta_title":  "URL Indexing Guide: How To Build A Faster Discovery Workflow",
+                "meta_description":  "Learn why URLs and backlinks take time to appear in Google, what to check first, and how FreeIndexer fits into a repeatable indexing workflow."
+            },
+    "article_path":  "content/pillars/indexing-education-hub.md",
+    "body_format":  "markdown",
+    "selected_template":  "T01",
+    "subject_image_path":  "images/exports/subjects/indexing-education-hub-subject.png",
+    "canonical_hero_image_path":  "images/exports/indexing-education-hub-hero.png",
+    "qa_hero_image_path":  "images/exports/heroes/indexing-education-hub-t01-hero.png",
+    "validated_overlay_path":  "images/exports/validated/indexing-education-hub-t01-validated.png",
+    "intended_upload_command":  "python scripts/prepare_blog_draft.py content/pillars/indexing-education-hub.md --upload-image",
+    "intended_draft_command":  "python scripts/prepare_blog_draft.py content/pillars/indexing-education-hub.md"
+}

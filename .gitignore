@@ -2,6 +2,7 @@
 reference/blog_api.json
 reference/hetzner_object_storage.json
 reference/image_provider.json
+hetzner_object_storage.json
 .env
 .secrets/
 

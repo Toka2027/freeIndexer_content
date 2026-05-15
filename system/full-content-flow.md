@@ -2,7 +2,9 @@
 
 This is the end-to-end workflow from article idea to blog draft with hero image.
 
-Direct upload is blocked until the owner provides blog API and object storage details. The commands are still defined now so the repo mirrors the CaptchaRank operating model.
+The image and publishing engines are implemented. Real network writes are
+blocked until the owner provides blog API and object storage details, and until
+taxonomy has been synced.
 
 ## Quick Reference
 
@@ -14,8 +16,9 @@ Direct upload is blocked until the owner provides blog API and object storage de
 | 4. Generate subject | `python scripts/generate_image.py --slug {slug}` | `images/exports/subjects/{slug}-subject.png` |
 | 5. Build hero | `python scripts/build_hero.py --slug {slug}` | canonical and QA hero files |
 | 6. Review hero | open `images/exports/{slug}-hero.png` | approved/rejected image |
-| 7. Upload hero | `python scripts/prepare_blog_draft.py content/path/{slug}.md --upload-image` | public image URL |
-| 8. Submit draft | `python scripts/prepare_blog_draft.py content/path/{slug}.md` | blog draft |
+| 7. Sync taxonomy | `python scripts/sync_blog_taxonomy.py` | live category and tag IDs |
+| 8. Upload hero | `python scripts/prepare_blog_draft.py content/path/{slug}.md --upload-image` | public image URL |
+| 9. Submit draft | `python scripts/prepare_blog_draft.py content/path/{slug}.md` | blog draft |
 | 9. Verify live URL | `python scripts/sync_publishing_tracker.py` | updated tracker |
 
 Readiness audit without generating images or uploading anything:
@@ -136,7 +139,29 @@ Check:
 - no exact unvalidated site-count claim
 - no misleading official Google UI
 
-## 7. Upload Hero Image
+## 7. Sync Blog Taxonomy
+
+```powershell
+python scripts/sync_blog_taxonomy.py
+```
+
+Dry-run or local validation:
+
+```powershell
+python scripts/sync_blog_taxonomy.py --validate-only
+python scripts/sync_blog_taxonomy.py --dry-run
+```
+
+Expected output after real sync:
+
+```text
+reference/blog_taxonomy_live.json
+```
+
+Do not upload articles before taxonomy is synced. The draft script requires
+live category and tag IDs for real submissions.
+
+## 8. Upload Hero Image
 
 ```powershell
 python scripts/prepare_blog_draft.py content/path/{slug}.md --upload-image
@@ -148,7 +173,7 @@ Dry-run upload payload:
 python scripts/prepare_blog_draft.py content/path/{slug}.md --upload-image --dry-run
 ```
 
-Blocked until owner provides:
+Implemented through the object storage config. Blocked until owner provides:
 
 - object storage provider
 - bucket
@@ -163,7 +188,7 @@ Expected output after setup:
 uploaded_image_url
 ```
 
-## 8. Submit Blog Draft
+## 9. Submit Blog Draft
 
 ```powershell
 python scripts/prepare_blog_draft.py content/path/{slug}.md
@@ -175,7 +200,7 @@ Dry-run draft payload:
 python scripts/prepare_blog_draft.py content/path/{slug}.md --dry-run
 ```
 
-Blocked until owner provides:
+Implemented through the signed 99sync API. Blocked until owner provides:
 
 - blog API endpoint
 - application_id
@@ -183,9 +208,9 @@ Blocked until owner provides:
 - secret_key
 - author_id
 - target blog domain
-- whether the same 99sync.com API flow is used
+- confirmation that the same signed 99sync.com API flow is used
 - whether Bootstrap 5 post-processing is required
-- whether posts should be draft-only or published directly
+- upload mode confirmation; default is `draft`
 
 ## 9. Verify Live URL And Update Tracker
 
@@ -220,6 +245,6 @@ python scripts/build_master_articles.py
 - `validate_content.py`: working local metadata validator.
 - `generate_image.py`: OpenAI subject generation implemented; requires `OPENAI_API_KEY` for real API calls.
 - `build_hero.py`: Pillow compositing implemented with template loading, validator zone detection, title rendering, white background removal, canonical output, QA output, and validated overlays.
-- `prepare_blog_draft.py`: blocked by credentials and API contract.
-- `sync_blog_taxonomy.py`: blocked by API contract.
-- `sync_publishing_tracker.py`: local tracker checks present; live verification TODO until blog domain/API is provided.
+- `prepare_blog_draft.py`: working draft-prep, hero upload, and signed create/update engine; blocked only by missing FreeIndexer credentials/config for real writes.
+- `sync_blog_taxonomy.py`: working category/tag sync engine; blocked only by missing FreeIndexer credentials/config for real writes.
+- `sync_publishing_tracker.py`: local tracker audit implemented, with optional `--check-live` URL verification.

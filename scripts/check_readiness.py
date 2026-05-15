@@ -73,6 +73,9 @@ def audit_blog() -> list[tuple[str, str]]:
 
     rows.append(("blog API config", "ready" if exists("reference/blog_api.json") and not has_placeholders("reference/blog_api.json") else "blocked"))
     rows.append(("object storage config", "ready" if exists("reference/hetzner_object_storage.json") and not has_placeholders("reference/hetzner_object_storage.json") else "blocked"))
+    live = json.loads((ROOT / "reference/blog_taxonomy_live.json").read_text(encoding="utf-8")) if exists("reference/blog_taxonomy_live.json") else {}
+    live_ready = live.get("status") == "synced" and bool(live.get("categories")) and bool(live.get("tags"))
+    rows.append(("taxonomy live IDs", "ready" if live_ready else "blocked"))
     return rows
 
 

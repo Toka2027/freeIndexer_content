@@ -51,7 +51,7 @@ Explain the FreeIndexer path without overstating claims.
 
 Answer commercial questions.
 
-## CTA
+## Next Step
 
 Use the CTA from frontmatter.
 

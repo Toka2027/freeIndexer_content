@@ -3,48 +3,58 @@
     {
       "slug": "indexing-education",
       "name": "Indexing Education",
-      "description": "Guides explaining URL indexing, backlink discovery, indexing delays, and search discovery workflows."
+      "description": "Practical guides explaining URL indexing, backlink discovery, indexing delays, crawlability, and repeatable search discovery workflows."
     },
     {
       "slug": "use-cases",
       "name": "Use Cases",
-      "description": "ICP-specific FreeIndexer workflows for website owners, agencies, affiliates, programmatic SEO builders, and SaaS teams."
+      "description": "Audience-specific indexing workflows for website owners, SEO agencies, affiliate operators, programmatic SEO builders, and SaaS teams."
     },
     {
       "slug": "comparisons",
       "name": "Comparisons",
-      "description": "Buying guides and comparisons for indexing tools, APIs, manual workflows, and FreeIndexer paths."
-    },
-    {
-      "slug": "bulk-indexing",
-      "name": "Bulk Indexing",
-      "description": "Batching, prioritization, daily points, and large URL-set indexing operations."
-    },
-    {
-      "slug": "desktop-app",
-      "name": "Desktop App",
-      "description": "FreeIndexer desktop app setup, usage, and Windows indexing workflows."
+      "description": "Buying guides and comparisons for indexing tools, indexing APIs, manual submission, online workflows, and managed submission paths."
     },
     {
       "slug": "troubleshooting",
       "name": "Troubleshooting",
-      "description": "Diagnostic guides for indexing issues, submission expectations, points, and product usage."
+      "description": "Diagnostic guides for indexing blockers, submission expectations, crawlability issues, and practical next steps."
+    },
+    {
+      "slug": "desktop-app",
+      "name": "Desktop App",
+      "description": "FreeIndexer desktop app setup, Windows indexing workflows, local URL lists, and product usage guides."
+    },
+    {
+      "slug": "bulk-indexing",
+      "name": "Bulk Indexing",
+      "description": "Batching, prioritization, daily capacity, large URL sets, backlink lists, and high-volume indexing operations."
     }
   ],
   "tags": [
-    { "slug": "indexing", "name": "Indexing" },
-    { "slug": "google-indexing", "name": "Google Indexing" },
-    { "slug": "backlinks", "name": "Backlinks" },
-    { "slug": "url-submission", "name": "URL Submission" },
-    { "slug": "seo-agency", "name": "SEO Agency" },
-    { "slug": "affiliate-seo", "name": "Affiliate SEO" },
-    { "slug": "programmatic-seo", "name": "Programmatic SEO" },
-    { "slug": "saas-seo", "name": "SaaS SEO" },
-    { "slug": "bulk-indexing", "name": "Bulk Indexing" },
-    { "slug": "desktop-app", "name": "Desktop App" },
-    { "slug": "comparison", "name": "Comparison" },
-    { "slug": "troubleshooting", "name": "Troubleshooting" },
-    { "slug": "pricing", "name": "Pricing" }
+    { "slug": "url-indexing", "name": "URL Indexing", "group": "topic" },
+    { "slug": "backlink-indexing", "name": "Backlink Indexing", "group": "topic" },
+    { "slug": "google-indexing", "name": "Google Indexing", "group": "topic" },
+    { "slug": "free-indexer", "name": "FreeIndexer", "group": "product" },
+    { "slug": "indexing", "name": "Indexing", "group": "topic" },
+    { "slug": "backlinks", "name": "Backlinks", "group": "topic" },
+    { "slug": "url-submission", "name": "URL Submission", "group": "workflow" },
+    { "slug": "seo-agencies", "name": "SEO Agencies", "group": "audience" },
+    { "slug": "affiliate-seo", "name": "Affiliate SEO", "group": "audience" },
+    { "slug": "programmatic-seo", "name": "Programmatic SEO", "group": "audience" },
+    { "slug": "saas-seo", "name": "SaaS SEO", "group": "audience" },
+    { "slug": "website-owners", "name": "Website Owners", "group": "audience" },
+    { "slug": "desktop-app", "name": "Desktop App", "group": "product" },
+    { "slug": "bulk-indexing", "name": "Bulk Indexing", "group": "workflow" },
+    { "slug": "indexing-tools", "name": "Indexing Tools", "group": "comparison" },
+    { "slug": "indexing-api", "name": "Indexing API", "group": "comparison" },
+    { "slug": "comparison", "name": "Comparison", "group": "content-type" },
+    { "slug": "buying-guide", "name": "Buying Guide", "group": "content-type" },
+    { "slug": "troubleshooting", "name": "Troubleshooting", "group": "content-type" },
+    { "slug": "technical-seo", "name": "Technical SEO", "group": "technical-seo" },
+    { "slug": "crawlability", "name": "Crawlability", "group": "technical-seo" },
+    { "slug": "product-pages", "name": "Product Pages", "group": "workflow" },
+    { "slug": "documentation", "name": "Documentation", "group": "workflow" },
+    { "slug": "pricing", "name": "Pricing", "group": "commercial" }
   ]
 }
-

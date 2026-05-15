@@ -8,6 +8,18 @@ FreeIndexer is an online indexing product and desktop app for submitting URLs an
 
 FreeIndexer gives SEO operators a repeatable URL and backlink indexing workflow so they can submit pages in bulk, track their indexing work, and avoid manual one-by-one submission.
 
+## ICP Reassessment
+
+FreeIndexer should speak to one broad primary buyer: the hands-on SEO operator
+responsible for getting important URLs and backlinks discovered. That operator
+shows up in several segments, but the underlying job is the same: choose what
+deserves submission, remove obvious blockers, submit in a repeatable workflow,
+and report honestly.
+
+The content system should therefore avoid writing generic SEO advice for
+everyone. Each article still needs one primary ICP, but every article should map
+back to the same core job: practical URL and backlink discovery operations.
+
 ## ICP Pain Points
 
 - New pages take too long to appear in Google.

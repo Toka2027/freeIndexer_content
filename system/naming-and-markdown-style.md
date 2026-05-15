@@ -31,7 +31,7 @@ content/use-cases/url-indexing-for-seo-agencies.md
 - Do not add an H1 in article bodies when the publishing system uses `title` as the H1.
 - Use `##` for major sections.
 - Keep sections practical and scannable.
-- Use root-relative internal links in body copy, such as `/free-url-indexer`.
+- Use root-relative markdown links in body copy, such as `[free URL indexer guide](/free-url-indexer)`.
 - Use bare slugs in `meta.internal_links`.
 - Add a FAQ section to every article brief.
 
@@ -64,4 +64,5 @@ Every content file must include:
 - Use FreeIndexer naturally as a workflow tool.
 - Avoid generic SEO filler.
 - Avoid unvalidated claims.
+- Do not publish internal planning labels such as `Search Promise`, `CTA`, `Draft Notes`, or `Internal Notes`.
 

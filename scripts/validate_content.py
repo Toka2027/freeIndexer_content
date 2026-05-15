@@ -55,6 +55,13 @@ FORBIDDEN = [
     "instant rankings",
 ]
 
+FORBIDDEN_HEADINGS = [
+    "Search Promise",
+    "CTA",
+    "Draft Notes",
+    "Internal Notes",
+]
+
 
 def extract_frontmatter(text: str) -> str | None:
     match = re.match(r"^---\s*\n(.*?)\n---\s*\n", text, flags=re.S)
@@ -103,6 +110,10 @@ def main() -> int:
         for phrase in FORBIDDEN:
             if phrase in lower:
                 warnings.append(f"{rel}: review unvalidated claim phrase '{phrase}'")
+
+        for heading in FORBIDDEN_HEADINGS:
+            if re.search(rf"^##\s+{re.escape(heading)}\s*$", text, flags=re.M):
+                errors.append(f"{rel}: remove internal/publication label heading '## {heading}'")
 
     for warning in warnings:
         print(f"WARNING: {warning}")

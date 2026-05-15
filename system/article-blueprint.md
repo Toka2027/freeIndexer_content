@@ -47,10 +47,12 @@ editorial_review:
 1. Hook and answer
    - State the reader's problem in 2 to 3 sentences.
    - Give the direct answer early.
+   - Use a reader-facing heading such as `## The Short Answer`.
 
 2. Reader scenario
    - Name the ICP and real workflow.
    - Explain why indexing delay matters to them.
+   - Use a reader-facing heading such as `## When This Matters` or `## Who This Helps`.
 
 3. Practical workflow
    - Show what to check before submission.
@@ -66,6 +68,11 @@ editorial_review:
 
 6. CTA
    - Match CTA to funnel stage.
+   - Use `## Next Step`, not internal labels such as `## CTA`.
+
+Do not leave production planning labels in article bodies. Forbidden public
+headings include `## Search Promise`, `## CTA`, `## Draft Notes`, and
+`## Internal Notes`.
 
 ## Internal Linking Rules
 

@@ -1,0 +1,21 @@
+﻿{
+    "status":  "local-draft-ready-online-submission-blocked",
+    "blocked_reason":  "reference/blog_api.json and reference/hetzner_object_storage.json are missing, and reference/blog_taxonomy_live.json has not been synced.",
+    "mode":  "draft",
+    "slug":  "why-google-is-not-indexing-my-url",
+    "title":  "Why Google Is Not Indexing My URL",
+    "description":  "A troubleshooting guide for live URLs that are not appearing in Google, including crawl checks, page quality checks, and URL submission workflow.",
+    "seo":  {
+                "meta_title":  "Why Google Is Not Indexing My URL: Checks And Fixes",
+                "meta_description":  "Diagnose why Google is not indexing your URL, check crawl blockers, improve discovery signals, and submit priority URLs with FreeIndexer."
+            },
+    "article_path":  "content/troubleshooting/why-google-is-not-indexing-my-url.md",
+    "body_format":  "markdown",
+    "selected_template":  "T02",
+    "subject_image_path":  "images/exports/subjects/why-google-is-not-indexing-my-url-subject.png",
+    "canonical_hero_image_path":  "images/exports/why-google-is-not-indexing-my-url-hero.png",
+    "qa_hero_image_path":  "images/exports/heroes/why-google-is-not-indexing-my-url-t02-hero.png",
+    "validated_overlay_path":  "images/exports/validated/why-google-is-not-indexing-my-url-t02-validated.png",
+    "intended_upload_command":  "python scripts/prepare_blog_draft.py content/troubleshooting/why-google-is-not-indexing-my-url.md --upload-image",
+    "intended_draft_command":  "python scripts/prepare_blog_draft.py content/troubleshooting/why-google-is-not-indexing-my-url.md"
+}

@@ -1,0 +1,65 @@
+﻿[
+    {
+        "status":  "local-draft-ready-online-submission-blocked",
+        "blocked_reason":  "reference/blog_api.json and reference/hetzner_object_storage.json are missing, and reference/blog_taxonomy_live.json has not been synced.",
+        "mode":  "draft",
+        "slug":  "indexing-education-hub",
+        "title":  "FreeIndexer Indexing Education Hub",
+        "description":  "A practical hub for understanding URL indexing delays, backlink discovery, and how to build a repeatable indexing workflow with FreeIndexer.",
+        "seo":  {
+                    "meta_title":  "URL Indexing Guide: How To Build A Faster Discovery Workflow",
+                    "meta_description":  "Learn why URLs and backlinks take time to appear in Google, what to check first, and how FreeIndexer fits into a repeatable indexing workflow."
+                },
+        "article_path":  "content/pillars/indexing-education-hub.md",
+        "body_format":  "markdown",
+        "selected_template":  "T01",
+        "subject_image_path":  "images/exports/subjects/indexing-education-hub-subject.png",
+        "canonical_hero_image_path":  "images/exports/indexing-education-hub-hero.png",
+        "qa_hero_image_path":  "images/exports/heroes/indexing-education-hub-t01-hero.png",
+        "validated_overlay_path":  "images/exports/validated/indexing-education-hub-t01-validated.png",
+        "intended_upload_command":  "python scripts/prepare_blog_draft.py content/pillars/indexing-education-hub.md --upload-image",
+        "intended_draft_command":  "python scripts/prepare_blog_draft.py content/pillars/indexing-education-hub.md"
+    },
+    {
+        "status":  "local-draft-ready-online-submission-blocked",
+        "blocked_reason":  "reference/blog_api.json and reference/hetzner_object_storage.json are missing, and reference/blog_taxonomy_live.json has not been synced.",
+        "mode":  "draft",
+        "slug":  "why-google-is-not-indexing-my-url",
+        "title":  "Why Google Is Not Indexing My URL",
+        "description":  "A troubleshooting guide for live URLs that are not appearing in Google, including crawl checks, page quality checks, and URL submission workflow.",
+        "seo":  {
+                    "meta_title":  "Why Google Is Not Indexing My URL: Checks And Fixes",
+                    "meta_description":  "Diagnose why Google is not indexing your URL, check crawl blockers, improve discovery signals, and submit priority URLs with FreeIndexer."
+                },
+        "article_path":  "content/troubleshooting/why-google-is-not-indexing-my-url.md",
+        "body_format":  "markdown",
+        "selected_template":  "T02",
+        "subject_image_path":  "images/exports/subjects/why-google-is-not-indexing-my-url-subject.png",
+        "canonical_hero_image_path":  "images/exports/why-google-is-not-indexing-my-url-hero.png",
+        "qa_hero_image_path":  "images/exports/heroes/why-google-is-not-indexing-my-url-t02-hero.png",
+        "validated_overlay_path":  "images/exports/validated/why-google-is-not-indexing-my-url-t02-validated.png",
+        "intended_upload_command":  "python scripts/prepare_blog_draft.py content/troubleshooting/why-google-is-not-indexing-my-url.md --upload-image",
+        "intended_draft_command":  "python scripts/prepare_blog_draft.py content/troubleshooting/why-google-is-not-indexing-my-url.md"
+    },
+    {
+        "status":  "local-draft-ready-online-submission-blocked",
+        "blocked_reason":  "reference/blog_api.json and reference/hetzner_object_storage.json are missing, and reference/blog_taxonomy_live.json has not been synced.",
+        "mode":  "draft",
+        "slug":  "free-url-indexer",
+        "title":  "Free URL Indexer: When To Use One And What To Expect",
+        "description":  "A practical guide to free URL indexers, what they can and cannot do, and how FreeIndexer fits into a low-cost indexing workflow.",
+        "seo":  {
+                    "meta_title":  "Free URL Indexer: How To Use One Without Overexpecting",
+                    "meta_description":  "Learn what a free URL indexer can do, what it cannot guarantee, and how FreeIndexer supports a practical URL submission workflow."
+                },
+        "article_path":  "content/commercial/free-url-indexer.md",
+        "body_format":  "markdown",
+        "selected_template":  "T03",
+        "subject_image_path":  "images/exports/subjects/free-url-indexer-subject.png",
+        "canonical_hero_image_path":  "images/exports/free-url-indexer-hero.png",
+        "qa_hero_image_path":  "images/exports/heroes/free-url-indexer-t03-hero.png",
+        "validated_overlay_path":  "images/exports/validated/free-url-indexer-t03-validated.png",
+        "intended_upload_command":  "python scripts/prepare_blog_draft.py content/commercial/free-url-indexer.md --upload-image",
+        "intended_draft_command":  "python scripts/prepare_blog_draft.py content/commercial/free-url-indexer.md"
+    }
+]

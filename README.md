@@ -4,7 +4,7 @@ This repository is the content production system for FreeIndexer.
 
 FreeIndexer helps website owners, SEO teams, affiliate operators, programmatic SEO builders, and product teams submit URLs and backlinks for faster search discovery. The content system is built around ICP problems first, then SEO demand.
 
-The repo now follows the CaptchaRank operating model closely: source markdown, image workflow, validation scripts, pipeline CSVs, reference taxonomy, publishing tracker, and direct blog draft preparation once credentials are provided.
+The repo now follows the CaptchaRank operating model closely: source markdown, image workflow, validation scripts, pipeline CSVs, reference taxonomy, publishing tracker, hero upload, and signed blog draft preparation once credentials are provided.
 
 ## What This Repo Contains
 
@@ -73,9 +73,10 @@ python scripts/build_hero.py --slug {slug}
 
 The hero builder defaults to random template selection across configured templates, seeded by the article slug for reproducible article-to-template assignment.
 
-8. Upload the hero and prepare a draft after credentials are provided:
+8. Upload the hero and prepare a draft after credentials are provided and taxonomy is synced:
 
 ```powershell
+python scripts/sync_blog_taxonomy.py
 python scripts/prepare_blog_draft.py content/path/{slug}.md --upload-image
 python scripts/prepare_blog_draft.py content/path/{slug}.md
 ```
@@ -122,7 +123,8 @@ Publishing support lives in:
 - [reference/blog_taxonomy.json](reference/blog_taxonomy.json)
 - [pipeline/publishing-tracker.csv](pipeline/publishing-tracker.csv)
 
-Direct upload is intentionally blocked until owner-provided values are available.
+The publishing engine is implemented, but real network writes are blocked until
+owner-provided values are available and taxonomy IDs have been synced.
 
 ## Blocked Until Owner Provides
 
@@ -134,16 +136,16 @@ Direct blog upload and hero upload need:
 - secret_key
 - author_id
 - blog domain or target blog URL
-- category/taxonomy rules
-- tag taxonomy rules
+- category approval
+- tag approval
 - S3/object storage provider
 - bucket name
 - access key
 - secret key
 - base public asset URL
 - final hero image upload path convention
-- whether FreeIndexer blog uses the same 99sync.com API flow as CaptchaRank
+- confirmation that FreeIndexer uses the same signed 99sync API flow as CaptchaRank
 - whether Bootstrap 5 HTML post-processing is required
-- whether posts should be uploaded as draft only or published directly
+- upload mode confirmation; default is `draft`
 
 Use `FILL_IN_*` placeholders until those values are provided.

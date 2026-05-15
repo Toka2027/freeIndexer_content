@@ -1,0 +1,21 @@
+﻿{
+    "status":  "local-draft-ready-online-submission-blocked",
+    "blocked_reason":  "reference/blog_api.json and reference/hetzner_object_storage.json are missing, and reference/blog_taxonomy_live.json has not been synced.",
+    "mode":  "draft",
+    "slug":  "free-url-indexer",
+    "title":  "Free URL Indexer: When To Use One And What To Expect",
+    "description":  "A practical guide to free URL indexers, what they can and cannot do, and how FreeIndexer fits into a low-cost indexing workflow.",
+    "seo":  {
+                "meta_title":  "Free URL Indexer: How To Use One Without Overexpecting",
+                "meta_description":  "Learn what a free URL indexer can do, what it cannot guarantee, and how FreeIndexer supports a practical URL submission workflow."
+            },
+    "article_path":  "content/commercial/free-url-indexer.md",
+    "body_format":  "markdown",
+    "selected_template":  "T03",
+    "subject_image_path":  "images/exports/subjects/free-url-indexer-subject.png",
+    "canonical_hero_image_path":  "images/exports/free-url-indexer-hero.png",
+    "qa_hero_image_path":  "images/exports/heroes/free-url-indexer-t03-hero.png",
+    "validated_overlay_path":  "images/exports/validated/free-url-indexer-t03-validated.png",
+    "intended_upload_command":  "python scripts/prepare_blog_draft.py content/commercial/free-url-indexer.md --upload-image",
+    "intended_draft_command":  "python scripts/prepare_blog_draft.py content/commercial/free-url-indexer.md"
+}

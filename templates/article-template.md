@@ -57,7 +57,7 @@ State that indexing depends on search engines and page quality.
 
 Add 3 to 5 search-aligned questions.
 
-## CTA
+## Next Step
 
 Use the CTA from frontmatter.
 

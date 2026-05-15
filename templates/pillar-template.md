@@ -55,7 +55,7 @@ Help the reader choose the next article or product path.
 
 Answer broad hub-level questions.
 
-## CTA
+## Next Step
 
 Use the CTA from frontmatter.
 

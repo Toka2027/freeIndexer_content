@@ -13,11 +13,15 @@ This folder mirrors the CaptchaRank content production scripts, adapted for the 
 - `generate_image.py`: generates FreeIndexer subject PNGs with OpenAI when `OPENAI_API_KEY` is available; `--prompt-only` and `--check-config` are safe dry runs.
 - `build_hero.py`: composites subject PNGs into 1200x630 FreeIndexer heroes with template backgrounds, detected validator zones, title rendering, white background removal, canonical output, QA output, and optional validated overlays.
 
-## Publishing Interfaces Blocked By Setup
+## Publishing Interfaces
 
-- `prepare_blog_draft.py`: direct upload/draft submission interface; blocked until owner provides blog API and storage config.
-- `sync_blog_taxonomy.py`: taxonomy seeding interface; blocked until owner confirms API flow and taxonomy rules.
-- `sync_publishing_tracker.py`: tracker sync interface; live verification blocked until blog URL/API details are provided.
+- `prepare_blog_draft.py`: converts markdown to Bootstrap-friendly HTML, uploads the hero to object storage, and creates or updates a draft through the signed 99sync API.
+- `sync_blog_taxonomy.py`: creates or updates FreeIndexer categories and tags, then writes live IDs to `reference/blog_taxonomy_live.json`.
+- `sync_publishing_tracker.py`: audits tracker rows locally and can verify `published_url` values with `--check-live`.
+
+Real network writes require `reference/blog_api.json`,
+`reference/hetzner_object_storage.json`, and synced taxonomy IDs. Dry-runs do
+not require secrets.
 
 ## Standard Commands
 
@@ -29,6 +33,8 @@ python scripts/generate_image.py --slug free-url-indexer --prompt-only
 python scripts/build_hero.py --slug free-url-indexer --template all --check-assets
 python scripts/build_hero.py --slug free-url-indexer
 python scripts/build_hero.py --slug free-url-indexer --template all --validator
+python scripts/sync_blog_taxonomy.py --validate-only
 python scripts/prepare_blog_draft.py content/commercial/free-url-indexer.md --dry-run
 python scripts/prepare_blog_draft.py content/commercial/free-url-indexer.md --upload-image --dry-run
+python scripts/prepare_blog_draft.py content/commercial/free-url-indexer.md --check-config
 ```

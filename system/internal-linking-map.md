@@ -25,11 +25,11 @@
 
 ## URL Style
 
-Internal links in article bodies should use root-relative paths:
+Internal links in article bodies should use root-relative markdown links:
 
-- `/indexing-education-hub`
-- `/why-google-is-not-indexing-my-url`
-- `/best-google-indexing-tools`
+- `[indexing education hub](/indexing-education-hub)`
+- `[troubleshooting guide](/why-google-is-not-indexing-my-url)`
+- `[indexing tools guide](/best-google-indexing-tools)`
 
 The markdown source should also keep slugs in `meta.internal_links` as bare slugs for workflow parsing.
 

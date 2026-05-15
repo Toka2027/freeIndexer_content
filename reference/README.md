@@ -2,7 +2,9 @@
 
 This directory contains configuration examples and taxonomy files for direct blog upload.
 
-Direct blog upload is currently blocked until the project owner provides the missing blog API, taxonomy, and object storage details. Do not invent these values.
+The publishing engine is implemented. Live upload is intentionally blocked until
+the project owner provides the FreeIndexer blog API, taxonomy approval, and
+object storage values. Do not invent these values.
 
 ## Files
 
@@ -11,31 +13,31 @@ Direct blog upload is currently blocked until the project owner provides the mis
 | `blog_api.example.json` | Example blog API config with `FILL_IN_*` placeholders | Ready for owner values |
 | `hetzner_object_storage.example.json` | Example object storage config with `FILL_IN_*` placeholders | Ready for owner values |
 | `image_provider.example.json` | Optional OpenAI image provider override template | Ready |
-| `blog_taxonomy.json` | Proposed FreeIndexer categories and tags | Draft, needs owner approval |
+| `blog_taxonomy.json` | FreeIndexer categories and tags to sync | Draft, needs owner approval |
 | `blog_taxonomy_live.json` | Live taxonomy IDs after sync | Not synced |
 | `source-notes.md` | Research notes from playbook, public site, and reference repos | Ready |
 
-## Blocked Until Owner Provides
+## Required Owner Values
 
-Direct blog upload cannot work until these values are provided:
+Real upload cannot run until these values are provided:
 
-- blog API endpoint
+- blog API endpoint, usually `https://blogs.99sync.com/api`
 - application_id
 - api_key
 - secret_key
 - author_id
 - blog domain or target blog URL
-- category/taxonomy rules
-- tag taxonomy rules
+- category approval
+- tag approval
 - S3/object storage provider
 - bucket name
 - access key
 - secret key
 - base public asset URL
 - final hero image upload path convention
-- whether FreeIndexer blog uses the same 99sync.com API flow as CaptchaRank
+- confirmation that FreeIndexer uses the same signed 99sync API flow as CaptchaRank
 - whether Bootstrap 5 HTML post-processing is required
-- whether posts should be uploaded as draft only or published directly
+- upload mode confirmation; default is `draft`
 - final visual approval for 1200x630 hero template backgrounds and validator overlays
 
 ## Setup Steps After Owner Provides Values
@@ -51,9 +53,38 @@ Direct blog upload cannot work until these values are provided:
 ```powershell
 python scripts/check_readiness.py
 python scripts/sync_blog_taxonomy.py
+python scripts/prepare_blog_draft.py content/commercial/free-url-indexer.md --dry-run
+python scripts/prepare_blog_draft.py content/commercial/free-url-indexer.md --upload-image --dry-run
 python scripts/prepare_blog_draft.py content/commercial/free-url-indexer.md --upload-image
 python scripts/prepare_blog_draft.py content/commercial/free-url-indexer.md
 ```
+
+You can keep API secrets out of `reference/blog_api.json` by putting them in
+`.env` instead. Supported overrides:
+
+```text
+BLOG_API_APPLICATION_ID=
+BLOG_API_KEY=
+BLOG_API_SECRET_KEY=
+BLOG_API_AUTHOR_ID=
+BLOG_API_DOMAIN=
+```
+
+The local `reference/blog_api.json` in this workspace now has the non-secret
+FreeIndexer values that were provided: application ID `29`, author ID `20`,
+draft mode, and `https://blog.freeindexer.com/`. The API key/secret should be
+supplied through `.env` or filled locally in the ignored config file.
+
+## Publishing Flow
+
+1. Confirm `reference/blog_taxonomy.json`.
+2. Run `python scripts/sync_blog_taxonomy.py` to write live category and tag IDs to `reference/blog_taxonomy_live.json`.
+3. Build a canonical hero at `images/exports/{slug}-hero.png`.
+4. Run `python scripts/prepare_blog_draft.py content/path/{slug}.md --upload-image`.
+5. Run `python scripts/prepare_blog_draft.py content/path/{slug}.md`.
+
+Draft submission stays `draft` by default. The script resolves existing posts by
+slug and updates them instead of creating duplicates.
 
 ## Security Rule
 

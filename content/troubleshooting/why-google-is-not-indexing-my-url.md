@@ -30,25 +30,21 @@ meta:
     - crawlability
   pillar: false
   cta: "Fix the blockers, then submit the URL through FreeIndexer."
-  status: draft
-  word_target: 1700
+  status: ready-for-publish
+  word_target: 1100
 seo:
   meta_title: "Why Google Is Not Indexing My URL: Checks And Fixes"
   meta_description: "Diagnose why Google is not indexing your URL, check crawl blockers, improve discovery signals, and submit priority URLs with FreeIndexer."
 editorial_review: standard
 ---
 
-## Search Promise
-
-Give the reader a diagnostic checklist and a clear next step.
-
 ## The Short Answer
 
 If Google is not indexing your URL, the issue is usually one of four things: Google has not discovered the URL yet, the page is technically blocked, Google sees another URL as the canonical version, or the page does not look valuable enough to include. Fix those issues first, then use a submission workflow like FreeIndexer to help the URL get discovered.
 
-Start with the broader indexing basics in `/indexing-education-hub` if you are new to this. If you already have a specific URL that is not appearing, work through the checklist below.
+Start with the broader [indexing education hub](/indexing-education-hub) if you are new to this. If you already have a specific URL that is not appearing, work through the checklist below.
 
-## Reader Scenario
+## When This Matters
 
 You published a page, post, landing page, or backlink target. The URL opens in your browser, but it does not appear when you search for it in Google. You may have checked with a `site:` search or an indexing checker. Now you need to know whether to wait, fix something, or submit the URL again.
 
@@ -101,7 +97,7 @@ Add internal links from relevant pages. For example:
 - link from documentation navigation to a new SaaS feature page
 - link from supporting content to an affiliate money page
 
-After improving internal links, you can use FreeIndexer as a submission step. For a simple website-owner workflow, read `/faster-google-indexing-for-website-owners`.
+After improving internal links, you can use FreeIndexer as a submission step. For a simple website-owner workflow, read [faster Google indexing for website owners](/faster-google-indexing-for-website-owners).
 
 ## Step 5: Check Sitemap Inclusion
 
@@ -127,7 +123,7 @@ This matters especially for programmatic SEO, affiliate sites, and large content
 
 Once the URL is live, crawlable, internally linked, and worth indexing, submit it as part of a repeatable workflow.
 
-FreeIndexer fits here. Use it to submit the cleaned-up URL and keep your indexing work organized. If you are starting with a free or low-cost workflow, read `/free-url-indexer`. If you are comparing tool options, read `/best-google-indexing-tools`.
+FreeIndexer fits here. Use it to submit the cleaned-up URL and keep your indexing work organized. If you are starting with a free or low-cost workflow, read the [free URL indexer guide](/free-url-indexer). If you are comparing tool options, read the [Google indexing tools guide](/best-google-indexing-tools).
 
 For many users, the best process is:
 
@@ -166,6 +162,6 @@ There is no fixed timeline. It depends on site authority, crawl frequency, URL q
 
 Report the work honestly: URLs checked, blockers fixed, URLs submitted, and indexing status monitored. Do not promise outcomes that search engines control.
 
-## CTA
+## Next Step
 
 Fix the blockers first, then submit the URL through FreeIndexer. That keeps the workflow useful and avoids wasting submissions on pages search engines cannot or should not index.

@@ -30,25 +30,21 @@ meta:
     - backlinks
   pillar: false
   cta: "Try the FreeIndexer workflow and upgrade only when you need more daily capacity."
-  status: draft
-  word_target: 1600
+  status: ready-for-publish
+  word_target: 1000
 seo:
   meta_title: "Free URL Indexer: How To Use One Without Overexpecting"
   meta_description: "Learn what a free URL indexer can do, what it cannot guarantee, and how FreeIndexer supports a practical URL submission workflow."
 editorial_review: standard
 ---
 
-## Search Promise
-
-Explain what a free URL indexer is useful for and set honest expectations before routing the reader into FreeIndexer.
-
 ## The Short Answer
 
 A free URL indexer is useful when you need a low-cost way to submit important pages or backlinks for discovery. It can help you build a repeatable submission workflow, but it cannot force Google or any other search engine to index a page. FreeIndexer is best used after you have checked that the URL is live, crawlable, internally linked, and worth indexing.
 
-For the bigger indexing framework, start with `/indexing-education-hub`. If your immediate problem is a URL that is not appearing in Google, read `/why-google-is-not-indexing-my-url` before submitting again.
+For the bigger indexing framework, start with the [indexing education hub](/indexing-education-hub). If your immediate problem is a URL that is not appearing in Google, read the [URL indexing troubleshooting guide](/why-google-is-not-indexing-my-url) before submitting again.
 
-## Reader Scenario
+## When This Matters
 
 You want to submit URLs without committing to a large SEO platform or complex API workflow. Maybe you run a small business website. Maybe you publish affiliate content. Maybe you are testing whether a submission workflow helps your new backlinks get discovered.
 
@@ -174,8 +170,8 @@ No. FreeIndexer can support URL and backlink indexing workflows. The right use d
 
 ## When should I compare indexing tools?
 
-Compare tools when your workflow becomes regular, high-volume, or business-critical. See `/best-google-indexing-tools` for the decision framework.
+Compare tools when your workflow becomes regular, high-volume, or business-critical. See the [Google indexing tools guide](/best-google-indexing-tools) for the decision framework.
 
-## CTA
+## Next Step
 
 Try the FreeIndexer workflow with your most important URLs first. Upgrade only when daily capacity becomes the real constraint.
