@@ -58,7 +58,7 @@ Cluster ideas:
 
 Category slug: `google-search-console`
 
-Pillar idea: `google-search-console-indexing-guide`
+Pillar: `google-search-console-indexing-guide`
 
 Target ICP: website owners, webmasters, SEO agencies, SaaS teams
 
@@ -70,6 +70,7 @@ one-by-one work becomes inefficient.
 
 Cluster ideas:
 
+- `google-search-console-indexing-guide`
 - `how-to-use-url-inspection-tool` planned
 - `google-search-console-pages-report-explained` planned
 - `submit-sitemap-in-google-search-console` planned
@@ -80,7 +81,7 @@ Cluster ideas:
 
 Category slug: `backlinks`
 
-Pillar idea: `backlink-discovery-and-indexing-guide`
+Pillar: `backlink-discovery-and-indexing-guide`
 
 Target ICP: affiliate marketers, SEO agencies, blog/network owners, SEO
 operators
@@ -92,6 +93,7 @@ known backlinks or supporting URLs that deserve discovery.
 
 Cluster ideas:
 
+- `backlink-discovery-and-indexing-guide`
 - `indexing-workflow-for-affiliate-sites`
 - `best-backlink-indexer` planned
 - `indexing-tool-for-backlinks` planned
@@ -102,7 +104,7 @@ Cluster ideas:
 
 Category slug: `technical-seo`
 
-Pillar idea: `technical-seo-indexing-audit`
+Pillar: `technical-seo-indexing-audit`
 
 Target ICP: webmasters, technical SEO operators, SaaS/product teams, agencies
 
@@ -113,6 +115,7 @@ submission; FreeIndexer can then help with organized submission and follow-up.
 
 Cluster ideas:
 
+- `technical-seo-indexing-audit`
 - `robots-txt-and-indexing` planned
 - `canonical-tags-and-indexing` planned
 - `noindex-tag-checklist` planned

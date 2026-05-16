@@ -1,11 +1,44 @@
 slug,title,category,icp,funnel_stage,intent,status,priority
-free-url-indexer,Free URL Indexer: When To Use One And What To Expect,indexing-education,Website Owner,middle,commercial investigation,ready-for-publish,P1
-best-google-indexing-tools,Best Google Indexing Tools,comparisons,Tool/API Evaluator,bottom,commercial,ready-for-publish,P1
-freeindexer-vs-indexing-api,FreeIndexer vs Indexing API,comparisons,Tool/API Evaluator,bottom,commercial,ready-for-publish,P1
-indexing-education-hub,Indexing Education Hub,indexing-education,Website Owner,top,informational,ready-for-publish,P1
-why-google-is-not-indexing-my-url,Why Google Is Not Indexing My URL,troubleshooting,Website Owner,top,troubleshooting,ready-for-publish,P1
+ai-search-visibility-for-seo-operators,AI Search Visibility For SEO Operators,ai-search-visibility,SEO Operator,top,informational,ready-for-publish,P1
+backlink-discovery-and-indexing-guide,Backlink Discovery And Indexing Guide,backlinks,Affiliate Marketer,middle,informational-commercial,ready-for-publish,P1
+backlink-indexing-checklist,Backlink Indexing Checklist,backlinks,Affiliate Marketer,middle,informational-commercial,ready-for-publish,P1
+best-backlink-indexer,Best Backlink Indexer: How To Choose A Workflow,backlinks,Tool/API Evaluator,bottom,commercial investigation,ready-for-publish,P1
+how-to-get-backlinks-discovered,How To Get Backlinks Discovered,backlinks,SEO Operator,middle,informational-commercial,ready-for-publish,P1
+bulk-url-operations-workflow,Bulk URL Operations Workflow For SEO Teams,bulk-seo-operations,SEO Operator,middle,informational-commercial,ready-for-publish,P2
+daily-indexing-points-planning,Daily Indexing Capacity Planning For SEO Workflows,bulk-seo-operations,SEO Agency,middle,informational-commercial,ready-for-publish,P2
+free-url-indexer,Free URL Indexer: When To Use One And What To Expect,indexing-education,Website Owner,middle,commercial investigation,ready-for-publish,P2
+best-google-indexing-tools,Best Google Indexing Tools,comparisons,Tool/API Evaluator,bottom,commercial,ready-for-publish,P2
+free-url-indexer-vs-paid-indexing-tool,Free URL Indexer vs Paid Indexing Tool,comparisons,Tool/API Evaluator,bottom,commercial,ready-for-publish,P2
+freeindexer-vs-indexing-api,FreeIndexer vs Indexing API,comparisons,Tool/API Evaluator,bottom,commercial,ready-for-publish,P2
+google-search-console-vs-indexing-tool,Google Search Console vs Indexing Tool,comparisons,Tool/API Evaluator,bottom,commercial,ready-for-publish,P2
+indexing-api-alternatives,Indexing API Alternatives For SEO Workflows,comparisons,Tool/API Evaluator,bottom,commercial,ready-for-publish,P2
+freeindexer-desktop-app-guide,FreeIndexer Desktop App Guide,desktop-app,Blog Or Network Owner,bottom,commercial investigation,ready-for-publish,P2
+google-search-console-indexing-guide,Google Search Console Indexing Guide,google-search-console,Webmaster,top,informational,ready-for-publish,P2
+google-search-console-pages-report-explained,Google Search Console Pages Report Explained,google-search-console,Webmaster,top,informational,ready-for-publish,P2
+how-to-use-url-inspection-tool,How To Use The URL Inspection Tool,google-search-console,Website Owner,top,informational,ready-for-publish,P2
+submit-sitemap-in-google-search-console,How To Submit A Sitemap In Google Search Console,google-search-console,Website Owner,top,informational,ready-for-publish,P2
+google-indexing-delay-checklist,Google Indexing Delay Checklist,indexing-education,Website Owner,top,informational,ready-for-publish,P2
+how-google-discovers-new-urls,How Google Discovers New URLs,indexing-education,Website Owner,top,informational,ready-for-publish,P2
+how-to-prioritize-urls-for-indexing,How To Prioritize URLs For Indexing,indexing-education,SEO Operator,middle,informational-commercial,ready-for-publish,P2
+url-indexing-vs-ranking,URL Indexing vs Ranking: What Is The Difference?,indexing-education,Website Owner,top,informational,ready-for-publish,P2
+indexing-education-hub,Indexing Education Hub,indexing-education,Website Owner,top,informational,ready-for-publish,P2
+canonical-tags-and-indexing,Canonical Tags And Indexing: A Practical Guide,technical-seo,SEO Operator,middle,informational-commercial,ready-for-publish,P2
+crawlability-checklist,Crawlability Checklist For Important Pages,technical-seo,Webmaster,top,informational,ready-for-publish,P2
+internal-linking-for-indexing,Internal Linking For Indexing And Discovery,technical-seo,SEO Operator,middle,informational-commercial,ready-for-publish,P2
+robots-txt-and-indexing,Robots.txt And Indexing: What Website Owners Should Check,technical-seo,Webmaster,top,informational,ready-for-publish,P2
+technical-seo-indexing-audit,Technical SEO Indexing Audit,technical-seo,SEO Operator,middle,informational,ready-for-publish,P2
+page-crawled-but-not-indexed,Page Crawled But Not Indexed: What It Means,troubleshooting,SEO Operator,top,troubleshooting,ready-for-publish,P2
+sitemap-not-discovered,Sitemap Not Discovered: Causes And Fixes,troubleshooting,Webmaster,top,troubleshooting,ready-for-publish,P2
+submitted-url-not-indexed,Submitted URL Not Indexed: What To Check Next,troubleshooting,Website Owner,top,troubleshooting,ready-for-publish,P2
+why-google-is-not-indexing-my-url,Why Google Is Not Indexing My URL,troubleshooting,Website Owner,top,troubleshooting,ready-for-publish,P2
 faster-google-indexing-for-website-owners,Faster Google Indexing For Website Owners,webmaster-guides,Website Owner,top,informational,ready-for-publish,P2
 indexing-for-saas-product-pages,Indexing For SaaS Product Pages,use-cases,SaaS Or Product Team,middle,informational,ready-for-publish,P2
 indexing-workflow-for-affiliate-sites,Indexing Workflow For Affiliate Sites,use-cases,Affiliate Marketer,middle,commercial,ready-for-publish,P2
 programmatic-seo-indexing-workflow,Programmatic SEO Indexing Workflow,bulk-seo-operations,Programmatic SEO Builder,middle,informational-commercial,ready-for-publish,P2
+saas-content-indexing-workflow,SaaS Content Indexing Workflow,use-cases,SaaS Or Product Team,middle,informational-commercial,ready-for-publish,P2
+search-discovery-workflow-for-seo-agencies,Search Discovery Workflow For SEO Agencies,use-cases,SEO Agency,middle,informational-commercial,ready-for-publish,P2
+seo-workflow-for-blog-network-owners,SEO Workflow For Blog And Network Owners,use-cases,Blog Or Network Owner,middle,informational-commercial,ready-for-publish,P2
 url-indexing-for-seo-agencies,URL Indexing For SEO Agencies,use-cases,SEO Agency,middle,commercial,ready-for-publish,P2
+content-visibility-checklist,Content Visibility Checklist For Website Owners,webmaster-guides,Website Owner,top,informational,ready-for-publish,P2
+indexing-checklist-for-new-websites,Indexing Checklist For New Websites,webmaster-guides,Website Owner,top,informational,ready-for-publish,P2
+weekly-webmaster-seo-workflow,Weekly Webmaster SEO Workflow,webmaster-guides,Webmaster,top,informational,ready-for-publish,P2

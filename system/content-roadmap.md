@@ -25,9 +25,12 @@ Articles:
 Goal: expand the blog beyond FreeIndexer and URL indexing by helping operators
 use the diagnostic tools and maintenance routines they already need.
 
-Planned articles:
+Articles:
 
 - `google-search-console-indexing-guide`
+
+Planned articles:
+
 - `how-to-use-url-inspection-tool`
 - `submit-sitemap-in-google-search-console`
 - `google-search-console-pages-report-explained`
@@ -39,9 +42,12 @@ Planned articles:
 Goal: build authority around the blockers that must be fixed before any
 submission workflow can help.
 
-Planned articles:
+Articles:
 
 - `technical-seo-indexing-audit`
+
+Planned articles:
+
 - `crawlability-checklist`
 - `robots-txt-and-indexing`
 - `canonical-tags-and-indexing`
@@ -54,9 +60,12 @@ Planned articles:
 Goal: serve affiliates, agencies, SEO operators, and blog/network owners who
 need known backlinks and supporting URLs discovered.
 
-Planned articles:
+Articles:
 
 - `backlink-discovery-and-indexing-guide`
+
+Planned articles:
+
 - `how-to-get-backlinks-discovered`
 - `best-backlink-indexer`
 - `indexing-tool-for-backlinks`

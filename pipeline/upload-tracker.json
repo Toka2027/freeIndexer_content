@@ -10,5 +10,137 @@
   "why-google-is-not-indexing-my-url": {
     "public_url": "https://cen-public-st.nbg1.your-objectstorage.com/freeindexer/blog/why-google-is-not-indexing-my-url-hero.png",
     "object_key": "freeindexer/blog/why-google-is-not-indexing-my-url-hero.png"
+  },
+  "google-search-console-indexing-guide": {
+    "public_url": "https://cen-public-st.nbg1.your-objectstorage.com/freeindexer/blog/google-search-console-indexing-guide-hero.png",
+    "object_key": "freeindexer/blog/google-search-console-indexing-guide-hero.png"
+  },
+  "technical-seo-indexing-audit": {
+    "public_url": "https://cen-public-st.nbg1.your-objectstorage.com/freeindexer/blog/technical-seo-indexing-audit-hero.png",
+    "object_key": "freeindexer/blog/technical-seo-indexing-audit-hero.png"
+  },
+  "backlink-discovery-and-indexing-guide": {
+    "public_url": "https://cen-public-st.nbg1.your-objectstorage.com/freeindexer/blog/backlink-discovery-and-indexing-guide-hero.png",
+    "object_key": "freeindexer/blog/backlink-discovery-and-indexing-guide-hero.png"
+  },
+  "how-google-discovers-new-urls": {
+    "public_url": "https://cen-public-st.nbg1.your-objectstorage.com/freeindexer/blog/how-google-discovers-new-urls-hero.png",
+    "object_key": "freeindexer/blog/how-google-discovers-new-urls-hero.png"
+  },
+  "url-indexing-vs-ranking": {
+    "public_url": "https://cen-public-st.nbg1.your-objectstorage.com/freeindexer/blog/url-indexing-vs-ranking-hero.png",
+    "object_key": "freeindexer/blog/url-indexing-vs-ranking-hero.png"
+  },
+  "google-indexing-delay-checklist": {
+    "public_url": "https://cen-public-st.nbg1.your-objectstorage.com/freeindexer/blog/google-indexing-delay-checklist-hero.png",
+    "object_key": "freeindexer/blog/google-indexing-delay-checklist-hero.png"
+  },
+  "how-to-prioritize-urls-for-indexing": {
+    "public_url": "https://cen-public-st.nbg1.your-objectstorage.com/freeindexer/blog/how-to-prioritize-urls-for-indexing-hero.png",
+    "object_key": "freeindexer/blog/how-to-prioritize-urls-for-indexing-hero.png"
+  },
+  "crawlability-checklist": {
+    "public_url": "https://cen-public-st.nbg1.your-objectstorage.com/freeindexer/blog/crawlability-checklist-hero.png",
+    "object_key": "freeindexer/blog/crawlability-checklist-hero.png"
+  },
+  "robots-txt-and-indexing": {
+    "public_url": "https://cen-public-st.nbg1.your-objectstorage.com/freeindexer/blog/robots-txt-and-indexing-hero.png",
+    "object_key": "freeindexer/blog/robots-txt-and-indexing-hero.png"
+  },
+  "canonical-tags-and-indexing": {
+    "public_url": "https://cen-public-st.nbg1.your-objectstorage.com/freeindexer/blog/canonical-tags-and-indexing-hero.png",
+    "object_key": "freeindexer/blog/canonical-tags-and-indexing-hero.png"
+  },
+  "internal-linking-for-indexing": {
+    "public_url": "https://cen-public-st.nbg1.your-objectstorage.com/freeindexer/blog/internal-linking-for-indexing-hero.png",
+    "object_key": "freeindexer/blog/internal-linking-for-indexing-hero.png"
+  },
+  "how-to-use-url-inspection-tool": {
+    "public_url": "https://cen-public-st.nbg1.your-objectstorage.com/freeindexer/blog/how-to-use-url-inspection-tool-hero.png",
+    "object_key": "freeindexer/blog/how-to-use-url-inspection-tool-hero.png"
+  },
+  "google-search-console-pages-report-explained": {
+    "public_url": "https://cen-public-st.nbg1.your-objectstorage.com/freeindexer/blog/google-search-console-pages-report-explained-hero.png",
+    "object_key": "freeindexer/blog/google-search-console-pages-report-explained-hero.png"
+  },
+  "submit-sitemap-in-google-search-console": {
+    "public_url": "https://cen-public-st.nbg1.your-objectstorage.com/freeindexer/blog/submit-sitemap-in-google-search-console-hero.png",
+    "object_key": "freeindexer/blog/submit-sitemap-in-google-search-console-hero.png"
+  },
+  "how-to-get-backlinks-discovered": {
+    "public_url": "https://cen-public-st.nbg1.your-objectstorage.com/freeindexer/blog/how-to-get-backlinks-discovered-hero.png",
+    "object_key": "freeindexer/blog/how-to-get-backlinks-discovered-hero.png"
+  },
+  "backlink-indexing-checklist": {
+    "public_url": "https://cen-public-st.nbg1.your-objectstorage.com/freeindexer/blog/backlink-indexing-checklist-hero.png",
+    "object_key": "freeindexer/blog/backlink-indexing-checklist-hero.png"
+  },
+  "best-backlink-indexer": {
+    "public_url": "https://cen-public-st.nbg1.your-objectstorage.com/freeindexer/blog/best-backlink-indexer-hero.png",
+    "object_key": "freeindexer/blog/best-backlink-indexer-hero.png"
+  },
+  "weekly-webmaster-seo-workflow": {
+    "public_url": "https://cen-public-st.nbg1.your-objectstorage.com/freeindexer/blog/weekly-webmaster-seo-workflow-hero.png",
+    "object_key": "freeindexer/blog/weekly-webmaster-seo-workflow-hero.png"
+  },
+  "indexing-checklist-for-new-websites": {
+    "public_url": "https://cen-public-st.nbg1.your-objectstorage.com/freeindexer/blog/indexing-checklist-for-new-websites-hero.png",
+    "object_key": "freeindexer/blog/indexing-checklist-for-new-websites-hero.png"
+  },
+  "content-visibility-checklist": {
+    "public_url": "https://cen-public-st.nbg1.your-objectstorage.com/freeindexer/blog/content-visibility-checklist-hero.png",
+    "object_key": "freeindexer/blog/content-visibility-checklist-hero.png"
+  },
+  "search-discovery-workflow-for-seo-agencies": {
+    "public_url": "https://cen-public-st.nbg1.your-objectstorage.com/freeindexer/blog/search-discovery-workflow-for-seo-agencies-hero.png",
+    "object_key": "freeindexer/blog/search-discovery-workflow-for-seo-agencies-hero.png"
+  },
+  "seo-workflow-for-blog-network-owners": {
+    "public_url": "https://cen-public-st.nbg1.your-objectstorage.com/freeindexer/blog/seo-workflow-for-blog-network-owners-hero.png",
+    "object_key": "freeindexer/blog/seo-workflow-for-blog-network-owners-hero.png"
+  },
+  "saas-content-indexing-workflow": {
+    "public_url": "https://cen-public-st.nbg1.your-objectstorage.com/freeindexer/blog/saas-content-indexing-workflow-hero.png",
+    "object_key": "freeindexer/blog/saas-content-indexing-workflow-hero.png"
+  },
+  "google-search-console-vs-indexing-tool": {
+    "public_url": "https://cen-public-st.nbg1.your-objectstorage.com/freeindexer/blog/google-search-console-vs-indexing-tool-hero.png",
+    "object_key": "freeindexer/blog/google-search-console-vs-indexing-tool-hero.png"
+  },
+  "free-url-indexer-vs-paid-indexing-tool": {
+    "public_url": "https://cen-public-st.nbg1.your-objectstorage.com/freeindexer/blog/free-url-indexer-vs-paid-indexing-tool-hero.png",
+    "object_key": "freeindexer/blog/free-url-indexer-vs-paid-indexing-tool-hero.png"
+  },
+  "indexing-api-alternatives": {
+    "public_url": "https://cen-public-st.nbg1.your-objectstorage.com/freeindexer/blog/indexing-api-alternatives-hero.png",
+    "object_key": "freeindexer/blog/indexing-api-alternatives-hero.png"
+  },
+  "submitted-url-not-indexed": {
+    "public_url": "https://cen-public-st.nbg1.your-objectstorage.com/freeindexer/blog/submitted-url-not-indexed-hero.png",
+    "object_key": "freeindexer/blog/submitted-url-not-indexed-hero.png"
+  },
+  "sitemap-not-discovered": {
+    "public_url": "https://cen-public-st.nbg1.your-objectstorage.com/freeindexer/blog/sitemap-not-discovered-hero.png",
+    "object_key": "freeindexer/blog/sitemap-not-discovered-hero.png"
+  },
+  "page-crawled-but-not-indexed": {
+    "public_url": "https://cen-public-st.nbg1.your-objectstorage.com/freeindexer/blog/page-crawled-but-not-indexed-hero.png",
+    "object_key": "freeindexer/blog/page-crawled-but-not-indexed-hero.png"
+  },
+  "bulk-url-operations-workflow": {
+    "public_url": "https://cen-public-st.nbg1.your-objectstorage.com/freeindexer/blog/bulk-url-operations-workflow-hero.png",
+    "object_key": "freeindexer/blog/bulk-url-operations-workflow-hero.png"
+  },
+  "daily-indexing-points-planning": {
+    "public_url": "https://cen-public-st.nbg1.your-objectstorage.com/freeindexer/blog/daily-indexing-points-planning-hero.png",
+    "object_key": "freeindexer/blog/daily-indexing-points-planning-hero.png"
+  },
+  "freeindexer-desktop-app-guide": {
+    "public_url": "https://cen-public-st.nbg1.your-objectstorage.com/freeindexer/blog/freeindexer-desktop-app-guide-hero.png",
+    "object_key": "freeindexer/blog/freeindexer-desktop-app-guide-hero.png"
+  },
+  "ai-search-visibility-for-seo-operators": {
+    "public_url": "https://cen-public-st.nbg1.your-objectstorage.com/freeindexer/blog/ai-search-visibility-for-seo-operators-hero.png",
+    "object_key": "freeindexer/blog/ai-search-visibility-for-seo-operators-hero.png"
   }
 }

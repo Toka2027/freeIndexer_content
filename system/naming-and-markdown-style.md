@@ -10,6 +10,9 @@
   - `content/use-cases/`
   - `content/comparisons/`
   - `content/troubleshooting/`
+  - `content/google-search-console/`
+  - `content/technical-seo/`
+  - `content/backlinks/`
   - `content/commercial/`
 
 Example:

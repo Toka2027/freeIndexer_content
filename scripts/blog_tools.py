@@ -201,6 +201,24 @@ def record_uploaded_image(slug: str, public_url: str, object_key: str) -> None:
     update_publishing_tracker(slug, {"uploaded_image_url": public_url})
 
 
+def resolve_article_path_for_slug(slug: str) -> str:
+    for path in sorted((ROOT / "content").rglob("*.md")):
+        article = read_article_file(path)
+        if derive_slug(article) == slug:
+            return path.relative_to(ROOT).as_posix()
+    return ""
+
+
+def default_publishing_tracker_row(slug: str, fieldnames: list[str]) -> dict[str, str]:
+    row = {field: "" for field in fieldnames}
+    row["slug"] = slug
+    if "article_path" in row:
+        row["article_path"] = resolve_article_path_for_slug(slug)
+    if "hero_image_path" in row:
+        row["hero_image_path"] = f"images/exports/{slug}-hero.png"
+    return row
+
+
 def update_publishing_tracker(slug: str, updates: dict[str, Any]) -> None:
     if not PUBLISHING_TRACKER_PATH.exists():
         return
@@ -220,7 +238,11 @@ def update_publishing_tracker(slug: str, updates: dict[str, Any]) -> None:
             changed = True
             break
     if not changed:
-        return
+        row = default_publishing_tracker_row(slug, fieldnames)
+        for key, value in updates.items():
+            row[key] = scalar_to_text(value)
+        rows.append(row)
+        changed = True
     with PUBLISHING_TRACKER_PATH.open("w", encoding="utf-8", newline="") as fh:
         writer = csv.DictWriter(fh, fieldnames=fieldnames)
         writer.writeheader()
