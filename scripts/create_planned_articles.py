@@ -9,6 +9,7 @@ from __future__ import annotations
 
 import json
 import re
+import argparse
 from pathlib import Path
 from textwrap import dedent
 
@@ -580,10 +581,26 @@ def write_article(article: dict, overwrite: bool = True) -> Path:
 
 
 def main() -> int:
-    plan = json.loads(PLAN_PATH.read_text(encoding="utf-8"))
+    parser = argparse.ArgumentParser(description="Create publish-ready FreeIndexer article drafts from a plan JSON.")
+    parser.add_argument(
+        "--plan",
+        default=str(PLAN_PATH.relative_to(ROOT)),
+        help="Plan JSON path. Default: pipeline/production-plan-30.json",
+    )
+    parser.add_argument(
+        "--no-overwrite",
+        action="store_true",
+        help="Keep existing article files and only print their paths.",
+    )
+    args = parser.parse_args()
+
+    plan_path = Path(args.plan)
+    if not plan_path.is_absolute():
+        plan_path = ROOT / plan_path
+    plan = json.loads(plan_path.read_text(encoding="utf-8"))
     paths = []
     for article in plan["articles"]:
-        paths.append(write_article(article))
+        paths.append(write_article(article, overwrite=not args.no_overwrite))
     print(f"wrote {len(paths)} planned articles")
     for path in paths:
         print(path.relative_to(ROOT).as_posix())

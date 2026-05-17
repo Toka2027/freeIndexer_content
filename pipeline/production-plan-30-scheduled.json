@@ -1,0 +1,1051 @@
+{
+  "batch": "production-30-scheduled-2026-05",
+  "created_on": "2026-05-16",
+  "schedule_timezone": "Africa/Cairo",
+  "schedule_rule": "3 articles per day at 06:00, 10:00, and 14:00 Africa/Cairo; verified API stored UTC times are 03:00, 07:00, and 11:00.",
+  "distribution": {
+    "indexing-education": 4,
+    "technical-seo": 4,
+    "google-search-console": 3,
+    "backlinks": 3,
+    "webmaster-guides": 3,
+    "use-cases": 3,
+    "comparisons": 3,
+    "troubleshooting": 3,
+    "bulk-seo-operations": 2,
+    "desktop-app": 1,
+    "ai-search-visibility": 1
+  },
+  "articles": [
+    {
+      "title": "How Search Engines Crawl And Index Pages",
+      "slug": "how-search-engines-crawl-and-index-pages",
+      "category": "indexing-education",
+      "tags": [
+        "seo",
+        "indexing",
+        "google-indexing",
+        "crawlability",
+        "content-discovery",
+        "guide",
+        "website-owners"
+      ],
+      "primary_icp": "Website Owner",
+      "secondary_icp": "Webmaster",
+      "funnel_stage": "top",
+      "search_intent": "Understand how search engines discover, crawl, and index website pages before using URL submission tools.",
+      "primary_keyword": "how search engines crawl and index pages",
+      "secondary_keywords": [
+        "search engine crawling",
+        "google indexing basics",
+        "page discovery"
+      ],
+      "target_cta": "Use this guide to build a simple discovery checklist before submitting important URLs.",
+      "internal_links": [
+        "indexing-education-hub",
+        "how-google-discovers-new-urls",
+        "url-indexing-vs-ranking",
+        "crawlability-checklist"
+      ],
+      "image_concept": "Abstract crawler path moving through browser cards into a clean indexing workflow dashboard with orange action accents.",
+      "hero_template": 1,
+      "publish_schedule_local": "2026-05-17 06:00 Africa/Cairo",
+      "publish_schedule_utc": "2026-05-17T03:00:00Z"
+    },
+    {
+      "title": "Indexing Signals That Help Google Discover Content",
+      "slug": "indexing-signals-that-help-google-discover-content",
+      "category": "indexing-education",
+      "tags": [
+        "seo",
+        "indexing",
+        "google-indexing",
+        "internal-linking",
+        "sitemap",
+        "content-discovery",
+        "guide"
+      ],
+      "primary_icp": "SEO Operator",
+      "secondary_icp": "Website Owner",
+      "funnel_stage": "top",
+      "search_intent": "Learn which technical and editorial signals help Google find and reconsider important content.",
+      "primary_keyword": "indexing signals",
+      "secondary_keywords": [
+        "google discovery signals",
+        "indexing signals for content",
+        "content discovery SEO"
+      ],
+      "target_cta": "Review your most important pages against the signal checklist before adding them to a submission queue.",
+      "internal_links": [
+        "indexing-education-hub",
+        "internal-linking-for-indexing",
+        "submit-sitemap-in-google-search-console",
+        "content-visibility-checklist"
+      ],
+      "image_concept": "Layered signal cards for sitemap, internal links, crawl path, and priority page flowing into a search discovery panel.",
+      "hero_template": 1,
+      "publish_schedule_local": "2026-05-17 10:00 Africa/Cairo",
+      "publish_schedule_utc": "2026-05-17T07:00:00Z"
+    },
+    {
+      "title": "URL Submission Checklist Before Indexing",
+      "slug": "url-submission-checklist-before-indexing",
+      "category": "indexing-education",
+      "tags": [
+        "url-indexing",
+        "url-submission",
+        "indexing",
+        "checklist",
+        "crawlability",
+        "technical-seo",
+        "website-owners"
+      ],
+      "primary_icp": "Website Owner",
+      "secondary_icp": "SEO Operator",
+      "funnel_stage": "middle",
+      "search_intent": "Find the checks to complete before submitting a URL for indexing or adding it to a bulk workflow.",
+      "primary_keyword": "url submission checklist",
+      "secondary_keywords": [
+        "submit URL to Google checklist",
+        "before indexing checklist",
+        "URL indexing checklist"
+      ],
+      "target_cta": "Create a clean URL queue by removing blocked, duplicated, or low-value pages before submission.",
+      "internal_links": [
+        "indexing-education-hub",
+        "how-to-prioritize-urls-for-indexing",
+        "submitted-url-not-indexed",
+        "free-url-indexer"
+      ],
+      "image_concept": "Clean checklist beside a URL queue with submitted, pending, and discovered status dots and orange submit action.",
+      "hero_template": 1,
+      "publish_schedule_local": "2026-05-17 14:00 Africa/Cairo",
+      "publish_schedule_utc": "2026-05-17T11:00:00Z"
+    },
+    {
+      "title": "Search Discovery Workflow For New Content",
+      "slug": "search-discovery-workflow-for-new-content",
+      "category": "indexing-education",
+      "tags": [
+        "search-visibility",
+        "content-discovery",
+        "indexing",
+        "url-submission",
+        "webmaster-workflow",
+        "guide"
+      ],
+      "primary_icp": "Website Owner",
+      "secondary_icp": "Webmaster",
+      "funnel_stage": "middle",
+      "search_intent": "Build a repeatable workflow for helping newly published content become discoverable in search.",
+      "primary_keyword": "search discovery workflow",
+      "secondary_keywords": [
+        "new content indexing workflow",
+        "content discovery workflow",
+        "SEO publishing workflow"
+      ],
+      "target_cta": "Turn each new content launch into a repeatable discovery workflow instead of a one-off submission task.",
+      "internal_links": [
+        "indexing-education-hub",
+        "content-visibility-checklist",
+        "weekly-webmaster-seo-workflow",
+        "search-discovery-workflow-for-seo-agencies"
+      ],
+      "image_concept": "Publishing pipeline with new content cards moving through quality checks, sitemap, internal links, and submission queue.",
+      "hero_template": 2,
+      "publish_schedule_local": "2026-05-18 06:00 Africa/Cairo",
+      "publish_schedule_utc": "2026-05-18T03:00:00Z"
+    },
+    {
+      "title": "Noindex Tag Checklist",
+      "slug": "noindex-tag-checklist",
+      "category": "technical-seo",
+      "tags": [
+        "technical-seo",
+        "noindex",
+        "crawlability",
+        "indexing",
+        "troubleshooting",
+        "checklist",
+        "webmasters"
+      ],
+      "primary_icp": "Webmaster",
+      "secondary_icp": "SEO Operator",
+      "funnel_stage": "top",
+      "search_intent": "Check whether noindex directives are blocking important pages from appearing in search.",
+      "primary_keyword": "noindex tag checklist",
+      "secondary_keywords": [
+        "noindex SEO",
+        "accidental noindex",
+        "indexability checklist"
+      ],
+      "target_cta": "Audit your priority templates for accidental noindex directives before submitting URLs.",
+      "internal_links": [
+        "technical-seo-indexing-audit",
+        "crawlability-checklist",
+        "robots-txt-and-indexing",
+        "submitted-url-not-indexed"
+      ],
+      "image_concept": "Technical SEO dashboard showing an indexability checklist and a blocked directive warning without readable text.",
+      "hero_template": 1,
+      "publish_schedule_local": "2026-05-18 10:00 Africa/Cairo",
+      "publish_schedule_utc": "2026-05-18T07:00:00Z"
+    },
+    {
+      "title": "Sitemap Indexing Checklist",
+      "slug": "sitemap-indexing-checklist",
+      "category": "technical-seo",
+      "tags": [
+        "technical-seo",
+        "sitemap",
+        "sitemap-management",
+        "indexing",
+        "google-search-console",
+        "checklist",
+        "webmasters"
+      ],
+      "primary_icp": "Webmaster",
+      "secondary_icp": "Website Owner",
+      "funnel_stage": "top",
+      "search_intent": "Use a practical sitemap checklist to reduce discovery problems for important URLs.",
+      "primary_keyword": "sitemap indexing checklist",
+      "secondary_keywords": [
+        "sitemap SEO checklist",
+        "sitemap indexing problems",
+        "XML sitemap indexing"
+      ],
+      "target_cta": "Review sitemap hygiene before using Search Console or FreeIndexer for important URL batches.",
+      "internal_links": [
+        "technical-seo-indexing-audit",
+        "submit-sitemap-in-google-search-console",
+        "sitemap-not-discovered",
+        "google-search-console-pages-report-explained"
+      ],
+      "image_concept": "Sitemap tree feeding clean URL cards into a browser-style discovery panel with orange highlights.",
+      "hero_template": 1,
+      "publish_schedule_local": "2026-05-18 14:00 Africa/Cairo",
+      "publish_schedule_utc": "2026-05-18T11:00:00Z"
+    },
+    {
+      "title": "Crawl Budget Basics For Small Sites",
+      "slug": "crawl-budget-basics-for-small-sites",
+      "category": "technical-seo",
+      "tags": [
+        "technical-seo",
+        "crawl-budget",
+        "crawlability",
+        "googlebot",
+        "seo",
+        "website-owners",
+        "guide"
+      ],
+      "primary_icp": "Website Owner",
+      "secondary_icp": "Webmaster",
+      "funnel_stage": "top",
+      "search_intent": "Understand crawl budget basics without overcomplicating small website SEO.",
+      "primary_keyword": "crawl budget basics",
+      "secondary_keywords": [
+        "crawl budget for small sites",
+        "Googlebot crawl budget",
+        "crawl efficiency"
+      ],
+      "target_cta": "Focus first on crawlable pages, clean site structure, and removing low-value crawl traps.",
+      "internal_links": [
+        "technical-seo-indexing-audit",
+        "crawlability-checklist",
+        "robots-txt-and-indexing",
+        "internal-linking-for-indexing"
+      ],
+      "image_concept": "Small site map with Googlebot-style abstract crawler path choosing clean high-priority pages.",
+      "hero_template": 1,
+      "publish_schedule_local": "2026-05-19 06:00 Africa/Cairo",
+      "publish_schedule_utc": "2026-05-19T03:00:00Z"
+    },
+    {
+      "title": "Orphan Pages And Indexing",
+      "slug": "orphan-pages-and-indexing",
+      "category": "technical-seo",
+      "tags": [
+        "technical-seo",
+        "internal-linking",
+        "crawlability",
+        "indexing",
+        "content-discovery",
+        "troubleshooting",
+        "seo-operators"
+      ],
+      "primary_icp": "SEO Operator",
+      "secondary_icp": "Programmatic SEO Builder",
+      "funnel_stage": "middle",
+      "search_intent": "Find and fix orphan pages that search engines struggle to discover through internal links.",
+      "primary_keyword": "orphan pages and indexing",
+      "secondary_keywords": [
+        "orphan pages SEO",
+        "internal linking for indexing",
+        "discover orphan pages"
+      ],
+      "target_cta": "Add orphan page checks to your publishing and bulk URL workflows before submission.",
+      "internal_links": [
+        "technical-seo-indexing-audit",
+        "internal-linking-for-indexing",
+        "programmatic-seo-indexing-workflow",
+        "bulk-url-operations-workflow"
+      ],
+      "image_concept": "Disconnected page cards being connected into a site architecture graph with orange internal-link paths.",
+      "hero_template": 2,
+      "publish_schedule_local": "2026-05-19 10:00 Africa/Cairo",
+      "publish_schedule_utc": "2026-05-19T07:00:00Z"
+    },
+    {
+      "title": "URL Inspection Statuses Explained",
+      "slug": "url-inspection-statuses-explained",
+      "category": "google-search-console",
+      "tags": [
+        "google-search-console",
+        "url-inspection",
+        "indexing",
+        "troubleshooting",
+        "google-indexing",
+        "guide",
+        "webmasters"
+      ],
+      "primary_icp": "Webmaster",
+      "secondary_icp": "Website Owner",
+      "funnel_stage": "top",
+      "search_intent": "Understand common URL Inspection statuses and what to do next for each one.",
+      "primary_keyword": "URL Inspection statuses",
+      "secondary_keywords": [
+        "Search Console URL Inspection statuses",
+        "Google indexing status explained",
+        "URL inspection report"
+      ],
+      "target_cta": "Use URL Inspection as a diagnostic step before deciding whether to fix, link, submit, or wait.",
+      "internal_links": [
+        "google-search-console-indexing-guide",
+        "how-to-use-url-inspection-tool",
+        "submitted-url-not-indexed",
+        "page-crawled-but-not-indexed"
+      ],
+      "image_concept": "Browser inspection panel with abstract status cards and decision paths, no real Google branding.",
+      "hero_template": 1,
+      "publish_schedule_local": "2026-05-19 14:00 Africa/Cairo",
+      "publish_schedule_utc": "2026-05-19T11:00:00Z"
+    },
+    {
+      "title": "Request Indexing In Search Console",
+      "slug": "request-indexing-in-search-console",
+      "category": "google-search-console",
+      "tags": [
+        "google-search-console",
+        "url-inspection",
+        "url-submission",
+        "google-indexing",
+        "website-owners",
+        "guide"
+      ],
+      "primary_icp": "Website Owner",
+      "secondary_icp": "Webmaster",
+      "funnel_stage": "top",
+      "search_intent": "Learn when requesting indexing in Search Console is useful and when another fix should come first.",
+      "primary_keyword": "request indexing in Search Console",
+      "secondary_keywords": [
+        "request indexing Google",
+        "Search Console request indexing",
+        "submit URL to Google"
+      ],
+      "target_cta": "Request indexing only after the page is live, indexable, internally linked, and worth discovery.",
+      "internal_links": [
+        "google-search-console-indexing-guide",
+        "how-to-use-url-inspection-tool",
+        "url-submission-checklist-before-indexing",
+        "free-url-indexer"
+      ],
+      "image_concept": "Clean URL inspection workflow with one priority URL moving from check to submit action, no logos.",
+      "hero_template": 1,
+      "publish_schedule_local": "2026-05-20 06:00 Africa/Cairo",
+      "publish_schedule_utc": "2026-05-20T03:00:00Z"
+    },
+    {
+      "title": "Search Console Sitemap Errors",
+      "slug": "search-console-sitemap-errors",
+      "category": "google-search-console",
+      "tags": [
+        "google-search-console",
+        "sitemap",
+        "sitemap-management",
+        "technical-seo",
+        "troubleshooting",
+        "webmasters"
+      ],
+      "primary_icp": "Webmaster",
+      "secondary_icp": "SEO Operator",
+      "funnel_stage": "top",
+      "search_intent": "Troubleshoot sitemap errors in Search Console and decide what needs fixing first.",
+      "primary_keyword": "Search Console sitemap errors",
+      "secondary_keywords": [
+        "sitemap errors Google Search Console",
+        "sitemap could not fetch",
+        "sitemap troubleshooting"
+      ],
+      "target_cta": "Fix sitemap fetch, URL quality, and canonical issues before resubmitting important URL groups.",
+      "internal_links": [
+        "google-search-console-indexing-guide",
+        "sitemap-not-discovered",
+        "sitemap-indexing-checklist",
+        "submit-sitemap-in-google-search-console"
+      ],
+      "image_concept": "Sitemap diagnostics dashboard with warning markers and a corrected URL path flowing into a clean queue.",
+      "hero_template": 1,
+      "publish_schedule_local": "2026-05-20 10:00 Africa/Cairo",
+      "publish_schedule_utc": "2026-05-20T07:00:00Z"
+    },
+    {
+      "title": "Backlink Quality Before Indexing",
+      "slug": "backlink-quality-before-indexing",
+      "category": "backlinks",
+      "tags": [
+        "backlinks",
+        "backlink-indexing",
+        "backlink-discovery",
+        "seo",
+        "affiliate-seo",
+        "checklist"
+      ],
+      "primary_icp": "Affiliate Marketer",
+      "secondary_icp": "SEO Agency",
+      "funnel_stage": "middle",
+      "search_intent": "Check backlink quality before adding links to an indexing or discovery workflow.",
+      "primary_keyword": "backlink quality before indexing",
+      "secondary_keywords": [
+        "backlink indexing checklist",
+        "quality backlinks indexing",
+        "backlink discovery"
+      ],
+      "target_cta": "Prioritize verified, relevant, live backlinks instead of submitting every exported URL.",
+      "internal_links": [
+        "backlink-discovery-and-indexing-guide",
+        "backlink-indexing-checklist",
+        "how-to-get-backlinks-discovered",
+        "best-backlink-indexer"
+      ],
+      "image_concept": "Backlink graph with some links passing quality gates into a clean discovery queue, no spam blast visuals.",
+      "hero_template": 2,
+      "publish_schedule_local": "2026-05-20 14:00 Africa/Cairo",
+      "publish_schedule_utc": "2026-05-20T11:00:00Z"
+    },
+    {
+      "title": "Track Backlink Discovery For SEO Campaigns",
+      "slug": "track-backlink-discovery-for-seo-campaigns",
+      "category": "backlinks",
+      "tags": [
+        "backlinks",
+        "backlink-discovery",
+        "backlink-indexing",
+        "seo-agencies",
+        "seo-operators",
+        "webmaster-workflow",
+        "guide"
+      ],
+      "primary_icp": "SEO Agency",
+      "secondary_icp": "SEO Operator",
+      "funnel_stage": "middle",
+      "search_intent": "Create a defensible backlink discovery tracking workflow for campaigns and client reporting.",
+      "primary_keyword": "track backlink discovery",
+      "secondary_keywords": [
+        "backlink tracking workflow",
+        "backlink discovery campaign",
+        "SEO campaign backlinks"
+      ],
+      "target_cta": "Use a campaign-based backlink queue so verification, submission, and follow-up stay clear.",
+      "internal_links": [
+        "backlink-discovery-and-indexing-guide",
+        "backlink-indexing-for-client-reporting",
+        "search-discovery-workflow-for-seo-agencies",
+        "best-backlink-indexer"
+      ],
+      "image_concept": "Campaign board with backlink nodes, verification checks, and follow-up status lanes using orange accents.",
+      "hero_template": 2,
+      "publish_schedule_local": "2026-05-21 06:00 Africa/Cairo",
+      "publish_schedule_utc": "2026-05-21T03:00:00Z"
+    },
+    {
+      "title": "Backlink Indexing For Client Reporting",
+      "slug": "backlink-indexing-for-client-reporting",
+      "category": "backlinks",
+      "tags": [
+        "backlinks",
+        "backlink-indexing",
+        "seo-agencies",
+        "search-visibility",
+        "webmaster-workflow",
+        "guide"
+      ],
+      "primary_icp": "SEO Agency",
+      "secondary_icp": "Affiliate Marketer",
+      "funnel_stage": "middle",
+      "search_intent": "Report backlink indexing work honestly without promising search engine outcomes.",
+      "primary_keyword": "backlink indexing client reporting",
+      "secondary_keywords": [
+        "backlink indexing report",
+        "SEO client reporting backlinks",
+        "backlink discovery reporting"
+      ],
+      "target_cta": "Separate verified work, submitted links, and observed outcomes in client reports.",
+      "internal_links": [
+        "backlink-discovery-and-indexing-guide",
+        "backlink-indexing-checklist",
+        "track-backlink-discovery-for-seo-campaigns",
+        "search-discovery-workflow-for-seo-agencies"
+      ],
+      "image_concept": "Client reporting dashboard with backlink batches, status indicators, and transparent progress cards.",
+      "hero_template": 2,
+      "publish_schedule_local": "2026-05-21 10:00 Africa/Cairo",
+      "publish_schedule_utc": "2026-05-21T07:00:00Z"
+    },
+    {
+      "title": "Website Owner SEO Maintenance Checklist",
+      "slug": "website-owner-seo-maintenance-checklist",
+      "category": "webmaster-guides",
+      "tags": [
+        "seo",
+        "webmasters",
+        "webmaster-workflow",
+        "website-owners",
+        "search-visibility",
+        "checklist"
+      ],
+      "primary_icp": "Website Owner",
+      "secondary_icp": "Webmaster",
+      "funnel_stage": "top",
+      "search_intent": "Build a simple recurring SEO maintenance checklist for small business and content websites.",
+      "primary_keyword": "SEO maintenance checklist",
+      "secondary_keywords": [
+        "website SEO maintenance",
+        "weekly SEO checklist",
+        "webmaster SEO checklist"
+      ],
+      "target_cta": "Run this maintenance checklist before deciding which pages need deeper SEO or indexing work.",
+      "internal_links": [
+        "weekly-webmaster-seo-workflow",
+        "content-visibility-checklist",
+        "crawlability-checklist",
+        "google-search-console-indexing-guide"
+      ],
+      "image_concept": "Weekly webmaster checklist dashboard with sections for crawlability, content, links, and submissions.",
+      "hero_template": 1,
+      "publish_schedule_local": "2026-05-21 14:00 Africa/Cairo",
+      "publish_schedule_utc": "2026-05-21T11:00:00Z"
+    },
+    {
+      "title": "New Blog Post Indexing Workflow",
+      "slug": "new-blog-post-indexing-workflow",
+      "category": "webmaster-guides",
+      "tags": [
+        "indexing",
+        "content-discovery",
+        "webmaster-workflow",
+        "website-owners",
+        "blog-network-owners",
+        "guide"
+      ],
+      "primary_icp": "Blog Or Network Owner",
+      "secondary_icp": "Website Owner",
+      "funnel_stage": "top",
+      "search_intent": "Use a practical workflow to help new blog posts become discoverable after publishing.",
+      "primary_keyword": "new blog post indexing workflow",
+      "secondary_keywords": [
+        "blog post indexing",
+        "index new blog post",
+        "content publishing SEO workflow"
+      ],
+      "target_cta": "Add discovery checks to your publishing process so every important post gets a fair path to crawl.",
+      "internal_links": [
+        "weekly-webmaster-seo-workflow",
+        "search-discovery-workflow-for-new-content",
+        "content-visibility-checklist",
+        "url-submission-checklist-before-indexing"
+      ],
+      "image_concept": "Blog publishing workflow with a new post card passing through internal links, sitemap, and URL queue.",
+      "hero_template": 2,
+      "publish_schedule_local": "2026-05-22 06:00 Africa/Cairo",
+      "publish_schedule_utc": "2026-05-22T03:00:00Z"
+    },
+    {
+      "title": "Small Business Search Visibility Workflow",
+      "slug": "small-business-search-visibility-workflow",
+      "category": "webmaster-guides",
+      "tags": [
+        "seo",
+        "search-visibility",
+        "website-owners",
+        "webmaster-workflow",
+        "content-discovery",
+        "guide"
+      ],
+      "primary_icp": "Website Owner",
+      "secondary_icp": "SaaS Or Product Team",
+      "funnel_stage": "top",
+      "search_intent": "Create a manageable search visibility workflow for a small business website.",
+      "primary_keyword": "small business search visibility workflow",
+      "secondary_keywords": [
+        "small business SEO workflow",
+        "website visibility checklist",
+        "local site search visibility"
+      ],
+      "target_cta": "Start with your most important service, product, and support pages before expanding the workflow.",
+      "internal_links": [
+        "weekly-webmaster-seo-workflow",
+        "website-owner-seo-maintenance-checklist",
+        "how-search-engines-crawl-and-index-pages",
+        "free-url-indexer"
+      ],
+      "image_concept": "Small business website dashboard with priority pages, sitemap status, and search visibility cards.",
+      "hero_template": 1,
+      "publish_schedule_local": "2026-05-22 10:00 Africa/Cairo",
+      "publish_schedule_utc": "2026-05-22T07:00:00Z"
+    },
+    {
+      "title": "Indexing Workflow For Local SEO Pages",
+      "slug": "indexing-workflow-for-local-seo-pages",
+      "category": "use-cases",
+      "tags": [
+        "url-indexing",
+        "seo",
+        "search-visibility",
+        "website-owners",
+        "seo-agencies",
+        "guide"
+      ],
+      "primary_icp": "SEO Agency",
+      "secondary_icp": "Website Owner",
+      "funnel_stage": "middle",
+      "search_intent": "Build an indexing workflow for local SEO pages such as service pages, city pages, and location content.",
+      "primary_keyword": "indexing workflow for local SEO pages",
+      "secondary_keywords": [
+        "local SEO indexing",
+        "city page indexing",
+        "service page indexing"
+      ],
+      "target_cta": "Prioritize local pages that are useful, unique, internally linked, and ready for search discovery.",
+      "internal_links": [
+        "search-discovery-workflow-for-seo-agencies",
+        "small-business-search-visibility-workflow",
+        "how-to-prioritize-urls-for-indexing",
+        "free-url-indexer"
+      ],
+      "image_concept": "Local SEO page cards grouped by location and routed through a practical URL submission queue.",
+      "hero_template": 2,
+      "publish_schedule_local": "2026-05-22 14:00 Africa/Cairo",
+      "publish_schedule_utc": "2026-05-22T11:00:00Z"
+    },
+    {
+      "title": "Indexing Workflow For Ecommerce Category Pages",
+      "slug": "indexing-workflow-for-ecommerce-category-pages",
+      "category": "use-cases",
+      "tags": [
+        "url-indexing",
+        "technical-seo",
+        "product-pages",
+        "search-visibility",
+        "seo-operators",
+        "guide"
+      ],
+      "primary_icp": "SEO Operator",
+      "secondary_icp": "SaaS Or Product Team",
+      "funnel_stage": "middle",
+      "search_intent": "Prioritize ecommerce category pages for search discovery without flooding the workflow with thin URLs.",
+      "primary_keyword": "ecommerce category page indexing",
+      "secondary_keywords": [
+        "index ecommerce category pages",
+        "category page SEO indexing",
+        "ecommerce URL indexing"
+      ],
+      "target_cta": "Create quality gates for category pages before adding them to a bulk indexing workflow.",
+      "internal_links": [
+        "search-discovery-workflow-for-seo-agencies",
+        "canonical-tags-and-indexing",
+        "orphan-pages-and-indexing",
+        "bulk-url-operations-workflow"
+      ],
+      "image_concept": "Ecommerce category page cards flowing through duplicate, canonical, and priority filters into a queue.",
+      "hero_template": 2,
+      "publish_schedule_local": "2026-05-23 06:00 Africa/Cairo",
+      "publish_schedule_utc": "2026-05-23T03:00:00Z"
+    },
+    {
+      "title": "Indexing Workflow For Documentation Sites",
+      "slug": "indexing-workflow-for-documentation-sites",
+      "category": "use-cases",
+      "tags": [
+        "documentation",
+        "saas-seo",
+        "technical-seo",
+        "content-discovery",
+        "sitemap",
+        "guide"
+      ],
+      "primary_icp": "SaaS Or Product Team",
+      "secondary_icp": "Webmaster",
+      "funnel_stage": "middle",
+      "search_intent": "Help documentation pages, changelogs, and support articles become easier for search engines to discover.",
+      "primary_keyword": "documentation site indexing workflow",
+      "secondary_keywords": [
+        "docs SEO indexing",
+        "documentation site SEO",
+        "index support articles"
+      ],
+      "target_cta": "Add discovery checks to docs publishing so important help content is not left orphaned.",
+      "internal_links": [
+        "search-discovery-workflow-for-seo-agencies",
+        "saas-content-indexing-workflow",
+        "sitemap-indexing-checklist",
+        "internal-linking-for-indexing"
+      ],
+      "image_concept": "Documentation site map with docs cards, changelog cards, internal links, and sitemap discovery route.",
+      "hero_template": 2,
+      "publish_schedule_local": "2026-05-23 10:00 Africa/Cairo",
+      "publish_schedule_utc": "2026-05-23T07:00:00Z"
+    },
+    {
+      "title": "Manual URL Submission vs Bulk Indexing Workflow",
+      "slug": "manual-url-submission-vs-bulk-indexing-workflow",
+      "category": "comparisons",
+      "tags": [
+        "comparison",
+        "url-submission",
+        "bulk-indexing",
+        "indexing-tools",
+        "seo-operators",
+        "buying-guide"
+      ],
+      "primary_icp": "Tool/API Evaluator",
+      "secondary_icp": "SEO Agency",
+      "funnel_stage": "bottom",
+      "search_intent": "Compare manual URL submission with a bulk indexing workflow and decide when each makes sense.",
+      "primary_keyword": "manual URL submission vs bulk indexing",
+      "secondary_keywords": [
+        "bulk indexing workflow",
+        "manual URL submission",
+        "indexing tool comparison"
+      ],
+      "target_cta": "Choose manual work for rare URLs and a structured queue when submission becomes recurring.",
+      "internal_links": [
+        "best-google-indexing-tools",
+        "bulk-url-operations-workflow",
+        "url-submission-checklist-before-indexing",
+        "free-url-indexer-vs-paid-indexing-tool"
+      ],
+      "image_concept": "Split decision dashboard comparing one manual URL card against a bulk queue and tracking workflow.",
+      "hero_template": 3,
+      "publish_schedule_local": "2026-05-23 14:00 Africa/Cairo",
+      "publish_schedule_utc": "2026-05-23T11:00:00Z"
+    },
+    {
+      "title": "Desktop Indexer vs Online Indexing Tool",
+      "slug": "desktop-indexer-vs-online-indexing-tool",
+      "category": "comparisons",
+      "tags": [
+        "comparison",
+        "desktop-app",
+        "indexing-tools",
+        "url-indexing",
+        "bulk-url-operations",
+        "buying-guide"
+      ],
+      "primary_icp": "Tool/API Evaluator",
+      "secondary_icp": "Blog Or Network Owner",
+      "funnel_stage": "bottom",
+      "search_intent": "Compare desktop indexing software with online indexing tools for repeat URL and backlink workflows.",
+      "primary_keyword": "desktop indexer vs online indexing tool",
+      "secondary_keywords": [
+        "desktop indexing software",
+        "online indexing tool",
+        "FreeIndexer desktop app"
+      ],
+      "target_cta": "Pick the workflow that matches your list management, privacy, and batching needs.",
+      "internal_links": [
+        "best-google-indexing-tools",
+        "freeindexer-desktop-app-guide",
+        "windows-url-indexing-software-workflow",
+        "manual-url-submission-vs-bulk-indexing-workflow"
+      ],
+      "image_concept": "Comparison between a desktop app window and online dashboard with shared URL queue cards.",
+      "hero_template": 3,
+      "publish_schedule_local": "2026-05-24 06:00 Africa/Cairo",
+      "publish_schedule_utc": "2026-05-24T03:00:00Z"
+    },
+    {
+      "title": "SEO Platform vs Indexing Tool",
+      "slug": "seo-platform-vs-indexing-tool",
+      "category": "comparisons",
+      "tags": [
+        "comparison",
+        "indexing-tools",
+        "seo",
+        "technical-seo",
+        "buying-guide",
+        "seo-agencies"
+      ],
+      "primary_icp": "Tool/API Evaluator",
+      "secondary_icp": "SEO Operator",
+      "funnel_stage": "bottom",
+      "search_intent": "Understand the difference between broad SEO platforms and focused indexing tools.",
+      "primary_keyword": "SEO platform vs indexing tool",
+      "secondary_keywords": [
+        "indexing tool comparison",
+        "SEO platform comparison",
+        "technical SEO tools"
+      ],
+      "target_cta": "Use SEO platforms for diagnosis and reporting, then use indexing tools for qualified repeat submission workflows.",
+      "internal_links": [
+        "best-google-indexing-tools",
+        "google-search-console-vs-indexing-tool",
+        "technical-seo-indexing-audit",
+        "freeindexer-vs-indexing-api"
+      ],
+      "image_concept": "Decision board comparing a broad SEO analytics platform with a focused URL submission queue.",
+      "hero_template": 3,
+      "publish_schedule_local": "2026-05-24 10:00 Africa/Cairo",
+      "publish_schedule_utc": "2026-05-24T07:00:00Z"
+    },
+    {
+      "title": "Google Not Crawling My Sitemap URLs",
+      "slug": "google-not-crawling-my-sitemap-urls",
+      "category": "troubleshooting",
+      "tags": [
+        "troubleshooting",
+        "sitemap",
+        "googlebot",
+        "crawlability",
+        "google-search-console",
+        "webmasters"
+      ],
+      "primary_icp": "Webmaster",
+      "secondary_icp": "Website Owner",
+      "funnel_stage": "top",
+      "search_intent": "Diagnose why Google may not be crawling URLs listed in your sitemap.",
+      "primary_keyword": "Google not crawling sitemap URLs",
+      "secondary_keywords": [
+        "sitemap URLs not crawled",
+        "Google not crawling my sitemap",
+        "sitemap crawl issue"
+      ],
+      "target_cta": "Check sitemap quality, crawlability, internal links, and URL value before resubmitting the sitemap.",
+      "internal_links": [
+        "why-google-is-not-indexing-my-url",
+        "sitemap-not-discovered",
+        "search-console-sitemap-errors",
+        "sitemap-indexing-checklist"
+      ],
+      "image_concept": "Troubleshooting dashboard showing sitemap URL cards paused at crawl checkpoints with orange fix path.",
+      "hero_template": 1,
+      "publish_schedule_local": "2026-05-24 14:00 Africa/Cairo",
+      "publish_schedule_utc": "2026-05-24T11:00:00Z"
+    },
+    {
+      "title": "Canonical Selected By Google: What To Do",
+      "slug": "canonical-selected-by-google-not-user",
+      "category": "troubleshooting",
+      "tags": [
+        "troubleshooting",
+        "canonical-tags",
+        "technical-seo",
+        "google-search-console",
+        "indexing",
+        "seo-operators"
+      ],
+      "primary_icp": "SEO Operator",
+      "secondary_icp": "Webmaster",
+      "funnel_stage": "top",
+      "search_intent": "Understand the Search Console canonical message and decide how to fix or accept it.",
+      "primary_keyword": "canonical selected by Google not user",
+      "secondary_keywords": [
+        "Google selected canonical",
+        "canonical mismatch Search Console",
+        "canonical troubleshooting"
+      ],
+      "target_cta": "Compare duplicate patterns, internal links, sitemap entries, and canonical tags before resubmitting URLs.",
+      "internal_links": [
+        "why-google-is-not-indexing-my-url",
+        "canonical-tags-and-indexing",
+        "url-inspection-statuses-explained",
+        "page-crawled-but-not-indexed"
+      ],
+      "image_concept": "Two competing URL cards with one canonical route selected and a checklist for correction.",
+      "hero_template": 1,
+      "publish_schedule_local": "2026-05-25 06:00 Africa/Cairo",
+      "publish_schedule_utc": "2026-05-25T03:00:00Z"
+    },
+    {
+      "title": "Indexed Page Disappeared From Google",
+      "slug": "indexed-page-disappeared-from-google",
+      "category": "troubleshooting",
+      "tags": [
+        "troubleshooting",
+        "google-indexing",
+        "search-visibility",
+        "technical-seo",
+        "website-owners",
+        "guide"
+      ],
+      "primary_icp": "Website Owner",
+      "secondary_icp": "SEO Operator",
+      "funnel_stage": "top",
+      "search_intent": "Troubleshoot why a page that used to appear in Google may no longer be visible.",
+      "primary_keyword": "indexed page disappeared from Google",
+      "secondary_keywords": [
+        "page disappeared from Google",
+        "Google deindexed page",
+        "indexed page not showing"
+      ],
+      "target_cta": "Confirm whether the page is actually deindexed, canonicalized, blocked, or simply not ranking before taking action.",
+      "internal_links": [
+        "why-google-is-not-indexing-my-url",
+        "url-indexing-vs-ranking",
+        "url-inspection-statuses-explained",
+        "submitted-url-not-indexed"
+      ],
+      "image_concept": "Search visibility monitor with a page card moving from visible to review path and diagnostic checkpoints.",
+      "hero_template": 1,
+      "publish_schedule_local": "2026-05-25 10:00 Africa/Cairo",
+      "publish_schedule_utc": "2026-05-25T07:00:00Z"
+    },
+    {
+      "title": "URL Inventory Management For SEO Teams",
+      "slug": "url-inventory-management-for-seo-teams",
+      "category": "bulk-seo-operations",
+      "tags": [
+        "bulk-url-operations",
+        "bulk-indexing",
+        "seo-operators",
+        "seo-agencies",
+        "webmaster-workflow",
+        "guide"
+      ],
+      "primary_icp": "SEO Agency",
+      "secondary_icp": "Programmatic SEO Builder",
+      "funnel_stage": "middle",
+      "search_intent": "Build a URL inventory system that helps SEO teams prioritize discovery, fixes, and submissions.",
+      "primary_keyword": "URL inventory management",
+      "secondary_keywords": [
+        "SEO URL inventory",
+        "bulk URL management",
+        "URL tracking workflow"
+      ],
+      "target_cta": "Use URL inventory fields to decide which batches deserve technical fixes, internal links, submission, or no action.",
+      "internal_links": [
+        "bulk-url-operations-workflow",
+        "how-to-prioritize-urls-for-indexing",
+        "programmatic-seo-indexing-workflow",
+        "daily-indexing-points-planning"
+      ],
+      "image_concept": "Large URL inventory table grouped into priority tiers and flowing into batch submission lanes.",
+      "hero_template": 2,
+      "publish_schedule_local": "2026-05-25 14:00 Africa/Cairo",
+      "publish_schedule_utc": "2026-05-25T11:00:00Z"
+    },
+    {
+      "title": "Batch URL Submission Workflow",
+      "slug": "batch-url-submission-workflow",
+      "category": "bulk-seo-operations",
+      "tags": [
+        "bulk-indexing",
+        "bulk-url-operations",
+        "url-submission",
+        "seo-operators",
+        "programmatic-seo",
+        "guide"
+      ],
+      "primary_icp": "Programmatic SEO Builder",
+      "secondary_icp": "SEO Agency",
+      "funnel_stage": "middle",
+      "search_intent": "Create a batch URL submission workflow that avoids low-quality bulk submission habits.",
+      "primary_keyword": "batch URL submission workflow",
+      "secondary_keywords": [
+        "bulk URL submission",
+        "batch indexing workflow",
+        "programmatic SEO indexing"
+      ],
+      "target_cta": "Process URL batches through quality, crawlability, and priority gates before submitting them.",
+      "internal_links": [
+        "bulk-url-operations-workflow",
+        "url-inventory-management-for-seo-teams",
+        "daily-indexing-points-planning",
+        "programmatic-seo-indexing-workflow"
+      ],
+      "image_concept": "Batch queue with URL cards passing through quality gates into scheduled submission groups.",
+      "hero_template": 2,
+      "publish_schedule_local": "2026-05-26 06:00 Africa/Cairo",
+      "publish_schedule_utc": "2026-05-26T03:00:00Z"
+    },
+    {
+      "title": "Windows URL Indexing Software Workflow",
+      "slug": "windows-url-indexing-software-workflow",
+      "category": "desktop-app",
+      "tags": [
+        "desktop-app",
+        "free-indexer",
+        "url-indexing",
+        "bulk-url-operations",
+        "indexing-tools",
+        "guide"
+      ],
+      "primary_icp": "Blog Or Network Owner",
+      "secondary_icp": "SEO Operator",
+      "funnel_stage": "bottom",
+      "search_intent": "Use Windows desktop indexing software as part of a repeatable URL and backlink workflow.",
+      "primary_keyword": "Windows URL indexing software",
+      "secondary_keywords": [
+        "desktop URL indexer",
+        "FreeIndexer desktop workflow",
+        "Windows indexing tool"
+      ],
+      "target_cta": "Use the desktop workflow when local lists, repeat batches, and hands-on control matter more than one-off submission.",
+      "internal_links": [
+        "freeindexer-desktop-app-guide",
+        "desktop-indexer-vs-online-indexing-tool",
+        "bulk-url-operations-workflow",
+        "daily-indexing-points-planning"
+      ],
+      "image_concept": "Windows-style desktop app window with local URL list, batch controls, and orange action state.",
+      "hero_template": 3,
+      "publish_schedule_local": "2026-05-26 10:00 Africa/Cairo",
+      "publish_schedule_utc": "2026-05-26T07:00:00Z"
+    },
+    {
+      "title": "GEO Readiness Checklist For Website Owners",
+      "slug": "geo-readiness-checklist-for-website-owners",
+      "category": "ai-search-visibility",
+      "tags": [
+        "ai-search",
+        "geo",
+        "llm-visibility",
+        "search-visibility",
+        "technical-seo",
+        "website-owners",
+        "checklist"
+      ],
+      "primary_icp": "Website Owner",
+      "secondary_icp": "SaaS Or Product Team",
+      "funnel_stage": "top",
+      "search_intent": "Prepare website content and technical foundations for broader AI and search visibility without chasing speculative tactics.",
+      "primary_keyword": "GEO readiness checklist",
+      "secondary_keywords": [
+        "AI search visibility checklist",
+        "LLM visibility SEO",
+        "generative engine optimization checklist"
+      ],
+      "target_cta": "Strengthen crawlability, structure, entities, and source pages before treating AI visibility as a separate channel.",
+      "internal_links": [
+        "ai-search-visibility-for-seo-operators",
+        "content-visibility-checklist",
+        "technical-seo-indexing-audit",
+        "how-search-engines-crawl-and-index-pages"
+      ],
+      "image_concept": "AI search visibility readiness board connected to crawlable content, structured pages, and discovery signals.",
+      "hero_template": 1,
+      "publish_schedule_local": "2026-05-26 14:00 Africa/Cairo",
+      "publish_schedule_utc": "2026-05-26T11:00:00Z"
+    }
+  ]
+}
