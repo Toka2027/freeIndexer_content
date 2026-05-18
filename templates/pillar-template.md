@@ -28,6 +28,28 @@ seo:
   meta_title:
   meta_description:
 editorial_review: standard
+content_quality:
+  search_promise:
+  depth_elements:
+    - practical checklist
+    - decision tree
+    - tool/process recommendation section
+  score:
+  checks:
+    search_intent_match:
+    icp_fit:
+    topic_specific_depth:
+    usefulness:
+    originality:
+    practical_examples:
+    clean_layout:
+    natural_freeindexer_mention:
+    internal_links:
+    seo_metadata:
+    no_unsupported_claims:
+image:
+  concept:
+  hero_template:
 ---
 ```
 
@@ -42,6 +64,10 @@ Map the hub to ICPs.
 ## Core Workflow
 
 Give the high-level framework.
+
+## Practical Checklist
+
+Give the hub-level checklist that helps the reader apply the framework.
 
 ## Topics In This Hub
 

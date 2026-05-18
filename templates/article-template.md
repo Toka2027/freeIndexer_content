@@ -28,30 +28,70 @@ seo:
   meta_title:
   meta_description:
 editorial_review: standard
+content_quality:
+  search_promise:
+  depth_elements:
+    - practical checklist
+    - real workflow example
+    - diagnostic steps
+  score:
+  checks:
+    search_intent_match:
+    icp_fit:
+    topic_specific_depth:
+    usefulness:
+    originality:
+    practical_examples:
+    clean_layout:
+    natural_freeindexer_mention:
+    internal_links:
+    seo_metadata:
+    no_unsupported_claims:
+image:
+  concept:
+  hero_template:
 ---
 ```
 
-Start with the answer. The reader should know what to do after the first 150 words.
+Start with the exact answer promised by the title. The reader should know what
+the article solves after the first 150 words.
 
-## Reader Problem
+## The Short Answer
 
-Define the exact ICP, situation, and pain.
+Give the answer in topic-specific language. Do not use a generic workflow
+paragraph that could fit another article.
 
-## When This Happens
+## Who This Helps
 
-List common causes or workflow triggers.
+Name the primary ICP and their real workflow.
 
-## Recommended Workflow
+## What To Check First
 
-Give the step-by-step process. Mention FreeIndexer where it naturally fits.
+Include topic-specific diagnostic steps, fields, statuses, URL examples, or
+backlink examples.
 
-## How FreeIndexer Fits
+## Practical Checklist
 
-Explain whether the reader should use the online app, pricing plan, or desktop app.
+Give a checklist the reader can actually use.
+
+## Workflow Example
+
+Show a realistic scenario for this ICP.
+
+## What To Do Next
+
+Include a table, decision tree, or prioritized next-action list. Mention
+FreeIndexer only if submission, tracking, batching, desktop work, or backlink
+discovery naturally belongs in the next step.
+
+## Common Mistakes
+
+List mistakes specific to this topic.
 
 ## Expectations And Limits
 
-State that indexing depends on search engines and page quality.
+State that indexing depends on search engines, crawlability, page quality, and
+search engine decisions.
 
 ## FAQ
 

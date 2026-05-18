@@ -63,6 +63,20 @@ from content_tools import (
 BLOG_API_EXAMPLE_PATH = ROOT / "reference" / "blog_api.example.json"
 STORAGE_EXAMPLE_PATH = ROOT / "reference" / "hetzner_object_storage.example.json"
 
+QUALITY_CHECKS = [
+    "search_intent_match",
+    "icp_fit",
+    "topic_specific_depth",
+    "usefulness",
+    "originality",
+    "practical_examples",
+    "clean_layout",
+    "natural_freeindexer_mention",
+    "internal_links",
+    "seo_metadata",
+    "no_unsupported_claims",
+]
+
 
 def slugify(value: str) -> str:
     lowered = value.lower().replace("&", " and ")
@@ -343,6 +357,43 @@ def build_payload(
     return payload
 
 
+def enforce_quality_gate(article_path: Path) -> None:
+    article = read_article_file(article_path)
+    quality = article.frontmatter_data.get("content_quality")
+    if not isinstance(quality, dict):
+        raise SystemExit(
+            f"{article.relative_path}: missing content_quality frontmatter. "
+            "Score the article with system/editorial-checklist.md before upload."
+        )
+
+    raw_score = quality.get("score")
+    try:
+        score = float(str(raw_score))
+    except (TypeError, ValueError):
+        raise SystemExit(f"{article.relative_path}: content_quality.score must be numeric.") from None
+    if score < 9:
+        raise SystemExit(
+            f"{article.relative_path}: content_quality.score is {score:g}. "
+            "Do not upload articles below 9/10."
+        )
+
+    depth_elements = quality.get("depth_elements")
+    if not isinstance(depth_elements, list) or len(depth_elements) < 3:
+        raise SystemExit(
+            f"{article.relative_path}: content_quality.depth_elements must include at least 3 items."
+        )
+
+    checks = quality.get("checks")
+    if not isinstance(checks, dict):
+        raise SystemExit(f"{article.relative_path}: content_quality.checks is required.")
+    missing = [name for name in QUALITY_CHECKS if checks.get(name) is not True]
+    if missing:
+        raise SystemExit(
+            f"{article.relative_path}: quality checks must be true before upload: "
+            + ", ".join(missing)
+        )
+
+
 def upload_image(slug: str, dry_run: bool = False) -> str:
     hero_path = resolve_hero_image_source_path(slug)
     if dry_run:
@@ -512,6 +563,8 @@ def main() -> int:
         return 0
 
     if args.upload_image:
+        if not args.dry_run:
+            enforce_quality_gate(article_path)
         upload_image(slug, dry_run=args.dry_run)
         return 0
 
@@ -524,6 +577,7 @@ def main() -> int:
 
     taxonomy_live = load_taxonomy_live()
     if not args.dry_run:
+        enforce_quality_gate(article_path)
         validate_taxonomy_ids(article, taxonomy_live)
 
     upload_mode = str(api_config.get("upload_mode") or "draft")
@@ -576,6 +630,7 @@ def main() -> int:
             "draft_status": status,
             "blog_post_id": post_id,
             "published_url": published_url,
+            "live_date": args.published_at if status == "scheduled" else "",
             "notes": "Draft synced through signed 99sync API.",
         },
     )

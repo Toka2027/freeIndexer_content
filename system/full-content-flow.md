@@ -11,15 +11,16 @@ taxonomy has been synced.
 | Step | Command | Output |
 |---|---|---|
 | 1. Create article | Edit `content/**/{slug}.md` | article markdown |
-| 2. Validate article | `python scripts/validate_content.py` | validation report |
-| 3. Rebuild pipeline | `python scripts/build_master_articles.py` | `pipeline/master-articles.csv` |
-| 4. Generate subject | `python scripts/generate_image.py --slug {slug}` | `images/exports/subjects/{slug}-subject.png` |
-| 5. Build hero | `python scripts/build_hero.py --slug {slug}` | canonical and QA hero files |
-| 6. Review hero | open `images/exports/{slug}-hero.png` | approved/rejected image |
-| 7. Sync taxonomy | `python scripts/sync_blog_taxonomy.py` | live category and tag IDs |
-| 8. Upload hero | `python scripts/prepare_blog_draft.py content/path/{slug}.md --upload-image` | public image URL |
-| 9. Submit draft | `python scripts/prepare_blog_draft.py content/path/{slug}.md` | blog draft |
-| 9. Verify live URL | `python scripts/sync_publishing_tracker.py` | updated tracker |
+| 2. Score article | Add `content_quality.score` and checks | score must be at least 9/10 |
+| 3. Validate article | `python scripts/validate_content.py` | validation report |
+| 4. Rebuild pipeline | `python scripts/build_master_articles.py` | `pipeline/master-articles.csv` |
+| 5. Generate subject | `python scripts/generate_image.py --slug {slug}` | `images/exports/subjects/{slug}-subject.png` |
+| 6. Build hero | `python scripts/build_hero.py --slug {slug}` | canonical and QA hero files |
+| 7. Review hero | open `images/exports/{slug}-hero.png` | approved/rejected image |
+| 8. Sync taxonomy | `python scripts/sync_blog_taxonomy.py` | live category and tag IDs |
+| 9. Upload hero | `python scripts/prepare_blog_draft.py content/path/{slug}.md --upload-image` | public image URL |
+| 10. Submit draft | `python scripts/prepare_blog_draft.py content/path/{slug}.md` | blog draft |
+| 11. Verify live URL | `python scripts/sync_publishing_tracker.py` | updated tracker |
 
 Readiness audit without generating images or uploading anything:
 
@@ -45,6 +46,11 @@ Article files live under:
 
 ## 2. Validate Article
 
+Before validation, score the article using
+[system/editorial-checklist.md](editorial-checklist.md). Any article uploaded
+or scheduled through `prepare_blog_draft.py` must have
+`content_quality.score >= 9`.
+
 ```powershell
 python scripts/validate_content.py
 ```
@@ -52,10 +58,14 @@ python scripts/validate_content.py
 The validator checks:
 
 - required frontmatter fields
+- scored article quality metadata
+- at least three depth elements for scored articles
 - slug matches filename
 - required metadata fields
 - no unvalidated guarantee language
 - first internal link exists for cluster articles
+- no internal planning headings in public body copy
+- FAQ questions use `###`
 
 ## 3. Rebuild Pipeline CSV
 

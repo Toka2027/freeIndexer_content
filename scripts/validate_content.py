@@ -68,6 +68,29 @@ FORBIDDEN_HEADINGS = [
     "Internal Notes",
 ]
 
+GENERIC_TEMPLATE_PHRASES = [
+    "is a practical workflow guide for",
+    "without turning every indexing issue into a product problem",
+    "should be handled as a workflow, not as a one-click fix",
+    "the exact checks change by topic, but the operating principle stays the same",
+    "this kind of example matters because it turns seo advice into an operating habit",
+    "keep the workflow honest: check the url",
+]
+
+QUALITY_CHECKS = [
+    "search_intent_match",
+    "icp_fit",
+    "topic_specific_depth",
+    "usefulness",
+    "originality",
+    "practical_examples",
+    "clean_layout",
+    "natural_freeindexer_mention",
+    "internal_links",
+    "seo_metadata",
+    "no_unsupported_claims",
+]
+
 
 def extract_frontmatter(text: str) -> str | None:
     match = re.match(r"^\ufeff?---\s*\n(.*?)\n---\s*\n", text, flags=re.S)
@@ -107,6 +130,71 @@ def frontmatter_list(frontmatter: str, key: str) -> list[str]:
         if item.startswith("- "):
             values.append(item[2:].strip().strip('"').strip("'"))
     return values
+
+
+def frontmatter_block(frontmatter: str, key: str) -> str:
+    match = re.search(
+        rf"^\s*{re.escape(key)}:\s*\n(.*?)(?=^[A-Za-z_][A-Za-z0-9_]*:\s*|\Z)",
+        frontmatter,
+        flags=re.M | re.S,
+    )
+    return match.group(1) if match else ""
+
+
+def block_scalar(block: str, key: str) -> str:
+    match = re.search(rf"^\s*{re.escape(key)}:\s*(.+)$", block, flags=re.M)
+    return match.group(1).strip().strip('"').strip("'") if match else ""
+
+
+def block_list(block: str, key: str) -> list[str]:
+    match = re.search(rf"^\s*{re.escape(key)}:\s*\n((?:\s+-\s+.+\n?)+)", block, flags=re.M)
+    if not match:
+        return []
+    return [
+        line.strip()[2:].strip().strip('"').strip("'")
+        for line in match.group(1).splitlines()
+        if line.strip().startswith("- ")
+    ]
+
+
+def is_true_in_block(block: str, key: str) -> bool:
+    return bool(re.search(rf"^\s*{re.escape(key)}:\s*(true|yes|1)\s*$", block, flags=re.M | re.I))
+
+
+def validate_content_quality(rel: Path, fm: str, text: str, errors: list[str]) -> None:
+    quality = frontmatter_block(fm, "content_quality")
+    if not quality:
+        return
+
+    promise = block_scalar(quality, "search_promise")
+    if not promise:
+        errors.append(f"{rel}: content_quality.search_promise is required")
+
+    score_text = block_scalar(quality, "score")
+    try:
+        score = float(score_text)
+    except ValueError:
+        errors.append(f"{rel}: content_quality.score must be numeric")
+        score = 0.0
+    if score < 9:
+        errors.append(f"{rel}: content_quality.score must be at least 9 before upload")
+
+    depth_elements = block_list(quality, "depth_elements")
+    if len(depth_elements) < 3:
+        errors.append(f"{rel}: content_quality.depth_elements must include at least 3 items")
+
+    for check in QUALITY_CHECKS:
+        if not is_true_in_block(quality, check):
+            errors.append(f"{rel}: content_quality.checks.{check} must be true")
+
+    lower_body = text.lower()
+    for phrase in GENERIC_TEMPLATE_PHRASES:
+        if phrase in lower_body:
+            errors.append(f"{rel}: remove generic template phrase '{phrase}'")
+
+    for slug in frontmatter_list(fm, "internal_links"):
+        if f"](/{slug})" not in text:
+            errors.append(f"{rel}: internal link '{slug}' must appear as a Markdown body link")
 
 
 def main() -> int:
@@ -158,6 +246,8 @@ def main() -> int:
                 errors.append(
                     f"{rel}: FAQ question '{question.group(1).strip()}' must use ###, not ##"
                 )
+
+        validate_content_quality(rel, fm, text, errors)
 
     for warning in warnings:
         print(f"WARNING: {warning}")
