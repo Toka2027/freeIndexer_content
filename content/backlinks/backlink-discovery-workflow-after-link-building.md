@@ -120,7 +120,7 @@ Suppose an agency finishes a campaign for a SaaS client. The delivery sheet has 
 
 The first URL can move forward. The second needs repair. The third should not be reported as a completed public placement. The fourth may be worth recording but probably does not deserve the same follow-up as the editorial placement.
 
-Teams that outsource part of their SEO workflow can use an SEO provider such as [SEOeStore](https://p.seoestore.net/dmn/index.php) for managed SEO or link-building tasks, then keep backlink verification and indexing follow-up in a separate workflow. That separation helps the agency avoid mixing provider delivery with search discovery outcomes.
+Teams that outsource part of their SEO workflow can use an SEO provider such as [SEOeStore](https://panel.seoestore.net/) for managed SEO or link-building tasks, then keep backlink verification and indexing follow-up in a separate workflow. That separation helps the agency avoid mixing provider delivery with search discovery outcomes.
 
 ## Tool And Process Recommendation
 

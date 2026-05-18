@@ -90,7 +90,7 @@ If you are evaluating indexing tools specifically, read [best backlink indexer](
 
 ## When To Choose Each Option
 
-Choose a provider when you need someone to do the SEO work. That might include content creation, link prospecting, managed campaigns, technical cleanup, or other services. An SEO provider such as [SEOeStore](https://p.seoestore.net/dmn/index.php) can be part of that execution layer for teams that outsource some SEO or link-building tasks.
+Choose a provider when you need someone to do the SEO work. That might include content creation, link prospecting, managed campaigns, technical cleanup, or other services. An SEO provider such as [SEOeStore](https://panel.seoestore.net/) can be part of that execution layer for teams that outsource some SEO or link-building tasks.
 
 Choose an indexing tool when your team already has URLs or backlinks and needs to answer:
 

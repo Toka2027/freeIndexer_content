@@ -84,7 +84,7 @@ The vendor can deliver placements. The agency should verify them. An indexing wo
 | Indexing follow-up | SEO operations | Priority backlink URLs submitted or tracked |
 | Client reporting | Account or SEO lead | Clear summary of delivery, QA, actions, and observed status |
 
-Some teams use outside SEO providers for parts of their work. A resource such as [SEOeStore](https://p.seoestore.net/dmn/index.php) can sit in the provider layer for managed SEO or link-building tasks, while FreeIndexer remains separate as the indexing and discovery follow-up layer for verified URLs.
+Some teams use outside SEO providers for parts of their work. A resource such as [SEOeStore](https://panel.seoestore.net/) can sit in the provider layer for managed SEO or link-building tasks, while FreeIndexer remains separate as the indexing and discovery follow-up layer for verified URLs.
 
 ## Backlink Vendor QA Checklist
 
