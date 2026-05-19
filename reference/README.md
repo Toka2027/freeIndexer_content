@@ -21,7 +21,8 @@ object storage values. Do not invent these values.
 
 Real upload cannot run until these values are provided:
 
-- blog API endpoint, usually `https://blogs.99sync.com/api`
+- blog API endpoint, usually `https://blogs.99sync.com`; configs that already
+  include `/api` are still supported.
 - application_id
 - api_key
 - secret_key
@@ -74,6 +75,25 @@ The local `reference/blog_api.json` in this workspace now has the non-secret
 FreeIndexer values that were provided: application ID `29`, author ID `20`,
 draft mode, and `https://blog.freeindexer.com/`. The API key/secret should be
 supplied through `.env` or filled locally in the ignored config file.
+
+## Central Blogs API Notes
+
+`blogs_center.postman_collection.json` documents the current signed API shape.
+The Python client supports the collection's `{{baseUrl}}/api/...` convention and
+the older `base_url` value that already ends with `/api`.
+
+Available signed resources in the collection:
+
+- `blogs`: list/create/update through the existing publishing flow.
+- `categories`: list/create/update/delete, including `min_description` and
+  `image` fields.
+- `tags`: list/create/update/delete, including `min_description` and `image`
+  fields.
+- `authors`: list/create/show/update/delete.
+- `series`: list/create/show/update/delete with ordered blog items.
+
+Taxonomy sync now sends `min_description` and `image` when present in
+`blog_taxonomy.json`, and derives a short description when it is missing.
 
 ## Publishing Flow
 

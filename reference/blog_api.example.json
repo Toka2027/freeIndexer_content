@@ -1,6 +1,6 @@
 {
   "api_flow": "99sync",
-  "base_url": "https://blogs.99sync.com/api",
+  "base_url": "https://blogs.99sync.com",
   "application_id": "FILL_IN_FREEINDEXER_APPLICATION_ID",
   "api_key": "FILL_IN_99SYNC_APPLICATION_KEY",
   "secret_key": "FILL_IN_99SYNC_SECRET_KEY",

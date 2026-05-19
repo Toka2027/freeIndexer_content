@@ -39,6 +39,10 @@ def truncate(value: str, limit: int = 255) -> str:
     return value if len(value) <= limit else value[: limit - 3].rstrip() + "..."
 
 
+def derive_min_description(description: str, fallback: str) -> str:
+    return truncate(description or fallback, 160)
+
+
 def validate_taxonomy(taxonomy: dict[str, Any]) -> list[str]:
     errors: list[str] = []
     for group in ("categories", "tags"):
@@ -157,20 +161,42 @@ def main() -> int:
         slug = cat["slug"]
         name = cat["name"]
         description = truncate(cat.get("description", ""))
+        min_description = truncate(
+            cat.get("min_description", "")
+            or derive_min_description(description, f"{name} articles and practical FreeIndexer workflows.")
+        )
         meta_title, meta_description = derive_category_meta(name, description)
+        image = str(cat.get("image", "")).strip()
         if slug in existing_cats:
             cat_id = existing_cats[slug]
             live["categories"][slug] = cat_id
             if args.dry_run:
                 print(f"  would update category {slug} (id={cat_id})")
             else:
-                client.update_category(cat_id, name, slug, description, meta_title, meta_description)
+                client.update_category(
+                    cat_id,
+                    name,
+                    slug,
+                    description,
+                    meta_title,
+                    meta_description,
+                    min_description=min_description,
+                    image=image,
+                )
                 print(f"  updated {slug} -> id={cat_id}")
                 time.sleep(0.25)
         elif args.dry_run:
             print(f"  would create category {slug}")
         else:
-            resp = client.create_category(name, slug, description, meta_title, meta_description)
+            resp = client.create_category(
+                name,
+                slug,
+                description,
+                meta_title,
+                meta_description,
+                min_description=min_description,
+                image=image,
+            )
             cat_id = (resp.get("data") or {}).get("id")
             if not cat_id:
                 raise RuntimeError(f"Unexpected create_category response for {slug}: {resp}")
@@ -184,19 +210,41 @@ def main() -> int:
         name = tag["name"]
         group = tag.get("group", "")
         description, meta_title, meta_description = derive_tag_meta(name, group)
+        min_description = truncate(
+            tag.get("min_description", "")
+            or derive_min_description(description, f"{name} articles from FreeIndexer.")
+        )
+        image = str(tag.get("image", "")).strip()
         if slug in existing_tags:
             tag_id = existing_tags[slug]
             live["tags"][slug] = tag_id
             if args.dry_run:
                 print(f"  would update tag {slug} (id={tag_id})")
             else:
-                client.update_tag(tag_id, name, slug, description, meta_title, meta_description)
+                client.update_tag(
+                    tag_id,
+                    name,
+                    slug,
+                    description,
+                    meta_title,
+                    meta_description,
+                    min_description=min_description,
+                    image=image,
+                )
                 print(f"  updated {slug} -> id={tag_id}")
                 time.sleep(0.25)
         elif args.dry_run:
             print(f"  would create tag {slug}")
         else:
-            resp = client.create_tag(name, slug, description, meta_title, meta_description)
+            resp = client.create_tag(
+                name,
+                slug,
+                description,
+                meta_title,
+                meta_description,
+                min_description=min_description,
+                image=image,
+            )
             tag_id = (resp.get("data") or {}).get("id")
             if not tag_id:
                 raise RuntimeError(f"Unexpected create_tag response for {slug}: {resp}")

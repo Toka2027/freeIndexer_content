@@ -1,0 +1,726 @@
+{
+  "info": {
+    "_postman_id": "8f3b7e5f-4d35-4f18-9b4d-7fcbf7f1a001",
+    "name": "Central Blogs API",
+    "description": "Signed API collection for the protected `blogs`, `categories`, `tags`, and `authors` resources.\n\nTranslatable write behavior (important):\n- API write endpoints always persist translatable fields under the authenticated application's resolved language code.\n- Callers may send plain strings or locale-keyed objects; caller locale keys are remapped server-side to the application's language code.\n- Legacy hyphenated SEO aliases are still accepted for backward compatibility.\n\nAuth model — three headers are sent with every request:\n- `X-Application-Key` — identifies the application.\n- `X-Timestamp` — Unix timestamp; generated automatically by the pre-request script.\n- `X-Signature` — HMAC-SHA256 output; generated automatically by the pre-request script.\n\n`secretKey` is read ONLY inside the pre-request script to compute the signature. It is NEVER injected into a request header.\n\nSignature payload format:\n  `{METHOD}\\n{PATH}\\n{TIMESTAMP}\\n{RAW_BODY}`\n\nAlgorithm: `HMAC-SHA256(payload, secretKey)`\n`PATH` must be the API path only, for example `/api/blogs`.\n\nAuto-sign mode (recommended):\n- Set Postman variables `applicationKey` and `secretKey`.\n- The pre-request script calculates `X-Timestamp` and `X-Signature` and injects them automatically.\n- `X-Application-Key` is already in the header as `{{applicationKey}}`.\n\nManual mode:\n- Set `applicationKey` as a Postman variable (or edit the header value directly).\n- Compute `X-Timestamp` and `X-Signature` externally and paste them into the request headers.\n\nCollection behavior:\n- Supports empty bodies for `GET`/`DELETE` and raw JSON bodies for `POST`/`PUT`.\n- Generates a reusable `runId` automatically so names, slugs, and author emails stay unique across repeated test runs.\n- Stores created resource ids in collection variables for follow-up `show`, `update`, and `delete` requests.\n\nRecommended run order:\n1. Create Category\n2. Create Tag\n3. Create Author\n4. Create Blog\n5. Run the matching show/update/delete requests\n\nSecurity note: regenerating the application secret key in Filament immediately invalidates existing signed API clients until they switch to the new secret key.",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+    "_exporter_id": "codex"
+  },
+  "item": [
+    {
+      "name": "Categories",
+      "item": [
+        {
+          "name": "List Categories",
+          "request": {
+            "method": "GET",
+            "header": [
+              { "key": "Accept", "value": "application/json", "type": "text" },
+              { "key": "X-Application-Key", "value": "{{applicationKey}}", "type": "text" }
+            ],
+            "url": {
+              "raw": "{{baseUrl}}/api/categories?application_id={{applicationId}}&per_page=15",
+              "host": ["{{baseUrl}}"],
+              "path": ["api", "categories"],
+              "query": [
+                { "key": "application_id", "value": "{{applicationId}}" },
+                { "key": "per_page", "value": "15" }
+              ]
+            }
+          },
+          "event": [{
+            "listen": "test",
+            "script": {"type": "text/javascript", "exec": [
+              "pm.test('List Categories returns 200', function () { pm.response.to.have.status(200); });",
+              "const body = pm.response.json();",
+              "pm.test('List Categories succeeds', function () { pm.expect(body.success).to.eql(true); });"
+            ]}
+          }]
+        },
+        {
+          "name": "Create Category",
+          "request": {
+            "method": "POST",
+            "header": [
+              { "key": "Accept", "value": "application/json", "type": "text" },
+              { "key": "X-Application-Key", "value": "{{applicationKey}}", "type": "text" },
+              { "key": "Content-Type", "value": "application/json", "type": "text" }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"application_id\": \"{{applicationId}}\",\n  \"categories_name\": {\n    \"en\": \"Postman Category {{runId}}\"\n  },\n  \"slug\": {\n    \"en\": \"postman-category-{{runId}}\"\n  },\n  \"description\": {\n    \"en\": \"Long description for Postman Category {{runId}}.\"\n  },\n  \"min_description\": {\n    \"en\": \"Short category summary for {{runId}}.\"\n  },\n  \"meta_title\": {\n    \"en\": \"Postman Category {{runId}} Articles\"\n  },\n  \"meta_description\": {\n    \"en\": \"Browse Postman Category {{runId}} tutorials and practical guides.\"\n  },\n  \"image\": \"https://example.com/category-{{runId}}.png\",\n  \"is_active\": true\n}",
+              "options": { "raw": { "language": "json" } }
+            },
+            "url": { "raw": "{{baseUrl}}/api/categories", "host": ["{{baseUrl}}"], "path": ["api", "categories"] }
+          },
+          "event": [{
+            "listen": "test",
+            "script": {"type": "text/javascript", "exec": [
+              "pm.test('Create Category returns 201', function () { pm.response.to.have.status(201); });",
+              "const body = pm.response.json();",
+              "pm.test('Create Category stores id and SEO aliases', function () {",
+              "  pm.expect(body.success).to.eql(true);",
+              "  pm.expect(body.data).to.have.property('id');",
+              "  pm.expect(body.data).to.have.property('description');",
+              "  pm.expect(body.data).to.have.property('min_description');",
+              "  pm.expect(body.data).to.have.property('meta_title');",
+              "  pm.expect(body.data).to.have.property('meta_description');",
+              "  pm.expect(body.data).to.have.property('image');",
+              "  pm.collectionVariables.set('categoryId', body.data.id);",
+              "  pm.environment.set('categoryId', String(body.data.id));",
+              "});"
+            ]}
+          }]
+        },
+        {
+          "name": "Update Category",
+          "request": {
+            "method": "PUT",
+            "header": [
+              { "key": "Accept", "value": "application/json", "type": "text" },
+              { "key": "X-Application-Key", "value": "{{applicationKey}}", "type": "text" },
+              { "key": "Content-Type", "value": "application/json", "type": "text" }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"application_id\": \"{{applicationId}}\",\n  \"categories_name\": {\n    \"en\": \"Postman Category Updated {{runId}}\"\n  },\n  \"slug\": {\n    \"en\": \"postman-category-{{runId}}-updated\"\n  },\n  \"description\": {\n    \"en\": \"Updated long description for Postman Category {{runId}}.\"\n  },\n  \"min_description\": {\n    \"en\": \"Updated short category summary for {{runId}}.\"\n  },\n  \"meta_title\": {\n    \"en\": \"Updated Postman Category {{runId}} Articles\"\n  },\n  \"meta_description\": {\n    \"en\": \"Browse the updated Postman Category {{runId}} tutorials and guides.\"\n  },\n  \"image\": \"https://example.com/category-{{runId}}-updated.png\",\n  \"is_active\": true\n}",
+              "options": { "raw": { "language": "json" } }
+            },
+            "url": { "raw": "{{baseUrl}}/api/categories/{{categoryId}}", "host": ["{{baseUrl}}"], "path": ["api", "categories", "{{categoryId}}"] }
+          },
+          "event": [{
+            "listen": "test",
+            "script": {"type": "text/javascript", "exec": [
+              "pm.test('Update Category returns 200', function () { pm.response.to.have.status(200); });",
+              "const body = pm.response.json();",
+              "pm.test('Update Category succeeds', function () { pm.expect(body.success).to.eql(true); });",
+              "pm.test('Update Category returns SEO aliases', function () {",
+              "  pm.expect(body.data).to.have.property('description');",
+              "  pm.expect(body.data).to.have.property('min_description');",
+              "  pm.expect(body.data).to.have.property('meta_title');",
+              "  pm.expect(body.data).to.have.property('meta_description');",
+              "  pm.expect(body.data).to.have.property('image');",
+              "});"
+            ]}
+          }]
+        },
+        {
+          "name": "Delete Category",
+          "request": {
+            "method": "DELETE",
+            "header": [
+              { "key": "Accept", "value": "application/json", "type": "text" },
+              { "key": "X-Application-Key", "value": "{{applicationKey}}", "type": "text" }
+            ],
+            "url": { "raw": "{{baseUrl}}/api/categories/{{categoryId}}", "host": ["{{baseUrl}}"], "path": ["api", "categories", "{{categoryId}}"] }
+          },
+          "event": [{
+            "listen": "test",
+            "script": {"type": "text/javascript", "exec": [
+              "pm.test('Delete Category returns 200', function () { pm.response.to.have.status(200); });",
+              "const body = pm.response.json();",
+              "pm.test('Delete Category succeeds', function () { pm.expect(body.success).to.eql(true); });"
+            ]}
+          }]
+        },
+        {
+          "name": "Create Category - Legacy SEO Keys",
+          "description": "Backward compatibility example using hyphenated SEO aliases.",
+          "request": {
+            "method": "POST",
+            "header": [
+              { "key": "Accept", "value": "application/json", "type": "text" },
+              { "key": "X-Application-Key", "value": "{{applicationKey}}", "type": "text" },
+              { "key": "Content-Type", "value": "application/json", "type": "text" }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"application_id\": \"{{applicationId}}\",\n  \"categories_name\": {\n    \"en\": \"Legacy Category {{runId}}\"\n  },\n  \"slug\": {\n    \"en\": \"legacy-category-{{runId}}\"\n  },\n  \"description\": {\n    \"en\": \"Legacy category long description {{runId}}.\"\n  },\n  \"min-description\": {\n    \"en\": \"Legacy category short summary {{runId}}.\"\n  },\n  \"meta-title\": {\n    \"en\": \"Legacy Category {{runId}} Articles\"\n  },\n  \"meta-description\": {\n    \"en\": \"Browse legacy category {{runId}} tutorials and guides.\"\n  },\n  \"image\": \"https://example.com/legacy-category-{{runId}}.png\",\n  \"is_active\": true\n}",
+              "options": { "raw": { "language": "json" } }
+            },
+            "url": { "raw": "{{baseUrl}}/api/categories", "host": ["{{baseUrl}}"], "path": ["api", "categories"] }
+          }
+        }
+      ]
+    },
+    {
+      "name": "Tags",
+      "item": [
+        {
+          "name": "List Tags",
+          "request": {
+            "method": "GET",
+            "header": [
+              { "key": "Accept", "value": "application/json", "type": "text" },
+              { "key": "X-Application-Key", "value": "{{applicationKey}}", "type": "text" }
+            ],
+            "url": {
+              "raw": "{{baseUrl}}/api/tags?application_id={{applicationId}}&per_page=15",
+              "host": ["{{baseUrl}}"],
+              "path": ["api", "tags"],
+              "query": [
+                { "key": "application_id", "value": "{{applicationId}}" },
+                { "key": "per_page", "value": "15" }
+              ]
+            }
+          },
+          "event": [{
+            "listen": "test",
+            "script": {"type": "text/javascript", "exec": [
+              "pm.test('List Tags returns 200', function () { pm.response.to.have.status(200); });",
+              "const body = pm.response.json();",
+              "pm.test('List Tags succeeds', function () { pm.expect(body.success).to.eql(true); });"
+            ]}
+          }]
+        },
+        {
+          "name": "Create Tag",
+          "request": {
+            "method": "POST",
+            "header": [
+              { "key": "Accept", "value": "application/json", "type": "text" },
+              { "key": "X-Application-Key", "value": "{{applicationKey}}", "type": "text" },
+              { "key": "Content-Type", "value": "application/json", "type": "text" }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"application_id\": \"{{applicationId}}\",\n  \"name\": {\n    \"en\": \"Postman Tag {{runId}}\"\n  },\n  \"slug\": {\n    \"en\": \"postman-tag-{{runId}}\"\n  },\n  \"description\": {\n    \"en\": \"Long description for Postman Tag {{runId}}.\"\n  },\n  \"min_description\": {\n    \"en\": \"Short tag summary for {{runId}}.\"\n  },\n  \"meta_title\": {\n    \"en\": \"Postman Tag {{runId}} Articles\"\n  },\n  \"meta_description\": {\n    \"en\": \"Browse Postman Tag {{runId}} tutorials and backend guides.\"\n  },\n  \"image\": \"https://example.com/tag-{{runId}}.png\",\n  \"is_active\": true\n}",
+              "options": { "raw": { "language": "json" } }
+            },
+            "url": { "raw": "{{baseUrl}}/api/tags", "host": ["{{baseUrl}}"], "path": ["api", "tags"] }
+          },
+          "event": [{
+            "listen": "test",
+            "script": {"type": "text/javascript", "exec": [
+              "pm.test('Create Tag returns 201', function () { pm.response.to.have.status(201); });",
+              "const body = pm.response.json();",
+              "pm.test('Create Tag stores id and SEO aliases', function () {",
+              "  pm.expect(body.success).to.eql(true);",
+              "  pm.expect(body.data).to.have.property('id');",
+              "  pm.expect(body.data).to.have.property('description');",
+              "  pm.expect(body.data).to.have.property('min_description');",
+              "  pm.expect(body.data).to.have.property('meta_title');",
+              "  pm.expect(body.data).to.have.property('meta_description');",
+              "  pm.expect(body.data).to.have.property('image');",
+              "  pm.collectionVariables.set('tagId', body.data.id);",
+              "  pm.environment.set('tagId', String(body.data.id));",
+              "});"
+            ]}
+          }]
+        },
+        {
+          "name": "Update Tag",
+          "request": {
+            "method": "PUT",
+            "header": [
+              { "key": "Accept", "value": "application/json", "type": "text" },
+              { "key": "X-Application-Key", "value": "{{applicationKey}}", "type": "text" },
+              { "key": "Content-Type", "value": "application/json", "type": "text" }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"application_id\": \"{{applicationId}}\",\n  \"name\": {\n    \"en\": \"Postman Tag Updated {{runId}}\"\n  },\n  \"slug\": {\n    \"en\": \"postman-tag-{{runId}}-updated\"\n  },\n  \"description\": {\n    \"en\": \"Updated long description for Postman Tag {{runId}}.\"\n  },\n  \"min_description\": {\n    \"en\": \"Updated short tag summary for {{runId}}.\"\n  },\n  \"meta_title\": {\n    \"en\": \"Updated Postman Tag {{runId}} Articles\"\n  },\n  \"meta_description\": {\n    \"en\": \"Browse the updated Postman Tag {{runId}} tutorials and backend guides.\"\n  },\n  \"image\": \"https://example.com/tag-{{runId}}-updated.png\",\n  \"is_active\": true\n}",
+              "options": { "raw": { "language": "json" } }
+            },
+            "url": { "raw": "{{baseUrl}}/api/tags/{{tagId}}", "host": ["{{baseUrl}}"], "path": ["api", "tags", "{{tagId}}"] }
+          },
+          "event": [{
+            "listen": "test",
+            "script": {"type": "text/javascript", "exec": [
+              "pm.test('Update Tag returns 200', function () { pm.response.to.have.status(200); });",
+              "const body = pm.response.json();",
+              "pm.test('Update Tag succeeds', function () { pm.expect(body.success).to.eql(true); });",
+              "pm.test('Update Tag returns SEO aliases', function () {",
+              "  pm.expect(body.data).to.have.property('description');",
+              "  pm.expect(body.data).to.have.property('min_description');",
+              "  pm.expect(body.data).to.have.property('meta_title');",
+              "  pm.expect(body.data).to.have.property('meta_description');",
+              "  pm.expect(body.data).to.have.property('image');",
+              "});"
+            ]}
+          }]
+        },
+        {
+          "name": "Delete Tag",
+          "request": {
+            "method": "DELETE",
+            "header": [
+              { "key": "Accept", "value": "application/json", "type": "text" },
+              { "key": "X-Application-Key", "value": "{{applicationKey}}", "type": "text" }
+            ],
+            "url": { "raw": "{{baseUrl}}/api/tags/{{tagId}}", "host": ["{{baseUrl}}"], "path": ["api", "tags", "{{tagId}}"] }
+          },
+          "event": [{
+            "listen": "test",
+            "script": {"type": "text/javascript", "exec": [
+              "pm.test('Delete Tag returns 200', function () { pm.response.to.have.status(200); });",
+              "const body = pm.response.json();",
+              "pm.test('Delete Tag succeeds', function () { pm.expect(body.success).to.eql(true); });"
+            ]}
+          }]
+        },
+        {
+          "name": "Create Tag - Legacy SEO Keys",
+          "description": "Backward compatibility example using hyphenated SEO aliases.",
+          "request": {
+            "method": "POST",
+            "header": [
+              { "key": "Accept", "value": "application/json", "type": "text" },
+              { "key": "X-Application-Key", "value": "{{applicationKey}}", "type": "text" },
+              { "key": "Content-Type", "value": "application/json", "type": "text" }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"application_id\": \"{{applicationId}}\",\n  \"name\": {\n    \"en\": \"Legacy Tag {{runId}}\"\n  },\n  \"slug\": {\n    \"en\": \"legacy-tag-{{runId}}\"\n  },\n  \"description\": {\n    \"en\": \"Legacy tag long description {{runId}}.\"\n  },\n  \"min-description\": {\n    \"en\": \"Legacy tag short summary {{runId}}.\"\n  },\n  \"meta-title\": {\n    \"en\": \"Legacy Tag {{runId}} Articles\"\n  },\n  \"meta-description\": {\n    \"en\": \"Browse legacy tag {{runId}} tutorials and guides.\"\n  },\n  \"image\": \"https://example.com/legacy-tag-{{runId}}.png\",\n  \"is_active\": true\n}",
+              "options": { "raw": { "language": "json" } }
+            },
+            "url": { "raw": "{{baseUrl}}/api/tags", "host": ["{{baseUrl}}"], "path": ["api", "tags"] }
+          }
+        }
+      ]
+    },
+    {
+      "name": "Authors",
+      "item": [
+        {
+          "name": "List Authors",
+          "request": {
+            "method": "GET",
+            "header": [
+              { "key": "Accept", "value": "application/json", "type": "text" },
+              { "key": "X-Application-Key", "value": "{{applicationKey}}", "type": "text" }
+            ],
+            "url": {
+              "raw": "{{baseUrl}}/api/authors?application_id={{applicationId}}&per_page=15",
+              "host": ["{{baseUrl}}"],
+              "path": ["api", "authors"],
+              "query": [
+                { "key": "application_id", "value": "{{applicationId}}" },
+                { "key": "per_page", "value": "15" }
+              ]
+            }
+          },
+          "event": [{
+            "listen": "test",
+            "script": {"type": "text/javascript", "exec": [
+              "pm.test('List Authors returns 200', function () { pm.response.to.have.status(200); });",
+              "const body = pm.response.json();",
+              "pm.test('List Authors succeeds', function () { pm.expect(body.success).to.eql(true); });"
+            ]}
+          }]
+        },
+        {
+          "name": "Create Author",
+          "request": {
+            "method": "POST",
+            "header": [
+              { "key": "Accept", "value": "application/json", "type": "text" },
+              { "key": "X-Application-Key", "value": "{{applicationKey}}", "type": "text" },
+              { "key": "Content-Type", "value": "application/json", "type": "text" }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"application_id\": \"{{applicationId}}\",\n  \"name\": \"Postman Author {{runId}}\",\n  \"email\": \"postman.author.{{runId}}@example.com\",\n  \"description\": \"Created from Postman run {{runId}}.\",\n  \"image\": \"https://example.com/author.jpg\",\n  \"is_active\": true\n}",
+              "options": { "raw": { "language": "json" } }
+            },
+            "url": { "raw": "{{baseUrl}}/api/authors", "host": ["{{baseUrl}}"], "path": ["api", "authors"] }
+          },
+          "event": [{
+            "listen": "test",
+            "script": {"type": "text/javascript", "exec": [
+              "pm.test('Create Author returns 201', function () { pm.response.to.have.status(201); });",
+              "const body = pm.response.json();",
+              "pm.test('Create Author stores id', function () {",
+              "  pm.expect(body.success).to.eql(true);",
+              "  pm.expect(body.data).to.have.property('id');",
+              "  pm.collectionVariables.set('authorId', body.data.id);",
+              "  pm.environment.set('authorId', String(body.data.id));",
+              "});"
+            ]}
+          }]
+        },
+        {
+          "name": "Show Author",
+          "request": {
+            "method": "GET",
+            "header": [
+              { "key": "Accept", "value": "application/json", "type": "text" },
+              { "key": "X-Application-Key", "value": "{{applicationKey}}", "type": "text" }
+            ],
+            "url": { "raw": "{{baseUrl}}/api/authors/{{authorId}}", "host": ["{{baseUrl}}"], "path": ["api", "authors", "{{authorId}}"] }
+          },
+          "event": [{"listen": "test", "script": {"type": "text/javascript", "exec": [
+            "pm.test('Show Author returns 200', function () { pm.response.to.have.status(200); });",
+            "const body = pm.response.json();",
+            "pm.test('Show Author succeeds', function () { pm.expect(body.success).to.eql(true); });"
+          ]}}]
+        },
+        {
+          "name": "Update Author",
+          "request": {
+            "method": "PUT",
+            "header": [
+              { "key": "Accept", "value": "application/json", "type": "text" },
+              { "key": "X-Application-Key", "value": "{{applicationKey}}", "type": "text" },
+              { "key": "Content-Type", "value": "application/json", "type": "text" }
+            ],
+            "body": {"mode": "raw", "raw": "{\n  \"application_id\": \"{{applicationId}}\",\n  \"name\": \"Postman Author Updated {{runId}}\",\n  \"email\": \"postman.author.updated.{{runId}}@example.com\",\n  \"description\": \"Updated from Postman run {{runId}}.\",\n  \"image\": \"https://example.com/author-updated.jpg\",\n  \"is_active\": true\n}", "options": {"raw": {"language": "json"}}},
+            "url": { "raw": "{{baseUrl}}/api/authors/{{authorId}}", "host": ["{{baseUrl}}"], "path": ["api", "authors", "{{authorId}}"] }
+          },
+          "event": [{"listen": "test", "script": {"type": "text/javascript", "exec": [
+            "pm.test('Update Author returns 200', function () { pm.response.to.have.status(200); });",
+            "const body = pm.response.json();",
+            "pm.test('Update Author succeeds', function () { pm.expect(body.success).to.eql(true); });"
+          ]}}]
+        },
+        {
+          "name": "Delete Author",
+          "request": {
+            "method": "DELETE",
+            "header": [
+              { "key": "Accept", "value": "application/json", "type": "text" },
+              { "key": "X-Application-Key", "value": "{{applicationKey}}", "type": "text" }
+            ],
+            "url": { "raw": "{{baseUrl}}/api/authors/{{authorId}}", "host": ["{{baseUrl}}"], "path": ["api", "authors", "{{authorId}}"] }
+          },
+          "event": [{"listen": "test", "script": {"type": "text/javascript", "exec": [
+            "pm.test('Delete Author returns 200', function () { pm.response.to.have.status(200); });",
+            "const body = pm.response.json();",
+            "pm.test('Delete Author succeeds', function () { pm.expect(body.success).to.eql(true); });"
+          ]}}]
+        }
+      ]
+    },
+    {
+      "name": "Series",
+      "item": [
+        {
+          "name": "List Series",
+          "request": {
+            "method": "GET",
+            "header": [
+              { "key": "Accept", "value": "application/json", "type": "text" },
+              { "key": "X-Application-Key", "value": "{{applicationKey}}", "type": "text" }
+            ],
+            "url": {
+              "raw": "{{baseUrl}}/api/series?application_id={{applicationId}}&per_page=15",
+              "host": ["{{baseUrl}}"],
+              "path": ["api", "series"],
+              "query": [
+                { "key": "application_id", "value": "{{applicationId}}" },
+                { "key": "per_page", "value": "15" }
+              ]
+            }
+          },
+          "event": [{
+            "listen": "test",
+            "script": {"type": "text/javascript", "exec": [
+              "pm.test('List Series returns 200', function () { pm.response.to.have.status(200); });",
+              "const body = pm.response.json();",
+              "pm.test('List Series succeeds', function () { pm.expect(body.success).to.eql(true); });"
+            ]}
+          }]
+        },
+        {
+          "name": "Create Series",
+          "request": {
+            "method": "POST",
+            "header": [
+              { "key": "Accept", "value": "application/json", "type": "text" },
+              { "key": "X-Application-Key", "value": "{{applicationKey}}", "type": "text" },
+              { "key": "Content-Type", "value": "application/json", "type": "text" }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"application_id\": \"{{applicationId}}\",\n  \"name\": {\n    \"en\": \"Automation Basics {{runId}}\"\n  },\n  \"description\": {\n    \"en\": \"A simple ordered series for learning automation workflows.\"\n  },\n  \"is_active\": true,\n  \"items\": [\n    {\n      \"blog_id\": \"{{seriesBlogId1}}\",\n      \"sort_order\": 1,\n      \"name\": {\n        \"en\": \"Understand the Workflow\"\n      },\n      \"description\": {\n        \"en\": \"Break down the process first.\"\n      },\n      \"is_active\": true\n    },\n    {\n      \"blog_id\": \"{{seriesBlogId2}}\",\n      \"sort_order\": 2,\n      \"name\": {\n        \"en\": \"Choose the Trigger\"\n      },\n      \"description\": {\n        \"en\": \"Select the starting event.\"\n      },\n      \"is_active\": true\n    }\n  ]\n}",
+              "options": { "raw": { "language": "json" } }
+            },
+            "url": { "raw": "{{baseUrl}}/api/series", "host": ["{{baseUrl}}"], "path": ["api", "series"] }
+          },
+          "event": [{
+            "listen": "test",
+            "script": {"type": "text/javascript", "exec": [
+              "pm.test('Create Series returns 201', function () { pm.response.to.have.status(201); });",
+              "const body = pm.response.json();",
+              "pm.test('Create Series stores id', function () {",
+              "  pm.expect(body.success).to.eql(true);",
+              "  pm.expect(body.data).to.have.property('id');",
+              "  pm.expect(body.data.items).to.be.an('array');",
+              "  pm.collectionVariables.set('seriesId', body.data.id);",
+              "  pm.environment.set('seriesId', String(body.data.id));",
+              "});"
+            ]}
+          }]
+        },
+        {
+          "name": "Show Series",
+          "request": {
+            "method": "GET",
+            "header": [
+              { "key": "Accept", "value": "application/json", "type": "text" },
+              { "key": "X-Application-Key", "value": "{{applicationKey}}", "type": "text" }
+            ],
+            "url": {
+              "raw": "{{baseUrl}}/api/series/{{seriesId}}?application_id={{applicationId}}",
+              "host": ["{{baseUrl}}"],
+              "path": ["api", "series", "{{seriesId}}"],
+              "query": [
+                { "key": "application_id", "value": "{{applicationId}}" }
+              ]
+            }
+          },
+          "event": [{
+            "listen": "test",
+            "script": {"type": "text/javascript", "exec": [
+              "pm.test('Show Series returns 200', function () { pm.response.to.have.status(200); });",
+              "const body = pm.response.json();",
+              "pm.test('Show Series succeeds', function () {",
+              "  pm.expect(body.success).to.eql(true);",
+              "  pm.expect(String(body.data.id)).to.eql(String(pm.collectionVariables.get('seriesId')));",
+              "  pm.expect(body.data.items).to.be.an('array');",
+              "});"
+            ]}
+          }]
+        },
+        {
+          "name": "Update Series",
+          "request": {
+            "method": "PUT",
+            "header": [
+              { "key": "Accept", "value": "application/json", "type": "text" },
+              { "key": "X-Application-Key", "value": "{{applicationKey}}", "type": "text" },
+              { "key": "Content-Type", "value": "application/json", "type": "text" }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"application_id\": \"{{applicationId}}\",\n  \"name\": {\n    \"en\": \"Automation Basics Updated {{runId}}\"\n  },\n  \"description\": {\n    \"en\": \"Updated description for the Postman series.\"\n  },\n  \"is_active\": false,\n  \"items\": [\n    {\n      \"blog_id\": \"{{seriesBlogId2}}\",\n      \"sort_order\": 1,\n      \"name\": {\n        \"en\": \"Choose the Trigger\"\n      },\n      \"description\": {\n        \"en\": \"Updated first item.\"\n      },\n      \"is_active\": true\n    },\n    {\n      \"blog_id\": \"{{seriesBlogId3}}\",\n      \"sort_order\": 2,\n      \"name\": {\n        \"en\": \"Build the Actions\"\n      },\n      \"description\": {\n        \"en\": \"Updated second item.\"\n      },\n      \"is_active\": true\n    }\n  ]\n}",
+              "options": { "raw": { "language": "json" } }
+            },
+            "url": { "raw": "{{baseUrl}}/api/series/{{seriesId}}", "host": ["{{baseUrl}}"], "path": ["api", "series", "{{seriesId}}"] }
+          },
+          "event": [{
+            "listen": "test",
+            "script": {"type": "text/javascript", "exec": [
+              "pm.test('Update Series returns 200', function () { pm.response.to.have.status(200); });",
+              "const body = pm.response.json();",
+              "pm.test('Update Series succeeds', function () {",
+              "  pm.expect(body.success).to.eql(true);",
+              "  pm.expect(body.data.items).to.be.an('array');",
+              "});"
+            ]}
+          }]
+        },
+        {
+          "name": "Delete Series",
+          "request": {
+            "method": "DELETE",
+            "header": [
+              { "key": "Accept", "value": "application/json", "type": "text" },
+              { "key": "X-Application-Key", "value": "{{applicationKey}}", "type": "text" }
+            ],
+            "url": {
+              "raw": "{{baseUrl}}/api/series/{{seriesId}}?application_id={{applicationId}}",
+              "host": ["{{baseUrl}}"],
+              "path": ["api", "series", "{{seriesId}}"],
+              "query": [
+                { "key": "application_id", "value": "{{applicationId}}" }
+              ]
+            }
+          },
+          "event": [{
+            "listen": "test",
+            "script": {"type": "text/javascript", "exec": [
+              "pm.test('Delete Series returns 200', function () { pm.response.to.have.status(200); });",
+              "const body = pm.response.json();",
+              "pm.test('Delete Series succeeds', function () { pm.expect(body.success).to.eql(true); });"
+            ]}
+          }]
+        },
+        {
+          "name": "Create Series - Duplicate Blog Validation",
+          "description": "The same blog cannot appear twice in one Series payload.",
+          "request": {
+            "method": "POST",
+            "header": [
+              { "key": "Accept", "value": "application/json", "type": "text" },
+              { "key": "X-Application-Key", "value": "{{applicationKey}}", "type": "text" },
+              { "key": "Content-Type", "value": "application/json", "type": "text" }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"application_id\": \"{{applicationId}}\",\n  \"name\": {\n    \"en\": \"Duplicate Blog Validation {{runId}}\"\n  },\n  \"items\": [\n    {\n      \"blog_id\": \"{{seriesBlogId1}}\",\n      \"sort_order\": 1,\n      \"name\": {\n        \"en\": \"One\"\n      },\n      \"is_active\": true\n    },\n    {\n      \"blog_id\": \"{{seriesBlogId1}}\",\n      \"sort_order\": 2,\n      \"name\": {\n        \"en\": \"Two\"\n      },\n      \"is_active\": true\n    }\n  ]\n}",
+              "options": { "raw": { "language": "json" } }
+            },
+            "url": { "raw": "{{baseUrl}}/api/series", "host": ["{{baseUrl}}"], "path": ["api", "series"] }
+          },
+          "event": [{
+            "listen": "test",
+            "script": {"type": "text/javascript", "exec": [
+              "pm.test('Duplicate blog validation returns 422', function () { pm.response.to.have.status(422); });",
+              "const body = pm.response.json();",
+              "pm.test('Duplicate blog validation returns errors', function () { pm.expect(body.errors).to.exist; });"
+            ]}
+          }]
+        },
+        {
+          "name": "Create Series - Duplicate Sort Order Validation",
+          "description": "Series items must have unique sort_order values within one Series.",
+          "request": {
+            "method": "POST",
+            "header": [
+              { "key": "Accept", "value": "application/json", "type": "text" },
+              { "key": "X-Application-Key", "value": "{{applicationKey}}", "type": "text" },
+              { "key": "Content-Type", "value": "application/json", "type": "text" }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"application_id\": \"{{applicationId}}\",\n  \"name\": {\n    \"en\": \"Duplicate Sort Validation {{runId}}\"\n  },\n  \"items\": [\n    {\n      \"blog_id\": \"{{seriesBlogId1}}\",\n      \"sort_order\": 1,\n      \"name\": {\n        \"en\": \"One\"\n      },\n      \"is_active\": true\n    },\n    {\n      \"blog_id\": \"{{seriesBlogId2}}\",\n      \"sort_order\": 1,\n      \"name\": {\n        \"en\": \"Two\"\n      },\n      \"is_active\": true\n    }\n  ]\n}",
+              "options": { "raw": { "language": "json" } }
+            },
+            "url": { "raw": "{{baseUrl}}/api/series", "host": ["{{baseUrl}}"], "path": ["api", "series"] }
+          },
+          "event": [{
+            "listen": "test",
+            "script": {"type": "text/javascript", "exec": [
+              "pm.test('Duplicate sort order validation returns 422', function () { pm.response.to.have.status(422); });",
+              "const body = pm.response.json();",
+              "pm.test('Duplicate sort order validation returns errors', function () { pm.expect(body.errors).to.exist; });"
+            ]}
+          }]
+        },
+        {
+          "name": "Create Series - Cross Application Blog Rejected",
+          "description": "A Series item must reference a blog from the authenticated application only.",
+          "request": {
+            "method": "POST",
+            "header": [
+              { "key": "Accept", "value": "application/json", "type": "text" },
+              { "key": "X-Application-Key", "value": "{{applicationKey}}", "type": "text" },
+              { "key": "Content-Type", "value": "application/json", "type": "text" }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"application_id\": \"{{applicationId}}\",\n  \"name\": {\n    \"en\": \"Cross Application Validation {{runId}}\"\n  },\n  \"items\": [\n    {\n      \"blog_id\": \"{{seriesBlogId1}}\",\n      \"sort_order\": 1,\n      \"name\": {\n        \"en\": \"Local\"\n      },\n      \"is_active\": true\n    },\n    {\n      \"blog_id\": \"{{otherApplicationBlogId}}\",\n      \"sort_order\": 2,\n      \"name\": {\n        \"en\": \"Foreign\"\n      },\n      \"is_active\": true\n    }\n  ]\n}",
+              "options": { "raw": { "language": "json" } }
+            },
+            "url": { "raw": "{{baseUrl}}/api/series", "host": ["{{baseUrl}}"], "path": ["api", "series"] }
+          },
+          "event": [{
+            "listen": "test",
+            "script": {"type": "text/javascript", "exec": [
+              "pm.test('Cross application blog validation returns 422 or 403', function () { pm.expect([403, 422]).to.include(pm.response.code); });",
+              "const body = pm.response.json();",
+              "pm.test('Cross application blog validation returns an error payload', function () { pm.expect(Boolean(body.errors) || typeof body.message === 'string').to.eql(true); });"
+            ]}
+          }]
+        }
+      ]
+    },
+    {
+      "name": "Error Examples",
+      "item": [
+        {
+          "name": "Validation Error 422",
+          "description": "Sends an invalid payload so the API returns a validation error.",
+          "request": {
+            "method": "POST",
+            "header": [
+              { "key": "Accept", "value": "application/json", "type": "text" },
+              { "key": "X-Application-Key", "value": "{{applicationKey}}", "type": "text" },
+              { "key": "Content-Type", "value": "application/json", "type": "text" }
+            ],
+            "body": { "mode": "raw", "raw": "{\n  \"application_id\": \"{{applicationId}}\",\n  \"is_active\": true\n}", "options": { "raw": { "language": "json" } } },
+            "url": { "raw": "{{baseUrl}}/api/tags", "host": ["{{baseUrl}}"], "path": ["api", "tags"] }
+          }
+        },
+        {
+          "name": "Forbidden Application Mismatch 403",
+          "description": "Use a valid signature but a different application_id value so the controller rejects the request.",
+          "request": {
+            "method": "POST",
+            "header": [
+              { "key": "Accept", "value": "application/json", "type": "text" },
+              { "key": "X-Application-Key", "value": "{{applicationKey}}", "type": "text" },
+              { "key": "Content-Type", "value": "application/json", "type": "text" }
+            ],
+            "body": { "mode": "raw", "raw": "{\n  \"application_id\": \"{{otherApplicationId}}\",\n  \"categories_name\": {\n    \"en\": \"Forbidden Example\"\n  },\n  \"is_active\": true\n}", "options": { "raw": { "language": "json" } } },
+            "url": { "raw": "{{baseUrl}}/api/categories", "host": ["{{baseUrl}}"], "path": ["api", "categories"] }
+          }
+        },
+        {
+          "name": "Resource Not Found 404",
+          "description": "Targets a non-existent resource id with a valid signature.",
+          "request": {
+            "method": "GET",
+            "header": [
+              { "key": "Accept", "value": "application/json", "type": "text" },
+              { "key": "X-Application-Key", "value": "{{applicationKey}}", "type": "text" }
+            ],
+            "url": { "raw": "{{baseUrl}}/api/tags/999999", "host": ["{{baseUrl}}"], "path": ["api", "tags", "999999"] }
+          }
+        },
+        {
+          "name": "Invalid Signature 401",
+          "description": "Disable the helper secret and keep a bad signature header to verify the middleware rejects it.",
+          "request": {
+            "method": "GET",
+            "header": [
+              { "key": "Accept", "value": "application/json", "type": "text" },
+              { "key": "X-Application-Key", "value": "{{applicationKey}}", "type": "text" },
+              { "key": "X-Timestamp", "value": "{{timestamp}}", "type": "text" },
+              { "key": "X-Signature", "value": "invalid-signature", "type": "text" }
+            ],
+            "url": { "raw": "{{baseUrl}}/api/blogs?application_id={{applicationId}}", "host": ["{{baseUrl}}"], "path": ["api", "blogs"], "query": [{ "key": "application_id", "value": "{{applicationId}}" }] }
+          }
+        }
+      ]
+    }
+  ],
+  "event": [
+    {
+      "listen": "prerequest",
+      "script": {
+        "type": "text/javascript",
+        "exec": [
+          "const disableAutoSign = String(pm.variables.get('disableAutoSign') || '').toLowerCase() === 'true';",
+          "const hasApplicationKey = !!pm.variables.get('applicationKey');",
+          "const secretKey = pm.variables.get('secretKey') || pm.variables.get('secret_key') || '';",
+          "",
+          "if (!pm.collectionVariables.get('runId')) {",
+          "  pm.collectionVariables.set('runId', String(Date.now()));",
+          "}",
+          "",
+          "if (disableAutoSign || !hasApplicationKey || !secretKey) {",
+          "  return;",
+          "}",
+          "",
+          "const CryptoLib = require('crypto-js');",
+          "const timestamp = String(Math.floor(Date.now() / 1000));",
+          "const method = (pm.request.method || 'GET').toUpperCase();",
+          "const path = pm.variables.replaceIn('/' + pm.request.url.path.join('/'));",
+          "let rawBody = '';",
+          "",
+          "if (pm.request.body && pm.request.body.mode === 'raw') {",
+          "  rawBody = pm.variables.replaceIn(pm.request.body.raw || '');",
+          "}",
+          "",
+          "const payload = [method, path, timestamp, rawBody].join('\\n');",
+          "const signature = CryptoLib.HmacSHA256(payload, secretKey).toString(CryptoLib.enc.Hex);",
+          "",
+          "pm.environment.set('timestamp', timestamp);",
+          "pm.environment.set('signature', signature);",
+          "pm.request.headers.upsert({ key: 'X-Timestamp', value: timestamp });",
+          "pm.request.headers.upsert({ key: 'X-Signature', value: signature });"
+        ]
+      }
+    }
+  ],
+  "variable": [
+    { "key": "runId", "value": "" },
+    { "key": "seriesId", "value": "" },
+    { "key": "seriesBlogId1", "value": "" },
+    { "key": "seriesBlogId2", "value": "" },
+    { "key": "seriesBlogId3", "value": "" },
+    { "key": "otherApplicationBlogId", "value": "" }
+  ]
+}

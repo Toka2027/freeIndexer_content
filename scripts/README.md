@@ -16,8 +16,12 @@ This folder mirrors the CaptchaRank content production scripts, adapted for the 
 ## Publishing Interfaces
 
 - `prepare_blog_draft.py`: converts markdown to Bootstrap-friendly HTML, uploads the hero to object storage, and creates or updates a draft through the signed 99sync API.
-- `sync_blog_taxonomy.py`: creates or updates FreeIndexer categories and tags, then writes live IDs to `reference/blog_taxonomy_live.json`.
+- `sync_blog_taxonomy.py`: creates or updates FreeIndexer categories and tags, including the Central Blogs API `min_description` and `image` fields when available, then writes live IDs to `reference/blog_taxonomy_live.json`.
 - `sync_publishing_tracker.py`: audits tracker rows locally and can verify `published_url` values with `--check-live`.
+
+`blog_api_client.py` follows the `blogs_center.postman_collection.json` signing
+model and supports both `https://blogs.99sync.com` and
+`https://blogs.99sync.com/api` as `base_url` values.
 
 Real network writes require `reference/blog_api.json`,
 `reference/hetzner_object_storage.json`, and synced taxonomy IDs. Dry-runs do

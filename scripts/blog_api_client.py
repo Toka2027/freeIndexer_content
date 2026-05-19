@@ -121,11 +121,21 @@ class BlogApiClient:
     def __init__(self, config: dict[str, Any] | None = None, config_path: str | Path | None = None):
         cfg = config or load_blog_api_config(config_path)
         validate_blog_api_config(cfg)
-        self.base_url: str = str(cfg["base_url"]).rstrip("/")
+        self.base_url: str = self._normalize_api_base_url(str(cfg["base_url"]))
         self.application_id: int = int(cfg["application_id"])
         self.api_key: str = str(cfg["api_key"])
         self.secret_key: str = str(cfg["secret_key"])
         self.author_id: int = int(cfg.get("author_id", 7))
+
+    @staticmethod
+    def _normalize_api_base_url(base_url: str) -> str:
+        """Support both current configs and the Postman `{{baseUrl}}/api/...` style."""
+        clean = base_url.rstrip("/")
+        parsed = parse.urlparse(clean)
+        path = parsed.path.rstrip("/")
+        if path == "/api" or path.endswith("/api"):
+            return clean
+        return f"{clean}/api"
 
     def _request(
         self,
@@ -223,6 +233,8 @@ class BlogApiClient:
         description: str = "",
         meta_title: str = "",
         meta_description: str = "",
+        min_description: str = "",
+        image: str = "",
         is_active: bool = True,
     ) -> dict[str, Any]:
         payload: dict[str, Any] = {
@@ -232,10 +244,14 @@ class BlogApiClient:
             "description": {"en": description},
             "is_active": is_active,
         }
+        if min_description:
+            payload["min_description"] = {"en": min_description}
         if meta_title:
             payload["meta_title"] = {"en": meta_title}
         if meta_description:
             payload["meta_description"] = {"en": meta_description}
+        if image:
+            payload["image"] = image
         return self._request("POST", "categories", body=json.dumps(payload, ensure_ascii=False))
 
     def update_category(
@@ -246,6 +262,8 @@ class BlogApiClient:
         description: str = "",
         meta_title: str = "",
         meta_description: str = "",
+        min_description: str = "",
+        image: str = "",
         is_active: bool = True,
     ) -> dict[str, Any]:
         payload: dict[str, Any] = {
@@ -255,11 +273,18 @@ class BlogApiClient:
             "description": {"en": description},
             "is_active": is_active,
         }
+        if min_description:
+            payload["min_description"] = {"en": min_description}
         if meta_title:
             payload["meta_title"] = {"en": meta_title}
         if meta_description:
             payload["meta_description"] = {"en": meta_description}
+        if image:
+            payload["image"] = image
         return self._request("PUT", f"categories/{cat_id}", body=json.dumps(payload, ensure_ascii=False))
+
+    def delete_category(self, cat_id: int) -> dict[str, Any]:
+        return self._request("DELETE", f"categories/{cat_id}")
 
     def list_tags(self, per_page: str = "100") -> dict[str, Any]:
         return self._request("GET", "tags", query={"application_id": str(self.application_id), "per_page": per_page})
@@ -271,6 +296,8 @@ class BlogApiClient:
         description: str = "",
         meta_title: str = "",
         meta_description: str = "",
+        min_description: str = "",
+        image: str = "",
         is_active: bool = True,
     ) -> dict[str, Any]:
         payload: dict[str, Any] = {
@@ -281,10 +308,14 @@ class BlogApiClient:
         }
         if description:
             payload["description"] = {"en": description}
+        if min_description:
+            payload["min_description"] = {"en": min_description}
         if meta_title:
             payload["meta_title"] = {"en": meta_title}
         if meta_description:
             payload["meta_description"] = {"en": meta_description}
+        if image:
+            payload["image"] = image
         return self._request("POST", "tags", body=json.dumps(payload, ensure_ascii=False))
 
     def update_tag(
@@ -295,6 +326,8 @@ class BlogApiClient:
         description: str = "",
         meta_title: str = "",
         meta_description: str = "",
+        min_description: str = "",
+        image: str = "",
         is_active: bool = True,
     ) -> dict[str, Any]:
         payload: dict[str, Any] = {
@@ -305,8 +338,103 @@ class BlogApiClient:
         }
         if description:
             payload["description"] = {"en": description}
+        if min_description:
+            payload["min_description"] = {"en": min_description}
         if meta_title:
             payload["meta_title"] = {"en": meta_title}
         if meta_description:
             payload["meta_description"] = {"en": meta_description}
+        if image:
+            payload["image"] = image
         return self._request("PUT", f"tags/{tag_id}", body=json.dumps(payload, ensure_ascii=False))
+
+    def delete_tag(self, tag_id: int) -> dict[str, Any]:
+        return self._request("DELETE", f"tags/{tag_id}")
+
+    def list_authors(self, per_page: str = "100") -> dict[str, Any]:
+        return self._request("GET", "authors", query={"application_id": str(self.application_id), "per_page": per_page})
+
+    def show_author(self, author_id: int) -> dict[str, Any]:
+        return self._request("GET", f"authors/{author_id}")
+
+    def create_author(
+        self,
+        name: str,
+        email: str,
+        description: str = "",
+        image: str = "",
+        is_active: bool = True,
+    ) -> dict[str, Any]:
+        payload: dict[str, Any] = {
+            "application_id": str(self.application_id),
+            "name": name,
+            "email": email,
+            "description": description,
+            "image": image,
+            "is_active": is_active,
+        }
+        return self._request("POST", "authors", body=json.dumps(payload, ensure_ascii=False))
+
+    def update_author(
+        self,
+        author_id: int,
+        name: str,
+        email: str,
+        description: str = "",
+        image: str = "",
+        is_active: bool = True,
+    ) -> dict[str, Any]:
+        payload: dict[str, Any] = {
+            "application_id": str(self.application_id),
+            "name": name,
+            "email": email,
+            "description": description,
+            "image": image,
+            "is_active": is_active,
+        }
+        return self._request("PUT", f"authors/{author_id}", body=json.dumps(payload, ensure_ascii=False))
+
+    def delete_author(self, author_id: int) -> dict[str, Any]:
+        return self._request("DELETE", f"authors/{author_id}")
+
+    def list_series(self, per_page: str = "100") -> dict[str, Any]:
+        return self._request("GET", "series", query={"application_id": str(self.application_id), "per_page": per_page})
+
+    def show_series(self, series_id: int) -> dict[str, Any]:
+        return self._request("GET", f"series/{series_id}", query={"application_id": str(self.application_id)})
+
+    def create_series(
+        self,
+        name: str,
+        description: str = "",
+        items: list[dict[str, Any]] | None = None,
+        is_active: bool = True,
+    ) -> dict[str, Any]:
+        payload: dict[str, Any] = {
+            "application_id": str(self.application_id),
+            "name": {"en": name},
+            "description": {"en": description},
+            "is_active": is_active,
+            "items": items or [],
+        }
+        return self._request("POST", "series", body=json.dumps(payload, ensure_ascii=False))
+
+    def update_series(
+        self,
+        series_id: int,
+        name: str,
+        description: str = "",
+        items: list[dict[str, Any]] | None = None,
+        is_active: bool = True,
+    ) -> dict[str, Any]:
+        payload: dict[str, Any] = {
+            "application_id": str(self.application_id),
+            "name": {"en": name},
+            "description": {"en": description},
+            "is_active": is_active,
+            "items": items or [],
+        }
+        return self._request("PUT", f"series/{series_id}", body=json.dumps(payload, ensure_ascii=False))
+
+    def delete_series(self, series_id: int) -> dict[str, Any]:
+        return self._request("DELETE", f"series/{series_id}", query={"application_id": str(self.application_id)})
