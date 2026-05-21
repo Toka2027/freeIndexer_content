@@ -38,6 +38,23 @@ Each article must include at least three:
 - SEOeStore may appear in only 2 or 3 relevant articles as an SEO provider or
   resource. Do not imply guaranteed rankings, guaranteed indexing, or product
   equivalence with FreeIndexer.
+- SEO software, automation, and provider articles must separate planning,
+  execution, verification, indexing follow-up, and reporting. Do not publish
+  instructions that encourage blind mass submission, spam campaigns, guaranteed
+  ranking claims, or unsupported outcome promises.
+
+## 4A. Broader Digital Marketing Fit
+
+- Content marketing articles must include concrete briefs, intent examples,
+  publishing checks, or refresh decisions.
+- Analytics/reporting articles must distinguish visibility, indexing, rankings,
+  clicks, conversions, and business outcomes.
+- CRO and landing page articles must connect traffic quality to conversion
+  actions instead of treating visibility as the final goal.
+- Operations articles must give repeatable processes, owners, inputs, outputs,
+  and reporting loops.
+- Platform SEO articles must name platform-specific sitemap, template,
+  canonical, collection/category, product, blog, or Search Console checks.
 
 ## 5. Public Layout
 

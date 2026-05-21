@@ -54,6 +54,36 @@
       "slug": "ai-search-visibility",
       "name": "AI Search Visibility",
       "description": "Early-stage guides on GEO, AI search visibility, LLM discovery signals, and how technical SEO foundations support emerging search surfaces."
+    },
+    {
+      "slug": "content-marketing",
+      "name": "Content Marketing",
+      "description": "Practical content strategy, keyword intent, on-page SEO, publishing checklists, refresh workflows, and content discovery guidance."
+    },
+    {
+      "slug": "analytics-reporting",
+      "name": "Analytics And Reporting",
+      "description": "GA4, Search Console, organic landing page tracking, SEO reporting, dashboards, and decision workflows for marketing teams."
+    },
+    {
+      "slug": "landing-pages-cro",
+      "name": "Landing Pages And CRO",
+      "description": "Landing page structure, SEO landing pages, conversion-focused CTAs, trust sections, lead capture, and CRO checklists."
+    },
+    {
+      "slug": "digital-marketing-operations",
+      "name": "Digital Marketing Operations",
+      "description": "Repeatable marketing workflows, content calendars, SEO QA, vendor management, client reporting, and campaign operating systems."
+    },
+    {
+      "slug": "seo-tools-providers",
+      "name": "SEO Tools And Providers",
+      "description": "Responsible guides to SEO software, automation tools, provider workflows, campaign services, tool stacks, and workflow comparisons."
+    },
+    {
+      "slug": "platform-seo",
+      "name": "Platform SEO",
+      "description": "Platform-specific SEO, indexing, sitemap, Search Console, and visibility workflows for Shopify, WordPress, WooCommerce, SaaS, and site builders."
     }
   ],
   "tags": [
@@ -104,6 +134,44 @@
     { "slug": "llm-visibility", "name": "LLM Visibility", "group": "ai-search" },
     { "slug": "product-pages", "name": "Product Pages", "group": "workflow" },
     { "slug": "documentation", "name": "Documentation", "group": "workflow" },
-    { "slug": "pricing", "name": "Pricing", "group": "commercial" }
+    { "slug": "pricing", "name": "Pricing", "group": "commercial" },
+    { "slug": "content-marketing", "name": "Content Marketing", "group": "content-marketing" },
+    { "slug": "content-strategy", "name": "Content Strategy", "group": "content-marketing" },
+    { "slug": "keyword-intent", "name": "Keyword Intent", "group": "content-marketing" },
+    { "slug": "content-briefs", "name": "Content Briefs", "group": "content-marketing" },
+    { "slug": "on-page-seo", "name": "On-Page SEO", "group": "content-marketing" },
+    { "slug": "content-refresh", "name": "Content Refresh", "group": "content-marketing" },
+    { "slug": "blog-publishing", "name": "Blog Publishing", "group": "content-marketing" },
+    { "slug": "analytics-reporting", "name": "Analytics And Reporting", "group": "analytics" },
+    { "slug": "ga4", "name": "GA4", "group": "analytics" },
+    { "slug": "seo-reporting", "name": "SEO Reporting", "group": "analytics" },
+    { "slug": "organic-traffic", "name": "Organic Traffic", "group": "analytics" },
+    { "slug": "landing-pages", "name": "Landing Pages", "group": "cro" },
+    { "slug": "cro", "name": "CRO", "group": "cro" },
+    { "slug": "conversion-optimization", "name": "Conversion Optimization", "group": "cro" },
+    { "slug": "lead-capture", "name": "Lead Capture", "group": "cro" },
+    { "slug": "digital-marketing-operations", "name": "Digital Marketing Operations", "group": "operations" },
+    { "slug": "marketing-workflows", "name": "Marketing Workflows", "group": "operations" },
+    { "slug": "content-calendar", "name": "Content Calendar", "group": "operations" },
+    { "slug": "seo-qa", "name": "SEO QA", "group": "operations" },
+    { "slug": "client-reporting", "name": "Client Reporting", "group": "operations" },
+    { "slug": "seo-strategy", "name": "SEO Strategy", "group": "strategy" },
+    { "slug": "growth-workflows", "name": "Growth Workflows", "group": "strategy" },
+    { "slug": "seo-software", "name": "SEO Software", "group": "tools" },
+    { "slug": "seo-automation", "name": "SEO Automation", "group": "tools" },
+    { "slug": "seo-campaigns", "name": "SEO Campaigns", "group": "provider" },
+    { "slug": "seo-provider", "name": "SEO Provider", "group": "provider" },
+    { "slug": "seoestore", "name": "SEOeStore", "group": "provider" },
+    { "slug": "link-building-tools", "name": "Link-Building Tools", "group": "tools" },
+    { "slug": "backlink-tools", "name": "Backlink Tools", "group": "tools" },
+    { "slug": "gsa-ser", "name": "GSA SER", "group": "tools" },
+    { "slug": "rankerx", "name": "RankerX", "group": "tools" },
+    { "slug": "platform-seo", "name": "Platform SEO", "group": "platform" },
+    { "slug": "shopify-seo", "name": "Shopify SEO", "group": "platform" },
+    { "slug": "ecommerce-seo", "name": "Ecommerce SEO", "group": "platform" },
+    { "slug": "wordpress-seo", "name": "WordPress SEO", "group": "platform" },
+    { "slug": "woocommerce-seo", "name": "WooCommerce SEO", "group": "platform" },
+    { "slug": "tool-stack", "name": "Tool Stack", "group": "tools" },
+    { "slug": "digital-marketing-tools", "name": "Digital Marketing Tools", "group": "tools" }
   ]
 }

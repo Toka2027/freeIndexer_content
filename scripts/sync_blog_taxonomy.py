@@ -1,4 +1,9 @@
-"""Create or refresh FreeIndexer blog taxonomy through the 99sync API."""
+"""Create or refresh FreeIndexer blog taxonomy through the 99sync API.
+
+Default sync behavior treats existing live categories and tags as locked. It
+creates missing taxonomy items but does not update existing ones unless
+--update-existing is passed after explicit owner approval.
+"""
 
 from __future__ import annotations
 
@@ -104,6 +109,30 @@ CATEGORY_META = {
     "ai-search-visibility": (
         "AI Search Visibility And GEO Guides",
         "Prepare pages for AI search visibility with crawlable, structured, discoverable content foundations.",
+    ),
+    "content-marketing": (
+        "Content Marketing SEO Workflows",
+        "Plan content clusters, briefs, intent, on-page SEO, publishing checks, refreshes, and discovery follow-up.",
+    ),
+    "analytics-reporting": (
+        "SEO Analytics And Reporting Guides",
+        "Use GA4, Search Console, landing page tracking, dashboards, and reporting workflows for better SEO decisions.",
+    ),
+    "landing-pages-cro": (
+        "Landing Page SEO And CRO Guides",
+        "Improve SEO landing pages, CTAs, trust sections, lead capture, pricing pages, and conversion workflows.",
+    ),
+    "digital-marketing-operations": (
+        "Digital Marketing Operations Playbooks",
+        "Build repeatable workflows for SEO QA, content calendars, vendor management, client reporting, and campaigns.",
+    ),
+    "seo-tools-providers": (
+        "SEO Tools, Software, And Provider Guides",
+        "Compare SEO software, automation tools, campaign services, providers, tool stacks, and indexing workflows.",
+    ),
+    "platform-seo": (
+        "Platform SEO And Indexing Playbooks",
+        "Platform-specific SEO workflows for Shopify, WordPress, WooCommerce, SaaS, ecommerce, and site builders.",
     ),
 }
 
@@ -300,6 +329,158 @@ TAG_META = {
         "Pricing And Plan Guides",
         "Pricing and plan guidance for indexing workflows, capacity planning, bulk operations, and tool evaluation.",
     ),
+    "content-marketing": (
+        "Content Marketing SEO Guides",
+        "Content marketing guides for clusters, briefs, intent, publishing checklists, refreshes, and discovery.",
+    ),
+    "content-strategy": (
+        "Content Strategy Guides",
+        "Plan content that supports search visibility with clear intent, internal links, clusters, and next actions.",
+    ),
+    "keyword-intent": (
+        "Keyword Intent Guides",
+        "Match pages to search intent with practical examples, content briefs, SERP checks, and publishing decisions.",
+    ),
+    "content-briefs": (
+        "SEO Content Brief Guides",
+        "Build content briefs with intent, structure, internal links, examples, metadata, and discovery checks.",
+    ),
+    "on-page-seo": (
+        "On-Page SEO Guides",
+        "Improve titles, headings, internal links, copy, schema basics, and page readiness before promotion.",
+    ),
+    "content-refresh": (
+        "Content Refresh Guides",
+        "Refresh existing content using performance signals, intent gaps, internal links, and discovery follow-up.",
+    ),
+    "blog-publishing": (
+        "Blog Publishing SEO Guides",
+        "Use publishing checklists for metadata, internal links, sitemaps, Search Console, and indexing readiness.",
+    ),
+    "analytics-reporting": (
+        "SEO Analytics And Reporting Guides",
+        "Measure organic landing pages, Search Console data, GA4 sessions, conversions, and SEO workflow outcomes.",
+    ),
+    "ga4": (
+        "GA4 SEO Reporting Guides",
+        "Use GA4 for SEO reporting with landing pages, events, conversions, traffic quality, and decision workflows.",
+    ),
+    "seo-reporting": (
+        "SEO Reporting Guides",
+        "Build SEO reports that separate indexing, visibility, traffic, conversions, deliverables, and next actions.",
+    ),
+    "organic-traffic": (
+        "Organic Traffic Guides",
+        "Analyze organic traffic with landing pages, Search Console clicks, GA4 behavior, and content decisions.",
+    ),
+    "landing-pages": (
+        "Landing Page SEO Guides",
+        "Plan SEO landing pages with clear structure, intent match, internal links, CTAs, trust, and conversion paths.",
+    ),
+    "cro": (
+        "CRO Guides For SEO Traffic",
+        "Improve conversion paths for SEO traffic with CTAs, trust sections, page clarity, forms, and testing ideas.",
+    ),
+    "conversion-optimization": (
+        "Conversion Optimization Guides",
+        "Connect search visibility to conversion actions with better page structure, offers, CTAs, and measurement.",
+    ),
+    "lead-capture": (
+        "Lead Capture Page Guides",
+        "Build lead capture pages that match search intent, reduce friction, support trust, and track outcomes.",
+    ),
+    "digital-marketing-operations": (
+        "Digital Marketing Operations Guides",
+        "Create repeatable workflows for content, SEO QA, campaigns, vendors, reporting, and growth operations.",
+    ),
+    "marketing-workflows": (
+        "Marketing Workflow Guides",
+        "Design practical marketing workflows with owners, inputs, quality checks, handoffs, and reporting loops.",
+    ),
+    "content-calendar": (
+        "Content Calendar Guides",
+        "Plan content calendars around intent, clusters, publishing readiness, refreshes, and discovery follow-up.",
+    ),
+    "seo-qa": (
+        "SEO QA Guides",
+        "Run SEO QA before publishing with metadata, links, canonicals, indexability, analytics, and handoff checks.",
+    ),
+    "client-reporting": (
+        "Client SEO Reporting Guides",
+        "Report client SEO work with deliverables, verification, indexing follow-up, visibility, and next actions.",
+    ),
+    "seo-strategy": (
+        "SEO Strategy Guides",
+        "Build SEO strategy around technical health, content demand, internal links, authority, reporting, and growth.",
+    ),
+    "growth-workflows": (
+        "Growth Workflow Guides",
+        "Connect SEO, content, CRO, analytics, campaigns, and tools into repeatable growth operating systems.",
+    ),
+    "seo-software": (
+        "SEO Software Workflow Guides",
+        "Compare SEO software by workflow role, risk, setup effort, quality control, tracking, and reporting needs.",
+    ),
+    "seo-automation": (
+        "SEO Automation Guides",
+        "Use SEO automation responsibly with quality gates, verification, risk controls, and honest reporting.",
+    ),
+    "seo-campaigns": (
+        "SEO Campaign Workflow Guides",
+        "Plan SEO campaigns from goals and execution to deliverable verification, indexing follow-up, and reporting.",
+    ),
+    "seo-provider": (
+        "SEO Provider Workflow Guides",
+        "Evaluate SEO providers, managed campaign workflows, handoffs, deliverables, verification, and reporting.",
+    ),
+    "seoestore": (
+        "SEOeStore Workflow Mentions",
+        "Articles that mention SEOeStore naturally as an SEO provider or campaign services resource where relevant.",
+    ),
+    "link-building-tools": (
+        "Link-Building Tool Guides",
+        "Compare link-building tools by use case, quality control, verification, indexing follow-up, and reporting.",
+    ),
+    "backlink-tools": (
+        "Backlink Tool Guides",
+        "Use backlink tools for discovery, verification, quality checks, campaign tracking, and client-safe reporting.",
+    ),
+    "gsa-ser": (
+        "GSA SER Workflow Guides",
+        "Responsible GSA Search Engine Ranker workflow guidance focused on separation, quality checks, and reporting.",
+    ),
+    "rankerx": (
+        "RankerX Workflow Guides",
+        "Responsible RankerX workflow guidance for campaign planning, link tracking, verification, and provider choices.",
+    ),
+    "platform-seo": (
+        "Platform SEO Guides",
+        "Platform-specific SEO checks for sitemaps, canonicals, product pages, categories, blogs, and Search Console.",
+    ),
+    "shopify-seo": (
+        "Shopify SEO Guides",
+        "Shopify SEO guides for product pages, collections, sitemaps, Search Console, canonicals, and discovery follow-up.",
+    ),
+    "ecommerce-seo": (
+        "Ecommerce SEO Guides",
+        "Improve ecommerce category, collection, product, and blog visibility with practical SEO and indexing workflows.",
+    ),
+    "wordpress-seo": (
+        "WordPress SEO Guides",
+        "WordPress SEO guides for posts, pages, categories, plugins, sitemaps, canonicals, and indexability checks.",
+    ),
+    "woocommerce-seo": (
+        "WooCommerce SEO Guides",
+        "WooCommerce SEO workflows for products, categories, filters, canonicals, sitemaps, and Search Console checks.",
+    ),
+    "tool-stack": (
+        "SEO Tool Stack Guides",
+        "Build practical SEO tool stacks for audits, content, backlinks, reporting, indexing, and campaign operations.",
+    ),
+    "digital-marketing-tools": (
+        "Digital Marketing Tool Guides",
+        "Compare digital marketing tools by workflow role, ownership, data quality, risk, and reporting value.",
+    ),
 }
 
 
@@ -319,6 +500,14 @@ def derive_tag_meta(slug: str, name: str, group: str) -> tuple[str, str, str]:
         "technical-seo": f"Technical SEO checks and diagnostics for {name.lower()}.",
         "ai-search": f"AI search visibility and discovery guidance for {name.lower()} topics.",
         "commercial": f"Commercial evaluation and pricing guidance for FreeIndexer workflows.",
+        "content-marketing": f"Content marketing workflow guidance for {name.lower()} topics.",
+        "analytics": f"Analytics and reporting workflow guidance for {name.lower()} topics.",
+        "cro": f"Landing page and conversion workflow guidance for {name.lower()} topics.",
+        "operations": f"Digital marketing operations guidance for {name.lower()} workflows.",
+        "strategy": f"SEO strategy and growth workflow guidance for {name.lower()} topics.",
+        "tools": f"SEO tool workflow guidance for {name.lower()}, including responsible use and reporting.",
+        "provider": f"SEO provider and campaign workflow guidance for {name.lower()} topics.",
+        "platform": f"Platform-specific SEO workflow guidance for {name.lower()} topics.",
     }
     fallback_description = descriptions.get(group, f"{name} articles.")
     meta_title, meta_description = TAG_META.get(slug, (f"{name} Guides", fallback_description))
@@ -357,6 +546,11 @@ def main() -> int:
     parser = argparse.ArgumentParser(description="Sync FreeIndexer blog categories and tags.")
     parser.add_argument("--dry-run", action="store_true", help="Preview intended sync without API writes.")
     parser.add_argument("--validate-only", action="store_true", help="Validate taxonomy JSON only.")
+    parser.add_argument(
+        "--update-existing",
+        action="store_true",
+        help="Update existing live category/tag records. Use only after explicit owner approval.",
+    )
     args = parser.parse_args()
 
     taxonomy = load_json(TAXONOMY_SPEC_PATH, {})
@@ -411,7 +605,9 @@ def main() -> int:
         if slug in existing_cats:
             cat_id = existing_cats[slug]
             live["categories"][slug] = cat_id
-            if args.dry_run:
+            if not args.update_existing:
+                print(f"  locked existing category {slug} (id={cat_id}); no update")
+            elif args.dry_run:
                 print(f"  would update category {slug} (id={cat_id})")
             else:
                 client.update_category(
@@ -459,7 +655,9 @@ def main() -> int:
         if slug in existing_tags:
             tag_id = existing_tags[slug]
             live["tags"][slug] = tag_id
-            if args.dry_run:
+            if not args.update_existing:
+                print(f"  locked existing tag {slug} (id={tag_id}); no update")
+            elif args.dry_run:
                 print(f"  would update tag {slug} (id={tag_id})")
             else:
                 client.update_tag(

@@ -275,3 +275,128 @@ broader:
 - Backlink discovery pillar.
 - Webmaster maintenance hub.
 - AI search visibility hub, only after owner approval.
+
+## Digital Marketing Expansion Hubs
+
+The next phase keeps the SEO/indexing foundation but expands the blog into a
+broader digital marketing operating library. FreeIndexer remains the search
+discovery and indexing workflow layer; broader articles should teach the full
+workflow before mentioning product or provider options.
+
+### Hub 12: Content Marketing That Gets Discovered
+
+Category slug: `content-marketing`
+
+Target ICP: website owners, content teams, SaaS/product teams, affiliates
+
+Funnel stage: top to middle
+
+Connection to FreeIndexer: FreeIndexer fits after publishing checks, internal
+links, and URL prioritization are complete.
+
+Cluster ideas:
+
+- `content-cluster-planning-for-search-visibility`
+- `content-brief-template-for-seo-pages`
+- `keyword-intent-checklist-before-writing`
+- `blog-publishing-checklist-for-indexing`
+- `content-refresh-workflow-for-organic-growth`
+
+### Hub 13: Analytics And Reporting For SEO Growth
+
+Category slug: `analytics-reporting`
+
+Target ICP: webmasters, agencies, SaaS/product teams, growth operators
+
+Funnel stage: top to middle
+
+Connection to FreeIndexer: analytics should separate indexing/discovery work
+from traffic, ranking, and conversion outcomes.
+
+Cluster ideas:
+
+- `ga4-basics-for-seo-reporting`
+- `search-console-and-ga4-seo-workflow`
+- `track-organic-landing-pages`
+- `indexing-vs-traffic-reporting`
+- `monthly-seo-reporting-dashboard`
+
+### Hub 14: Landing Pages And CRO
+
+Category slug: `landing-pages-cro`
+
+Target ICP: SaaS/product teams, affiliates, agencies, founders
+
+Funnel stage: middle to bottom
+
+Connection to FreeIndexer: submit only landing pages that are crawlable,
+indexable, internally linked, and conversion-ready.
+
+Cluster ideas:
+
+- `seo-landing-page-structure`
+- `conversion-focused-cta-checklist`
+- `pricing-page-seo-and-cro`
+- `lead-capture-page-seo-checklist`
+- `landing-page-trust-section-checklist`
+
+### Hub 15: Digital Marketing Operations
+
+Category slug: `digital-marketing-operations`
+
+Target ICP: agencies, founders, SEO teams, growth operators
+
+Funnel stage: middle
+
+Connection to FreeIndexer: indexing and discovery work becomes one queue
+inside a larger campaign operating system.
+
+Cluster ideas:
+
+- `digital-marketing-operations-workflow`
+- `seo-qa-process-before-publishing`
+- `content-calendar-for-seo-growth`
+- `client-reporting-workflow-for-seo-agencies`
+- `vendor-management-workflow-for-seo-campaigns`
+
+### Hub 16: SEO Tools, Software, And Providers
+
+Category slug: `seo-tools-providers`
+
+Target ICP: agencies, SEO operators, affiliates, tool buyers
+
+Funnel stage: middle to bottom
+
+Connection to FreeIndexer: FreeIndexer is the indexing/search discovery layer,
+not a link-building service, campaign provider, analytics suite, or ranking
+guarantee.
+
+Cluster ideas:
+
+- `gsa-search-engine-ranker-vs-indexing-workflow`
+- `rankerx-vs-seo-provider-workflow`
+- `seo-provider-vs-indexing-tool`
+- `seo-campaign-services-for-small-websites`
+- `seo-tool-stack-for-small-agencies`
+- `backlink-tools-vs-indexing-tools`
+
+### Hub 17: Platform SEO Playbooks
+
+Category slug: `platform-seo`
+
+Target ICP: ecommerce store owners, website owners, webmasters, SaaS/product
+teams
+
+Funnel stage: top to middle
+
+Connection to FreeIndexer: platform guides should prioritize product,
+collection, category, blog, docs, or support URLs before submission.
+
+Cluster ideas:
+
+- `shopify-seo-indexing-checklist`
+- `shopify-product-pages-not-indexing`
+- `wordpress-indexing-checklist`
+- `woocommerce-category-page-seo-workflow`
+- `webflow-seo-indexing-guide`
+- `wix-google-indexing-guide`

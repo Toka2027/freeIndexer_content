@@ -14,8 +14,9 @@ workflow shell. Complete this sequence before the public draft is finished:
 
 2. Choose one primary ICP.
    - Use one of: website owner, webmaster, SEO operator, SEO agency, affiliate
-     marketer, programmatic SEO builder, SaaS/product team, or blog/network
-     owner.
+     marketer, programmatic SEO builder, SaaS/product team, blog/network
+     owner, ecommerce store owner, growth operator, founder, content marketer,
+     or tool/API evaluator.
    - Write to that workflow directly. Avoid generic "marketers and businesses"
      language unless it is truly the reader's workflow.
 
@@ -42,6 +43,14 @@ workflow shell. Complete this sequence before the public draft is finished:
      discovery, bulk submission, desktop app workflows, repeatable indexing
      operations, tracking, and prioritization.
    - Do not force FreeIndexer into every section.
+   - Mention SEOeStore or another provider only when the article is about SEO
+     providers, managed SEO campaigns, link-building handoffs, vendor QA, or
+     tool/provider comparisons. Keep provider mentions separate from
+     FreeIndexer: providers execute SEO work; FreeIndexer supports indexing and
+     search discovery follow-up.
+   - SEO software and automation articles must explain responsible use, quality
+     gates, risks, verification, and reporting. Do not publish spam-blast
+     instructions or ranking promises.
 
 6. Score before upload.
    - A new article must score at least 9/10 before hero upload, draft upload, or
@@ -165,6 +174,22 @@ as headings or visible labels.
 - Avoid forcing FreeIndexer into every section.
 - Keep claims honest: no guaranteed indexing, no ranking promises, no exact
   unvalidated network numbers.
+
+## Digital Marketing Expansion Rules
+
+The blog can cover content marketing, analytics, CRO, marketing operations,
+SEO software, providers, ecommerce platforms, and tool stacks. These articles
+must still connect back to the reader's operating workflow:
+
+- visibility problem
+- campaign or publishing process
+- quality and measurement checks
+- discovery/indexing follow-up where relevant
+- reporting or next decision
+
+FreeIndexer remains the indexing, URL discovery, backlink discovery, and
+repeatable submission workflow layer. It should not be framed as an analytics
+platform, SEO provider, content tool, CRO tool, or ranking system.
 
 ## Internal Linking Rules
 

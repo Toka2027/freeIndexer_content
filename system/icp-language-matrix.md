@@ -132,6 +132,35 @@ platforms.
   maintenance burden.
 - Content angle: compare workflow fit, not just feature lists.
 
+### Growth Operator
+
+Owns cross-channel marketing execution and needs SEO, content, reporting, CRO,
+and vendor workflows to connect cleanly.
+
+- Pain: disconnected tasks create activity without clear visibility or business
+  outcomes.
+- Needs: operating systems, dashboards, campaign checklists, clear ownership,
+  and realistic next steps.
+- Best article style: playbook, workflow guide, or reporting guide.
+- Natural next step: turn ad hoc marketing tasks into a weekly growth workflow.
+- Content angle: show how visibility, measurement, and conversion work together
+  without treating any single tool as the whole strategy.
+
+### Ecommerce Store Owner
+
+Runs a Shopify, WooCommerce, or marketplace-style site where product,
+collection, category, and blog URLs need discoverability and conversion.
+
+- Pain: important product or collection pages exist but are hard to discover,
+  poorly linked, duplicated, or not converting search visitors.
+- Needs: platform-specific SEO checks, sitemap behavior, collection/category
+  prioritization, Search Console setup, and product page workflows.
+- Best article style: platform checklist or ecommerce workflow guide.
+- Natural next step: prioritize revenue pages before submission or campaign
+  work.
+- Content angle: connect product visibility, internal links, indexing checks,
+  and conversion readiness.
+
 ## Funnel Mapping
 
 | Funnel stage | Reader state | Best content |

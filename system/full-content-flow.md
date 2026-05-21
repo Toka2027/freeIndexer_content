@@ -151,6 +151,9 @@ Check:
 
 ## 7. Sync Blog Taxonomy
 
+The current live taxonomy is locked. The default sync preserves existing
+categories and tags and creates only missing, owner-approved additions.
+
 ```powershell
 python scripts/sync_blog_taxonomy.py
 ```
@@ -160,6 +163,12 @@ Dry-run or local validation:
 ```powershell
 python scripts/sync_blog_taxonomy.py --validate-only
 python scripts/sync_blog_taxonomy.py --dry-run
+```
+
+Only use the existing-record update mode after explicit owner approval:
+
+```powershell
+python scripts/sync_blog_taxonomy.py --update-existing
 ```
 
 Expected output after real sync:
