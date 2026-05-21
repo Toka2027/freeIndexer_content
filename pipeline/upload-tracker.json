@@ -342,5 +342,45 @@
   "search-console-and-ga4-seo-workflow": {
     "public_url": "https://cen-public-st.nbg1.your-objectstorage.com/freeindexer/blog/search-console-and-ga4-seo-workflow-hero.png",
     "object_key": "freeindexer/blog/search-console-and-ga4-seo-workflow-hero.png"
+  },
+  "wordpress-indexing-checklist": {
+    "public_url": "https://cen-public-st.nbg1.your-objectstorage.com/freeindexer/blog/wordpress-indexing-checklist-hero.png",
+    "object_key": "freeindexer/blog/wordpress-indexing-checklist-hero.png"
+  },
+  "seo-basics-for-website-owners": {
+    "public_url": "https://cen-public-st.nbg1.your-objectstorage.com/freeindexer/blog/seo-basics-for-website-owners-hero.png",
+    "object_key": "freeindexer/blog/seo-basics-for-website-owners-hero.png"
+  },
+  "how-search-visibility-works": {
+    "public_url": "https://cen-public-st.nbg1.your-objectstorage.com/freeindexer/blog/how-search-visibility-works-hero.png",
+    "object_key": "freeindexer/blog/how-search-visibility-works-hero.png"
+  },
+  "indexing-vs-ranking-vs-visibility": {
+    "public_url": "https://cen-public-st.nbg1.your-objectstorage.com/freeindexer/blog/indexing-vs-ranking-vs-visibility-hero.png",
+    "object_key": "freeindexer/blog/indexing-vs-ranking-vs-visibility-hero.png"
+  },
+  "sitemap-and-robots-basics": {
+    "public_url": "https://cen-public-st.nbg1.your-objectstorage.com/freeindexer/blog/sitemap-and-robots-basics-hero.png",
+    "object_key": "freeindexer/blog/sitemap-and-robots-basics-hero.png"
+  },
+  "google-search-console-basics": {
+    "public_url": "https://cen-public-st.nbg1.your-objectstorage.com/freeindexer/blog/google-search-console-basics-hero.png",
+    "object_key": "freeindexer/blog/google-search-console-basics-hero.png"
+  },
+  "internal-linking-basics-for-website-owners": {
+    "public_url": "https://cen-public-st.nbg1.your-objectstorage.com/freeindexer/blog/internal-linking-basics-for-website-owners-hero.png",
+    "object_key": "freeindexer/blog/internal-linking-basics-for-website-owners-hero.png"
+  },
+  "website-visibility-checklist": {
+    "public_url": "https://cen-public-st.nbg1.your-objectstorage.com/freeindexer/blog/website-visibility-checklist-hero.png",
+    "object_key": "freeindexer/blog/website-visibility-checklist-hero.png"
+  },
+  "technical-seo-for-operators": {
+    "public_url": "https://cen-public-st.nbg1.your-objectstorage.com/freeindexer/blog/technical-seo-for-operators-hero.png",
+    "object_key": "freeindexer/blog/technical-seo-for-operators-hero.png"
+  },
+  "crawlability-audit-workflow": {
+    "public_url": "https://cen-public-st.nbg1.your-objectstorage.com/freeindexer/blog/crawlability-audit-workflow-hero.png",
+    "object_key": "freeindexer/blog/crawlability-audit-workflow-hero.png"
   }
 }
