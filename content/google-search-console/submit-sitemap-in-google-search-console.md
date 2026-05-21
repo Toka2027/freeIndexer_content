@@ -15,6 +15,12 @@ icp: Website Owner
 secondary_icp: Webmaster
 funnel_stage: top
 type: Search Console Guide
+series: Google Search Console Playbook
+series_order: 4
+series_role: cluster
+series_hub: google-search-console-playbook
+previous_article: pages-report-troubleshooting-workflow
+next_article: validate-fix-search-console-indexing
 business_goal: Build topical authority and support practical search discovery workflows
 meta:
   target_page: https://freeindexer.com/
@@ -22,6 +28,10 @@ meta:
     - google-search-console-indexing-guide
     - sitemap-not-discovered
     - how-google-discovers-new-urls
+    - google-search-console-playbook
+    - pages-report-troubleshooting-workflow
+    - validate-fix-search-console-indexing
+    - sitemap-indexing-checklist
   blog_category: google-search-console
   blog_tags:
     - google-search-console
@@ -138,6 +148,23 @@ The most common mistakes are workflow mistakes, not tool mistakes.
 - using absolute promises in reports
 
 Avoiding these mistakes keeps the workflow practical and makes the outcome easier to explain.
+
+## Part Of This Series
+
+This article is part of the [Google Search Console Playbook](/google-search-console-playbook) series.
+
+Recommended path:
+
+1. Previous: [Pages Report Troubleshooting Workflow](/pages-report-troubleshooting-workflow)
+2. Current: **Submit Sitemap In Google Search Console**
+3. Next: [Validate Fix In Search Console](/validate-fix-search-console-indexing)
+
+Series hub: [Google Search Console Playbook](/google-search-console-playbook)
+
+Related guides from other workflows:
+
+- [Google Search Console Indexing Guide](/google-search-console-indexing-guide)
+- [Sitemap Indexing Checklist](/sitemap-indexing-checklist)
 
 ## FAQ
 

@@ -15,6 +15,11 @@ secondary_icp: Webmaster
 funnel_stage: top
 type: Webmaster Guide
 series: Website Visibility Foundations
+series_order: 1
+series_role: hub
+series_hub: seo-basics-for-website-owners
+previous_article: 
+next_article: how-search-visibility-works
 business_goal: Build a simple visibility checklist
 meta:
   target_page: "https://freeindexer.com/"
@@ -22,6 +27,7 @@ meta:
     - indexing-education-hub
     - content-visibility-checklist
     - website-owner-seo-maintenance-checklist
+    - how-search-visibility-works
   blog_category: webmaster-guides
   blog_tags:
     - seo
@@ -71,6 +77,51 @@ Related reading in this workflow:
 - [Indexing Education Hub](/indexing-education-hub)
 - [Content Visibility Checklist](/content-visibility-checklist)
 - [Website Owner SEO Maintenance Checklist](/website-owner-seo-maintenance-checklist)
+
+## Website Visibility Foundations Series
+
+This is the visible hub for the Website Visibility Foundations series. It is for website owners and webmasters who want a guided path instead of disconnected articles.
+
+### What You Will Learn
+
+- How the topic works from foundation to execution.
+- Which checks matter before using tools, providers, or reporting workflows.
+- How to prioritize URLs, content, backlinks, campaigns, or platform pages.
+- How to connect each article to the next step in the workflow.
+
+### Recommended Reading Order
+
+1. [SEO Basics For Website Owners](/seo-basics-for-website-owners) - Series hub
+2. [How Search Visibility Works](/how-search-visibility-works) - Cluster guide
+3. [Indexing vs Ranking vs Visibility](/indexing-vs-ranking-vs-visibility) - Cluster guide
+4. [Sitemap And Robots Basics](/sitemap-and-robots-basics) - Cluster guide
+5. [Google Search Console Basics](/google-search-console-basics) - Cluster guide
+6. [Internal Linking Basics For Website Owners](/internal-linking-basics-for-website-owners) - Cluster guide
+7. [Website Visibility Checklist](/website-visibility-checklist) - Cluster guide
+
+### Article Sequence
+
+| Part | Article | Role |
+|---|---|---|
+| 1 | [SEO Basics For Website Owners](/seo-basics-for-website-owners) | Hub |
+| 2 | [How Search Visibility Works](/how-search-visibility-works) | Cluster |
+| 3 | [Indexing vs Ranking vs Visibility](/indexing-vs-ranking-vs-visibility) | Cluster |
+| 4 | [Sitemap And Robots Basics](/sitemap-and-robots-basics) | Cluster |
+| 5 | [Google Search Console Basics](/google-search-console-basics) | Cluster |
+| 6 | [Internal Linking Basics For Website Owners](/internal-linking-basics-for-website-owners) | Cluster |
+| 7 | [Website Visibility Checklist](/website-visibility-checklist) | Cluster |
+
+### Where FreeIndexer Fits
+
+FreeIndexer fits when the reader has verified URLs, backlinks, or page batches that are ready for repeatable discovery follow-up and tracking.
+
+### Where SEOeStore Fits
+
+SEOeStore is not a primary part of this series unless the reader later needs managed SEO or provider execution outside the article topic.
+
+### Next Step
+
+Start with this hub, then follow the reading order above. Each cluster article links back here and points to the previous and next article in the sequence.
 
 ## The Short Answer
 
@@ -134,6 +185,23 @@ In a real team, this should become a small operating board: target URL, source, 
 FreeIndexer fits when the team has verified URLs, backlinks, launch pages, or priority lists that deserve repeatable discovery follow-up. It is useful for URL submission, backlink discovery workflows, bulk URL queues, tracking, and prioritization.
 
 It should not replace technical checks, content quality, provider QA, Search Console review, analytics, or conversion work. Use it after the asset is ready enough to deserve attention.
+
+## Part Of This Series
+
+This article is part of the [SEO Basics For Website Owners](/seo-basics-for-website-owners) series.
+
+Recommended path:
+
+1. Previous: Start here
+2. Current: **SEO Basics For Website Owners**
+3. Next: [How Search Visibility Works](/how-search-visibility-works)
+
+Series hub: [SEO Basics For Website Owners](/seo-basics-for-website-owners)
+
+Related guides from other workflows:
+
+- [Indexing Education Hub](/indexing-education-hub)
+- [Content Visibility Checklist](/content-visibility-checklist)
 
 ## FAQ
 

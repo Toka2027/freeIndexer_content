@@ -15,6 +15,11 @@ secondary_icp: Website Owner
 funnel_stage: middle
 type: Content Marketing Guide
 series: Content Marketing That Gets Discovered
+series_order: 6
+series_role: cluster
+series_hub: content-marketing-that-gets-discovered
+previous_article: on-page-seo-checklist-for-new-content
+next_article: content-refresh-workflow-for-organic-growth
 business_goal: Publish with discovery checks
 meta:
   target_page: "https://freeindexer.com/"
@@ -22,6 +27,8 @@ meta:
     - new-blog-post-indexing-workflow
     - url-submission-checklist-before-indexing
     - content-marketing-that-gets-discovered
+    - on-page-seo-checklist-for-new-content
+    - content-refresh-workflow-for-organic-growth
   blog_category: content-marketing
   blog_tags:
     - blog-publishing
@@ -134,6 +141,23 @@ In a real team, this should become a small operating board: target URL, source, 
 FreeIndexer fits when the team has verified URLs, backlinks, launch pages, or priority lists that deserve repeatable discovery follow-up. It is useful for URL submission, backlink discovery workflows, bulk URL queues, tracking, and prioritization.
 
 It should not replace technical checks, content quality, provider QA, Search Console review, analytics, or conversion work. Use it after the asset is ready enough to deserve attention.
+
+## Part Of This Series
+
+This article is part of the [Content Marketing That Gets Discovered](/content-marketing-that-gets-discovered) series.
+
+Recommended path:
+
+1. Previous: [On-Page SEO Checklist For New Content](/on-page-seo-checklist-for-new-content)
+2. Current: **Blog Publishing Checklist For Indexing**
+3. Next: [Content Refresh Workflow For Organic Growth](/content-refresh-workflow-for-organic-growth)
+
+Series hub: [Content Marketing That Gets Discovered](/content-marketing-that-gets-discovered)
+
+Related guides from other workflows:
+
+- [New Blog Post Indexing Workflow](/new-blog-post-indexing-workflow)
+- [Url Submission Checklist Before Indexing](/url-submission-checklist-before-indexing)
 
 ## FAQ
 

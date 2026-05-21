@@ -14,6 +14,12 @@ icp: SEO Agency
 secondary_icp: SEO Operator
 funnel_stage: middle
 type: Backlink Workflow Guide
+series: Backlinks And Discovery
+series_order: 6
+series_role: cluster
+series_hub: backlink-discovery-and-indexing-guide
+previous_article: manage-backlink-vendors-indexing-visibility
+next_article: backlink-reporting-template-for-agencies
 business_goal: Build topical authority and support practical search discovery workflows
 meta:
   target_page: https://freeindexer.com/
@@ -22,6 +28,9 @@ meta:
     - backlink-indexing-for-client-reporting
     - search-discovery-workflow-for-seo-agencies
     - best-backlink-indexer
+    - manage-backlink-vendors-indexing-visibility
+    - backlink-reporting-template-for-agencies
+    - gsc-client-reporting-workflow
   blog_category: backlinks
   blog_tags:
     - backlinks
@@ -140,6 +149,22 @@ The most common mistakes are workflow mistakes, not tool mistakes.
 - using absolute promises in reports
 
 Avoiding these mistakes keeps the workflow practical and makes the outcome easier to explain.
+
+## Part Of This Series
+
+This article is part of the [Backlink Discovery And Indexing Guide](/backlink-discovery-and-indexing-guide) series.
+
+Recommended path:
+
+1. Previous: [Managing Backlink Vendors Without Losing Indexing Visibility](/manage-backlink-vendors-indexing-visibility)
+2. Current: **Track Backlink Discovery For SEO Campaigns**
+3. Next: [Backlink Reporting Template For Agencies](/backlink-reporting-template-for-agencies)
+
+Series hub: [Backlink Discovery And Indexing Guide](/backlink-discovery-and-indexing-guide)
+
+Related guides from other workflows:
+
+- [GSC Client Reporting Workflow](/gsc-client-reporting-workflow)
 
 ## FAQ
 

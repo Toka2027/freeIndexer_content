@@ -16,6 +16,12 @@ icp: Affiliate Marketer
 secondary_icp: SEO Agency
 funnel_stage: middle
 type: Backlink Workflow Guide
+series: Backlinks And Discovery
+series_order: 1
+series_role: hub
+series_hub: backlink-discovery-and-indexing-guide
+previous_article: 
+next_article: backlink-quality-before-indexing
 business_goal: Build backlink discovery authority and connect to FreeIndexer workflows
 meta:
   target_page: https://freeindexer.com/
@@ -24,6 +30,8 @@ meta:
     - indexing-workflow-for-affiliate-sites
     - url-indexing-for-seo-agencies
     - best-google-indexing-tools
+    - backlink-quality-before-indexing
+    - backlink-indexing-checklist
   blog_category: backlinks
   blog_tags:
     - backlinks
@@ -68,6 +76,53 @@ Backlinks can only help after they are discoverable. If a link exists on a page 
 The right approach is not a backlink blast. It is a clean discovery workflow: collect known links, qualify them, prioritize the useful ones, and submit or support them in a way that fits your SEO process.
 
 If you need the broader crawling and indexing foundation first, start with the [indexing education hub](/indexing-education-hub). If you are comparing tools for this workflow, use [best Google indexing tools](/best-google-indexing-tools) after you understand which links actually deserve follow-up.
+
+## Backlinks And Discovery Series
+
+This is the visible hub for the Backlinks And Discovery series. It is for affiliate marketers and seo agencys who want a guided path instead of disconnected articles.
+
+### What You Will Learn
+
+- How the topic works from foundation to execution.
+- Which checks matter before using tools, providers, or reporting workflows.
+- How to prioritize URLs, content, backlinks, campaigns, or platform pages.
+- How to connect each article to the next step in the workflow.
+
+### Recommended Reading Order
+
+1. [Backlink Discovery And Indexing Guide](/backlink-discovery-and-indexing-guide) - Series hub
+2. [Backlink Quality Before Indexing](/backlink-quality-before-indexing) - Cluster guide
+3. [Backlink Discovery Workflow After Link Building](/backlink-discovery-workflow-after-link-building) - Cluster guide
+4. [Link-Building Provider Checklist](/link-building-provider-checklist) - Cluster guide
+5. [Managing Backlink Vendors Without Losing Indexing Visibility](/manage-backlink-vendors-indexing-visibility) - Cluster guide
+6. [Track Backlink Discovery For SEO Campaigns](/track-backlink-discovery-for-seo-campaigns) - Cluster guide
+7. [Backlink Reporting Template For Agencies](/backlink-reporting-template-for-agencies) - Cluster guide
+8. [Affiliate Backlink Tracking Workflow](/affiliate-backlink-tracking-workflow) - Cluster guide
+
+### Article Sequence
+
+| Part | Article | Role |
+|---|---|---|
+| 1 | [Backlink Discovery And Indexing Guide](/backlink-discovery-and-indexing-guide) | Hub |
+| 2 | [Backlink Quality Before Indexing](/backlink-quality-before-indexing) | Cluster |
+| 3 | [Backlink Discovery Workflow After Link Building](/backlink-discovery-workflow-after-link-building) | Cluster |
+| 4 | [Link-Building Provider Checklist](/link-building-provider-checklist) | Cluster |
+| 5 | [Managing Backlink Vendors Without Losing Indexing Visibility](/manage-backlink-vendors-indexing-visibility) | Cluster |
+| 6 | [Track Backlink Discovery For SEO Campaigns](/track-backlink-discovery-for-seo-campaigns) | Cluster |
+| 7 | [Backlink Reporting Template For Agencies](/backlink-reporting-template-for-agencies) | Cluster |
+| 8 | [Affiliate Backlink Tracking Workflow](/affiliate-backlink-tracking-workflow) | Cluster |
+
+### Where FreeIndexer Fits
+
+FreeIndexer fits when the reader has verified URLs, backlinks, or page batches that are ready for repeatable discovery follow-up and tracking.
+
+### Where SEOeStore Fits
+
+SEOeStore may appear in this series only where the workflow involves managed SEO execution, campaign services, provider handoff, or link-building vendor QA. It remains a provider layer, separate from FreeIndexer.
+
+### Next Step
+
+Start with this hub, then follow the reading order above. Each cluster article links back here and points to the previous and next article in the sequence.
 
 ## The Short Answer
 
@@ -201,6 +256,23 @@ Avoid these mistakes:
 - focusing on quantity instead of link quality and relevance
 
 Backlink discovery works best when it is organized, selective, and tied to real SEO priorities.
+
+## Part Of This Series
+
+This article is part of the [Backlink Discovery And Indexing Guide](/backlink-discovery-and-indexing-guide) series.
+
+Recommended path:
+
+1. Previous: Start here
+2. Current: **Backlink Discovery And Indexing Guide**
+3. Next: [Backlink Quality Before Indexing](/backlink-quality-before-indexing)
+
+Series hub: [Backlink Discovery And Indexing Guide](/backlink-discovery-and-indexing-guide)
+
+Related guides from other workflows:
+
+- [Indexing Education Hub](/indexing-education-hub)
+- [Backlink Indexing Checklist](/backlink-indexing-checklist)
 
 ## FAQ
 

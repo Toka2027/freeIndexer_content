@@ -15,6 +15,11 @@ secondary_icp: Webmaster
 funnel_stage: middle
 type: Technical SEO Guide
 series: Technical SEO For Operators
+series_order: 2
+series_role: cluster
+series_hub: technical-seo-for-operators
+previous_article: technical-seo-for-operators
+next_article: indexability-audit-for-large-url-sets
 business_goal: Find crawl blockers before submission
 meta:
   target_page: "https://freeindexer.com/"
@@ -22,6 +27,9 @@ meta:
     - crawlability-checklist
     - technical-seo-indexing-audit
     - robots-txt-and-indexing
+    - technical-seo-for-operators
+    - technical-seo-for-operators
+    - indexability-audit-for-large-url-sets
   blog_category: technical-seo
   blog_tags:
     - crawlability
@@ -134,6 +142,23 @@ In a real team, this should become a small operating board: target URL, source, 
 FreeIndexer fits when the team has verified URLs, backlinks, launch pages, or priority lists that deserve repeatable discovery follow-up. It is useful for URL submission, backlink discovery workflows, bulk URL queues, tracking, and prioritization.
 
 It should not replace technical checks, content quality, provider QA, Search Console review, analytics, or conversion work. Use it after the asset is ready enough to deserve attention.
+
+## Part Of This Series
+
+This article is part of the [Technical SEO For Operators](/technical-seo-for-operators) series.
+
+Recommended path:
+
+1. Previous: [Technical SEO For Operators](/technical-seo-for-operators)
+2. Current: **Crawlability Audit Workflow**
+3. Next: [Indexability Audit For Large URL Sets](/indexability-audit-for-large-url-sets)
+
+Series hub: [Technical SEO For Operators](/technical-seo-for-operators)
+
+Related guides from other workflows:
+
+- [Crawlability Checklist](/crawlability-checklist)
+- [Technical Seo Indexing Audit](/technical-seo-indexing-audit)
 
 ## FAQ
 

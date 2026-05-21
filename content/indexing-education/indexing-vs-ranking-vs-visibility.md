@@ -15,6 +15,11 @@ secondary_icp: SEO Operator
 funnel_stage: top
 type: Indexing Education Guide
 series: Website Visibility Foundations
+series_order: 3
+series_role: cluster
+series_hub: seo-basics-for-website-owners
+previous_article: how-search-visibility-works
+next_article: sitemap-and-robots-basics
 business_goal: Separate indexing ranking and visibility
 meta:
   target_page: "https://freeindexer.com/"
@@ -22,6 +27,9 @@ meta:
     - url-indexing-vs-ranking
     - indexing-education-hub
     - why-google-is-not-indexing-my-url
+    - seo-basics-for-website-owners
+    - how-search-visibility-works
+    - sitemap-and-robots-basics
   blog_category: indexing-education
   blog_tags:
     - indexing
@@ -134,6 +142,23 @@ In a real team, this should become a small operating board: target URL, source, 
 FreeIndexer fits when the team has verified URLs, backlinks, launch pages, or priority lists that deserve repeatable discovery follow-up. It is useful for URL submission, backlink discovery workflows, bulk URL queues, tracking, and prioritization.
 
 It should not replace technical checks, content quality, provider QA, Search Console review, analytics, or conversion work. Use it after the asset is ready enough to deserve attention.
+
+## Part Of This Series
+
+This article is part of the [SEO Basics For Website Owners](/seo-basics-for-website-owners) series.
+
+Recommended path:
+
+1. Previous: [How Search Visibility Works](/how-search-visibility-works)
+2. Current: **Indexing vs Ranking vs Visibility**
+3. Next: [Sitemap And Robots Basics](/sitemap-and-robots-basics)
+
+Series hub: [SEO Basics For Website Owners](/seo-basics-for-website-owners)
+
+Related guides from other workflows:
+
+- [Url Indexing Vs Ranking](/url-indexing-vs-ranking)
+- [Indexing Education Hub](/indexing-education-hub)
 
 ## FAQ
 

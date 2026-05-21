@@ -14,6 +14,12 @@ icp: Webmaster
 secondary_icp: SEO Operator
 funnel_stage: top
 type: Search Console Guide
+series: Google Search Console Playbook
+series_order: 5
+series_role: cluster
+series_hub: google-search-console-playbook
+previous_article: submit-sitemap-in-google-search-console
+next_article: fixing-discovered-currently-not-indexed
 business_goal: Build Search Console trust and help operators avoid premature validation requests
 meta:
   target_page: "https://freeindexer.com/"
@@ -23,6 +29,10 @@ meta:
     - google-search-console-pages-report-explained
     - search-console-sitemap-errors
     - request-indexing-in-search-console
+    - google-search-console-playbook
+    - submit-sitemap-in-google-search-console
+    - fixing-discovered-currently-not-indexed
+    - search-console-validation-flow
   blog_category: google-search-console
   blog_tags:
     - google-search-console
@@ -149,6 +159,23 @@ For single high-priority pages after a meaningful repair, the [request indexing 
 - Treating intentional exclusions as errors.
 - Mixing sitemap cleanup, request indexing, and validation into one vague task.
 - Reporting a validation start as if it guarantees indexing or ranking.
+
+## Part Of This Series
+
+This article is part of the [Google Search Console Playbook](/google-search-console-playbook) series.
+
+Recommended path:
+
+1. Previous: [Submit Sitemap In Google Search Console](/submit-sitemap-in-google-search-console)
+2. Current: **Validate Fix In Search Console**
+3. Next: [Fixing Discovered Currently Not Indexed](/fixing-discovered-currently-not-indexed)
+
+Series hub: [Google Search Console Playbook](/google-search-console-playbook)
+
+Related guides from other workflows:
+
+- [Google Search Console Indexing Guide](/google-search-console-indexing-guide)
+- [Search Console Validation Flow](/search-console-validation-flow)
 
 ## FAQ
 

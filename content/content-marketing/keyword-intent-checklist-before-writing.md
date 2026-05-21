@@ -15,6 +15,11 @@ secondary_icp: SEO Operator
 funnel_stage: top
 type: Content Marketing Guide
 series: Content Marketing That Gets Discovered
+series_order: 3
+series_role: cluster
+series_hub: content-marketing-that-gets-discovered
+previous_article: content-cluster-planning-for-search-visibility
+next_article: content-brief-template-for-seo-pages
 business_goal: Match content to intent
 meta:
   target_page: "https://freeindexer.com/"
@@ -22,6 +27,8 @@ meta:
     - content-marketing-that-gets-discovered
     - content-visibility-checklist
     - indexing-education-hub
+    - content-cluster-planning-for-search-visibility
+    - content-brief-template-for-seo-pages
   blog_category: content-marketing
   blog_tags:
     - keyword-intent
@@ -128,6 +135,23 @@ In a real team, this should become a small operating board: target URL, source, 
 | You found blockers | Fix crawlability, quality, tracking, or provider handoff before scaling |
 | You have verified priority assets | Move them into the right follow-up queue and record the evidence |
 | You need reporting | Show what was done, what was verified, and what changed afterward |
+
+## Part Of This Series
+
+This article is part of the [Content Marketing That Gets Discovered](/content-marketing-that-gets-discovered) series.
+
+Recommended path:
+
+1. Previous: [Content Cluster Planning For Search Visibility](/content-cluster-planning-for-search-visibility)
+2. Current: **Keyword Intent Checklist Before Writing**
+3. Next: [Content Brief Template For SEO Pages](/content-brief-template-for-seo-pages)
+
+Series hub: [Content Marketing That Gets Discovered](/content-marketing-that-gets-discovered)
+
+Related guides from other workflows:
+
+- [Content Visibility Checklist](/content-visibility-checklist)
+- [Indexing Education Hub](/indexing-education-hub)
 
 ## FAQ
 

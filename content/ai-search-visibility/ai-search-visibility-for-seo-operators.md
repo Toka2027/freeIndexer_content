@@ -15,6 +15,12 @@ icp: SEO Operator
 secondary_icp: SaaS Or Product Team
 funnel_stage: top
 type: AI Search Visibility Guide
+series: AI Search / GEO Visibility
+series_order: 1
+series_role: hub
+series_hub: ai-search-visibility-for-seo-operators
+previous_article: 
+next_article: geo-readiness-checklist-for-website-owners
 business_goal: Build topical authority and support practical search discovery workflows
 meta:
   target_page: https://freeindexer.com/
@@ -22,6 +28,8 @@ meta:
     - technical-seo-indexing-audit
     - content-visibility-checklist
     - internal-linking-for-indexing
+    - geo-readiness-checklist-for-website-owners
+    - content-marketing-that-gets-discovered
   blog_category: ai-search-visibility
   blog_tags:
     - ai-search
@@ -63,6 +71,47 @@ content_quality:
 AI Search Visibility For SEO Operators helps seo operators who need better search discovery while keeping technical checks, quality review, and follow-up separate.
 
 If you need the wider context first, start with the [technical SEO indexing audit](/technical-seo-indexing-audit). This guide focuses on ai search visibility and shows how to diagnose the issue, prioritize the work, and choose the next step with realistic expectations.
+
+## AI Search / GEO Visibility Series
+
+This is the visible hub for the AI Search / GEO Visibility series. It is for seo operators and saas or product teams who want a guided path instead of disconnected articles.
+
+### What You Will Learn
+
+- How the topic works from foundation to execution.
+- Which checks matter before using tools, providers, or reporting workflows.
+- How to prioritize URLs, content, backlinks, campaigns, or platform pages.
+- How to connect each article to the next step in the workflow.
+
+### Recommended Reading Order
+
+1. [AI Search Visibility For SEO Operators](/ai-search-visibility-for-seo-operators) - Series hub
+2. [GEO Readiness Checklist For Website Owners](/geo-readiness-checklist-for-website-owners) - Cluster guide
+3. [Content Structure For AI Search Discovery](/content-structure-for-ai-search-discovery) - Cluster guide
+4. [Entity Clarity For SEO And AI Search](/entity-clarity-for-seo-and-ai-search) - Cluster guide
+5. [Technical SEO Foundations For AI Search](/technical-seo-foundations-for-ai-search) - Cluster guide
+
+### Article Sequence
+
+| Part | Article | Role |
+|---|---|---|
+| 1 | [AI Search Visibility For SEO Operators](/ai-search-visibility-for-seo-operators) | Hub |
+| 2 | [GEO Readiness Checklist For Website Owners](/geo-readiness-checklist-for-website-owners) | Cluster |
+| 3 | [Content Structure For AI Search Discovery](/content-structure-for-ai-search-discovery) | Cluster |
+| 4 | [Entity Clarity For SEO And AI Search](/entity-clarity-for-seo-and-ai-search) | Cluster |
+| 5 | [Technical SEO Foundations For AI Search](/technical-seo-foundations-for-ai-search) | Cluster |
+
+### Where FreeIndexer Fits
+
+FreeIndexer fits when the reader has verified URLs, backlinks, or page batches that are ready for repeatable discovery follow-up and tracking.
+
+### Where SEOeStore Fits
+
+SEOeStore is not a primary part of this series unless the reader later needs managed SEO or provider execution outside the article topic.
+
+### Next Step
+
+Start with this hub, then follow the reading order above. Each cluster article links back here and points to the previous and next article in the sequence.
 
 ## The Short Answer
 
@@ -138,6 +187,23 @@ The most common mistakes are workflow mistakes, not tool mistakes.
 - using absolute promises in reports
 
 Avoiding these mistakes keeps the workflow practical and makes the outcome easier to explain.
+
+## Part Of This Series
+
+This article is part of the [AI Search Visibility For SEO Operators](/ai-search-visibility-for-seo-operators) series.
+
+Recommended path:
+
+1. Previous: Start here
+2. Current: **AI Search Visibility For SEO Operators**
+3. Next: [GEO Readiness Checklist For Website Owners](/geo-readiness-checklist-for-website-owners)
+
+Series hub: [AI Search Visibility For SEO Operators](/ai-search-visibility-for-seo-operators)
+
+Related guides from other workflows:
+
+- [Technical Seo Indexing Audit](/technical-seo-indexing-audit)
+- [Content Marketing That Gets Discovered](/content-marketing-that-gets-discovered)
 
 ## FAQ
 

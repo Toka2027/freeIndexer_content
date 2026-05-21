@@ -15,6 +15,11 @@ secondary_icp: Webmaster
 funnel_stage: top
 type: Search Console Playbook
 series: Website Visibility Foundations
+series_order: 5
+series_role: cluster
+series_hub: seo-basics-for-website-owners
+previous_article: sitemap-and-robots-basics
+next_article: internal-linking-basics-for-website-owners
 business_goal: Set up basic GSC checks
 meta:
   target_page: "https://freeindexer.com/"
@@ -22,6 +27,9 @@ meta:
     - google-search-console-indexing-guide
     - how-to-use-url-inspection-tool
     - submit-sitemap-in-google-search-console
+    - seo-basics-for-website-owners
+    - sitemap-and-robots-basics
+    - internal-linking-basics-for-website-owners
   blog_category: google-search-console
   blog_tags:
     - google-search-console
@@ -134,6 +142,23 @@ In a real team, this should become a small operating board: target URL, source, 
 FreeIndexer fits when the team has verified URLs, backlinks, launch pages, or priority lists that deserve repeatable discovery follow-up. It is useful for URL submission, backlink discovery workflows, bulk URL queues, tracking, and prioritization.
 
 It should not replace technical checks, content quality, provider QA, Search Console review, analytics, or conversion work. Use it after the asset is ready enough to deserve attention.
+
+## Part Of This Series
+
+This article is part of the [SEO Basics For Website Owners](/seo-basics-for-website-owners) series.
+
+Recommended path:
+
+1. Previous: [Sitemap And Robots Basics](/sitemap-and-robots-basics)
+2. Current: **Google Search Console Basics**
+3. Next: [Internal Linking Basics For Website Owners](/internal-linking-basics-for-website-owners)
+
+Series hub: [SEO Basics For Website Owners](/seo-basics-for-website-owners)
+
+Related guides from other workflows:
+
+- [Google Search Console Indexing Guide](/google-search-console-indexing-guide)
+- [How To Use Url Inspection Tool](/how-to-use-url-inspection-tool)
 
 ## FAQ
 

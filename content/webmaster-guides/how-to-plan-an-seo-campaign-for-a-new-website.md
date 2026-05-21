@@ -15,6 +15,11 @@ secondary_icp: Founder
 funnel_stage: middle
 type: Webmaster Guide
 series: SEO Campaign Services And Provider Workflows
+series_order: 3
+series_role: cluster
+series_hub: seo-campaign-services-for-small-websites
+previous_article: managed-seo-campaigns-vs-diy-seo-tools
+next_article: how-to-track-seo-campaign-deliverables
 business_goal: Plan a new-site campaign
 meta:
   target_page: "https://freeindexer.com/"
@@ -22,6 +27,8 @@ meta:
     - seo-campaign-services-for-small-websites
     - indexing-checklist-for-new-websites
     - content-marketing-that-gets-discovered
+    - managed-seo-campaigns-vs-diy-seo-tools
+    - how-to-track-seo-campaign-deliverables
   blog_category: webmaster-guides
   blog_tags:
     - seo-campaigns
@@ -134,6 +141,23 @@ In a real team, this should become a small operating board: target URL, source, 
 FreeIndexer fits when the team has verified URLs, backlinks, launch pages, or priority lists that deserve repeatable discovery follow-up. It is useful for URL submission, backlink discovery workflows, bulk URL queues, tracking, and prioritization.
 
 It should not replace technical checks, content quality, provider QA, Search Console review, analytics, or conversion work. Use it after the asset is ready enough to deserve attention.
+
+## Part Of This Series
+
+This article is part of the [SEO Campaign Services For Small Websites](/seo-campaign-services-for-small-websites) series.
+
+Recommended path:
+
+1. Previous: [Managed SEO Campaigns vs DIY SEO Tools](/managed-seo-campaigns-vs-diy-seo-tools)
+2. Current: **How To Plan An SEO Campaign For A New Website**
+3. Next: [How To Track SEO Campaign Deliverables](/how-to-track-seo-campaign-deliverables)
+
+Series hub: [SEO Campaign Services For Small Websites](/seo-campaign-services-for-small-websites)
+
+Related guides from other workflows:
+
+- [Indexing Checklist For New Websites](/indexing-checklist-for-new-websites)
+- [Content Marketing That Gets Discovered](/content-marketing-that-gets-discovered)
 
 ## FAQ
 

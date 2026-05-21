@@ -15,6 +15,11 @@ secondary_icp: Growth Operator
 funnel_stage: top
 type: Analytics And Reporting Guide
 series: Analytics And Tracking For SEO Growth
+series_order: 2
+series_role: cluster
+series_hub: analytics-and-reporting-for-seo-growth
+previous_article: analytics-and-reporting-for-seo-growth
+next_article: search-console-and-ga4-seo-workflow
 business_goal: Set up basic SEO reports
 meta:
   target_page: "https://freeindexer.com/"
@@ -22,6 +27,7 @@ meta:
     - analytics-and-reporting-for-seo-growth
     - google-search-console-pages-report-explained
     - content-visibility-checklist
+    - search-console-and-ga4-seo-workflow
   blog_category: analytics-reporting
   blog_tags:
     - ga4
@@ -128,6 +134,23 @@ In a real team, this should become a small operating board: target URL, source, 
 | You found blockers | Fix crawlability, quality, tracking, or provider handoff before scaling |
 | You have verified priority assets | Move them into the right follow-up queue and record the evidence |
 | You need reporting | Show what was done, what was verified, and what changed afterward |
+
+## Part Of This Series
+
+This article is part of the [Analytics And Reporting For SEO Growth](/analytics-and-reporting-for-seo-growth) series.
+
+Recommended path:
+
+1. Previous: [Analytics And Reporting For SEO Growth](/analytics-and-reporting-for-seo-growth)
+2. Current: **GA4 Basics For SEO Reporting**
+3. Next: [Search Console And GA4 SEO Workflow](/search-console-and-ga4-seo-workflow)
+
+Series hub: [Analytics And Reporting For SEO Growth](/analytics-and-reporting-for-seo-growth)
+
+Related guides from other workflows:
+
+- [Google Search Console Pages Report Explained](/google-search-console-pages-report-explained)
+- [Content Visibility Checklist](/content-visibility-checklist)
 
 ## FAQ
 

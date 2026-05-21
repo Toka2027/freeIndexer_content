@@ -15,6 +15,11 @@ secondary_icp: SaaS Or Product Team
 funnel_stage: middle
 type: Landing Page And CRO Guide
 series: Landing Pages And CRO
+series_order: 2
+series_role: cluster
+series_hub: seo-landing-page-structure
+previous_article: seo-landing-page-structure
+next_article: landing-page-trust-section-checklist
 business_goal: Improve page actions
 meta:
   target_page: "https://freeindexer.com/"
@@ -22,6 +27,7 @@ meta:
     - seo-landing-page-structure
     - track-organic-landing-pages
     - pricing-page-seo-and-cro
+    - landing-page-trust-section-checklist
   blog_category: landing-pages-cro
   blog_tags:
     - cro
@@ -128,6 +134,22 @@ In a real team, this should become a small operating board: target URL, source, 
 | You found blockers | Fix crawlability, quality, tracking, or provider handoff before scaling |
 | You have verified priority assets | Move them into the right follow-up queue and record the evidence |
 | You need reporting | Show what was done, what was verified, and what changed afterward |
+
+## Part Of This Series
+
+This article is part of the [SEO Landing Page Structure](/seo-landing-page-structure) series.
+
+Recommended path:
+
+1. Previous: [SEO Landing Page Structure](/seo-landing-page-structure)
+2. Current: **Conversion Focused CTA Checklist**
+3. Next: [Landing Page Trust Section Checklist](/landing-page-trust-section-checklist)
+
+Series hub: [SEO Landing Page Structure](/seo-landing-page-structure)
+
+Related guides from other workflows:
+
+- [Track Organic Landing Pages](/track-organic-landing-pages)
 
 ## FAQ
 

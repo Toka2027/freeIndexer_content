@@ -15,6 +15,11 @@ secondary_icp: Founder
 funnel_stage: bottom
 type: Landing Page And CRO Guide
 series: Landing Pages And CRO
+series_order: 4
+series_role: cluster
+series_hub: seo-landing-page-structure
+previous_article: landing-page-trust-section-checklist
+next_article: lead-capture-page-seo-checklist
 business_goal: Make pricing pages discoverable
 meta:
   target_page: "https://freeindexer.com/"
@@ -22,6 +27,8 @@ meta:
     - seo-landing-page-structure
     - track-organic-landing-pages
     - free-url-indexer
+    - landing-page-trust-section-checklist
+    - lead-capture-page-seo-checklist
   blog_category: landing-pages-cro
   blog_tags:
     - pricing
@@ -134,6 +141,23 @@ In a real team, this should become a small operating board: target URL, source, 
 FreeIndexer fits when the team has verified URLs, backlinks, launch pages, or priority lists that deserve repeatable discovery follow-up. It is useful for URL submission, backlink discovery workflows, bulk URL queues, tracking, and prioritization.
 
 It should not replace technical checks, content quality, provider QA, Search Console review, analytics, or conversion work. Use it after the asset is ready enough to deserve attention.
+
+## Part Of This Series
+
+This article is part of the [SEO Landing Page Structure](/seo-landing-page-structure) series.
+
+Recommended path:
+
+1. Previous: [Landing Page Trust Section Checklist](/landing-page-trust-section-checklist)
+2. Current: **Pricing Page SEO And CRO**
+3. Next: [Lead Capture Page SEO Checklist](/lead-capture-page-seo-checklist)
+
+Series hub: [SEO Landing Page Structure](/seo-landing-page-structure)
+
+Related guides from other workflows:
+
+- [Track Organic Landing Pages](/track-organic-landing-pages)
+- [Free Url Indexer](/free-url-indexer)
 
 ## FAQ
 

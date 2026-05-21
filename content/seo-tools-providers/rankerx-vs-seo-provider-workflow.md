@@ -15,6 +15,11 @@ secondary_icp: SEO Operator
 funnel_stage: bottom
 type: Comparison
 series: SEO Software And Automation Tools
+series_order: 3
+series_role: cluster
+series_hub: seo-software-and-automation-tools
+previous_article: gsa-search-engine-ranker-vs-indexing-workflow
+next_article: best-seo-automation-tools-for-agencies
 business_goal: Help agencies evaluate SEO execution layers while keeping FreeIndexer positioned as discovery follow-up
 meta:
   target_page: "https://freeindexer.com/pricing"
@@ -23,6 +28,9 @@ meta:
     - manage-backlink-vendors-indexing-visibility
     - backlink-indexing-tool-vs-seo-provider
     - track-backlink-discovery-for-seo-campaigns
+    - seo-software-and-automation-tools
+    - gsa-search-engine-ranker-vs-indexing-workflow
+    - best-seo-automation-tools-for-agencies
   blog_category: seo-tools-providers
   blog_tags:
     - rankerx
@@ -135,6 +143,23 @@ FreeIndexer can help the agency process the verified priority group, especially 
 - Reporting "indexed" or "ranking" outcomes without evidence.
 
 For campaign reporting, use [track backlink discovery for SEO campaigns](/track-backlink-discovery-for-seo-campaigns).
+
+## Part Of This Series
+
+This article is part of the [SEO Software And Automation Tools](/seo-software-and-automation-tools) series.
+
+Recommended path:
+
+1. Previous: [GSA Search Engine Ranker vs Indexing Workflow](/gsa-search-engine-ranker-vs-indexing-workflow)
+2. Current: **RankerX vs SEO Provider Workflow**
+3. Next: [Best SEO Automation Tools For Agencies](/best-seo-automation-tools-for-agencies)
+
+Series hub: [SEO Software And Automation Tools](/seo-software-and-automation-tools)
+
+Related guides from other workflows:
+
+- [Backlink Discovery And Indexing Guide](/backlink-discovery-and-indexing-guide)
+- [Managing Backlink Vendors Without Losing Indexing Visibility](/manage-backlink-vendors-indexing-visibility)
 
 ## FAQ
 

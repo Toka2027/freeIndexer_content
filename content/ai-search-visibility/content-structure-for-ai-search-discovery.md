@@ -15,6 +15,11 @@ secondary_icp: Content Marketer
 funnel_stage: top
 type: AI Search Visibility Guide
 series: AI Search / GEO Visibility
+series_order: 3
+series_role: cluster
+series_hub: ai-search-visibility-for-seo-operators
+previous_article: geo-readiness-checklist-for-website-owners
+next_article: entity-clarity-for-seo-and-ai-search
 business_goal: Structure content clearly
 meta:
   target_page: "https://freeindexer.com/"
@@ -22,6 +27,8 @@ meta:
     - ai-search-visibility-for-seo-operators
     - content-marketing-that-gets-discovered
     - technical-seo-indexing-audit
+    - geo-readiness-checklist-for-website-owners
+    - entity-clarity-for-seo-and-ai-search
   blog_category: ai-search-visibility
   blog_tags:
     - ai-search
@@ -134,6 +141,23 @@ In a real team, this should become a small operating board: target URL, source, 
 FreeIndexer fits when the team has verified URLs, backlinks, launch pages, or priority lists that deserve repeatable discovery follow-up. It is useful for URL submission, backlink discovery workflows, bulk URL queues, tracking, and prioritization.
 
 It should not replace technical checks, content quality, provider QA, Search Console review, analytics, or conversion work. Use it after the asset is ready enough to deserve attention.
+
+## Part Of This Series
+
+This article is part of the [AI Search Visibility For SEO Operators](/ai-search-visibility-for-seo-operators) series.
+
+Recommended path:
+
+1. Previous: [GEO Readiness Checklist For Website Owners](/geo-readiness-checklist-for-website-owners)
+2. Current: **Content Structure For AI Search Discovery**
+3. Next: [Entity Clarity For SEO And AI Search](/entity-clarity-for-seo-and-ai-search)
+
+Series hub: [AI Search Visibility For SEO Operators](/ai-search-visibility-for-seo-operators)
+
+Related guides from other workflows:
+
+- [Content Marketing That Gets Discovered](/content-marketing-that-gets-discovered)
+- [Technical Seo Indexing Audit](/technical-seo-indexing-audit)
 
 ## FAQ
 

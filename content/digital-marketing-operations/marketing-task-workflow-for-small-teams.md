@@ -15,6 +15,11 @@ secondary_icp: Growth Operator
 funnel_stage: middle
 type: Digital Marketing Operations Guide
 series: Digital Marketing Operations
+series_order: 4
+series_role: cluster
+series_hub: digital-marketing-operations-workflow
+previous_article: content-calendar-for-seo-growth
+next_article: vendor-management-workflow-for-seo-campaigns
 business_goal: Assign repeatable work
 meta:
   target_page: "https://freeindexer.com/"
@@ -22,6 +27,8 @@ meta:
     - digital-marketing-operations-workflow
     - weekly-webmaster-seo-workflow
     - analytics-and-reporting-for-seo-growth
+    - content-calendar-for-seo-growth
+    - vendor-management-workflow-for-seo-campaigns
   blog_category: digital-marketing-operations
   blog_tags:
     - marketing-workflows
@@ -134,6 +141,23 @@ In a real team, this should become a small operating board: target URL, source, 
 FreeIndexer fits when the team has verified URLs, backlinks, launch pages, or priority lists that deserve repeatable discovery follow-up. It is useful for URL submission, backlink discovery workflows, bulk URL queues, tracking, and prioritization.
 
 It should not replace technical checks, content quality, provider QA, Search Console review, analytics, or conversion work. Use it after the asset is ready enough to deserve attention.
+
+## Part Of This Series
+
+This article is part of the [Digital Marketing Operations Workflow](/digital-marketing-operations-workflow) series.
+
+Recommended path:
+
+1. Previous: [Content Calendar For SEO Growth](/content-calendar-for-seo-growth)
+2. Current: **Marketing Task Workflow For Small Teams**
+3. Next: [Vendor Management Workflow For SEO Campaigns](/vendor-management-workflow-for-seo-campaigns)
+
+Series hub: [Digital Marketing Operations Workflow](/digital-marketing-operations-workflow)
+
+Related guides from other workflows:
+
+- [Weekly Webmaster Seo Workflow](/weekly-webmaster-seo-workflow)
+- [Analytics And Reporting For SEO Growth](/analytics-and-reporting-for-seo-growth)
 
 ## FAQ
 

@@ -15,6 +15,11 @@ secondary_icp: SEO Operator
 funnel_stage: middle
 type: Technical SEO Guide
 series: Technical SEO For Operators
+series_order: 6
+series_role: cluster
+series_hub: technical-seo-for-operators
+previous_article: noindex-mistakes-seo-teams-miss
+next_article: internal-linking-system-for-large-sites
 business_goal: Clean sitemap inventories
 meta:
   target_page: "https://freeindexer.com/"
@@ -22,6 +27,9 @@ meta:
     - sitemap-indexing-checklist
     - url-inventory-management-for-seo-teams
     - crawl-budget-basics-for-small-sites
+    - technical-seo-for-operators
+    - noindex-mistakes-seo-teams-miss
+    - internal-linking-system-for-large-sites
   blog_category: technical-seo
   blog_tags:
     - sitemap
@@ -134,6 +142,23 @@ In a real team, this should become a small operating board: target URL, source, 
 FreeIndexer fits when the team has verified URLs, backlinks, launch pages, or priority lists that deserve repeatable discovery follow-up. It is useful for URL submission, backlink discovery workflows, bulk URL queues, tracking, and prioritization.
 
 It should not replace technical checks, content quality, provider QA, Search Console review, analytics, or conversion work. Use it after the asset is ready enough to deserve attention.
+
+## Part Of This Series
+
+This article is part of the [Technical SEO For Operators](/technical-seo-for-operators) series.
+
+Recommended path:
+
+1. Previous: [Noindex Mistakes SEO Teams Miss](/noindex-mistakes-seo-teams-miss)
+2. Current: **Sitemap Cleanup Workflow For Large Sites**
+3. Next: [Internal Linking System For Large Sites](/internal-linking-system-for-large-sites)
+
+Series hub: [Technical SEO For Operators](/technical-seo-for-operators)
+
+Related guides from other workflows:
+
+- [Sitemap Indexing Checklist](/sitemap-indexing-checklist)
+- [Crawl Budget Basics For Small Sites](/crawl-budget-basics-for-small-sites)
 
 ## FAQ
 

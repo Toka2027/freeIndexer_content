@@ -14,6 +14,12 @@ icp: SEO Agency
 secondary_icp: Affiliate Marketer
 funnel_stage: middle
 type: Backlink Workflow Guide
+series: Backlinks And Discovery
+series_order: 3
+series_role: cluster
+series_hub: backlink-discovery-and-indexing-guide
+previous_article: backlink-quality-before-indexing
+next_article: link-building-provider-checklist
 business_goal: Help agencies connect link-building operations to honest backlink discovery follow-up
 meta:
   target_page: "https://freeindexer.com/pricing"
@@ -23,6 +29,8 @@ meta:
     - backlink-indexing-checklist
     - track-backlink-discovery-for-seo-campaigns
     - search-discovery-workflow-for-seo-agencies
+    - backlink-quality-before-indexing
+    - link-building-provider-checklist
   blog_category: backlinks
   blog_tags:
     - backlinks
@@ -158,6 +166,22 @@ For more reporting detail, read [backlink indexing checklist](/backlink-indexing
 | Link target is wrong | Request correction before follow-up |
 | Linking page is blocked or not public | Return it to the provider or outreach owner |
 | Link is missing | Do not submit; mark placement incomplete |
+
+## Part Of This Series
+
+This article is part of the [Backlink Discovery And Indexing Guide](/backlink-discovery-and-indexing-guide) series.
+
+Recommended path:
+
+1. Previous: [Backlink Quality Before Indexing](/backlink-quality-before-indexing)
+2. Current: **Backlink Discovery Workflow After Link Building**
+3. Next: [Link-Building Provider Checklist](/link-building-provider-checklist)
+
+Series hub: [Backlink Discovery And Indexing Guide](/backlink-discovery-and-indexing-guide)
+
+Related guides from other workflows:
+
+- [Backlink Indexing Checklist](/backlink-indexing-checklist)
 
 ## FAQ
 

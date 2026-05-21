@@ -15,6 +15,11 @@ secondary_icp: Growth Operator
 funnel_stage: middle
 type: Landing Page And CRO Guide
 series: Landing Pages And CRO
+series_order: 5
+series_role: cluster
+series_hub: seo-landing-page-structure
+previous_article: pricing-page-seo-and-cro
+next_article: landing-page-indexing-checklist
 business_goal: Build better lead pages
 meta:
   target_page: "https://freeindexer.com/"
@@ -22,6 +27,8 @@ meta:
     - seo-landing-page-structure
     - content-marketing-that-gets-discovered
     - track-organic-landing-pages
+    - pricing-page-seo-and-cro
+    - landing-page-indexing-checklist
   blog_category: landing-pages-cro
   blog_tags:
     - lead-capture
@@ -128,6 +135,23 @@ In a real team, this should become a small operating board: target URL, source, 
 | You found blockers | Fix crawlability, quality, tracking, or provider handoff before scaling |
 | You have verified priority assets | Move them into the right follow-up queue and record the evidence |
 | You need reporting | Show what was done, what was verified, and what changed afterward |
+
+## Part Of This Series
+
+This article is part of the [SEO Landing Page Structure](/seo-landing-page-structure) series.
+
+Recommended path:
+
+1. Previous: [Pricing Page SEO And CRO](/pricing-page-seo-and-cro)
+2. Current: **Lead Capture Page SEO Checklist**
+3. Next: [Landing Page Indexing Checklist](/landing-page-indexing-checklist)
+
+Series hub: [SEO Landing Page Structure](/seo-landing-page-structure)
+
+Related guides from other workflows:
+
+- [Content Marketing That Gets Discovered](/content-marketing-that-gets-discovered)
+- [Track Organic Landing Pages](/track-organic-landing-pages)
 
 ## FAQ
 

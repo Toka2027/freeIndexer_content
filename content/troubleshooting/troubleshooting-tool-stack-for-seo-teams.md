@@ -15,6 +15,11 @@ secondary_icp: Webmaster
 funnel_stage: middle
 type: Troubleshooting Guide
 series: Practical Digital Marketing Tool Stacks
+series_order: 5
+series_role: cluster
+series_hub: seo-tool-stack-for-small-agencies
+previous_article: freeindexer-desktop-app-workflow-stack
+next_article: 
 business_goal: Choose tools for diagnosis first
 meta:
   target_page: "https://freeindexer.com/"
@@ -22,6 +27,8 @@ meta:
     - technical-seo-indexing-audit
     - google-search-console-indexing-guide
     - why-google-is-not-indexing-my-url
+    - seo-tool-stack-for-small-agencies
+    - freeindexer-desktop-app-workflow-stack
   blog_category: troubleshooting
   blog_tags:
     - tool-stack
@@ -134,6 +141,23 @@ In a real team, this should become a small operating board: target URL, source, 
 FreeIndexer fits when the team has verified URLs, backlinks, launch pages, or priority lists that deserve repeatable discovery follow-up. It is useful for URL submission, backlink discovery workflows, bulk URL queues, tracking, and prioritization.
 
 It should not replace technical checks, content quality, provider QA, Search Console review, analytics, or conversion work. Use it after the asset is ready enough to deserve attention.
+
+## Part Of This Series
+
+This article is part of the [SEO Tool Stack For Small Agencies](/seo-tool-stack-for-small-agencies) series.
+
+Recommended path:
+
+1. Previous: [FreeIndexer Desktop App Workflow Stack](/freeindexer-desktop-app-workflow-stack)
+2. Current: **Troubleshooting Tool Stack For SEO Teams**
+3. Next: End of this series
+
+Series hub: [SEO Tool Stack For Small Agencies](/seo-tool-stack-for-small-agencies)
+
+Related guides from other workflows:
+
+- [Technical Seo Indexing Audit](/technical-seo-indexing-audit)
+- [Google Search Console Indexing Guide](/google-search-console-indexing-guide)
 
 ## FAQ
 

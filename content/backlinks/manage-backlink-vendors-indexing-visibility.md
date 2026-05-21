@@ -14,6 +14,12 @@ icp: SEO Agency
 secondary_icp: Blog Or Network Owner
 funnel_stage: middle
 type: Backlink Workflow Guide
+series: Backlinks And Discovery
+series_order: 5
+series_role: cluster
+series_hub: backlink-discovery-and-indexing-guide
+previous_article: link-building-provider-checklist
+next_article: track-backlink-discovery-for-seo-campaigns
 business_goal: Help agencies standardize vendor handoff and position FreeIndexer as the follow-up workflow layer
 meta:
   target_page: "https://freeindexer.com/pricing"
@@ -23,6 +29,8 @@ meta:
     - backlink-indexing-for-client-reporting
     - track-backlink-discovery-for-seo-campaigns
     - search-discovery-workflow-for-seo-agencies
+    - link-building-provider-checklist
+    - content-marketing-that-gets-discovered
   blog_category: backlinks
   blog_tags:
     - backlinks
@@ -157,6 +165,22 @@ Avoid language like:
 | Link missing | Mark incomplete and return to vendor |
 | Private or preview URL | Reject until public |
 | Low-value but valid placement | Record, but do not prioritize |
+
+## Part Of This Series
+
+This article is part of the [Backlink Discovery And Indexing Guide](/backlink-discovery-and-indexing-guide) series.
+
+Recommended path:
+
+1. Previous: [Link-Building Provider Checklist](/link-building-provider-checklist)
+2. Current: **Managing Backlink Vendors Without Losing Indexing Visibility**
+3. Next: [Track Backlink Discovery For SEO Campaigns](/track-backlink-discovery-for-seo-campaigns)
+
+Series hub: [Backlink Discovery And Indexing Guide](/backlink-discovery-and-indexing-guide)
+
+Related guides from other workflows:
+
+- [Content Marketing That Gets Discovered](/content-marketing-that-gets-discovered)
 
 ## FAQ
 

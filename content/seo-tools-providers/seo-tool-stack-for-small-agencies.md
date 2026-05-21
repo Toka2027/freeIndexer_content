@@ -15,6 +15,11 @@ secondary_icp: Growth Operator
 funnel_stage: bottom
 type: Buying Guide
 series: Practical Digital Marketing Tool Stacks
+series_order: 1
+series_role: hub
+series_hub: seo-tool-stack-for-small-agencies
+previous_article: 
+next_article: seo-tool-stack-for-small-websites
 business_goal: Help agencies evaluate tool roles and position FreeIndexer as indexing/discovery workflow software
 meta:
   target_page: "https://freeindexer.com/pricing"
@@ -23,6 +28,7 @@ meta:
     - google-search-console-indexing-guide
     - url-inventory-management-for-seo-teams
     - backlink-discovery-and-indexing-guide
+    - seo-tool-stack-for-small-websites
   blog_category: seo-tools-providers
   blog_tags:
     - tool-stack
@@ -68,6 +74,47 @@ image:
 A good SEO tool stack for a small agency is not the biggest list of subscriptions. It is a workflow system: diagnose, plan, publish, verify, submit, track, report, and improve.
 
 For indexing-specific tools, start with [best Google indexing tools](/best-google-indexing-tools). This guide shows where indexing tools fit inside a broader agency stack.
+
+## Practical Digital Marketing Tool Stacks Series
+
+This is the visible hub for the Practical Digital Marketing Tool Stacks series. It is for seo agencys and growth operators who want a guided path instead of disconnected articles.
+
+### What You Will Learn
+
+- How the topic works from foundation to execution.
+- Which checks matter before using tools, providers, or reporting workflows.
+- How to prioritize URLs, content, backlinks, campaigns, or platform pages.
+- How to connect each article to the next step in the workflow.
+
+### Recommended Reading Order
+
+1. [SEO Tool Stack For Small Agencies](/seo-tool-stack-for-small-agencies) - Series hub
+2. [SEO Tool Stack For Small Websites](/seo-tool-stack-for-small-websites) - Cluster guide
+3. [Indexing And Discovery Tool Stack](/indexing-and-discovery-tool-stack) - Cluster guide
+4. [FreeIndexer Desktop App Workflow Stack](/freeindexer-desktop-app-workflow-stack) - Cluster guide
+5. [Troubleshooting Tool Stack For SEO Teams](/troubleshooting-tool-stack-for-seo-teams) - Cluster guide
+
+### Article Sequence
+
+| Part | Article | Role |
+|---|---|---|
+| 1 | [SEO Tool Stack For Small Agencies](/seo-tool-stack-for-small-agencies) | Hub |
+| 2 | [SEO Tool Stack For Small Websites](/seo-tool-stack-for-small-websites) | Cluster |
+| 3 | [Indexing And Discovery Tool Stack](/indexing-and-discovery-tool-stack) | Cluster |
+| 4 | [FreeIndexer Desktop App Workflow Stack](/freeindexer-desktop-app-workflow-stack) | Cluster |
+| 5 | [Troubleshooting Tool Stack For SEO Teams](/troubleshooting-tool-stack-for-seo-teams) | Cluster |
+
+### Where FreeIndexer Fits
+
+FreeIndexer fits as the indexing, URL discovery, backlink discovery, prioritization, and tracking layer after tools or providers produce verified URLs.
+
+### Where SEOeStore Fits
+
+SEOeStore may appear in this series only where the workflow involves managed SEO execution, campaign services, provider handoff, or link-building vendor QA. It remains a provider layer, separate from FreeIndexer.
+
+### Next Step
+
+Start with this hub, then follow the reading order above. Each cluster article links back here and points to the previous and next article in the sequence.
 
 ## The Short Answer
 
@@ -141,6 +188,23 @@ Before adding a tool, ask:
 - Using backlink or automation tools without verification steps.
 - Reporting tool actions as business outcomes.
 - Forgetting the indexing and discovery follow-up layer after publishing or link delivery.
+
+## Part Of This Series
+
+This article is part of the [SEO Tool Stack For Small Agencies](/seo-tool-stack-for-small-agencies) series.
+
+Recommended path:
+
+1. Previous: Start here
+2. Current: **SEO Tool Stack For Small Agencies**
+3. Next: [SEO Tool Stack For Small Websites](/seo-tool-stack-for-small-websites)
+
+Series hub: [SEO Tool Stack For Small Agencies](/seo-tool-stack-for-small-agencies)
+
+Related guides from other workflows:
+
+- [Best Google Indexing Tools](/best-google-indexing-tools)
+- [Google Search Console Indexing Guide](/google-search-console-indexing-guide)
 
 ## FAQ
 

@@ -15,6 +15,11 @@ secondary_icp: SaaS Or Product Team
 funnel_stage: middle
 type: Use Case Guide
 series: Landing Pages And CRO
+series_order: 6
+series_role: cluster
+series_hub: seo-landing-page-structure
+previous_article: lead-capture-page-seo-checklist
+next_article: 
 business_goal: Submit pages after checks
 meta:
   target_page: "https://freeindexer.com/pricing"
@@ -22,6 +27,7 @@ meta:
     - seo-landing-page-structure
     - url-submission-checklist-before-indexing
     - indexing-workflow-for-product-launch-pages
+    - lead-capture-page-seo-checklist
   blog_category: use-cases
   blog_tags:
     - landing-pages
@@ -134,6 +140,23 @@ In a real team, this should become a small operating board: target URL, source, 
 FreeIndexer fits when the team has verified URLs, backlinks, launch pages, or priority lists that deserve repeatable discovery follow-up. It is useful for URL submission, backlink discovery workflows, bulk URL queues, tracking, and prioritization.
 
 It should not replace technical checks, content quality, provider QA, Search Console review, analytics, or conversion work. Use it after the asset is ready enough to deserve attention.
+
+## Part Of This Series
+
+This article is part of the [SEO Landing Page Structure](/seo-landing-page-structure) series.
+
+Recommended path:
+
+1. Previous: [Lead Capture Page SEO Checklist](/lead-capture-page-seo-checklist)
+2. Current: **Landing Page Indexing Checklist**
+3. Next: End of this series
+
+Series hub: [SEO Landing Page Structure](/seo-landing-page-structure)
+
+Related guides from other workflows:
+
+- [Url Submission Checklist Before Indexing](/url-submission-checklist-before-indexing)
+- [Indexing Workflow For Product Launch Pages](/indexing-workflow-for-product-launch-pages)
 
 ## FAQ
 

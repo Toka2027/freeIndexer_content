@@ -15,6 +15,11 @@ secondary_icp: Website Owner
 funnel_stage: middle
 type: Use Case Guide
 series: SEO Campaign Services And Provider Workflows
+series_order: 7
+series_role: cluster
+series_hub: seo-campaign-services-for-small-websites
+previous_article: seo-campaign-workflow-from-provider-to-indexing
+next_article: small-website-seo-provider-handoff-checklist
 business_goal: Verify local campaign links
 meta:
   target_page: "https://freeindexer.com/pricing"
@@ -22,6 +27,9 @@ meta:
     - link-building-provider-checklist
     - indexing-workflow-for-local-seo-pages
     - track-backlink-discovery-for-seo-campaigns
+    - seo-campaign-services-for-small-websites
+    - seo-campaign-workflow-from-provider-to-indexing
+    - small-website-seo-provider-handoff-checklist
   blog_category: use-cases
   blog_tags:
     - seo-provider
@@ -140,6 +148,23 @@ It should not replace technical checks, content quality, provider QA, Search Con
 Teams that need managed SEO execution can use a provider such as [SEOeStore](https://panel.seoestore.net/) or explore [SEO campaign services](https://panel.seoestore.net/seo-campaigns.php), then keep verification and indexing follow-up in a separate workflow.
 
 SEOeStore belongs in the provider or campaign execution layer. FreeIndexer remains separate as the indexing, URL discovery, backlink discovery, and follow-up workflow layer.
+
+## Part Of This Series
+
+This article is part of the [SEO Campaign Services For Small Websites](/seo-campaign-services-for-small-websites) series.
+
+Recommended path:
+
+1. Previous: [SEO Campaign Workflow From Provider To Indexing](/seo-campaign-workflow-from-provider-to-indexing)
+2. Current: **Link-Building Provider Checklist For Local SEO Campaigns**
+3. Next: [Small Website SEO Provider Handoff Checklist](/small-website-seo-provider-handoff-checklist)
+
+Series hub: [SEO Campaign Services For Small Websites](/seo-campaign-services-for-small-websites)
+
+Related guides from other workflows:
+
+- [Link-Building Provider Checklist](/link-building-provider-checklist)
+- [Indexing Workflow For Local Seo Pages](/indexing-workflow-for-local-seo-pages)
 
 ## FAQ
 

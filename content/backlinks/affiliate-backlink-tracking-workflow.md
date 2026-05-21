@@ -15,6 +15,11 @@ secondary_icp: SEO Operator
 funnel_stage: middle
 type: Backlink Workflow Guide
 series: Backlinks And Discovery
+series_order: 8
+series_role: cluster
+series_hub: backlink-discovery-and-indexing-guide
+previous_article: backlink-reporting-template-for-agencies
+next_article: 
 business_goal: Prioritize affiliate campaign links
 meta:
   target_page: "https://freeindexer.com/"
@@ -22,6 +27,8 @@ meta:
     - indexing-workflow-for-affiliate-sites
     - backlink-quality-before-indexing
     - how-to-get-backlinks-discovered
+    - backlink-discovery-and-indexing-guide
+    - backlink-reporting-template-for-agencies
   blog_category: backlinks
   blog_tags:
     - affiliate-seo
@@ -134,6 +141,23 @@ In a real team, this should become a small operating board: target URL, source, 
 FreeIndexer fits when the team has verified URLs, backlinks, launch pages, or priority lists that deserve repeatable discovery follow-up. It is useful for URL submission, backlink discovery workflows, bulk URL queues, tracking, and prioritization.
 
 It should not replace technical checks, content quality, provider QA, Search Console review, analytics, or conversion work. Use it after the asset is ready enough to deserve attention.
+
+## Part Of This Series
+
+This article is part of the [Backlink Discovery And Indexing Guide](/backlink-discovery-and-indexing-guide) series.
+
+Recommended path:
+
+1. Previous: [Backlink Reporting Template For Agencies](/backlink-reporting-template-for-agencies)
+2. Current: **Affiliate Backlink Tracking Workflow**
+3. Next: End of this series
+
+Series hub: [Backlink Discovery And Indexing Guide](/backlink-discovery-and-indexing-guide)
+
+Related guides from other workflows:
+
+- [Indexing Workflow For Affiliate Sites](/indexing-workflow-for-affiliate-sites)
+- [How To Get Backlinks Discovered](/how-to-get-backlinks-discovered)
 
 ## FAQ
 

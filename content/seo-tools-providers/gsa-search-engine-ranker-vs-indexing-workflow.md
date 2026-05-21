@@ -15,6 +15,11 @@ secondary_icp: SEO Agency
 funnel_stage: bottom
 type: Comparison
 series: SEO Software And Automation Tools
+series_order: 2
+series_role: cluster
+series_hub: seo-software-and-automation-tools
+previous_article: seo-software-and-automation-tools
+next_article: rankerx-vs-seo-provider-workflow
 business_goal: Capture SEO software comparison demand while positioning FreeIndexer as the discovery workflow layer
 meta:
   target_page: "https://freeindexer.com/pricing"
@@ -23,6 +28,9 @@ meta:
     - backlink-quality-before-indexing
     - best-google-indexing-tools
     - track-backlink-discovery-for-seo-campaigns
+    - seo-software-and-automation-tools
+    - seo-software-and-automation-tools
+    - rankerx-vs-seo-provider-workflow
   blog_category: seo-tools-providers
   blog_tags:
     - gsa-ser
@@ -144,6 +152,23 @@ Use [track backlink discovery for SEO campaigns](/track-backlink-discovery-for-s
 - Ignoring quality and relevance because the campaign produced volume.
 - Using indexing language to imply ranking outcomes.
 - Mixing campaign software, provider work, and discovery follow-up in one report.
+
+## Part Of This Series
+
+This article is part of the [SEO Software And Automation Tools](/seo-software-and-automation-tools) series.
+
+Recommended path:
+
+1. Previous: [SEO Software And Automation Tools](/seo-software-and-automation-tools)
+2. Current: **GSA Search Engine Ranker vs Indexing Workflow**
+3. Next: [RankerX vs SEO Provider Workflow](/rankerx-vs-seo-provider-workflow)
+
+Series hub: [SEO Software And Automation Tools](/seo-software-and-automation-tools)
+
+Related guides from other workflows:
+
+- [Backlink Discovery And Indexing Guide](/backlink-discovery-and-indexing-guide)
+- [Backlink Quality Before Indexing](/backlink-quality-before-indexing)
 
 ## FAQ
 

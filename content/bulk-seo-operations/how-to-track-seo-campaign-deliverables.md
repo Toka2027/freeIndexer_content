@@ -15,6 +15,11 @@ secondary_icp: Growth Operator
 funnel_stage: middle
 type: Bulk SEO Operations Guide
 series: SEO Campaign Services And Provider Workflows
+series_order: 4
+series_role: cluster
+series_hub: seo-campaign-services-for-small-websites
+previous_article: how-to-plan-an-seo-campaign-for-a-new-website
+next_article: how-to-verify-seo-campaign-results
 business_goal: Track campaign outputs
 meta:
   target_page: "https://freeindexer.com/pricing"
@@ -22,6 +27,8 @@ meta:
     - seo-campaign-services-for-small-websites
     - link-building-provider-checklist
     - analytics-and-reporting-for-seo-growth
+    - how-to-plan-an-seo-campaign-for-a-new-website
+    - how-to-verify-seo-campaign-results
   blog_category: bulk-seo-operations
   blog_tags:
     - seo-campaigns
@@ -134,6 +141,23 @@ In a real team, this should become a small operating board: target URL, source, 
 FreeIndexer fits when the team has verified URLs, backlinks, launch pages, or priority lists that deserve repeatable discovery follow-up. It is useful for URL submission, backlink discovery workflows, bulk URL queues, tracking, and prioritization.
 
 It should not replace technical checks, content quality, provider QA, Search Console review, analytics, or conversion work. Use it after the asset is ready enough to deserve attention.
+
+## Part Of This Series
+
+This article is part of the [SEO Campaign Services For Small Websites](/seo-campaign-services-for-small-websites) series.
+
+Recommended path:
+
+1. Previous: [How To Plan An SEO Campaign For A New Website](/how-to-plan-an-seo-campaign-for-a-new-website)
+2. Current: **How To Track SEO Campaign Deliverables**
+3. Next: [How To Verify SEO Campaign Results](/how-to-verify-seo-campaign-results)
+
+Series hub: [SEO Campaign Services For Small Websites](/seo-campaign-services-for-small-websites)
+
+Related guides from other workflows:
+
+- [Link-Building Provider Checklist](/link-building-provider-checklist)
+- [Analytics And Reporting For SEO Growth](/analytics-and-reporting-for-seo-growth)
 
 ## FAQ
 

@@ -15,6 +15,11 @@ secondary_icp: SEO Agency
 funnel_stage: bottom
 type: Comparison
 series: SEO Campaign Services And Provider Workflows
+series_order: 2
+series_role: cluster
+series_hub: seo-campaign-services-for-small-websites
+previous_article: seo-campaign-services-for-small-websites
+next_article: how-to-plan-an-seo-campaign-for-a-new-website
 business_goal: Capture commercial provider comparison demand while separating managed execution from FreeIndexer discovery follow-up
 meta:
   target_page: "https://freeindexer.com/pricing"
@@ -23,6 +28,8 @@ meta:
     - seo-provider-vs-indexing-tool
     - gsa-search-engine-ranker-vs-indexing-workflow
     - seo-tool-stack-for-small-agencies
+    - how-to-plan-an-seo-campaign-for-a-new-website
+    - seo-automation-vs-managed-seo-services
   blog_category: use-cases
   blog_tags:
     - seo-campaigns
@@ -146,6 +153,23 @@ A SaaS founder wants more organic leads but has no SEO hire. A managed campaign 
 
 FreeIndexer can help with the follow-up row, while Search Console and analytics handle performance reporting.
 
+## Part Of This Series
+
+This article is part of the [SEO Campaign Services For Small Websites](/seo-campaign-services-for-small-websites) series.
+
+Recommended path:
+
+1. Previous: [SEO Campaign Services For Small Websites](/seo-campaign-services-for-small-websites)
+2. Current: **Managed SEO Campaigns vs DIY SEO Tools**
+3. Next: [How To Plan An SEO Campaign For A New Website](/how-to-plan-an-seo-campaign-for-a-new-website)
+
+Series hub: [SEO Campaign Services For Small Websites](/seo-campaign-services-for-small-websites)
+
+Related guides from other workflows:
+
+- [SEO Provider vs Indexing Tool](/seo-provider-vs-indexing-tool)
+- [SEO Automation vs Managed SEO Services](/seo-automation-vs-managed-seo-services)
+
 ## FAQ
 
 ### Are managed SEO campaigns better than DIY tools?
@@ -159,4 +183,3 @@ Yes. A small website can hire a provider for specific deliverables and use inter
 ### What should I verify before paying for SEO campaign work?
 
 Verify target pages, delivered URLs, content updates, technical fixes, backlink details, reporting fields, and whether the work matches the campaign brief.
-

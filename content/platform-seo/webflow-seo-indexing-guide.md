@@ -15,6 +15,11 @@ secondary_icp: Webmaster
 funnel_stage: top
 type: Platform SEO Playbook
 series: Platform SEO Playbooks
+series_order: 8
+series_role: cluster
+series_hub: platform-seo-playbooks
+previous_article: ecommerce-category-page-indexing-guide
+next_article: saas-website-seo-indexing-workflow
 business_goal: Audit Webflow discoverability
 meta:
   target_page: "https://freeindexer.com/pricing"
@@ -22,6 +27,8 @@ meta:
     - platform-seo-playbooks
     - google-search-console-indexing-guide
     - technical-seo-indexing-audit
+    - ecommerce-category-page-indexing-guide
+    - saas-website-seo-indexing-workflow
   blog_category: platform-seo
   blog_tags:
     - platform-seo
@@ -134,6 +141,23 @@ In a real team, this should become a small operating board: target URL, source, 
 FreeIndexer fits when the team has verified URLs, backlinks, launch pages, or priority lists that deserve repeatable discovery follow-up. It is useful for URL submission, backlink discovery workflows, bulk URL queues, tracking, and prioritization.
 
 It should not replace technical checks, content quality, provider QA, Search Console review, analytics, or conversion work. Use it after the asset is ready enough to deserve attention.
+
+## Part Of This Series
+
+This article is part of the [Platform SEO Playbooks](/platform-seo-playbooks) series.
+
+Recommended path:
+
+1. Previous: [Ecommerce Category Page Indexing Guide](/ecommerce-category-page-indexing-guide)
+2. Current: **Webflow SEO Indexing Guide**
+3. Next: [SaaS Website SEO Indexing Workflow](/saas-website-seo-indexing-workflow)
+
+Series hub: [Platform SEO Playbooks](/platform-seo-playbooks)
+
+Related guides from other workflows:
+
+- [Google Search Console Indexing Guide](/google-search-console-indexing-guide)
+- [Technical Seo Indexing Audit](/technical-seo-indexing-audit)
 
 ## FAQ
 

@@ -15,6 +15,11 @@ secondary_icp: Growth Operator
 funnel_stage: middle
 type: Digital Marketing Operations Guide
 series: Digital Marketing Operations
+series_order: 5
+series_role: cluster
+series_hub: digital-marketing-operations-workflow
+previous_article: marketing-task-workflow-for-small-teams
+next_article: campaign-checklist-for-repeatable-seo
 business_goal: Manage provider handoffs
 meta:
   target_page: "https://freeindexer.com/"
@@ -22,6 +27,8 @@ meta:
     - digital-marketing-operations-workflow
     - link-building-provider-checklist
     - seo-campaign-services-for-small-websites
+    - marketing-task-workflow-for-small-teams
+    - campaign-checklist-for-repeatable-seo
   blog_category: digital-marketing-operations
   blog_tags:
     - seo-provider
@@ -140,6 +147,23 @@ It should not replace technical checks, content quality, provider QA, Search Con
 Teams that need managed SEO execution can use a provider such as [SEOeStore](https://panel.seoestore.net/) or explore [SEO campaign services](https://panel.seoestore.net/seo-campaigns.php), then keep verification and indexing follow-up in a separate workflow.
 
 SEOeStore belongs in the provider or campaign execution layer. FreeIndexer remains separate as the indexing, URL discovery, backlink discovery, and follow-up workflow layer.
+
+## Part Of This Series
+
+This article is part of the [Digital Marketing Operations Workflow](/digital-marketing-operations-workflow) series.
+
+Recommended path:
+
+1. Previous: [Marketing Task Workflow For Small Teams](/marketing-task-workflow-for-small-teams)
+2. Current: **Vendor Management Workflow For SEO Campaigns**
+3. Next: [Campaign Checklist For Repeatable SEO](/campaign-checklist-for-repeatable-seo)
+
+Series hub: [Digital Marketing Operations Workflow](/digital-marketing-operations-workflow)
+
+Related guides from other workflows:
+
+- [Link-Building Provider Checklist](/link-building-provider-checklist)
+- [SEO Campaign Services For Small Websites](/seo-campaign-services-for-small-websites)
 
 ## FAQ
 

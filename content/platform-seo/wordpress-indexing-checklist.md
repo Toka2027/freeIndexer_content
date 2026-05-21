@@ -15,6 +15,11 @@ secondary_icp: Webmaster
 funnel_stage: middle
 type: Platform SEO Guide
 series: Platform SEO Playbooks
+series_order: 5
+series_role: cluster
+series_hub: platform-seo-playbooks
+previous_article: shopify-sitemap-and-search-console-guide
+next_article: woocommerce-category-page-seo-workflow
 business_goal: Help WordPress site owners connect platform SEO checks to repeatable discovery workflows
 meta:
   target_page: "https://freeindexer.com/pricing"
@@ -23,6 +28,9 @@ meta:
     - google-search-console-indexing-guide
     - technical-seo-indexing-audit
     - submitted-url-not-indexed
+    - platform-seo-playbooks
+    - shopify-sitemap-and-search-console-guide
+    - woocommerce-category-page-seo-workflow
   blog_category: platform-seo
   blog_tags:
     - wordpress-seo
@@ -141,6 +149,23 @@ FreeIndexer can help once the service page is a qualified priority URL. It shoul
 | Not in sitemap | Discovery signal is missing | Update sitemap or plugin settings |
 | No internal links | Search engines have weak discovery paths | Add contextual links |
 | Thin or duplicate content | Page may not deserve indexing | Improve, merge, or exclude |
+
+## Part Of This Series
+
+This article is part of the [Platform SEO Playbooks](/platform-seo-playbooks) series.
+
+Recommended path:
+
+1. Previous: [Shopify Sitemap And Search Console Guide](/shopify-sitemap-and-search-console-guide)
+2. Current: **WordPress Indexing Checklist**
+3. Next: [WooCommerce Category Page SEO Workflow](/woocommerce-category-page-seo-workflow)
+
+Series hub: [Platform SEO Playbooks](/platform-seo-playbooks)
+
+Related guides from other workflows:
+
+- [Google Search Console Indexing Guide](/google-search-console-indexing-guide)
+- [Technical Seo Indexing Audit](/technical-seo-indexing-audit)
 
 ## FAQ
 

@@ -14,6 +14,12 @@ icp: Programmatic SEO Builder
 secondary_icp: SEO Operator
 funnel_stage: middle
 type: Advanced Workflow Guide
+series: Technical SEO For Operators
+series_order: 3
+series_role: cluster
+series_hub: technical-seo-for-operators
+previous_article: crawlability-audit-workflow
+next_article: canonical-audit-workflow-for-seo-teams
 business_goal: Help high-volume teams qualify URLs before bulk indexing operations
 meta:
   target_page: "https://freeindexer.com/pricing"
@@ -23,6 +29,9 @@ meta:
     - crawlability-checklist
     - bulk-url-operations-workflow
     - url-inventory-management-for-seo-teams
+    - technical-seo-for-operators
+    - crawlability-audit-workflow
+    - canonical-audit-workflow-for-seo-teams
   blog_category: technical-seo
   blog_tags:
     - technical-seo
@@ -181,6 +190,23 @@ The first crawl shows that all pages return `200`, but the canonical tag on ever
 - Submitting all generated URLs before testing one template sample.
 - Ignoring internal links because the URLs are already in a sitemap.
 - Keeping thin generated combinations in the queue because removing them feels like lost scale.
+
+## Part Of This Series
+
+This article is part of the [Technical SEO For Operators](/technical-seo-for-operators) series.
+
+Recommended path:
+
+1. Previous: [Crawlability Audit Workflow](/crawlability-audit-workflow)
+2. Current: **Indexability Audit For Large URL Sets**
+3. Next: [Canonical Audit Workflow For SEO Teams](/canonical-audit-workflow-for-seo-teams)
+
+Series hub: [Technical SEO For Operators](/technical-seo-for-operators)
+
+Related guides from other workflows:
+
+- [Indexing Education Hub](/indexing-education-hub)
+- [Technical Seo Indexing Audit](/technical-seo-indexing-audit)
 
 ## FAQ
 

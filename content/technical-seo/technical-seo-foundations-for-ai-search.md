@@ -15,6 +15,11 @@ secondary_icp: SaaS Or Product Team
 funnel_stage: middle
 type: Technical SEO Guide
 series: AI Search / GEO Visibility
+series_order: 5
+series_role: cluster
+series_hub: ai-search-visibility-for-seo-operators
+previous_article: entity-clarity-for-seo-and-ai-search
+next_article: 
 business_goal: Keep AI discovery crawlable
 meta:
   target_page: "https://freeindexer.com/"
@@ -22,6 +27,7 @@ meta:
     - ai-search-visibility-for-seo-operators
     - technical-seo-indexing-audit
     - crawlability-checklist
+    - entity-clarity-for-seo-and-ai-search
   blog_category: technical-seo
   blog_tags:
     - technical-seo
@@ -134,6 +140,23 @@ In a real team, this should become a small operating board: target URL, source, 
 FreeIndexer fits when the team has verified URLs, backlinks, launch pages, or priority lists that deserve repeatable discovery follow-up. It is useful for URL submission, backlink discovery workflows, bulk URL queues, tracking, and prioritization.
 
 It should not replace technical checks, content quality, provider QA, Search Console review, analytics, or conversion work. Use it after the asset is ready enough to deserve attention.
+
+## Part Of This Series
+
+This article is part of the [AI Search Visibility For SEO Operators](/ai-search-visibility-for-seo-operators) series.
+
+Recommended path:
+
+1. Previous: [Entity Clarity For SEO And AI Search](/entity-clarity-for-seo-and-ai-search)
+2. Current: **Technical SEO Foundations For AI Search**
+3. Next: End of this series
+
+Series hub: [AI Search Visibility For SEO Operators](/ai-search-visibility-for-seo-operators)
+
+Related guides from other workflows:
+
+- [Technical Seo Indexing Audit](/technical-seo-indexing-audit)
+- [Crawlability Checklist](/crawlability-checklist)
 
 ## FAQ
 

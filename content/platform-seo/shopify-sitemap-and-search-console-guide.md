@@ -15,6 +15,11 @@ secondary_icp: Webmaster
 funnel_stage: top
 type: Platform SEO Playbook
 series: Platform SEO Playbooks
+series_order: 4
+series_role: cluster
+series_hub: platform-seo-playbooks
+previous_article: shopify-product-pages-not-indexing
+next_article: wordpress-indexing-checklist
 business_goal: Connect Shopify to GSC
 meta:
   target_page: "https://freeindexer.com/pricing"
@@ -22,6 +27,9 @@ meta:
     - shopify-seo-indexing-checklist
     - submit-sitemap-in-google-search-console
     - search-console-sitemap-errors
+    - platform-seo-playbooks
+    - shopify-product-pages-not-indexing
+    - wordpress-indexing-checklist
   blog_category: platform-seo
   blog_tags:
     - shopify-seo
@@ -134,6 +142,23 @@ In a real team, this should become a small operating board: target URL, source, 
 FreeIndexer fits when the team has verified URLs, backlinks, launch pages, or priority lists that deserve repeatable discovery follow-up. It is useful for URL submission, backlink discovery workflows, bulk URL queues, tracking, and prioritization.
 
 It should not replace technical checks, content quality, provider QA, Search Console review, analytics, or conversion work. Use it after the asset is ready enough to deserve attention.
+
+## Part Of This Series
+
+This article is part of the [Platform SEO Playbooks](/platform-seo-playbooks) series.
+
+Recommended path:
+
+1. Previous: [Shopify Product Pages Not Indexing](/shopify-product-pages-not-indexing)
+2. Current: **Shopify Sitemap And Search Console Guide**
+3. Next: [WordPress Indexing Checklist](/wordpress-indexing-checklist)
+
+Series hub: [Platform SEO Playbooks](/platform-seo-playbooks)
+
+Related guides from other workflows:
+
+- [Submit Sitemap In Google Search Console](/submit-sitemap-in-google-search-console)
+- [Search Console Sitemap Errors](/search-console-sitemap-errors)
 
 ## FAQ
 

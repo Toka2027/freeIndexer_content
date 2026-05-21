@@ -15,6 +15,11 @@ secondary_icp: SEO Operator
 funnel_stage: middle
 type: Bulk SEO Operations Guide
 series: Platform SEO Playbooks
+series_order: 9
+series_role: cluster
+series_hub: platform-seo-playbooks
+previous_article: webflow-seo-indexing-guide
+next_article: documentation-site-indexing-workflow
 business_goal: Prioritize SaaS URLs
 meta:
   target_page: "https://freeindexer.com/pricing"
@@ -22,6 +27,9 @@ meta:
     - indexing-for-saas-product-pages
     - indexing-workflow-for-product-launch-pages
     - technical-seo-indexing-audit
+    - platform-seo-playbooks
+    - webflow-seo-indexing-guide
+    - documentation-site-indexing-workflow
   blog_category: bulk-seo-operations
   blog_tags:
     - saas-seo
@@ -134,6 +142,23 @@ In a real team, this should become a small operating board: target URL, source, 
 FreeIndexer fits when the team has verified URLs, backlinks, launch pages, or priority lists that deserve repeatable discovery follow-up. It is useful for URL submission, backlink discovery workflows, bulk URL queues, tracking, and prioritization.
 
 It should not replace technical checks, content quality, provider QA, Search Console review, analytics, or conversion work. Use it after the asset is ready enough to deserve attention.
+
+## Part Of This Series
+
+This article is part of the [Platform SEO Playbooks](/platform-seo-playbooks) series.
+
+Recommended path:
+
+1. Previous: [Webflow SEO Indexing Guide](/webflow-seo-indexing-guide)
+2. Current: **SaaS Website SEO Indexing Workflow**
+3. Next: [Documentation Site Indexing Workflow](/documentation-site-indexing-workflow)
+
+Series hub: [Platform SEO Playbooks](/platform-seo-playbooks)
+
+Related guides from other workflows:
+
+- [Indexing For Saas Product Pages](/indexing-for-saas-product-pages)
+- [Indexing Workflow For Product Launch Pages](/indexing-workflow-for-product-launch-pages)
 
 ## FAQ
 

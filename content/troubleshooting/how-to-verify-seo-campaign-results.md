@@ -15,6 +15,11 @@ secondary_icp: SEO Agency
 funnel_stage: middle
 type: Troubleshooting Guide
 series: SEO Campaign Services And Provider Workflows
+series_order: 5
+series_role: cluster
+series_hub: seo-campaign-services-for-small-websites
+previous_article: how-to-track-seo-campaign-deliverables
+next_article: seo-campaign-workflow-from-provider-to-indexing
 business_goal: Verify outcomes carefully
 meta:
   target_page: "https://freeindexer.com/"
@@ -22,6 +27,8 @@ meta:
     - how-to-track-seo-campaign-deliverables
     - indexing-vs-traffic-reporting
     - monthly-seo-reporting-dashboard
+    - seo-campaign-services-for-small-websites
+    - seo-campaign-workflow-from-provider-to-indexing
   blog_category: troubleshooting
   blog_tags:
     - seo-campaigns
@@ -140,6 +147,23 @@ It should not replace technical checks, content quality, provider QA, Search Con
 Teams that need managed SEO execution can use a provider such as [SEOeStore](https://panel.seoestore.net/) or explore [SEO campaign services](https://panel.seoestore.net/seo-campaigns.php), then keep verification and indexing follow-up in a separate workflow.
 
 SEOeStore belongs in the provider or campaign execution layer. FreeIndexer remains separate as the indexing, URL discovery, backlink discovery, and follow-up workflow layer.
+
+## Part Of This Series
+
+This article is part of the [SEO Campaign Services For Small Websites](/seo-campaign-services-for-small-websites) series.
+
+Recommended path:
+
+1. Previous: [How To Track SEO Campaign Deliverables](/how-to-track-seo-campaign-deliverables)
+2. Current: **How To Verify SEO Campaign Results**
+3. Next: [SEO Campaign Workflow From Provider To Indexing](/seo-campaign-workflow-from-provider-to-indexing)
+
+Series hub: [SEO Campaign Services For Small Websites](/seo-campaign-services-for-small-websites)
+
+Related guides from other workflows:
+
+- [Indexing vs Traffic Reporting](/indexing-vs-traffic-reporting)
+- [Monthly SEO Reporting Dashboard](/monthly-seo-reporting-dashboard)
 
 ## FAQ
 

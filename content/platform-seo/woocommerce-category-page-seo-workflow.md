@@ -15,6 +15,11 @@ secondary_icp: SEO Operator
 funnel_stage: middle
 type: Platform SEO Playbook
 series: Platform SEO Playbooks
+series_order: 6
+series_role: cluster
+series_hub: platform-seo-playbooks
+previous_article: wordpress-indexing-checklist
+next_article: ecommerce-category-page-indexing-guide
 business_goal: Improve category visibility
 meta:
   target_page: "https://freeindexer.com/pricing"
@@ -22,6 +27,7 @@ meta:
     - ecommerce-category-page-indexing-guide
     - wordpress-indexing-checklist
     - canonical-tags-and-indexing
+    - platform-seo-playbooks
   blog_category: platform-seo
   blog_tags:
     - woocommerce-seo
@@ -134,6 +140,22 @@ In a real team, this should become a small operating board: target URL, source, 
 FreeIndexer fits when the team has verified URLs, backlinks, launch pages, or priority lists that deserve repeatable discovery follow-up. It is useful for URL submission, backlink discovery workflows, bulk URL queues, tracking, and prioritization.
 
 It should not replace technical checks, content quality, provider QA, Search Console review, analytics, or conversion work. Use it after the asset is ready enough to deserve attention.
+
+## Part Of This Series
+
+This article is part of the [Platform SEO Playbooks](/platform-seo-playbooks) series.
+
+Recommended path:
+
+1. Previous: [WordPress Indexing Checklist](/wordpress-indexing-checklist)
+2. Current: **WooCommerce Category Page SEO Workflow**
+3. Next: [Ecommerce Category Page Indexing Guide](/ecommerce-category-page-indexing-guide)
+
+Series hub: [Platform SEO Playbooks](/platform-seo-playbooks)
+
+Related guides from other workflows:
+
+- [Canonical Tags And Indexing](/canonical-tags-and-indexing)
 
 ## FAQ
 

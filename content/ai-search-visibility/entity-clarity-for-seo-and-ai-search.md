@@ -15,6 +15,11 @@ secondary_icp: SaaS Or Product Team
 funnel_stage: top
 type: AI Search Visibility Guide
 series: AI Search / GEO Visibility
+series_order: 4
+series_role: cluster
+series_hub: ai-search-visibility-for-seo-operators
+previous_article: content-structure-for-ai-search-discovery
+next_article: technical-seo-foundations-for-ai-search
 business_goal: Clarify entities
 meta:
   target_page: "https://freeindexer.com/"
@@ -22,6 +27,9 @@ meta:
     - ai-search-visibility-for-seo-operators
     - geo-readiness-checklist-for-website-owners
     - content-structure-for-ai-search-discovery
+    - technical-seo-foundations-for-ai-search
+    - backlink-discovery-and-indexing-guide
+    - content-marketing-that-gets-discovered
   blog_category: ai-search-visibility
   blog_tags:
     - geo
@@ -128,6 +136,23 @@ In a real team, this should become a small operating board: target URL, source, 
 | You found blockers | Fix crawlability, quality, tracking, or provider handoff before scaling |
 | You have verified priority assets | Move them into the right follow-up queue and record the evidence |
 | You need reporting | Show what was done, what was verified, and what changed afterward |
+
+## Part Of This Series
+
+This article is part of the [AI Search Visibility For SEO Operators](/ai-search-visibility-for-seo-operators) series.
+
+Recommended path:
+
+1. Previous: [Content Structure For AI Search Discovery](/content-structure-for-ai-search-discovery)
+2. Current: **Entity Clarity For SEO And AI Search**
+3. Next: [Technical SEO Foundations For AI Search](/technical-seo-foundations-for-ai-search)
+
+Series hub: [AI Search Visibility For SEO Operators](/ai-search-visibility-for-seo-operators)
+
+Related guides from other workflows:
+
+- [Backlink Discovery And Indexing Guide](/backlink-discovery-and-indexing-guide)
+- [Content Marketing That Gets Discovered](/content-marketing-that-gets-discovered)
 
 ## FAQ
 

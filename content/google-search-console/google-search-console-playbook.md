@@ -15,6 +15,11 @@ secondary_icp: SEO Operator
 funnel_stage: top
 type: Search Console Playbook
 series: Google Search Console Playbook
+series_order: 1
+series_role: hub
+series_hub: google-search-console-playbook
+previous_article: 
+next_article: url-inspection-decision-tree
 business_goal: Use GSC as the diagnostic base
 meta:
   target_page: "https://freeindexer.com/"
@@ -22,6 +27,7 @@ meta:
     - google-search-console-indexing-guide
     - url-inspection-statuses-explained
     - search-console-sitemap-errors
+    - url-inspection-decision-tree
   blog_category: google-search-console
   blog_tags:
     - google-search-console
@@ -71,6 +77,53 @@ Related reading in this workflow:
 - [Google Search Console Indexing Guide](/google-search-console-indexing-guide)
 - [URL Inspection Statuses Explained](/url-inspection-statuses-explained)
 - [Search Console Sitemap Errors](/search-console-sitemap-errors)
+
+## Google Search Console Playbook Series
+
+This is the visible hub for the Google Search Console Playbook series. It is for webmasters and seo operators who want a guided path instead of disconnected articles.
+
+### What You Will Learn
+
+- How the topic works from foundation to execution.
+- Which checks matter before using tools, providers, or reporting workflows.
+- How to prioritize URLs, content, backlinks, campaigns, or platform pages.
+- How to connect each article to the next step in the workflow.
+
+### Recommended Reading Order
+
+1. [Google Search Console Playbook](/google-search-console-playbook) - Series hub
+2. [URL Inspection Decision Tree](/url-inspection-decision-tree) - Cluster guide
+3. [Pages Report Troubleshooting Workflow](/pages-report-troubleshooting-workflow) - Cluster guide
+4. [Submit Sitemap In Google Search Console](/submit-sitemap-in-google-search-console) - Cluster guide
+5. [Validate Fix In Search Console](/validate-fix-search-console-indexing) - Cluster guide
+6. [Fixing Discovered Currently Not Indexed](/fixing-discovered-currently-not-indexed) - Cluster guide
+7. [Fixing Crawled Currently Not Indexed](/fixing-crawled-currently-not-indexed) - Cluster guide
+8. [GSC Client Reporting Workflow](/gsc-client-reporting-workflow) - Cluster guide
+
+### Article Sequence
+
+| Part | Article | Role |
+|---|---|---|
+| 1 | [Google Search Console Playbook](/google-search-console-playbook) | Hub |
+| 2 | [URL Inspection Decision Tree](/url-inspection-decision-tree) | Cluster |
+| 3 | [Pages Report Troubleshooting Workflow](/pages-report-troubleshooting-workflow) | Cluster |
+| 4 | [Submit Sitemap In Google Search Console](/submit-sitemap-in-google-search-console) | Cluster |
+| 5 | [Validate Fix In Search Console](/validate-fix-search-console-indexing) | Cluster |
+| 6 | [Fixing Discovered Currently Not Indexed](/fixing-discovered-currently-not-indexed) | Cluster |
+| 7 | [Fixing Crawled Currently Not Indexed](/fixing-crawled-currently-not-indexed) | Cluster |
+| 8 | [GSC Client Reporting Workflow](/gsc-client-reporting-workflow) | Cluster |
+
+### Where FreeIndexer Fits
+
+FreeIndexer fits when the reader has verified URLs, backlinks, or page batches that are ready for repeatable discovery follow-up and tracking.
+
+### Where SEOeStore Fits
+
+SEOeStore is not a primary part of this series unless the reader later needs managed SEO or provider execution outside the article topic.
+
+### Next Step
+
+Start with this hub, then follow the reading order above. Each cluster article links back here and points to the previous and next article in the sequence.
 
 ## The Short Answer
 
@@ -134,6 +187,23 @@ In a real team, this should become a small operating board: target URL, source, 
 FreeIndexer fits when the team has verified URLs, backlinks, launch pages, or priority lists that deserve repeatable discovery follow-up. It is useful for URL submission, backlink discovery workflows, bulk URL queues, tracking, and prioritization.
 
 It should not replace technical checks, content quality, provider QA, Search Console review, analytics, or conversion work. Use it after the asset is ready enough to deserve attention.
+
+## Part Of This Series
+
+This article is part of the [Google Search Console Playbook](/google-search-console-playbook) series.
+
+Recommended path:
+
+1. Previous: Start here
+2. Current: **Google Search Console Playbook**
+3. Next: [URL Inspection Decision Tree](/url-inspection-decision-tree)
+
+Series hub: [Google Search Console Playbook](/google-search-console-playbook)
+
+Related guides from other workflows:
+
+- [Google Search Console Indexing Guide](/google-search-console-indexing-guide)
+- [Url Inspection Statuses Explained](/url-inspection-statuses-explained)
 
 ## FAQ
 

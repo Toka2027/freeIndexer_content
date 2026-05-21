@@ -15,6 +15,11 @@ secondary_icp: Content Marketer
 funnel_stage: top
 type: Content Marketing Guide
 series: Content Marketing That Gets Discovered
+series_order: 5
+series_role: cluster
+series_hub: content-marketing-that-gets-discovered
+previous_article: content-brief-template-for-seo-pages
+next_article: blog-publishing-checklist-for-indexing
 business_goal: Publish stronger pages
 meta:
   target_page: "https://freeindexer.com/"
@@ -22,6 +27,8 @@ meta:
     - content-marketing-that-gets-discovered
     - url-submission-checklist-before-indexing
     - content-visibility-checklist
+    - content-brief-template-for-seo-pages
+    - blog-publishing-checklist-for-indexing
   blog_category: content-marketing
   blog_tags:
     - on-page-seo
@@ -134,6 +141,23 @@ In a real team, this should become a small operating board: target URL, source, 
 FreeIndexer fits when the team has verified URLs, backlinks, launch pages, or priority lists that deserve repeatable discovery follow-up. It is useful for URL submission, backlink discovery workflows, bulk URL queues, tracking, and prioritization.
 
 It should not replace technical checks, content quality, provider QA, Search Console review, analytics, or conversion work. Use it after the asset is ready enough to deserve attention.
+
+## Part Of This Series
+
+This article is part of the [Content Marketing That Gets Discovered](/content-marketing-that-gets-discovered) series.
+
+Recommended path:
+
+1. Previous: [Content Brief Template For SEO Pages](/content-brief-template-for-seo-pages)
+2. Current: **On-Page SEO Checklist For New Content**
+3. Next: [Blog Publishing Checklist For Indexing](/blog-publishing-checklist-for-indexing)
+
+Series hub: [Content Marketing That Gets Discovered](/content-marketing-that-gets-discovered)
+
+Related guides from other workflows:
+
+- [Url Submission Checklist Before Indexing](/url-submission-checklist-before-indexing)
+- [Content Visibility Checklist](/content-visibility-checklist)
 
 ## FAQ
 

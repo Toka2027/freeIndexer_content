@@ -15,6 +15,11 @@ secondary_icp: Growth Operator
 funnel_stage: middle
 type: Digital Marketing Operations Guide
 series: Digital Marketing Operations
+series_order: 3
+series_role: cluster
+series_hub: digital-marketing-operations-workflow
+previous_article: seo-qa-process-before-publishing
+next_article: marketing-task-workflow-for-small-teams
 business_goal: Plan content operations
 meta:
   target_page: "https://freeindexer.com/"
@@ -22,6 +27,8 @@ meta:
     - digital-marketing-operations-workflow
     - content-cluster-planning-for-search-visibility
     - content-refresh-workflow-for-organic-growth
+    - seo-qa-process-before-publishing
+    - marketing-task-workflow-for-small-teams
   blog_category: digital-marketing-operations
   blog_tags:
     - content-calendar
@@ -128,6 +135,23 @@ In a real team, this should become a small operating board: target URL, source, 
 | You found blockers | Fix crawlability, quality, tracking, or provider handoff before scaling |
 | You have verified priority assets | Move them into the right follow-up queue and record the evidence |
 | You need reporting | Show what was done, what was verified, and what changed afterward |
+
+## Part Of This Series
+
+This article is part of the [Digital Marketing Operations Workflow](/digital-marketing-operations-workflow) series.
+
+Recommended path:
+
+1. Previous: [SEO QA Process Before Publishing](/seo-qa-process-before-publishing)
+2. Current: **Content Calendar For SEO Growth**
+3. Next: [Marketing Task Workflow For Small Teams](/marketing-task-workflow-for-small-teams)
+
+Series hub: [Digital Marketing Operations Workflow](/digital-marketing-operations-workflow)
+
+Related guides from other workflows:
+
+- [Content Cluster Planning For Search Visibility](/content-cluster-planning-for-search-visibility)
+- [Content Refresh Workflow For Organic Growth](/content-refresh-workflow-for-organic-growth)
 
 ## FAQ
 

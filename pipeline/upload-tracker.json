@@ -382,5 +382,33 @@
   "crawlability-audit-workflow": {
     "public_url": "https://cen-public-st.nbg1.your-objectstorage.com/freeindexer/blog/crawlability-audit-workflow-hero.png",
     "object_key": "freeindexer/blog/crawlability-audit-workflow-hero.png"
+  },
+  "google-search-console-playbook": {
+    "public_url": "https://cen-public-st.nbg1.your-objectstorage.com/freeindexer/blog/google-search-console-playbook-hero.png",
+    "object_key": "freeindexer/blog/google-search-console-playbook-hero.png"
+  },
+  "analytics-and-reporting-for-seo-growth": {
+    "public_url": "https://cen-public-st.nbg1.your-objectstorage.com/freeindexer/blog/analytics-and-reporting-for-seo-growth-hero.png",
+    "object_key": "freeindexer/blog/analytics-and-reporting-for-seo-growth-hero.png"
+  },
+  "seo-landing-page-structure": {
+    "public_url": "https://cen-public-st.nbg1.your-objectstorage.com/freeindexer/blog/seo-landing-page-structure-hero.png",
+    "object_key": "freeindexer/blog/seo-landing-page-structure-hero.png"
+  },
+  "digital-marketing-operations-workflow": {
+    "public_url": "https://cen-public-st.nbg1.your-objectstorage.com/freeindexer/blog/digital-marketing-operations-workflow-hero.png",
+    "object_key": "freeindexer/blog/digital-marketing-operations-workflow-hero.png"
+  },
+  "tools-providers-and-workflow-comparisons": {
+    "public_url": "https://cen-public-st.nbg1.your-objectstorage.com/freeindexer/blog/tools-providers-and-workflow-comparisons-hero.png",
+    "object_key": "freeindexer/blog/tools-providers-and-workflow-comparisons-hero.png"
+  },
+  "seo-software-and-automation-tools": {
+    "public_url": "https://cen-public-st.nbg1.your-objectstorage.com/freeindexer/blog/seo-software-and-automation-tools-hero.png",
+    "object_key": "freeindexer/blog/seo-software-and-automation-tools-hero.png"
+  },
+  "platform-seo-playbooks": {
+    "public_url": "https://cen-public-st.nbg1.your-objectstorage.com/freeindexer/blog/platform-seo-playbooks-hero.png",
+    "object_key": "freeindexer/blog/platform-seo-playbooks-hero.png"
   }
 }

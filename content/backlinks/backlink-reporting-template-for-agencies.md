@@ -15,6 +15,11 @@ secondary_icp: SEO Operator
 funnel_stage: middle
 type: Backlink Workflow Guide
 series: Backlinks And Discovery
+series_order: 7
+series_role: cluster
+series_hub: backlink-discovery-and-indexing-guide
+previous_article: track-backlink-discovery-for-seo-campaigns
+next_article: affiliate-backlink-tracking-workflow
 business_goal: Report backlinks in client-safe language
 meta:
   target_page: "https://freeindexer.com/"
@@ -22,6 +27,7 @@ meta:
     - backlink-indexing-for-client-reporting
     - track-backlink-discovery-for-seo-campaigns
     - backlink-discovery-and-indexing-guide
+    - affiliate-backlink-tracking-workflow
   blog_category: backlinks
   blog_tags:
     - backlinks
@@ -134,6 +140,22 @@ In a real team, this should become a small operating board: target URL, source, 
 FreeIndexer fits when the team has verified URLs, backlinks, launch pages, or priority lists that deserve repeatable discovery follow-up. It is useful for URL submission, backlink discovery workflows, bulk URL queues, tracking, and prioritization.
 
 It should not replace technical checks, content quality, provider QA, Search Console review, analytics, or conversion work. Use it after the asset is ready enough to deserve attention.
+
+## Part Of This Series
+
+This article is part of the [Backlink Discovery And Indexing Guide](/backlink-discovery-and-indexing-guide) series.
+
+Recommended path:
+
+1. Previous: [Track Backlink Discovery For SEO Campaigns](/track-backlink-discovery-for-seo-campaigns)
+2. Current: **Backlink Reporting Template For Agencies**
+3. Next: [Affiliate Backlink Tracking Workflow](/affiliate-backlink-tracking-workflow)
+
+Series hub: [Backlink Discovery And Indexing Guide](/backlink-discovery-and-indexing-guide)
+
+Related guides from other workflows:
+
+- [Backlink Indexing For Client Reporting](/backlink-indexing-for-client-reporting)
 
 ## FAQ
 

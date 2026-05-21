@@ -15,6 +15,11 @@ secondary_icp: SEO Operator
 funnel_stage: top
 type: Search Console Playbook
 series: Google Search Console Playbook
+series_order: 3
+series_role: cluster
+series_hub: google-search-console-playbook
+previous_article: url-inspection-decision-tree
+next_article: submit-sitemap-in-google-search-console
 business_goal: Group GSC issues by fix type
 meta:
   target_page: "https://freeindexer.com/"
@@ -22,6 +27,9 @@ meta:
     - google-search-console-pages-report-explained
     - submitted-url-not-indexed
     - technical-seo-indexing-audit
+    - google-search-console-playbook
+    - url-inspection-decision-tree
+    - submit-sitemap-in-google-search-console
   blog_category: google-search-console
   blog_tags:
     - google-search-console
@@ -134,6 +142,23 @@ In a real team, this should become a small operating board: target URL, source, 
 FreeIndexer fits when the team has verified URLs, backlinks, launch pages, or priority lists that deserve repeatable discovery follow-up. It is useful for URL submission, backlink discovery workflows, bulk URL queues, tracking, and prioritization.
 
 It should not replace technical checks, content quality, provider QA, Search Console review, analytics, or conversion work. Use it after the asset is ready enough to deserve attention.
+
+## Part Of This Series
+
+This article is part of the [Google Search Console Playbook](/google-search-console-playbook) series.
+
+Recommended path:
+
+1. Previous: [URL Inspection Decision Tree](/url-inspection-decision-tree)
+2. Current: **Pages Report Troubleshooting Workflow**
+3. Next: [Submit Sitemap In Google Search Console](/submit-sitemap-in-google-search-console)
+
+Series hub: [Google Search Console Playbook](/google-search-console-playbook)
+
+Related guides from other workflows:
+
+- [Google Search Console Pages Report Explained](/google-search-console-pages-report-explained)
+- [Submitted Url Not Indexed](/submitted-url-not-indexed)
 
 ## FAQ
 

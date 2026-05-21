@@ -14,6 +14,12 @@ icp: Affiliate Marketer
 secondary_icp: SEO Agency
 funnel_stage: middle
 type: Backlink Workflow Guide
+series: Backlinks And Discovery
+series_order: 2
+series_role: cluster
+series_hub: backlink-discovery-and-indexing-guide
+previous_article: backlink-discovery-and-indexing-guide
+next_article: backlink-discovery-workflow-after-link-building
 business_goal: Build topical authority and support practical search discovery workflows
 meta:
   target_page: https://freeindexer.com/
@@ -22,6 +28,7 @@ meta:
     - backlink-indexing-checklist
     - how-to-get-backlinks-discovered
     - best-backlink-indexer
+    - backlink-discovery-workflow-after-link-building
   blog_category: backlinks
   blog_tags:
     - backlinks
@@ -139,6 +146,23 @@ The most common mistakes are workflow mistakes, not tool mistakes.
 - using absolute promises in reports
 
 Avoiding these mistakes keeps the workflow practical and makes the outcome easier to explain.
+
+## Part Of This Series
+
+This article is part of the [Backlink Discovery And Indexing Guide](/backlink-discovery-and-indexing-guide) series.
+
+Recommended path:
+
+1. Previous: [Backlink Discovery And Indexing Guide](/backlink-discovery-and-indexing-guide)
+2. Current: **Backlink Quality Before Indexing**
+3. Next: [Backlink Discovery Workflow After Link Building](/backlink-discovery-workflow-after-link-building)
+
+Series hub: [Backlink Discovery And Indexing Guide](/backlink-discovery-and-indexing-guide)
+
+Related guides from other workflows:
+
+- [Backlink Indexing Checklist](/backlink-indexing-checklist)
+- [How To Get Backlinks Discovered](/how-to-get-backlinks-discovered)
 
 ## FAQ
 

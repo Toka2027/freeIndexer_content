@@ -15,6 +15,11 @@ secondary_icp: SEO Operator
 funnel_stage: middle
 type: Platform SEO Guide
 series: Platform SEO Playbooks
+series_order: 7
+series_role: cluster
+series_hub: platform-seo-playbooks
+previous_article: woocommerce-category-page-seo-workflow
+next_article: webflow-seo-indexing-guide
 business_goal: Expand ecommerce SEO coverage while connecting category workflows to FreeIndexer discovery follow-up
 meta:
   target_page: "https://freeindexer.com/pricing"
@@ -23,6 +28,9 @@ meta:
     - technical-seo-indexing-audit
     - sitemap-indexing-checklist
     - internal-linking-for-indexing
+    - platform-seo-playbooks
+    - woocommerce-category-page-seo-workflow
+    - webflow-seo-indexing-guide
   blog_category: platform-seo
   blog_tags:
     - ecommerce-seo
@@ -144,6 +152,23 @@ Use [internal linking for indexing](/internal-linking-for-indexing) to strengthe
 - Publishing empty or nearly empty collections.
 - Using identical text across many category pages.
 - Submitting category URLs before canonical and internal link checks.
+
+## Part Of This Series
+
+This article is part of the [Platform SEO Playbooks](/platform-seo-playbooks) series.
+
+Recommended path:
+
+1. Previous: [WooCommerce Category Page SEO Workflow](/woocommerce-category-page-seo-workflow)
+2. Current: **Ecommerce Category Page Indexing Guide**
+3. Next: [Webflow SEO Indexing Guide](/webflow-seo-indexing-guide)
+
+Series hub: [Platform SEO Playbooks](/platform-seo-playbooks)
+
+Related guides from other workflows:
+
+- [Indexing Workflow For Ecommerce Category Pages](/indexing-workflow-for-ecommerce-category-pages)
+- [Technical Seo Indexing Audit](/technical-seo-indexing-audit)
 
 ## FAQ
 

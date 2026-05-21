@@ -15,6 +15,11 @@ secondary_icp: SEO Agency
 funnel_stage: middle
 type: Technical SEO Guide
 series: Technical SEO For Operators
+series_order: 1
+series_role: hub
+series_hub: technical-seo-for-operators
+previous_article: 
+next_article: crawlability-audit-workflow
 business_goal: Build a technical SEO operating queue
 meta:
   target_page: "https://freeindexer.com/"
@@ -22,6 +27,7 @@ meta:
     - technical-seo-indexing-audit
     - crawlability-checklist
     - indexability-audit-for-large-url-sets
+    - crawlability-audit-workflow
   blog_category: technical-seo
   blog_tags:
     - technical-seo
@@ -71,6 +77,53 @@ Related reading in this workflow:
 - [Technical SEO Indexing Audit](/technical-seo-indexing-audit)
 - [Crawlability Checklist](/crawlability-checklist)
 - [Indexability Audit For Large URL Sets](/indexability-audit-for-large-url-sets)
+
+## Technical SEO For Operators Series
+
+This is the visible hub for the Technical SEO For Operators series. It is for seo operators and seo agencys who want a guided path instead of disconnected articles.
+
+### What You Will Learn
+
+- How the topic works from foundation to execution.
+- Which checks matter before using tools, providers, or reporting workflows.
+- How to prioritize URLs, content, backlinks, campaigns, or platform pages.
+- How to connect each article to the next step in the workflow.
+
+### Recommended Reading Order
+
+1. [Technical SEO For Operators](/technical-seo-for-operators) - Series hub
+2. [Crawlability Audit Workflow](/crawlability-audit-workflow) - Cluster guide
+3. [Indexability Audit For Large URL Sets](/indexability-audit-for-large-url-sets) - Cluster guide
+4. [Canonical Audit Workflow For SEO Teams](/canonical-audit-workflow-for-seo-teams) - Cluster guide
+5. [Noindex Mistakes SEO Teams Miss](/noindex-mistakes-seo-teams-miss) - Cluster guide
+6. [Sitemap Cleanup Workflow For Large Sites](/sitemap-cleanup-workflow-for-large-sites) - Cluster guide
+7. [Internal Linking System For Large Sites](/internal-linking-system-for-large-sites) - Cluster guide
+8. [URL Inventory Management For SEO Teams](/url-inventory-management-for-seo-teams) - Cluster guide
+
+### Article Sequence
+
+| Part | Article | Role |
+|---|---|---|
+| 1 | [Technical SEO For Operators](/technical-seo-for-operators) | Hub |
+| 2 | [Crawlability Audit Workflow](/crawlability-audit-workflow) | Cluster |
+| 3 | [Indexability Audit For Large URL Sets](/indexability-audit-for-large-url-sets) | Cluster |
+| 4 | [Canonical Audit Workflow For SEO Teams](/canonical-audit-workflow-for-seo-teams) | Cluster |
+| 5 | [Noindex Mistakes SEO Teams Miss](/noindex-mistakes-seo-teams-miss) | Cluster |
+| 6 | [Sitemap Cleanup Workflow For Large Sites](/sitemap-cleanup-workflow-for-large-sites) | Cluster |
+| 7 | [Internal Linking System For Large Sites](/internal-linking-system-for-large-sites) | Cluster |
+| 8 | [URL Inventory Management For SEO Teams](/url-inventory-management-for-seo-teams) | Cluster |
+
+### Where FreeIndexer Fits
+
+FreeIndexer fits when the reader has verified URLs, backlinks, or page batches that are ready for repeatable discovery follow-up and tracking.
+
+### Where SEOeStore Fits
+
+SEOeStore is not a primary part of this series unless the reader later needs managed SEO or provider execution outside the article topic.
+
+### Next Step
+
+Start with this hub, then follow the reading order above. Each cluster article links back here and points to the previous and next article in the sequence.
 
 ## The Short Answer
 
@@ -134,6 +187,23 @@ In a real team, this should become a small operating board: target URL, source, 
 FreeIndexer fits when the team has verified URLs, backlinks, launch pages, or priority lists that deserve repeatable discovery follow-up. It is useful for URL submission, backlink discovery workflows, bulk URL queues, tracking, and prioritization.
 
 It should not replace technical checks, content quality, provider QA, Search Console review, analytics, or conversion work. Use it after the asset is ready enough to deserve attention.
+
+## Part Of This Series
+
+This article is part of the [Technical SEO For Operators](/technical-seo-for-operators) series.
+
+Recommended path:
+
+1. Previous: Start here
+2. Current: **Technical SEO For Operators**
+3. Next: [Crawlability Audit Workflow](/crawlability-audit-workflow)
+
+Series hub: [Technical SEO For Operators](/technical-seo-for-operators)
+
+Related guides from other workflows:
+
+- [Technical Seo Indexing Audit](/technical-seo-indexing-audit)
+- [Crawlability Checklist](/crawlability-checklist)
 
 ## FAQ
 

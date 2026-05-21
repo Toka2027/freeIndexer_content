@@ -15,6 +15,11 @@ secondary_icp: SaaS Or Product Team
 funnel_stage: top
 type: Content Marketing Guide
 series: Content Marketing That Gets Discovered
+series_order: 1
+series_role: hub
+series_hub: content-marketing-that-gets-discovered
+previous_article: 
+next_article: content-cluster-planning-for-search-visibility
 business_goal: Expand FreeIndexer into practical content marketing while preserving indexing as the follow-up layer
 meta:
   target_page: "https://freeindexer.com/pricing"
@@ -23,6 +28,7 @@ meta:
     - search-discovery-workflow-for-new-content
     - internal-linking-for-indexing
     - url-indexing-vs-ranking
+    - content-cluster-planning-for-search-visibility
   blog_category: content-marketing
   blog_tags:
     - content-marketing
@@ -68,6 +74,53 @@ image:
 Content marketing that gets discovered is not just better writing. It is the combination of search intent, useful structure, internal links, technical readiness, and follow-up after publishing.
 
 If you are new to indexing and discovery, start with the [indexing education hub](/indexing-education-hub). This guide is for content marketers and SaaS teams that want blog posts, guides, landing pages, and resource content to be easier to find.
+
+## Content Marketing That Gets Discovered Series
+
+This is the visible hub for the Content Marketing That Gets Discovered series. It is for content marketers and saas or product teams who want a guided path instead of disconnected articles.
+
+### What You Will Learn
+
+- How the topic works from foundation to execution.
+- Which checks matter before using tools, providers, or reporting workflows.
+- How to prioritize URLs, content, backlinks, campaigns, or platform pages.
+- How to connect each article to the next step in the workflow.
+
+### Recommended Reading Order
+
+1. [Content Marketing That Gets Discovered](/content-marketing-that-gets-discovered) - Series hub
+2. [Content Cluster Planning For Search Visibility](/content-cluster-planning-for-search-visibility) - Cluster guide
+3. [Keyword Intent Checklist Before Writing](/keyword-intent-checklist-before-writing) - Cluster guide
+4. [Content Brief Template For SEO Pages](/content-brief-template-for-seo-pages) - Cluster guide
+5. [On-Page SEO Checklist For New Content](/on-page-seo-checklist-for-new-content) - Cluster guide
+6. [Blog Publishing Checklist For Indexing](/blog-publishing-checklist-for-indexing) - Cluster guide
+7. [Content Refresh Workflow For Organic Growth](/content-refresh-workflow-for-organic-growth) - Cluster guide
+8. [Content Visibility Reporting For Content Teams](/content-visibility-reporting-for-content-teams) - Cluster guide
+
+### Article Sequence
+
+| Part | Article | Role |
+|---|---|---|
+| 1 | [Content Marketing That Gets Discovered](/content-marketing-that-gets-discovered) | Hub |
+| 2 | [Content Cluster Planning For Search Visibility](/content-cluster-planning-for-search-visibility) | Cluster |
+| 3 | [Keyword Intent Checklist Before Writing](/keyword-intent-checklist-before-writing) | Cluster |
+| 4 | [Content Brief Template For SEO Pages](/content-brief-template-for-seo-pages) | Cluster |
+| 5 | [On-Page SEO Checklist For New Content](/on-page-seo-checklist-for-new-content) | Cluster |
+| 6 | [Blog Publishing Checklist For Indexing](/blog-publishing-checklist-for-indexing) | Cluster |
+| 7 | [Content Refresh Workflow For Organic Growth](/content-refresh-workflow-for-organic-growth) | Cluster |
+| 8 | [Content Visibility Reporting For Content Teams](/content-visibility-reporting-for-content-teams) | Cluster |
+
+### Where FreeIndexer Fits
+
+FreeIndexer fits after the strategy work produces priority URLs that deserve discovery follow-up, such as launch pages, refreshed guides, or verified campaign URLs.
+
+### Where SEOeStore Fits
+
+SEOeStore is not a primary part of this series unless the reader later needs managed SEO or provider execution outside the article topic.
+
+### Next Step
+
+Start with this hub, then follow the reading order above. Each cluster article links back here and points to the previous and next article in the sequence.
 
 ## The Short Answer
 
@@ -158,6 +211,23 @@ FreeIndexer fits when a content team has important URLs that are ready for disco
 
 It should not be forced into every content marketing step. The content still needs to satisfy intent, help the reader, and connect to the site structure.
 
+## Part Of This Series
+
+This article is part of the [Content Marketing That Gets Discovered](/content-marketing-that-gets-discovered) series.
+
+Recommended path:
+
+1. Previous: Start here
+2. Current: **Content Marketing That Gets Discovered**
+3. Next: [Content Cluster Planning For Search Visibility](/content-cluster-planning-for-search-visibility)
+
+Series hub: [Content Marketing That Gets Discovered](/content-marketing-that-gets-discovered)
+
+Related guides from other workflows:
+
+- [Indexing Education Hub](/indexing-education-hub)
+- [Search Discovery Workflow For New Content](/search-discovery-workflow-for-new-content)
+
 ## FAQ
 
 ### What does content discovery mean in SEO?
@@ -171,4 +241,3 @@ No. Use follow-up for priority URLs that are useful, internally linked, and stra
 ### How do I make content less generic?
 
 Define a specific reader, promise one clear outcome, include examples from that workflow, and add practical tables, checklists, templates, or diagnostic steps.
-

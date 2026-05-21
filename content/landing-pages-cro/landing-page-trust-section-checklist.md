@@ -15,6 +15,11 @@ secondary_icp: Founder
 funnel_stage: middle
 type: Landing Page And CRO Guide
 series: Landing Pages And CRO
+series_order: 3
+series_role: cluster
+series_hub: seo-landing-page-structure
+previous_article: conversion-focused-cta-checklist
+next_article: pricing-page-seo-and-cro
 business_goal: Add proof and clarity
 meta:
   target_page: "https://freeindexer.com/"
@@ -22,6 +27,7 @@ meta:
     - seo-landing-page-structure
     - conversion-focused-cta-checklist
     - content-visibility-checklist
+    - pricing-page-seo-and-cro
   blog_category: landing-pages-cro
   blog_tags:
     - landing-pages
@@ -128,6 +134,22 @@ In a real team, this should become a small operating board: target URL, source, 
 | You found blockers | Fix crawlability, quality, tracking, or provider handoff before scaling |
 | You have verified priority assets | Move them into the right follow-up queue and record the evidence |
 | You need reporting | Show what was done, what was verified, and what changed afterward |
+
+## Part Of This Series
+
+This article is part of the [SEO Landing Page Structure](/seo-landing-page-structure) series.
+
+Recommended path:
+
+1. Previous: [Conversion Focused CTA Checklist](/conversion-focused-cta-checklist)
+2. Current: **Landing Page Trust Section Checklist**
+3. Next: [Pricing Page SEO And CRO](/pricing-page-seo-and-cro)
+
+Series hub: [SEO Landing Page Structure](/seo-landing-page-structure)
+
+Related guides from other workflows:
+
+- [Content Visibility Checklist](/content-visibility-checklist)
 
 ## FAQ
 

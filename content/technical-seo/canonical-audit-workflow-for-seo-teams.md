@@ -15,6 +15,11 @@ secondary_icp: SEO Agency
 funnel_stage: middle
 type: Technical SEO Guide
 series: Technical SEO For Operators
+series_order: 4
+series_role: cluster
+series_hub: technical-seo-for-operators
+previous_article: indexability-audit-for-large-url-sets
+next_article: noindex-mistakes-seo-teams-miss
 business_goal: Audit canonical patterns
 meta:
   target_page: "https://freeindexer.com/"
@@ -22,6 +27,9 @@ meta:
     - canonical-tags-and-indexing
     - google-found-wrong-canonical-fixes
     - technical-seo-indexing-audit
+    - technical-seo-for-operators
+    - indexability-audit-for-large-url-sets
+    - noindex-mistakes-seo-teams-miss
   blog_category: technical-seo
   blog_tags:
     - canonical-tags
@@ -134,6 +142,23 @@ In a real team, this should become a small operating board: target URL, source, 
 FreeIndexer fits when the team has verified URLs, backlinks, launch pages, or priority lists that deserve repeatable discovery follow-up. It is useful for URL submission, backlink discovery workflows, bulk URL queues, tracking, and prioritization.
 
 It should not replace technical checks, content quality, provider QA, Search Console review, analytics, or conversion work. Use it after the asset is ready enough to deserve attention.
+
+## Part Of This Series
+
+This article is part of the [Technical SEO For Operators](/technical-seo-for-operators) series.
+
+Recommended path:
+
+1. Previous: [Indexability Audit For Large URL Sets](/indexability-audit-for-large-url-sets)
+2. Current: **Canonical Audit Workflow For SEO Teams**
+3. Next: [Noindex Mistakes SEO Teams Miss](/noindex-mistakes-seo-teams-miss)
+
+Series hub: [Technical SEO For Operators](/technical-seo-for-operators)
+
+Related guides from other workflows:
+
+- [Canonical Tags And Indexing](/canonical-tags-and-indexing)
+- [Google Found Wrong Canonical Fixes](/google-found-wrong-canonical-fixes)
 
 ## FAQ
 

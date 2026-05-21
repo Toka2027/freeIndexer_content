@@ -15,6 +15,11 @@ secondary_icp: SEO Agency
 funnel_stage: bottom
 type: Indexing Education Guide
 series: Practical Digital Marketing Tool Stacks
+series_order: 3
+series_role: cluster
+series_hub: seo-tool-stack-for-small-agencies
+previous_article: seo-tool-stack-for-small-websites
+next_article: freeindexer-desktop-app-workflow-stack
 business_goal: Build a discovery stack
 meta:
   target_page: "https://freeindexer.com/"
@@ -22,6 +27,9 @@ meta:
     - best-google-indexing-tools
     - freeindexer-vs-indexing-api
     - manual-url-submission-vs-bulk-indexing-workflow
+    - seo-tool-stack-for-small-agencies
+    - seo-tool-stack-for-small-websites
+    - freeindexer-desktop-app-workflow-stack
   blog_category: indexing-education
   blog_tags:
     - tool-stack
@@ -134,6 +142,23 @@ In a real team, this should become a small operating board: target URL, source, 
 FreeIndexer fits when the team has verified URLs, backlinks, launch pages, or priority lists that deserve repeatable discovery follow-up. It is useful for URL submission, backlink discovery workflows, bulk URL queues, tracking, and prioritization.
 
 It should not replace technical checks, content quality, provider QA, Search Console review, analytics, or conversion work. Use it after the asset is ready enough to deserve attention.
+
+## Part Of This Series
+
+This article is part of the [SEO Tool Stack For Small Agencies](/seo-tool-stack-for-small-agencies) series.
+
+Recommended path:
+
+1. Previous: [SEO Tool Stack For Small Websites](/seo-tool-stack-for-small-websites)
+2. Current: **Indexing And Discovery Tool Stack**
+3. Next: [FreeIndexer Desktop App Workflow Stack](/freeindexer-desktop-app-workflow-stack)
+
+Series hub: [SEO Tool Stack For Small Agencies](/seo-tool-stack-for-small-agencies)
+
+Related guides from other workflows:
+
+- [Best Google Indexing Tools](/best-google-indexing-tools)
+- [Freeindexer Vs Indexing Api](/freeindexer-vs-indexing-api)
 
 ## FAQ
 

@@ -15,6 +15,11 @@ secondary_icp: Growth Operator
 funnel_stage: middle
 type: Analytics Workflow Guide
 series: Analytics And Tracking For SEO Growth
+series_order: 3
+series_role: cluster
+series_hub: analytics-and-reporting-for-seo-growth
+previous_article: ga4-basics-for-seo-reporting
+next_article: track-organic-landing-pages
 business_goal: Expand FreeIndexer into SEO analytics workflows while keeping indexing follow-up separate from performance reporting
 meta:
   target_page: "https://freeindexer.com/pricing"
@@ -23,6 +28,9 @@ meta:
     - google-search-console-pages-report-explained
     - url-indexing-vs-ranking
     - monthly-seo-maintenance-checklist-small-websites
+    - analytics-and-reporting-for-seo-growth
+    - ga4-basics-for-seo-reporting
+    - track-organic-landing-pages
   blog_category: analytics-reporting
   blog_tags:
     - ga4
@@ -149,6 +157,23 @@ FreeIndexer fits after reporting creates a qualified follow-up list: fixed URLs,
 
 Keep the report honest. FreeIndexer can help manage submission and prioritization, while Search Console and GA4 show search visibility and user behavior.
 
+## Part Of This Series
+
+This article is part of the [Analytics And Reporting For SEO Growth](/analytics-and-reporting-for-seo-growth) series.
+
+Recommended path:
+
+1. Previous: [GA4 Basics For SEO Reporting](/ga4-basics-for-seo-reporting)
+2. Current: **Search Console And GA4 SEO Workflow**
+3. Next: [Track Organic Landing Pages](/track-organic-landing-pages)
+
+Series hub: [Analytics And Reporting For SEO Growth](/analytics-and-reporting-for-seo-growth)
+
+Related guides from other workflows:
+
+- [Google Search Console Indexing Guide](/google-search-console-indexing-guide)
+- [Google Search Console Pages Report Explained](/google-search-console-pages-report-explained)
+
 ## FAQ
 
 ### Should Search Console and GA4 numbers match?
@@ -162,4 +187,3 @@ Use both. Search Console is better for queries, impressions, indexing, and page 
 ### How often should I review SEO performance?
 
 Monthly is enough for most small teams, with weekly checks for launches, migrations, large campaigns, or urgent technical issues.
-

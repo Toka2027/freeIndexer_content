@@ -14,6 +14,12 @@ icp: Website Owner
 secondary_icp: SaaS Or Product Team
 funnel_stage: top
 type: AI Search Visibility Guide
+series: AI Search / GEO Visibility
+series_order: 2
+series_role: cluster
+series_hub: ai-search-visibility-for-seo-operators
+previous_article: ai-search-visibility-for-seo-operators
+next_article: content-structure-for-ai-search-discovery
 business_goal: Build topical authority and support practical search discovery workflows
 meta:
   target_page: https://freeindexer.com/
@@ -22,6 +28,7 @@ meta:
     - content-visibility-checklist
     - technical-seo-indexing-audit
     - how-search-engines-crawl-and-index-pages
+    - content-structure-for-ai-search-discovery
   blog_category: ai-search-visibility
   blog_tags:
     - ai-search
@@ -140,6 +147,23 @@ The most common mistakes are workflow mistakes, not tool mistakes.
 - using absolute promises in reports
 
 Avoiding these mistakes keeps the workflow practical and makes the outcome easier to explain.
+
+## Part Of This Series
+
+This article is part of the [AI Search Visibility For SEO Operators](/ai-search-visibility-for-seo-operators) series.
+
+Recommended path:
+
+1. Previous: [AI Search Visibility For SEO Operators](/ai-search-visibility-for-seo-operators)
+2. Current: **GEO Readiness Checklist For Website Owners**
+3. Next: [Content Structure For AI Search Discovery](/content-structure-for-ai-search-discovery)
+
+Series hub: [AI Search Visibility For SEO Operators](/ai-search-visibility-for-seo-operators)
+
+Related guides from other workflows:
+
+- [Content Visibility Checklist](/content-visibility-checklist)
+- [Technical Seo Indexing Audit](/technical-seo-indexing-audit)
 
 ## FAQ
 

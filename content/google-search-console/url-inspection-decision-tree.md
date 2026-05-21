@@ -15,6 +15,11 @@ secondary_icp: Webmaster
 funnel_stage: top
 type: Search Console Playbook
 series: Google Search Console Playbook
+series_order: 2
+series_role: cluster
+series_hub: google-search-console-playbook
+previous_article: google-search-console-playbook
+next_article: pages-report-troubleshooting-workflow
 business_goal: Choose the next action by status
 meta:
   target_page: "https://freeindexer.com/"
@@ -22,6 +27,9 @@ meta:
     - url-inspection-statuses-explained
     - how-to-use-url-inspection-tool
     - request-indexing-in-search-console
+    - google-search-console-playbook
+    - google-search-console-playbook
+    - pages-report-troubleshooting-workflow
   blog_category: google-search-console
   blog_tags:
     - url-inspection
@@ -134,6 +142,23 @@ In a real team, this should become a small operating board: target URL, source, 
 FreeIndexer fits when the team has verified URLs, backlinks, launch pages, or priority lists that deserve repeatable discovery follow-up. It is useful for URL submission, backlink discovery workflows, bulk URL queues, tracking, and prioritization.
 
 It should not replace technical checks, content quality, provider QA, Search Console review, analytics, or conversion work. Use it after the asset is ready enough to deserve attention.
+
+## Part Of This Series
+
+This article is part of the [Google Search Console Playbook](/google-search-console-playbook) series.
+
+Recommended path:
+
+1. Previous: [Google Search Console Playbook](/google-search-console-playbook)
+2. Current: **URL Inspection Decision Tree**
+3. Next: [Pages Report Troubleshooting Workflow](/pages-report-troubleshooting-workflow)
+
+Series hub: [Google Search Console Playbook](/google-search-console-playbook)
+
+Related guides from other workflows:
+
+- [Url Inspection Statuses Explained](/url-inspection-statuses-explained)
+- [How To Use Url Inspection Tool](/how-to-use-url-inspection-tool)
 
 ## FAQ
 

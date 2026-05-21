@@ -15,6 +15,11 @@ secondary_icp: Founder
 funnel_stage: middle
 type: Digital Marketing Operations Guide
 series: Digital Marketing Operations
+series_order: 1
+series_role: hub
+series_hub: digital-marketing-operations-workflow
+previous_article: 
+next_article: seo-qa-process-before-publishing
 business_goal: Build a marketing operating system
 meta:
   target_page: "https://freeindexer.com/"
@@ -22,6 +27,7 @@ meta:
     - weekly-webmaster-seo-workflow
     - url-inventory-management-for-seo-teams
     - content-marketing-that-gets-discovered
+    - seo-qa-process-before-publishing
   blog_category: digital-marketing-operations
   blog_tags:
     - digital-marketing-operations
@@ -71,6 +77,51 @@ Related reading in this workflow:
 - [Weekly Webmaster SEO Workflow](/weekly-webmaster-seo-workflow)
 - [URL Inventory Management For SEO Teams](/url-inventory-management-for-seo-teams)
 - [Content Marketing That Gets Discovered](/content-marketing-that-gets-discovered)
+
+## Digital Marketing Operations Series
+
+This is the visible hub for the Digital Marketing Operations series. It is for growth operators and founders who want a guided path instead of disconnected articles.
+
+### What You Will Learn
+
+- How the topic works from foundation to execution.
+- Which checks matter before using tools, providers, or reporting workflows.
+- How to prioritize URLs, content, backlinks, campaigns, or platform pages.
+- How to connect each article to the next step in the workflow.
+
+### Recommended Reading Order
+
+1. [Digital Marketing Operations Workflow](/digital-marketing-operations-workflow) - Series hub
+2. [SEO QA Process Before Publishing](/seo-qa-process-before-publishing) - Cluster guide
+3. [Content Calendar For SEO Growth](/content-calendar-for-seo-growth) - Cluster guide
+4. [Marketing Task Workflow For Small Teams](/marketing-task-workflow-for-small-teams) - Cluster guide
+5. [Vendor Management Workflow For SEO Campaigns](/vendor-management-workflow-for-seo-campaigns) - Cluster guide
+6. [Campaign Checklist For Repeatable SEO](/campaign-checklist-for-repeatable-seo) - Cluster guide
+7. [Client Reporting Workflow For SEO Agencies](/client-reporting-workflow-for-seo-agencies) - Cluster guide
+
+### Article Sequence
+
+| Part | Article | Role |
+|---|---|---|
+| 1 | [Digital Marketing Operations Workflow](/digital-marketing-operations-workflow) | Hub |
+| 2 | [SEO QA Process Before Publishing](/seo-qa-process-before-publishing) | Cluster |
+| 3 | [Content Calendar For SEO Growth](/content-calendar-for-seo-growth) | Cluster |
+| 4 | [Marketing Task Workflow For Small Teams](/marketing-task-workflow-for-small-teams) | Cluster |
+| 5 | [Vendor Management Workflow For SEO Campaigns](/vendor-management-workflow-for-seo-campaigns) | Cluster |
+| 6 | [Campaign Checklist For Repeatable SEO](/campaign-checklist-for-repeatable-seo) | Cluster |
+| 7 | [Client Reporting Workflow For SEO Agencies](/client-reporting-workflow-for-seo-agencies) | Cluster |
+
+### Where FreeIndexer Fits
+
+FreeIndexer fits when the reader has verified URLs, backlinks, or page batches that are ready for repeatable discovery follow-up and tracking.
+
+### Where SEOeStore Fits
+
+SEOeStore may appear in this series only where the workflow involves managed SEO execution, campaign services, provider handoff, or link-building vendor QA. It remains a provider layer, separate from FreeIndexer.
+
+### Next Step
+
+Start with this hub, then follow the reading order above. Each cluster article links back here and points to the previous and next article in the sequence.
 
 ## The Short Answer
 
@@ -134,6 +185,23 @@ In a real team, this should become a small operating board: target URL, source, 
 FreeIndexer fits when the team has verified URLs, backlinks, launch pages, or priority lists that deserve repeatable discovery follow-up. It is useful for URL submission, backlink discovery workflows, bulk URL queues, tracking, and prioritization.
 
 It should not replace technical checks, content quality, provider QA, Search Console review, analytics, or conversion work. Use it after the asset is ready enough to deserve attention.
+
+## Part Of This Series
+
+This article is part of the [Digital Marketing Operations Workflow](/digital-marketing-operations-workflow) series.
+
+Recommended path:
+
+1. Previous: Start here
+2. Current: **Digital Marketing Operations Workflow**
+3. Next: [SEO QA Process Before Publishing](/seo-qa-process-before-publishing)
+
+Series hub: [Digital Marketing Operations Workflow](/digital-marketing-operations-workflow)
+
+Related guides from other workflows:
+
+- [Weekly Webmaster Seo Workflow](/weekly-webmaster-seo-workflow)
+- [URL Inventory Management For SEO Teams](/url-inventory-management-for-seo-teams)
 
 ## FAQ
 

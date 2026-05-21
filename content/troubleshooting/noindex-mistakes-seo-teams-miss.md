@@ -15,6 +15,11 @@ secondary_icp: Webmaster
 funnel_stage: top
 type: Troubleshooting Guide
 series: Technical SEO For Operators
+series_order: 5
+series_role: cluster
+series_hub: technical-seo-for-operators
+previous_article: canonical-audit-workflow-for-seo-teams
+next_article: sitemap-cleanup-workflow-for-large-sites
 business_goal: Find accidental exclusions
 meta:
   target_page: "https://freeindexer.com/"
@@ -22,6 +27,9 @@ meta:
     - noindex-tag-checklist
     - submitted-url-not-indexed
     - technical-seo-indexing-audit
+    - technical-seo-for-operators
+    - canonical-audit-workflow-for-seo-teams
+    - sitemap-cleanup-workflow-for-large-sites
   blog_category: troubleshooting
   blog_tags:
     - noindex
@@ -134,6 +142,23 @@ In a real team, this should become a small operating board: target URL, source, 
 FreeIndexer fits when the team has verified URLs, backlinks, launch pages, or priority lists that deserve repeatable discovery follow-up. It is useful for URL submission, backlink discovery workflows, bulk URL queues, tracking, and prioritization.
 
 It should not replace technical checks, content quality, provider QA, Search Console review, analytics, or conversion work. Use it after the asset is ready enough to deserve attention.
+
+## Part Of This Series
+
+This article is part of the [Technical SEO For Operators](/technical-seo-for-operators) series.
+
+Recommended path:
+
+1. Previous: [Canonical Audit Workflow For SEO Teams](/canonical-audit-workflow-for-seo-teams)
+2. Current: **Noindex Mistakes SEO Teams Miss**
+3. Next: [Sitemap Cleanup Workflow For Large Sites](/sitemap-cleanup-workflow-for-large-sites)
+
+Series hub: [Technical SEO For Operators](/technical-seo-for-operators)
+
+Related guides from other workflows:
+
+- [Noindex Tag Checklist](/noindex-tag-checklist)
+- [Submitted Url Not Indexed](/submitted-url-not-indexed)
 
 ## FAQ
 

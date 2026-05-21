@@ -14,6 +14,12 @@ icp: SEO Agency
 secondary_icp: Programmatic SEO Builder
 funnel_stage: middle
 type: Advanced Workflow Guide
+series: Technical SEO For Operators
+series_order: 8
+series_role: cluster
+series_hub: technical-seo-for-operators
+previous_article: internal-linking-system-for-large-sites
+next_article: 
 business_goal: Build topical authority and support practical search discovery workflows
 meta:
   target_page: https://freeindexer.com/pricing
@@ -22,6 +28,9 @@ meta:
     - how-to-prioritize-urls-for-indexing
     - programmatic-seo-indexing-workflow
     - daily-indexing-points-planning
+    - technical-seo-for-operators
+    - internal-linking-system-for-large-sites
+    - technical-seo-indexing-audit
   blog_category: bulk-seo-operations
   blog_tags:
     - bulk-url-operations
@@ -139,6 +148,23 @@ The most common mistakes are workflow mistakes, not tool mistakes.
 - using absolute promises in reports
 
 Avoiding these mistakes keeps the workflow practical and makes the outcome easier to explain.
+
+## Part Of This Series
+
+This article is part of the [Technical SEO For Operators](/technical-seo-for-operators) series.
+
+Recommended path:
+
+1. Previous: [Internal Linking System For Large Sites](/internal-linking-system-for-large-sites)
+2. Current: **URL Inventory Management For SEO Teams**
+3. Next: End of this series
+
+Series hub: [Technical SEO For Operators](/technical-seo-for-operators)
+
+Related guides from other workflows:
+
+- [Bulk Url Operations Workflow](/bulk-url-operations-workflow)
+- [Technical Seo Indexing Audit](/technical-seo-indexing-audit)
 
 ## FAQ
 

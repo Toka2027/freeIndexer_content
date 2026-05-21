@@ -15,6 +15,11 @@ secondary_icp: SEO Operator
 funnel_stage: middle
 type: Technical SEO Guide
 series: Technical SEO For Operators
+series_order: 7
+series_role: cluster
+series_hub: technical-seo-for-operators
+previous_article: sitemap-cleanup-workflow-for-large-sites
+next_article: url-inventory-management-for-seo-teams
 business_goal: Build repeatable linking rules
 meta:
   target_page: "https://freeindexer.com/"
@@ -22,6 +27,9 @@ meta:
     - internal-linking-for-indexing
     - orphan-pages-and-indexing
     - bulk-url-prioritization-matrix
+    - technical-seo-for-operators
+    - sitemap-cleanup-workflow-for-large-sites
+    - url-inventory-management-for-seo-teams
   blog_category: technical-seo
   blog_tags:
     - internal-linking
@@ -134,6 +142,23 @@ In a real team, this should become a small operating board: target URL, source, 
 FreeIndexer fits when the team has verified URLs, backlinks, launch pages, or priority lists that deserve repeatable discovery follow-up. It is useful for URL submission, backlink discovery workflows, bulk URL queues, tracking, and prioritization.
 
 It should not replace technical checks, content quality, provider QA, Search Console review, analytics, or conversion work. Use it after the asset is ready enough to deserve attention.
+
+## Part Of This Series
+
+This article is part of the [Technical SEO For Operators](/technical-seo-for-operators) series.
+
+Recommended path:
+
+1. Previous: [Sitemap Cleanup Workflow For Large Sites](/sitemap-cleanup-workflow-for-large-sites)
+2. Current: **Internal Linking System For Large Sites**
+3. Next: [URL Inventory Management For SEO Teams](/url-inventory-management-for-seo-teams)
+
+Series hub: [Technical SEO For Operators](/technical-seo-for-operators)
+
+Related guides from other workflows:
+
+- [Internal Linking For Indexing](/internal-linking-for-indexing)
+- [Orphan Pages And Indexing](/orphan-pages-and-indexing)
 
 ## FAQ
 

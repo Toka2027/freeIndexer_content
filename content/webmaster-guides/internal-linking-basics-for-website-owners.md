@@ -15,6 +15,11 @@ secondary_icp: Webmaster
 funnel_stage: top
 type: Webmaster Guide
 series: Website Visibility Foundations
+series_order: 6
+series_role: cluster
+series_hub: seo-basics-for-website-owners
+previous_article: google-search-console-basics
+next_article: website-visibility-checklist
 business_goal: Improve discovery paths
 meta:
   target_page: "https://freeindexer.com/"
@@ -22,6 +27,9 @@ meta:
     - internal-linking-for-indexing
     - content-visibility-checklist
     - indexing-education-hub
+    - seo-basics-for-website-owners
+    - google-search-console-basics
+    - website-visibility-checklist
   blog_category: webmaster-guides
   blog_tags:
     - internal-linking
@@ -134,6 +142,23 @@ In a real team, this should become a small operating board: target URL, source, 
 FreeIndexer fits when the team has verified URLs, backlinks, launch pages, or priority lists that deserve repeatable discovery follow-up. It is useful for URL submission, backlink discovery workflows, bulk URL queues, tracking, and prioritization.
 
 It should not replace technical checks, content quality, provider QA, Search Console review, analytics, or conversion work. Use it after the asset is ready enough to deserve attention.
+
+## Part Of This Series
+
+This article is part of the [SEO Basics For Website Owners](/seo-basics-for-website-owners) series.
+
+Recommended path:
+
+1. Previous: [Google Search Console Basics](/google-search-console-basics)
+2. Current: **Internal Linking Basics For Website Owners**
+3. Next: [Website Visibility Checklist](/website-visibility-checklist)
+
+Series hub: [SEO Basics For Website Owners](/seo-basics-for-website-owners)
+
+Related guides from other workflows:
+
+- [Internal Linking For Indexing](/internal-linking-for-indexing)
+- [Content Visibility Checklist](/content-visibility-checklist)
 
 ## FAQ
 

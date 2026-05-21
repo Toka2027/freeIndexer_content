@@ -15,6 +15,11 @@ secondary_icp: Website Owner
 funnel_stage: top
 type: Technical SEO Guide
 series: Website Visibility Foundations
+series_order: 4
+series_role: cluster
+series_hub: seo-basics-for-website-owners
+previous_article: indexing-vs-ranking-vs-visibility
+next_article: google-search-console-basics
 business_goal: Fix discovery basics before submission
 meta:
   target_page: "https://freeindexer.com/"
@@ -22,6 +27,9 @@ meta:
     - robots-txt-and-indexing
     - sitemap-indexing-checklist
     - google-search-console-indexing-guide
+    - seo-basics-for-website-owners
+    - indexing-vs-ranking-vs-visibility
+    - google-search-console-basics
   blog_category: technical-seo
   blog_tags:
     - sitemap
@@ -134,6 +142,23 @@ In a real team, this should become a small operating board: target URL, source, 
 FreeIndexer fits when the team has verified URLs, backlinks, launch pages, or priority lists that deserve repeatable discovery follow-up. It is useful for URL submission, backlink discovery workflows, bulk URL queues, tracking, and prioritization.
 
 It should not replace technical checks, content quality, provider QA, Search Console review, analytics, or conversion work. Use it after the asset is ready enough to deserve attention.
+
+## Part Of This Series
+
+This article is part of the [SEO Basics For Website Owners](/seo-basics-for-website-owners) series.
+
+Recommended path:
+
+1. Previous: [Indexing vs Ranking vs Visibility](/indexing-vs-ranking-vs-visibility)
+2. Current: **Sitemap And Robots Basics**
+3. Next: [Google Search Console Basics](/google-search-console-basics)
+
+Series hub: [SEO Basics For Website Owners](/seo-basics-for-website-owners)
+
+Related guides from other workflows:
+
+- [Robots Txt And Indexing](/robots-txt-and-indexing)
+- [Sitemap Indexing Checklist](/sitemap-indexing-checklist)
 
 ## FAQ
 

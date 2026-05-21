@@ -15,6 +15,11 @@ secondary_icp: Webmaster
 funnel_stage: top
 type: Webmaster Guide
 series: Website Visibility Foundations
+series_order: 7
+series_role: cluster
+series_hub: seo-basics-for-website-owners
+previous_article: internal-linking-basics-for-website-owners
+next_article: 
 business_goal: Run a monthly visibility checklist
 meta:
   target_page: "https://freeindexer.com/"
@@ -22,6 +27,8 @@ meta:
     - content-visibility-checklist
     - indexing-checklist-for-new-websites
     - weekly-webmaster-seo-workflow
+    - seo-basics-for-website-owners
+    - internal-linking-basics-for-website-owners
   blog_category: webmaster-guides
   blog_tags:
     - checklist
@@ -134,6 +141,23 @@ In a real team, this should become a small operating board: target URL, source, 
 FreeIndexer fits when the team has verified URLs, backlinks, launch pages, or priority lists that deserve repeatable discovery follow-up. It is useful for URL submission, backlink discovery workflows, bulk URL queues, tracking, and prioritization.
 
 It should not replace technical checks, content quality, provider QA, Search Console review, analytics, or conversion work. Use it after the asset is ready enough to deserve attention.
+
+## Part Of This Series
+
+This article is part of the [SEO Basics For Website Owners](/seo-basics-for-website-owners) series.
+
+Recommended path:
+
+1. Previous: [Internal Linking Basics For Website Owners](/internal-linking-basics-for-website-owners)
+2. Current: **Website Visibility Checklist**
+3. Next: End of this series
+
+Series hub: [SEO Basics For Website Owners](/seo-basics-for-website-owners)
+
+Related guides from other workflows:
+
+- [Content Visibility Checklist](/content-visibility-checklist)
+- [Indexing Checklist For New Websites](/indexing-checklist-for-new-websites)
 
 ## FAQ
 

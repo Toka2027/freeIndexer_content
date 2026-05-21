@@ -15,6 +15,11 @@ secondary_icp: Founder
 funnel_stage: middle
 type: Landing Page And CRO Guide
 series: Landing Pages And CRO
+series_order: 1
+series_role: hub
+series_hub: seo-landing-page-structure
+previous_article: 
+next_article: conversion-focused-cta-checklist
 business_goal: Structure pages for search and action
 meta:
   target_page: "https://freeindexer.com/"
@@ -22,6 +27,7 @@ meta:
     - content-marketing-that-gets-discovered
     - indexing-workflow-for-product-launch-pages
     - internal-linking-for-indexing
+    - conversion-focused-cta-checklist
   blog_category: landing-pages-cro
   blog_tags:
     - landing-pages
@@ -71,6 +77,49 @@ Related reading in this workflow:
 - [Content Marketing That Gets Discovered](/content-marketing-that-gets-discovered)
 - [Indexing Workflow For Product Launch Pages](/indexing-workflow-for-product-launch-pages)
 - [Internal Linking For Indexing](/internal-linking-for-indexing)
+
+## Landing Pages And CRO Series
+
+This is the visible hub for the Landing Pages And CRO series. It is for saas or product teams and founders who want a guided path instead of disconnected articles.
+
+### What You Will Learn
+
+- How the topic works from foundation to execution.
+- Which checks matter before using tools, providers, or reporting workflows.
+- How to prioritize URLs, content, backlinks, campaigns, or platform pages.
+- How to connect each article to the next step in the workflow.
+
+### Recommended Reading Order
+
+1. [SEO Landing Page Structure](/seo-landing-page-structure) - Series hub
+2. [Conversion Focused CTA Checklist](/conversion-focused-cta-checklist) - Cluster guide
+3. [Landing Page Trust Section Checklist](/landing-page-trust-section-checklist) - Cluster guide
+4. [Pricing Page SEO And CRO](/pricing-page-seo-and-cro) - Cluster guide
+5. [Lead Capture Page SEO Checklist](/lead-capture-page-seo-checklist) - Cluster guide
+6. [Landing Page Indexing Checklist](/landing-page-indexing-checklist) - Cluster guide
+
+### Article Sequence
+
+| Part | Article | Role |
+|---|---|---|
+| 1 | [SEO Landing Page Structure](/seo-landing-page-structure) | Hub |
+| 2 | [Conversion Focused CTA Checklist](/conversion-focused-cta-checklist) | Cluster |
+| 3 | [Landing Page Trust Section Checklist](/landing-page-trust-section-checklist) | Cluster |
+| 4 | [Pricing Page SEO And CRO](/pricing-page-seo-and-cro) | Cluster |
+| 5 | [Lead Capture Page SEO Checklist](/lead-capture-page-seo-checklist) | Cluster |
+| 6 | [Landing Page Indexing Checklist](/landing-page-indexing-checklist) | Cluster |
+
+### Where FreeIndexer Fits
+
+FreeIndexer fits after the strategy work produces priority URLs that deserve discovery follow-up, such as launch pages, refreshed guides, or verified campaign URLs.
+
+### Where SEOeStore Fits
+
+SEOeStore is not a primary part of this series unless the reader later needs managed SEO or provider execution outside the article topic.
+
+### Next Step
+
+Start with this hub, then follow the reading order above. Each cluster article links back here and points to the previous and next article in the sequence.
 
 ## The Short Answer
 
@@ -134,6 +183,23 @@ In a real team, this should become a small operating board: target URL, source, 
 FreeIndexer fits when the team has verified URLs, backlinks, launch pages, or priority lists that deserve repeatable discovery follow-up. It is useful for URL submission, backlink discovery workflows, bulk URL queues, tracking, and prioritization.
 
 It should not replace technical checks, content quality, provider QA, Search Console review, analytics, or conversion work. Use it after the asset is ready enough to deserve attention.
+
+## Part Of This Series
+
+This article is part of the [SEO Landing Page Structure](/seo-landing-page-structure) series.
+
+Recommended path:
+
+1. Previous: Start here
+2. Current: **SEO Landing Page Structure**
+3. Next: [Conversion Focused CTA Checklist](/conversion-focused-cta-checklist)
+
+Series hub: [SEO Landing Page Structure](/seo-landing-page-structure)
+
+Related guides from other workflows:
+
+- [Content Marketing That Gets Discovered](/content-marketing-that-gets-discovered)
+- [Indexing Workflow For Product Launch Pages](/indexing-workflow-for-product-launch-pages)
 
 ## FAQ
 

@@ -15,6 +15,11 @@ secondary_icp: Content Marketer
 funnel_stage: middle
 type: Digital Marketing Operations Guide
 series: Digital Marketing Operations
+series_order: 2
+series_role: cluster
+series_hub: digital-marketing-operations-workflow
+previous_article: digital-marketing-operations-workflow
+next_article: content-calendar-for-seo-growth
 business_goal: Add SEO QA gates
 meta:
   target_page: "https://freeindexer.com/"
@@ -22,6 +27,7 @@ meta:
     - digital-marketing-operations-workflow
     - url-submission-checklist-before-indexing
     - technical-seo-indexing-audit
+    - content-calendar-for-seo-growth
   blog_category: digital-marketing-operations
   blog_tags:
     - seo-qa
@@ -134,6 +140,23 @@ In a real team, this should become a small operating board: target URL, source, 
 FreeIndexer fits when the team has verified URLs, backlinks, launch pages, or priority lists that deserve repeatable discovery follow-up. It is useful for URL submission, backlink discovery workflows, bulk URL queues, tracking, and prioritization.
 
 It should not replace technical checks, content quality, provider QA, Search Console review, analytics, or conversion work. Use it after the asset is ready enough to deserve attention.
+
+## Part Of This Series
+
+This article is part of the [Digital Marketing Operations Workflow](/digital-marketing-operations-workflow) series.
+
+Recommended path:
+
+1. Previous: [Digital Marketing Operations Workflow](/digital-marketing-operations-workflow)
+2. Current: **SEO QA Process Before Publishing**
+3. Next: [Content Calendar For SEO Growth](/content-calendar-for-seo-growth)
+
+Series hub: [Digital Marketing Operations Workflow](/digital-marketing-operations-workflow)
+
+Related guides from other workflows:
+
+- [Url Submission Checklist Before Indexing](/url-submission-checklist-before-indexing)
+- [Technical Seo Indexing Audit](/technical-seo-indexing-audit)
 
 ## FAQ
 

@@ -15,6 +15,11 @@ secondary_icp: SEO Agency
 funnel_stage: middle
 type: Bulk SEO Operations Guide
 series: Digital Marketing Operations
+series_order: 6
+series_role: cluster
+series_hub: digital-marketing-operations-workflow
+previous_article: vendor-management-workflow-for-seo-campaigns
+next_article: client-reporting-workflow-for-seo-agencies
 business_goal: Run campaigns with checks
 meta:
   target_page: "https://freeindexer.com/pricing"
@@ -22,6 +27,8 @@ meta:
     - digital-marketing-operations-workflow
     - seo-campaign-services-for-small-websites
     - analytics-and-reporting-for-seo-growth
+    - vendor-management-workflow-for-seo-campaigns
+    - client-reporting-workflow-for-seo-agencies
   blog_category: bulk-seo-operations
   blog_tags:
     - seo-campaigns
@@ -134,6 +141,23 @@ In a real team, this should become a small operating board: target URL, source, 
 FreeIndexer fits when the team has verified URLs, backlinks, launch pages, or priority lists that deserve repeatable discovery follow-up. It is useful for URL submission, backlink discovery workflows, bulk URL queues, tracking, and prioritization.
 
 It should not replace technical checks, content quality, provider QA, Search Console review, analytics, or conversion work. Use it after the asset is ready enough to deserve attention.
+
+## Part Of This Series
+
+This article is part of the [Digital Marketing Operations Workflow](/digital-marketing-operations-workflow) series.
+
+Recommended path:
+
+1. Previous: [Vendor Management Workflow For SEO Campaigns](/vendor-management-workflow-for-seo-campaigns)
+2. Current: **Campaign Checklist For Repeatable SEO**
+3. Next: [Client Reporting Workflow For SEO Agencies](/client-reporting-workflow-for-seo-agencies)
+
+Series hub: [Digital Marketing Operations Workflow](/digital-marketing-operations-workflow)
+
+Related guides from other workflows:
+
+- [SEO Campaign Services For Small Websites](/seo-campaign-services-for-small-websites)
+- [Analytics And Reporting For SEO Growth](/analytics-and-reporting-for-seo-growth)
 
 ## FAQ
 

@@ -15,6 +15,11 @@ secondary_icp: Content Marketer
 funnel_stage: middle
 type: Content Marketing Guide
 series: Content Marketing That Gets Discovered
+series_order: 4
+series_role: cluster
+series_hub: content-marketing-that-gets-discovered
+previous_article: keyword-intent-checklist-before-writing
+next_article: on-page-seo-checklist-for-new-content
 business_goal: Create stronger SEO briefs
 meta:
   target_page: "https://freeindexer.com/"
@@ -22,6 +27,8 @@ meta:
     - content-marketing-that-gets-discovered
     - internal-linking-for-indexing
     - indexing-workflow-for-product-launch-pages
+    - keyword-intent-checklist-before-writing
+    - on-page-seo-checklist-for-new-content
   blog_category: content-marketing
   blog_tags:
     - content-briefs
@@ -128,6 +135,23 @@ In a real team, this should become a small operating board: target URL, source, 
 | You found blockers | Fix crawlability, quality, tracking, or provider handoff before scaling |
 | You have verified priority assets | Move them into the right follow-up queue and record the evidence |
 | You need reporting | Show what was done, what was verified, and what changed afterward |
+
+## Part Of This Series
+
+This article is part of the [Content Marketing That Gets Discovered](/content-marketing-that-gets-discovered) series.
+
+Recommended path:
+
+1. Previous: [Keyword Intent Checklist Before Writing](/keyword-intent-checklist-before-writing)
+2. Current: **Content Brief Template For SEO Pages**
+3. Next: [On-Page SEO Checklist For New Content](/on-page-seo-checklist-for-new-content)
+
+Series hub: [Content Marketing That Gets Discovered](/content-marketing-that-gets-discovered)
+
+Related guides from other workflows:
+
+- [Internal Linking For Indexing](/internal-linking-for-indexing)
+- [Indexing Workflow For Product Launch Pages](/indexing-workflow-for-product-launch-pages)
 
 ## FAQ
 

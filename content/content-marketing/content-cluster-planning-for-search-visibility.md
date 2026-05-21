@@ -15,6 +15,11 @@ secondary_icp: Website Owner
 funnel_stage: top
 type: Content Marketing Guide
 series: Content Marketing That Gets Discovered
+series_order: 2
+series_role: cluster
+series_hub: content-marketing-that-gets-discovered
+previous_article: content-marketing-that-gets-discovered
+next_article: keyword-intent-checklist-before-writing
 business_goal: Build a cluster map
 meta:
   target_page: "https://freeindexer.com/"
@@ -22,6 +27,7 @@ meta:
     - content-marketing-that-gets-discovered
     - internal-linking-for-indexing
     - search-discovery-workflow-for-new-content
+    - keyword-intent-checklist-before-writing
   blog_category: content-marketing
   blog_tags:
     - content-strategy
@@ -134,6 +140,23 @@ In a real team, this should become a small operating board: target URL, source, 
 FreeIndexer fits when the team has verified URLs, backlinks, launch pages, or priority lists that deserve repeatable discovery follow-up. It is useful for URL submission, backlink discovery workflows, bulk URL queues, tracking, and prioritization.
 
 It should not replace technical checks, content quality, provider QA, Search Console review, analytics, or conversion work. Use it after the asset is ready enough to deserve attention.
+
+## Part Of This Series
+
+This article is part of the [Content Marketing That Gets Discovered](/content-marketing-that-gets-discovered) series.
+
+Recommended path:
+
+1. Previous: [Content Marketing That Gets Discovered](/content-marketing-that-gets-discovered)
+2. Current: **Content Cluster Planning For Search Visibility**
+3. Next: [Keyword Intent Checklist Before Writing](/keyword-intent-checklist-before-writing)
+
+Series hub: [Content Marketing That Gets Discovered](/content-marketing-that-gets-discovered)
+
+Related guides from other workflows:
+
+- [Internal Linking For Indexing](/internal-linking-for-indexing)
+- [Search Discovery Workflow For New Content](/search-discovery-workflow-for-new-content)
 
 ## FAQ
 

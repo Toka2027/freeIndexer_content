@@ -15,6 +15,11 @@ secondary_icp: SEO Operator
 funnel_stage: middle
 type: Platform SEO Guide
 series: Platform SEO Playbooks
+series_order: 2
+series_role: cluster
+series_hub: platform-seo-playbooks
+previous_article: platform-seo-playbooks
+next_article: shopify-product-pages-not-indexing
 business_goal: Expand FreeIndexer into practical ecommerce SEO while keeping indexing follow-up honest
 meta:
   target_page: "https://freeindexer.com/pricing"
@@ -23,6 +28,9 @@ meta:
     - technical-seo-indexing-audit
     - google-search-console-indexing-guide
     - indexing-workflow-for-ecommerce-category-pages
+    - platform-seo-playbooks
+    - platform-seo-playbooks
+    - shopify-product-pages-not-indexing
   blog_category: platform-seo
   blog_tags:
     - shopify-seo
@@ -147,6 +155,23 @@ FreeIndexer fits at step 5. It can help with repeatable priority URL submission 
 | Search Console shows a different canonical | Fix canonical or duplicate signals first |
 | Page is orphaned | Add links from navigation, collections, or blog content |
 | URL is low-value or duplicate | Monitor or exclude it from the priority queue |
+
+## Part Of This Series
+
+This article is part of the [Platform SEO Playbooks](/platform-seo-playbooks) series.
+
+Recommended path:
+
+1. Previous: [Platform SEO Playbooks](/platform-seo-playbooks)
+2. Current: **Shopify SEO Indexing Checklist**
+3. Next: [Shopify Product Pages Not Indexing](/shopify-product-pages-not-indexing)
+
+Series hub: [Platform SEO Playbooks](/platform-seo-playbooks)
+
+Related guides from other workflows:
+
+- [Technical Seo Indexing Audit](/technical-seo-indexing-audit)
+- [Google Search Console Indexing Guide](/google-search-console-indexing-guide)
 
 ## FAQ
 

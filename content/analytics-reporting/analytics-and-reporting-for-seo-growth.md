@@ -15,6 +15,11 @@ secondary_icp: SEO Agency
 funnel_stage: top
 type: Analytics And Reporting Guide
 series: Analytics And Tracking For SEO Growth
+series_order: 1
+series_role: hub
+series_hub: analytics-and-reporting-for-seo-growth
+previous_article: 
+next_article: ga4-basics-for-seo-reporting
 business_goal: Build an SEO reporting base
 meta:
   target_page: "https://freeindexer.com/"
@@ -22,6 +27,7 @@ meta:
     - google-search-console-indexing-guide
     - indexing-education-hub
     - content-visibility-checklist
+    - ga4-basics-for-seo-reporting
   blog_category: analytics-reporting
   blog_tags:
     - analytics-reporting
@@ -71,6 +77,51 @@ Related reading in this workflow:
 - [Google Search Console Indexing Guide](/google-search-console-indexing-guide)
 - [Indexing Education Hub](/indexing-education-hub)
 - [Content Visibility Checklist](/content-visibility-checklist)
+
+## Analytics And Tracking For SEO Growth Series
+
+This is the visible hub for the Analytics And Tracking For SEO Growth series. It is for growth operators and seo agencys who want a guided path instead of disconnected articles.
+
+### What You Will Learn
+
+- How the topic works from foundation to execution.
+- Which checks matter before using tools, providers, or reporting workflows.
+- How to prioritize URLs, content, backlinks, campaigns, or platform pages.
+- How to connect each article to the next step in the workflow.
+
+### Recommended Reading Order
+
+1. [Analytics And Reporting For SEO Growth](/analytics-and-reporting-for-seo-growth) - Series hub
+2. [GA4 Basics For SEO Reporting](/ga4-basics-for-seo-reporting) - Cluster guide
+3. [Search Console And GA4 SEO Workflow](/search-console-and-ga4-seo-workflow) - Cluster guide
+4. [Track Organic Landing Pages](/track-organic-landing-pages) - Cluster guide
+5. [Indexing vs Traffic Reporting](/indexing-vs-traffic-reporting) - Cluster guide
+6. [Monthly SEO Reporting Dashboard](/monthly-seo-reporting-dashboard) - Cluster guide
+7. [Client SEO Reporting Template](/client-seo-reporting-template) - Cluster guide
+
+### Article Sequence
+
+| Part | Article | Role |
+|---|---|---|
+| 1 | [Analytics And Reporting For SEO Growth](/analytics-and-reporting-for-seo-growth) | Hub |
+| 2 | [GA4 Basics For SEO Reporting](/ga4-basics-for-seo-reporting) | Cluster |
+| 3 | [Search Console And GA4 SEO Workflow](/search-console-and-ga4-seo-workflow) | Cluster |
+| 4 | [Track Organic Landing Pages](/track-organic-landing-pages) | Cluster |
+| 5 | [Indexing vs Traffic Reporting](/indexing-vs-traffic-reporting) | Cluster |
+| 6 | [Monthly SEO Reporting Dashboard](/monthly-seo-reporting-dashboard) | Cluster |
+| 7 | [Client SEO Reporting Template](/client-seo-reporting-template) | Cluster |
+
+### Where FreeIndexer Fits
+
+FreeIndexer fits after the strategy work produces priority URLs that deserve discovery follow-up, such as launch pages, refreshed guides, or verified campaign URLs.
+
+### Where SEOeStore Fits
+
+SEOeStore is not a primary part of this series unless the reader later needs managed SEO or provider execution outside the article topic.
+
+### Next Step
+
+Start with this hub, then follow the reading order above. Each cluster article links back here and points to the previous and next article in the sequence.
 
 ## The Short Answer
 
@@ -134,6 +185,23 @@ In a real team, this should become a small operating board: target URL, source, 
 FreeIndexer fits when the team has verified URLs, backlinks, launch pages, or priority lists that deserve repeatable discovery follow-up. It is useful for URL submission, backlink discovery workflows, bulk URL queues, tracking, and prioritization.
 
 It should not replace technical checks, content quality, provider QA, Search Console review, analytics, or conversion work. Use it after the asset is ready enough to deserve attention.
+
+## Part Of This Series
+
+This article is part of the [Analytics And Reporting For SEO Growth](/analytics-and-reporting-for-seo-growth) series.
+
+Recommended path:
+
+1. Previous: Start here
+2. Current: **Analytics And Reporting For SEO Growth**
+3. Next: [GA4 Basics For SEO Reporting](/ga4-basics-for-seo-reporting)
+
+Series hub: [Analytics And Reporting For SEO Growth](/analytics-and-reporting-for-seo-growth)
+
+Related guides from other workflows:
+
+- [Google Search Console Indexing Guide](/google-search-console-indexing-guide)
+- [Indexing Education Hub](/indexing-education-hub)
 
 ## FAQ
 

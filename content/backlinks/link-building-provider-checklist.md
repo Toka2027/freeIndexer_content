@@ -15,6 +15,11 @@ secondary_icp: Affiliate Marketer
 funnel_stage: middle
 type: Backlink Workflow Guide
 series: Backlinks And Discovery
+series_order: 4
+series_role: cluster
+series_hub: backlink-discovery-and-indexing-guide
+previous_article: backlink-discovery-workflow-after-link-building
+next_article: manage-backlink-vendors-indexing-visibility
 business_goal: Help agencies manage provider work while positioning FreeIndexer as backlink discovery follow-up
 meta:
   target_page: "https://freeindexer.com/pricing"
@@ -23,6 +28,8 @@ meta:
     - manage-backlink-vendors-indexing-visibility
     - track-backlink-discovery-for-seo-campaigns
     - backlink-quality-before-indexing
+    - backlink-discovery-workflow-after-link-building
+    - content-marketing-that-gets-discovered
   blog_category: backlinks
   blog_tags:
     - seo-provider
@@ -136,6 +143,22 @@ For campaign tracking, use [track backlink discovery for SEO campaigns](/track-b
 - Reporting provider work and indexing follow-up as the same outcome.
 - Ignoring wrong target URLs because the link technically exists.
 - Promising clients that delivered links will be indexed or improve rankings.
+
+## Part Of This Series
+
+This article is part of the [Backlink Discovery And Indexing Guide](/backlink-discovery-and-indexing-guide) series.
+
+Recommended path:
+
+1. Previous: [Backlink Discovery Workflow After Link Building](/backlink-discovery-workflow-after-link-building)
+2. Current: **Link-Building Provider Checklist**
+3. Next: [Managing Backlink Vendors Without Losing Indexing Visibility](/manage-backlink-vendors-indexing-visibility)
+
+Series hub: [Backlink Discovery And Indexing Guide](/backlink-discovery-and-indexing-guide)
+
+Related guides from other workflows:
+
+- [Content Marketing That Gets Discovered](/content-marketing-that-gets-discovered)
 
 ## FAQ
 

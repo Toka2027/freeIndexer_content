@@ -15,6 +15,11 @@ secondary_icp: Webmaster
 funnel_stage: top
 type: Troubleshooting Guide
 series: Google Search Console Playbook
+series_order: 7
+series_role: cluster
+series_hub: google-search-console-playbook
+previous_article: fixing-discovered-currently-not-indexed
+next_article: gsc-client-reporting-workflow
 business_goal: Improve page readiness
 meta:
   target_page: "https://freeindexer.com/"
@@ -22,6 +27,9 @@ meta:
     - page-crawled-but-not-indexed
     - url-inspection-statuses-explained
     - technical-seo-indexing-audit
+    - google-search-console-playbook
+    - fixing-discovered-currently-not-indexed
+    - gsc-client-reporting-workflow
   blog_category: troubleshooting
   blog_tags:
     - google-search-console
@@ -134,6 +142,23 @@ In a real team, this should become a small operating board: target URL, source, 
 FreeIndexer fits when the team has verified URLs, backlinks, launch pages, or priority lists that deserve repeatable discovery follow-up. It is useful for URL submission, backlink discovery workflows, bulk URL queues, tracking, and prioritization.
 
 It should not replace technical checks, content quality, provider QA, Search Console review, analytics, or conversion work. Use it after the asset is ready enough to deserve attention.
+
+## Part Of This Series
+
+This article is part of the [Google Search Console Playbook](/google-search-console-playbook) series.
+
+Recommended path:
+
+1. Previous: [Fixing Discovered Currently Not Indexed](/fixing-discovered-currently-not-indexed)
+2. Current: **Fixing Crawled Currently Not Indexed**
+3. Next: [GSC Client Reporting Workflow](/gsc-client-reporting-workflow)
+
+Series hub: [Google Search Console Playbook](/google-search-console-playbook)
+
+Related guides from other workflows:
+
+- [Page Crawled But Not Indexed](/page-crawled-but-not-indexed)
+- [Url Inspection Statuses Explained](/url-inspection-statuses-explained)
 
 ## FAQ
 

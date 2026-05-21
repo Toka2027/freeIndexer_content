@@ -15,6 +15,11 @@ secondary_icp: Webmaster
 funnel_stage: top
 type: Troubleshooting Guide
 series: Platform SEO Playbooks
+series_order: 3
+series_role: cluster
+series_hub: platform-seo-playbooks
+previous_article: shopify-seo-indexing-checklist
+next_article: shopify-sitemap-and-search-console-guide
 business_goal: Help ecommerce owners solve Shopify indexing problems while keeping FreeIndexer as the follow-up layer after page checks pass
 meta:
   target_page: "https://freeindexer.com/pricing"
@@ -23,6 +28,8 @@ meta:
     - why-google-is-not-indexing-my-url
     - technical-seo-indexing-audit
     - google-search-console-indexing-guide
+    - platform-seo-playbooks
+    - shopify-sitemap-and-search-console-guide
   blog_category: troubleshooting
   blog_tags:
     - shopify-seo
@@ -155,6 +162,23 @@ FreeIndexer can help once your Shopify product page has passed the basic checks.
 
 Do not use any indexing workflow as a substitute for fixing product pages. The page still needs to be useful, accessible, internally linked, and technically clean.
 
+## Part Of This Series
+
+This article is part of the [Platform SEO Playbooks](/platform-seo-playbooks) series.
+
+Recommended path:
+
+1. Previous: [Shopify SEO Indexing Checklist](/shopify-seo-indexing-checklist)
+2. Current: **Shopify Product Pages Not Indexing**
+3. Next: [Shopify Sitemap And Search Console Guide](/shopify-sitemap-and-search-console-guide)
+
+Series hub: [Platform SEO Playbooks](/platform-seo-playbooks)
+
+Related guides from other workflows:
+
+- [Why Google Is Not Indexing My Url](/why-google-is-not-indexing-my-url)
+- [Technical Seo Indexing Audit](/technical-seo-indexing-audit)
+
 ## FAQ
 
 ### Why are only some Shopify products indexed?
@@ -168,4 +192,3 @@ Shopify creates sitemap files that help search engines discover product URLs, bu
 ### Should I submit every Shopify product page?
 
 No. Prioritize products that are active, useful, internally linked, and commercially important. Weak or duplicate product URLs should be improved before discovery follow-up.
-

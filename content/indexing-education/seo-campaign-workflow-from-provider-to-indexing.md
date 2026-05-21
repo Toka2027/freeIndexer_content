@@ -15,6 +15,11 @@ secondary_icp: SEO Operator
 funnel_stage: middle
 type: Indexing Education Guide
 series: SEO Campaign Services And Provider Workflows
+series_order: 6
+series_role: cluster
+series_hub: seo-campaign-services-for-small-websites
+previous_article: how-to-verify-seo-campaign-results
+next_article: link-building-provider-checklist-for-local-seo-campaigns
 business_goal: Connect provider work to follow-up
 meta:
   target_page: "https://freeindexer.com/"
@@ -22,6 +27,8 @@ meta:
     - seo-campaign-services-for-small-websites
     - seo-provider-vs-indexing-tool
     - backlink-discovery-and-indexing-guide
+    - how-to-verify-seo-campaign-results
+    - link-building-provider-checklist-for-local-seo-campaigns
   blog_category: indexing-education
   blog_tags:
     - seo-campaigns
@@ -140,6 +147,23 @@ It should not replace technical checks, content quality, provider QA, Search Con
 Teams that need managed SEO execution can use a provider such as [SEOeStore](https://panel.seoestore.net/) or explore [SEO campaign services](https://panel.seoestore.net/seo-campaigns.php), then keep verification and indexing follow-up in a separate workflow.
 
 SEOeStore belongs in the provider or campaign execution layer. FreeIndexer remains separate as the indexing, URL discovery, backlink discovery, and follow-up workflow layer.
+
+## Part Of This Series
+
+This article is part of the [SEO Campaign Services For Small Websites](/seo-campaign-services-for-small-websites) series.
+
+Recommended path:
+
+1. Previous: [How To Verify SEO Campaign Results](/how-to-verify-seo-campaign-results)
+2. Current: **SEO Campaign Workflow From Provider To Indexing**
+3. Next: [Link-Building Provider Checklist For Local SEO Campaigns](/link-building-provider-checklist-for-local-seo-campaigns)
+
+Series hub: [SEO Campaign Services For Small Websites](/seo-campaign-services-for-small-websites)
+
+Related guides from other workflows:
+
+- [SEO Provider vs Indexing Tool](/seo-provider-vs-indexing-tool)
+- [Backlink Discovery And Indexing Guide](/backlink-discovery-and-indexing-guide)
 
 ## FAQ
 

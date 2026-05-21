@@ -15,6 +15,11 @@ secondary_icp: Growth Operator
 funnel_stage: middle
 type: Use Case Guide
 series: Digital Marketing Operations
+series_order: 7
+series_role: cluster
+series_hub: digital-marketing-operations-workflow
+previous_article: campaign-checklist-for-repeatable-seo
+next_article: 
 business_goal: Standardize client reporting
 meta:
   target_page: "https://freeindexer.com/pricing"
@@ -22,6 +27,7 @@ meta:
     - digital-marketing-operations-workflow
     - monthly-seo-reporting-dashboard
     - gsc-client-reporting-workflow
+    - campaign-checklist-for-repeatable-seo
   blog_category: use-cases
   blog_tags:
     - client-reporting
@@ -134,6 +140,23 @@ In a real team, this should become a small operating board: target URL, source, 
 FreeIndexer fits when the team has verified URLs, backlinks, launch pages, or priority lists that deserve repeatable discovery follow-up. It is useful for URL submission, backlink discovery workflows, bulk URL queues, tracking, and prioritization.
 
 It should not replace technical checks, content quality, provider QA, Search Console review, analytics, or conversion work. Use it after the asset is ready enough to deserve attention.
+
+## Part Of This Series
+
+This article is part of the [Digital Marketing Operations Workflow](/digital-marketing-operations-workflow) series.
+
+Recommended path:
+
+1. Previous: [Campaign Checklist For Repeatable SEO](/campaign-checklist-for-repeatable-seo)
+2. Current: **Client Reporting Workflow For SEO Agencies**
+3. Next: End of this series
+
+Series hub: [Digital Marketing Operations Workflow](/digital-marketing-operations-workflow)
+
+Related guides from other workflows:
+
+- [Monthly SEO Reporting Dashboard](/monthly-seo-reporting-dashboard)
+- [GSC Client Reporting Workflow](/gsc-client-reporting-workflow)
 
 ## FAQ
 

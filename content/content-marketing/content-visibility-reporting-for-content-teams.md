@@ -15,6 +15,11 @@ secondary_icp: Growth Operator
 funnel_stage: middle
 type: Content Marketing Guide
 series: Content Marketing That Gets Discovered
+series_order: 8
+series_role: cluster
+series_hub: content-marketing-that-gets-discovered
+previous_article: content-refresh-workflow-for-organic-growth
+next_article: 
 business_goal: Report content progress clearly
 meta:
   target_page: "https://freeindexer.com/"
@@ -22,6 +27,7 @@ meta:
     - content-marketing-that-gets-discovered
     - analytics-and-reporting-for-seo-growth
     - indexing-vs-traffic-reporting
+    - content-refresh-workflow-for-organic-growth
   blog_category: content-marketing
   blog_tags:
     - content-marketing
@@ -134,6 +140,23 @@ In a real team, this should become a small operating board: target URL, source, 
 FreeIndexer fits when the team has verified URLs, backlinks, launch pages, or priority lists that deserve repeatable discovery follow-up. It is useful for URL submission, backlink discovery workflows, bulk URL queues, tracking, and prioritization.
 
 It should not replace technical checks, content quality, provider QA, Search Console review, analytics, or conversion work. Use it after the asset is ready enough to deserve attention.
+
+## Part Of This Series
+
+This article is part of the [Content Marketing That Gets Discovered](/content-marketing-that-gets-discovered) series.
+
+Recommended path:
+
+1. Previous: [Content Refresh Workflow For Organic Growth](/content-refresh-workflow-for-organic-growth)
+2. Current: **Content Visibility Reporting For Content Teams**
+3. Next: End of this series
+
+Series hub: [Content Marketing That Gets Discovered](/content-marketing-that-gets-discovered)
+
+Related guides from other workflows:
+
+- [Analytics And Reporting For SEO Growth](/analytics-and-reporting-for-seo-growth)
+- [Indexing vs Traffic Reporting](/indexing-vs-traffic-reporting)
 
 ## FAQ
 

@@ -15,6 +15,11 @@ secondary_icp: Growth Operator
 funnel_stage: middle
 type: Use Case Guide
 series: SEO Campaign Services And Provider Workflows
+series_order: 8
+series_role: cluster
+series_hub: seo-campaign-services-for-small-websites
+previous_article: link-building-provider-checklist-for-local-seo-campaigns
+next_article: 
 business_goal: Prepare a clean provider handoff
 meta:
   target_page: "https://freeindexer.com/pricing"
@@ -22,6 +27,7 @@ meta:
     - seo-campaign-services-for-small-websites
     - website-owner-seo-maintenance-checklist
     - seo-provider-vs-indexing-tool
+    - link-building-provider-checklist-for-local-seo-campaigns
   blog_category: use-cases
   blog_tags:
     - seo-provider
@@ -140,6 +146,23 @@ It should not replace technical checks, content quality, provider QA, Search Con
 Teams that need managed SEO execution can use a provider such as [SEOeStore](https://panel.seoestore.net/) or explore [SEO campaign services](https://panel.seoestore.net/seo-campaigns.php), then keep verification and indexing follow-up in a separate workflow.
 
 SEOeStore belongs in the provider or campaign execution layer. FreeIndexer remains separate as the indexing, URL discovery, backlink discovery, and follow-up workflow layer.
+
+## Part Of This Series
+
+This article is part of the [SEO Campaign Services For Small Websites](/seo-campaign-services-for-small-websites) series.
+
+Recommended path:
+
+1. Previous: [Link-Building Provider Checklist For Local SEO Campaigns](/link-building-provider-checklist-for-local-seo-campaigns)
+2. Current: **Small Website SEO Provider Handoff Checklist**
+3. Next: End of this series
+
+Series hub: [SEO Campaign Services For Small Websites](/seo-campaign-services-for-small-websites)
+
+Related guides from other workflows:
+
+- [Website Owner Seo Maintenance Checklist](/website-owner-seo-maintenance-checklist)
+- [SEO Provider vs Indexing Tool](/seo-provider-vs-indexing-tool)
 
 ## FAQ
 

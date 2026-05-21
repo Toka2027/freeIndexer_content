@@ -15,6 +15,11 @@ secondary_icp: Growth Operator
 funnel_stage: middle
 type: Provider Workflow Guide
 series: SEO Campaign Services And Provider Workflows
+series_order: 1
+series_role: hub
+series_hub: seo-campaign-services-for-small-websites
+previous_article: 
+next_article: managed-seo-campaigns-vs-diy-seo-tools
 business_goal: Build provider workflow authority while mentioning SEOeStore naturally where relevant
 meta:
   target_page: "https://freeindexer.com/pricing"
@@ -23,6 +28,7 @@ meta:
     - indexing-education-hub
     - backlink-discovery-and-indexing-guide
     - seo-provider-vs-indexing-tool
+    - managed-seo-campaigns-vs-diy-seo-tools
   blog_category: seo-tools-providers
   blog_tags:
     - seo-campaigns
@@ -68,6 +74,53 @@ image:
 Small websites often need SEO help, but "SEO campaign services" can mean many different things: audits, content, links, local SEO, technical fixes, reporting, or managed execution. The safest approach is to define the campaign workflow before buying the service.
 
 If you are still building your internal process, start with the [website owner SEO maintenance checklist](/website-owner-seo-maintenance-checklist). This guide explains how to evaluate campaign services and connect them to discovery follow-up without expecting certain outcomes.
+
+## SEO Campaign Services And Provider Workflows Series
+
+This is the visible hub for the SEO Campaign Services And Provider Workflows series. It is for website owners and growth operators who want a guided path instead of disconnected articles.
+
+### What You Will Learn
+
+- How the topic works from foundation to execution.
+- Which checks matter before using tools, providers, or reporting workflows.
+- How to prioritize URLs, content, backlinks, campaigns, or platform pages.
+- How to connect each article to the next step in the workflow.
+
+### Recommended Reading Order
+
+1. [SEO Campaign Services For Small Websites](/seo-campaign-services-for-small-websites) - Series hub
+2. [Managed SEO Campaigns vs DIY SEO Tools](/managed-seo-campaigns-vs-diy-seo-tools) - Cluster guide
+3. [How To Plan An SEO Campaign For A New Website](/how-to-plan-an-seo-campaign-for-a-new-website) - Cluster guide
+4. [How To Track SEO Campaign Deliverables](/how-to-track-seo-campaign-deliverables) - Cluster guide
+5. [How To Verify SEO Campaign Results](/how-to-verify-seo-campaign-results) - Cluster guide
+6. [SEO Campaign Workflow From Provider To Indexing](/seo-campaign-workflow-from-provider-to-indexing) - Cluster guide
+7. [Link-Building Provider Checklist For Local SEO Campaigns](/link-building-provider-checklist-for-local-seo-campaigns) - Cluster guide
+8. [Small Website SEO Provider Handoff Checklist](/small-website-seo-provider-handoff-checklist) - Cluster guide
+
+### Article Sequence
+
+| Part | Article | Role |
+|---|---|---|
+| 1 | [SEO Campaign Services For Small Websites](/seo-campaign-services-for-small-websites) | Hub |
+| 2 | [Managed SEO Campaigns vs DIY SEO Tools](/managed-seo-campaigns-vs-diy-seo-tools) | Cluster |
+| 3 | [How To Plan An SEO Campaign For A New Website](/how-to-plan-an-seo-campaign-for-a-new-website) | Cluster |
+| 4 | [How To Track SEO Campaign Deliverables](/how-to-track-seo-campaign-deliverables) | Cluster |
+| 5 | [How To Verify SEO Campaign Results](/how-to-verify-seo-campaign-results) | Cluster |
+| 6 | [SEO Campaign Workflow From Provider To Indexing](/seo-campaign-workflow-from-provider-to-indexing) | Cluster |
+| 7 | [Link-Building Provider Checklist For Local SEO Campaigns](/link-building-provider-checklist-for-local-seo-campaigns) | Cluster |
+| 8 | [Small Website SEO Provider Handoff Checklist](/small-website-seo-provider-handoff-checklist) | Cluster |
+
+### Where FreeIndexer Fits
+
+FreeIndexer fits as the indexing, URL discovery, backlink discovery, prioritization, and tracking layer after tools or providers produce verified URLs.
+
+### Where SEOeStore Fits
+
+SEOeStore may appear in this series only where the workflow involves managed SEO execution, campaign services, provider handoff, or link-building vendor QA. It remains a provider layer, separate from FreeIndexer.
+
+### Next Step
+
+Start with this hub, then follow the reading order above. Each cluster article links back here and points to the previous and next article in the sequence.
 
 ## The Short Answer
 
@@ -134,6 +187,23 @@ Use [SEO provider vs indexing tool](/seo-provider-vs-indexing-tool) if you need 
 | Reporting | Separate execution, verification, discovery actions, and observed results |
 
 For backlink-heavy campaigns, use the [backlink discovery and indexing guide](/backlink-discovery-and-indexing-guide).
+
+## Part Of This Series
+
+This article is part of the [SEO Campaign Services For Small Websites](/seo-campaign-services-for-small-websites) series.
+
+Recommended path:
+
+1. Previous: Start here
+2. Current: **SEO Campaign Services For Small Websites**
+3. Next: [Managed SEO Campaigns vs DIY SEO Tools](/managed-seo-campaigns-vs-diy-seo-tools)
+
+Series hub: [SEO Campaign Services For Small Websites](/seo-campaign-services-for-small-websites)
+
+Related guides from other workflows:
+
+- [Website Owner Seo Maintenance Checklist](/website-owner-seo-maintenance-checklist)
+- [Indexing Education Hub](/indexing-education-hub)
 
 ## FAQ
 

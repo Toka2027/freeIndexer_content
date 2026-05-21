@@ -15,6 +15,11 @@ secondary_icp: Webmaster
 funnel_stage: middle
 type: Webmaster Guide
 series: Analytics And Tracking For SEO Growth
+series_order: 7
+series_role: cluster
+series_hub: analytics-and-reporting-for-seo-growth
+previous_article: monthly-seo-reporting-dashboard
+next_article: 
 business_goal: Report SEO work with context
 meta:
   target_page: "https://freeindexer.com/"
@@ -22,6 +27,7 @@ meta:
     - monthly-seo-reporting-dashboard
     - gsc-client-reporting-workflow
     - indexing-vs-traffic-reporting
+    - analytics-and-reporting-for-seo-growth
   blog_category: webmaster-guides
   blog_tags:
     - client-reporting
@@ -134,6 +140,22 @@ In a real team, this should become a small operating board: target URL, source, 
 FreeIndexer fits when the team has verified URLs, backlinks, launch pages, or priority lists that deserve repeatable discovery follow-up. It is useful for URL submission, backlink discovery workflows, bulk URL queues, tracking, and prioritization.
 
 It should not replace technical checks, content quality, provider QA, Search Console review, analytics, or conversion work. Use it after the asset is ready enough to deserve attention.
+
+## Part Of This Series
+
+This article is part of the [Analytics And Reporting For SEO Growth](/analytics-and-reporting-for-seo-growth) series.
+
+Recommended path:
+
+1. Previous: [Monthly SEO Reporting Dashboard](/monthly-seo-reporting-dashboard)
+2. Current: **Client SEO Reporting Template**
+3. Next: End of this series
+
+Series hub: [Analytics And Reporting For SEO Growth](/analytics-and-reporting-for-seo-growth)
+
+Related guides from other workflows:
+
+- [GSC Client Reporting Workflow](/gsc-client-reporting-workflow)
 
 ## FAQ
 
