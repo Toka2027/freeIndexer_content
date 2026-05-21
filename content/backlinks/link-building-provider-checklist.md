@@ -62,7 +62,7 @@ content_quality:
     no_unsupported_claims: true
 image:
   concept: "A backlink provider QA checklist with live URL checks, target URL validation, relevance scoring, and a discovery follow-up queue."
-  hero_template: 1
+  hero_template: 3
 ---
 
 A link-building provider checklist protects agencies from reporting weak, broken, or unverified placements as completed SEO work. The goal is not to make every provider look bad. The goal is to separate delivery, QA, indexing follow-up, and client reporting.

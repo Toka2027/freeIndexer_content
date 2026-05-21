@@ -63,7 +63,7 @@ content_quality:
     no_unsupported_claims: true
 image:
   concept: "A Shopify-style ecommerce URL dashboard showing product, collection, blog, sitemap, and Search Console checks with orange priority markers."
-  hero_template: 1
+  hero_template: 3
 ---
 
 Shopify SEO indexing work starts with a simple question: which store URLs actually deserve discovery follow-up right now? Product pages, collections, buying guides, and blog posts do not all have the same value, and they should not all enter the same queue.

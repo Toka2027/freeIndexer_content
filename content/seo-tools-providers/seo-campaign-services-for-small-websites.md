@@ -85,7 +85,7 @@ Search visibility is a system: plan the campaign, execute the work, verify deliv
 | Local SEO | Location pages, citations, profile work | NAP data and landing pages are consistent |
 | Reporting | Monthly report or dashboard | Deliverables are separated from outcomes |
 
-Teams that need managed SEO execution can use a provider such as [SEOeStore](https://panel.seoestore.net/) or explore campaign options through [SEOeStore campaigns](http://panel.seoestore.net/seo-campaigns.php), then use a separate indexing workflow for priority pages or verified backlinks that deserve discovery follow-up.
+Teams that need managed SEO execution can use a provider such as [SEOeStore](https://panel.seoestore.net/) or explore campaign options through [SEOeStore campaigns](https://panel.seoestore.net/seo-campaigns.php), then use a separate indexing workflow for priority pages or verified backlinks that deserve discovery follow-up.
 
 ## Campaign Planning Checklist
 
