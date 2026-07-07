@@ -36,7 +36,7 @@ meta:
   word_target: 1300
 seo:
   meta_title: "Indexing Workflow For Local SEO Pages"
-  meta_description: "Learn a practical use cases workflow for indexing workflow for local SEO pages, including checks, prioritization, realistic expectations, and where submission tools fit."
+  meta_description: "Learn about indexing workflow for local SEO pages, covering URL quality and workflow ownership, common mistakes, and clear next actions for search discovery."
 editorial_review: standard
 ---
 

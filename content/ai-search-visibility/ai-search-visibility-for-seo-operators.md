@@ -43,7 +43,7 @@ meta:
   word_target: 1200
 seo:
   meta_title: "AI Search Visibility For SEO Operators"
-  meta_description: "Learn a practical ai search visibility workflow for ai search visibility, including checks, prioritization, realistic expectations, and where submission tools fit."
+  meta_description: "Learn about AI search visibility, covering crawlable content and entity clarity, common mistakes, and clear next actions for search discovery."
 editorial_review: standard
 content_quality:
   search_promise: "This article satisfies the title promise of AI Search Visibility For SEO Operators for seo operator workflows with specific checks, examples, and next actions."

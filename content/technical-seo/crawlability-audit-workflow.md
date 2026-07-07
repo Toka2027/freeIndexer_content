@@ -1,7 +1,7 @@
 ---
 title: "Crawlability Audit Workflow"
 slug: crawlability-audit-workflow
-description: "Informational"
+description: "A practical guide for SEO operators to find crawl blockers before submission, covering status codes, robots directives, and canonical signals and crawlability audit workflow."
 keywords:
   primary: crawlability audit workflow
   secondary:
@@ -42,7 +42,7 @@ meta:
   word_target: 1500
 seo:
   meta_title: "Crawlability Audit Workflow"
-  meta_description: "Use Crawlability Audit Workflow to plan, diagnose, prioritize, and report crawlability audit workflow workflows for seo operators with practical checks and ne"
+  meta_description: "Learn about crawlability audit workflow, covering status codes and robots directives, common mistakes, and clear next actions for search discovery."
 editorial_review: standard
 content_quality:
   search_promise: "This article satisfies the title promise by explaining crawlability audit workflow for seo operator workflows with specific checks, examples, and next actions."

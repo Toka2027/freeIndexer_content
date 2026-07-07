@@ -1,7 +1,7 @@
 ---
 title: "How To Verify SEO Campaign Results"
 slug: how-to-verify-seo-campaign-results
-description: "Informational-commercial"
+description: "A practical guide for growth teams to verify outcomes carefully, covering live URL checks, crawl access, and canonical signals and verify SEO campaign results."
 keywords:
   primary: verify SEO campaign results
   secondary:
@@ -41,7 +41,7 @@ meta:
   word_target: 1500
 seo:
   meta_title: "How To Verify SEO Campaign Results"
-  meta_description: "Use How To Verify SEO Campaign Results to plan, diagnose, prioritize, and report verify SEO campaign results workflows for growth operators with practical che"
+  meta_description: "Diagnose verify SEO campaign results by reviewing live URL checks, crawl access, and canonical signals, practical fixes, and the next indexing action."
 editorial_review: standard
 content_quality:
   search_promise: "This article satisfies the title promise by explaining verify SEO campaign results for growth operator workflows with specific checks, examples, and next actions."

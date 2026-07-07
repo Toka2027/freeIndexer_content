@@ -1,7 +1,7 @@
 ---
 title: "Indexing Checklist For New Websites"
 slug: indexing-checklist-for-new-websites
-description: "Use a launch checklist to help a new website become discoverable."
+description: "A practical guide for website owners to complete the launch checks before submitting your most important pages., covering crawlability, sitemaps, and internal links and indexing checklist for new website."
 keywords:
   primary: indexing checklist for new website
   secondary:
@@ -35,7 +35,7 @@ meta:
   word_target: 1200
 seo:
   meta_title: "Indexing Checklist For New Websites"
-  meta_description: "Learn a practical webmaster guides workflow for indexing checklist for new website, including checks, prioritization, realistic expectations, and where submission tools fit."
+  meta_description: "Use this indexing checklist for new website to review crawlability, sitemaps, and internal links, prioritize fixes, and plan reliable indexing follow-up."
 editorial_review: standard
 ---
 

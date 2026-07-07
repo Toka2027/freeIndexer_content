@@ -1,7 +1,7 @@
 ---
 title: "On-Page SEO Checklist For New Content"
 slug: on-page-seo-checklist-for-new-content
-description: "Informational"
+description: "A practical guide for website owners to publish stronger pages, covering search intent, content structure, and internal links and on-page SEO checklist for new content."
 keywords:
   primary: on-page SEO checklist for new content
   secondary:
@@ -41,7 +41,7 @@ meta:
   word_target: 1500
 seo:
   meta_title: "On-Page SEO Checklist For New Content"
-  meta_description: "Use On-Page SEO Checklist For New Content to plan, diagnose, prioritize, and report on-page SEO checklist for new content workflows for website owners with pr"
+  meta_description: "Use this on-page SEO checklist for new content to review search intent and content structure, prioritize fixes, and plan reliable indexing follow-up."
 editorial_review: standard
 content_quality:
   search_promise: "This article satisfies the title promise by explaining on-page SEO checklist for new content for website owner workflows with specific checks, examples, and next actions."

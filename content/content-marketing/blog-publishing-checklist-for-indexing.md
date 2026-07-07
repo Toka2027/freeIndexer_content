@@ -1,7 +1,7 @@
 ---
 title: "Blog Publishing Checklist For Indexing"
 slug: blog-publishing-checklist-for-indexing
-description: "Informational-commercial"
+description: "A practical guide for blog and network owners to publish with discovery checks, covering search intent, content structure, and internal links and blog publishing checklist for indexing."
 keywords:
   primary: blog publishing checklist for indexing
   secondary:
@@ -41,7 +41,7 @@ meta:
   word_target: 1500
 seo:
   meta_title: "Blog Publishing Checklist For Indexing"
-  meta_description: "Use Blog Publishing Checklist For Indexing to plan, diagnose, prioritize, and report blog publishing checklist for indexing workflows for blog or network owne"
+  meta_description: "Use this blog publishing checklist for indexing to review search intent and content structure, prioritize fixes, and plan reliable indexing follow-up."
 editorial_review: standard
 content_quality:
   search_promise: "This article satisfies the title promise by explaining blog publishing checklist for indexing for blog or network owner workflows with specific checks, examples, and next actions."

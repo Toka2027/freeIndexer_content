@@ -46,7 +46,7 @@ meta:
   word_target: 1300
 seo:
   meta_title: "Track Backlink Discovery For SEO Campaigns"
-  meta_description: "Learn a practical backlinks workflow for track backlink discovery, including checks, prioritization, realistic expectations, and where submission tools fit."
+  meta_description: "Learn about track backlink discovery, covering link verification and source-page quality, common mistakes, and clear next actions for search discovery."
 editorial_review: standard
 content_quality:
   search_promise: "This article satisfies the title promise of Track Backlink Discovery For SEO Campaigns for seo agency workflows with specific checks, examples, and next actions."

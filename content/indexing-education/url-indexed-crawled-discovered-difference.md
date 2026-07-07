@@ -36,7 +36,7 @@ meta:
   word_target: 1500
 seo:
   meta_title: "Indexed, Crawled, Or Discovered: What The Difference Means"
-  meta_description: "Learn the difference between discovered, crawled, and indexed URLs, with examples and next actions for website owners."
+  meta_description: "Learn about indexed crawled discovered difference, covering crawlability and discovery signals, common mistakes, and clear next actions for search discovery."
 editorial_review: standard
 content_quality:
   search_promise: "This article explains the practical difference between discovered, crawled, and indexed URLs and maps each state to the right next action."

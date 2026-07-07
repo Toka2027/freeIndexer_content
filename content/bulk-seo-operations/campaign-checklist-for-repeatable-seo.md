@@ -1,7 +1,7 @@
 ---
 title: "Campaign Checklist For Repeatable SEO"
 slug: campaign-checklist-for-repeatable-seo
-description: "Informational-commercial"
+description: "A practical guide for growth teams to run campaigns with checks, covering URL inventory fields, quality gates, and priority tiers and campaign checklist for repeatable SEO."
 keywords:
   primary: campaign checklist for repeatable SEO
   secondary:
@@ -41,7 +41,7 @@ meta:
   word_target: 1500
 seo:
   meta_title: "Campaign Checklist For Repeatable SEO"
-  meta_description: "Use Campaign Checklist For Repeatable SEO to plan, diagnose, prioritize, and report campaign checklist for repeatable SEO workflows for growth operators with "
+  meta_description: "Use this campaign checklist for repeatable SEO to review URL inventory fields and quality gates, prioritize fixes, and plan reliable indexing follow-up."
 editorial_review: standard
 content_quality:
   search_promise: "This article satisfies the title promise by explaining campaign checklist for repeatable SEO for growth operator workflows with specific checks, examples, and next actions."

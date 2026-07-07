@@ -1,7 +1,7 @@
 ---
 title: "Indexing vs Traffic Reporting"
 slug: indexing-vs-traffic-reporting
-description: "Informational"
+description: "A practical guide for SEO agencies to explain outcome differences, covering indexing status, Search Console data, and landing pages and indexing vs traffic reporting."
 keywords:
   primary: indexing vs traffic reporting
   secondary:
@@ -41,7 +41,7 @@ meta:
   word_target: 1500
 seo:
   meta_title: "Indexing vs Traffic Reporting"
-  meta_description: "Use Indexing vs Traffic Reporting to plan, diagnose, prioritize, and report indexing vs traffic reporting workflows for seo agencys with practical checks and "
+  meta_description: "Compare indexing vs traffic reporting by indexing status and Search Console data to choose a practical workflow with realistic limits and clear reporting."
 editorial_review: standard
 content_quality:
   search_promise: "This article satisfies the title promise by explaining indexing vs traffic reporting for seo agency workflows with specific checks, examples, and next actions."

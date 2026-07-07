@@ -1,7 +1,7 @@
 ---
 title: "GA4 Basics For SEO Reporting"
 slug: ga4-basics-for-seo-reporting
-description: "Informational"
+description: "A practical guide for webmasters to set up basic SEO reports, covering indexing status, Search Console data, and landing pages and GA4 basics for SEO reporting."
 keywords:
   primary: GA4 basics for SEO reporting
   secondary:
@@ -40,7 +40,7 @@ meta:
   word_target: 1500
 seo:
   meta_title: "GA4 Basics For SEO Reporting"
-  meta_description: "Use GA4 Basics For SEO Reporting to plan, diagnose, prioritize, and report GA4 basics for SEO reporting workflows for webmasters with practical checks and nex"
+  meta_description: "Learn about GA4 basics for SEO reporting, covering indexing status and Search Console data, common mistakes, and clear next actions for search discovery."
 editorial_review: standard
 content_quality:
   search_promise: "This article satisfies the title promise by explaining GA4 basics for SEO reporting for webmaster workflows with specific checks, examples, and next actions."

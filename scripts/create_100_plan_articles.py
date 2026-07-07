@@ -135,10 +135,16 @@ def safe_meta_description(row: dict[str, str]) -> str:
     title = row["title"]
     icp = row["primary_icp"].lower()
     keyword = row["primary_keyword"]
-    return (
+    candidate = (
         f"Use {title} to plan, diagnose, prioritize, and report {keyword} "
         f"workflows for {icp}s with practical checks and next actions."
-    )[:158]
+    )
+    if len(candidate) <= 160:
+        return candidate
+    shorter = f"Learn {keyword} with practical checks, prioritization, and clear next actions for {icp}s."
+    if len(shorter) <= 160:
+        return shorter
+    return f"Practical guidance on {keyword}, including checks, priorities, and next actions."
 
 
 def category_profile(row: dict[str, str]) -> dict[str, object]:
@@ -315,7 +321,7 @@ def frontmatter(row: dict[str, str]) -> str:
         "---",
         f'title: "{row["title"]}"',
         f"slug: {row['slug']}",
-        f'description: "{clean_sentence(row["search_intent"])}"',
+        f'description: "A practical guide to {row["primary_keyword"]} for {row["primary_icp"].lower()} workflows."',
         "keywords:",
         f"  primary: {row['primary_keyword']}",
         "  secondary:",

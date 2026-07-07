@@ -1,7 +1,7 @@
 ---
 title: "Documentation Site Indexing Workflow"
 slug: documentation-site-indexing-workflow
-description: "Informational-commercial"
+description: "A practical guide for SaaS and product teams to improve docs discovery, covering crawlability, discovery signals, and sitemaps and documentation site indexing workflow."
 keywords:
   primary: documentation site indexing workflow
   secondary:
@@ -41,7 +41,7 @@ meta:
   word_target: 1500
 seo:
   meta_title: "Documentation Site Indexing Workflow"
-  meta_description: "Use Documentation Site Indexing Workflow to plan, diagnose, prioritize, and report documentation site indexing workflow workflows for saas or product teams wi"
+  meta_description: "Learn documentation site indexing workflow and improve docs discovery, using practical checks for crawlability and discovery signals and clear next actions."
 editorial_review: standard
 content_quality:
   search_promise: "This article satisfies the title promise by explaining documentation site indexing workflow for saas or product team workflows with specific checks, examples, and next actions."

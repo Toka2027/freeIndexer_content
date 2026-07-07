@@ -1,7 +1,7 @@
 ---
 title: "Technical SEO Foundations For AI Search"
 slug: technical-seo-foundations-for-ai-search
-description: "Informational"
+description: "A practical guide for SEO operators to keep AI discovery crawlable, covering status codes, robots directives, and canonical signals and technical SEO foundations for AI search."
 keywords:
   primary: technical SEO foundations for AI search
   secondary:
@@ -40,7 +40,7 @@ meta:
   word_target: 1500
 seo:
   meta_title: "Technical SEO Foundations For AI Search"
-  meta_description: "Use Technical SEO Foundations For AI Search to plan, diagnose, prioritize, and report technical SEO foundations for AI search workflows for seo operators with"
+  meta_description: "Learn technical SEO foundations for AI search and keep AI discovery crawlable, using practical checks for status codes and clear next actions."
 editorial_review: standard
 content_quality:
   search_promise: "This article satisfies the title promise by explaining technical SEO foundations for AI search for seo operator workflows with specific checks, examples, and next actions."

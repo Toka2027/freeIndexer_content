@@ -1,7 +1,7 @@
 ---
 title: "SEO Software And Automation Tools"
 slug: seo-software-and-automation-tools
-description: "Commercial investigation"
+description: "A practical guide for SEO operators to use automation responsibly, covering workflow roles, quality control, and verification and SEO software and automation tools."
 keywords:
   primary: SEO software and automation tools
   secondary:
@@ -39,7 +39,7 @@ meta:
   word_target: 1500
 seo:
   meta_title: "SEO Software And Automation Tools"
-  meta_description: "Use SEO Software And Automation Tools to plan, diagnose, prioritize, and report SEO software and automation tools workflows for seo operators with practical c"
+  meta_description: "Learn about SEO software and automation tools, covering workflow roles and quality control, common mistakes, and clear next actions for search discovery."
 editorial_review: standard
 content_quality:
   search_promise: "This article satisfies the title promise by explaining SEO software and automation tools for seo operator workflows with specific checks, examples, and next actions."

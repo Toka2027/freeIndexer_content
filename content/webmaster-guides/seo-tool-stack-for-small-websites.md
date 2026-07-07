@@ -1,7 +1,7 @@
 ---
 title: "SEO Tool Stack For Small Websites"
 slug: seo-tool-stack-for-small-websites
-description: "Commercial investigation"
+description: "A practical guide for website owners to choose a lean SEO stack, covering crawlability, sitemaps, and internal links and SEO tool stack for small websites."
 keywords:
   primary: SEO tool stack for small websites
   secondary:
@@ -42,7 +42,7 @@ meta:
   word_target: 1500
 seo:
   meta_title: "SEO Tool Stack For Small Websites"
-  meta_description: "Use SEO Tool Stack For Small Websites to plan, diagnose, prioritize, and report SEO tool stack for small websites workflows for website owners with practical "
+  meta_description: "Learn SEO tool stack for small websites and choose a lean SEO stack, using practical checks for crawlability and sitemaps and clear next actions."
 editorial_review: standard
 content_quality:
   search_promise: "This article satisfies the title promise by explaining SEO tool stack for small websites for website owner workflows with specific checks, examples, and next actions."

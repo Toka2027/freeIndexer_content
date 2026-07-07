@@ -1,7 +1,7 @@
 ---
 title: "Link-Building Provider Checklist For Local SEO Campaigns"
 slug: link-building-provider-checklist-for-local-seo-campaigns
-description: "Informational-commercial"
+description: "A practical guide for SEO agencies to verify local campaign links, covering URL quality, workflow ownership, and prioritization and link-building provider checklist local SEO."
 keywords:
   primary: link-building provider checklist local SEO
   secondary:
@@ -42,7 +42,7 @@ meta:
   word_target: 1500
 seo:
   meta_title: "Link-Building Provider Checklist For Local SEO Campaigns"
-  meta_description: "Use Link-Building Provider Checklist For Local SEO Campaigns to plan, diagnose, prioritize, and report link-building provider checklist local SEO workflows fo"
+  meta_description: "Use this link-building provider checklist local SEO to review URL quality and workflow ownership, prioritize fixes, and plan reliable indexing follow-up."
 editorial_review: standard
 content_quality:
   search_promise: "This article satisfies the title promise by explaining link-building provider checklist local SEO for seo agency workflows with specific checks, examples, and next actions."

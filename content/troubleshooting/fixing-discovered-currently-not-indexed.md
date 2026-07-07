@@ -1,7 +1,7 @@
 ---
 title: "Fixing Discovered Currently Not Indexed"
 slug: fixing-discovered-currently-not-indexed
-description: "Troubleshooting"
+description: "A practical guide for SEO operators to fix discovery without guessing, covering live URL checks, crawl access, and canonical signals and fix discovered currently not indexed."
 keywords:
   primary: fix discovered currently not indexed
   secondary:
@@ -42,7 +42,7 @@ meta:
   word_target: 1500
 seo:
   meta_title: "Fixing Discovered Currently Not Indexed"
-  meta_description: "Use Fixing Discovered Currently Not Indexed to plan, diagnose, prioritize, and report fix discovered currently not indexed workflows for seo operators with pr"
+  meta_description: "Troubleshoot fix discovered currently not indexed with checks for live URL checks and crawl access, then prioritize fixes and indexing follow-up."
 editorial_review: standard
 content_quality:
   search_promise: "This article satisfies the title promise by explaining fix discovered currently not indexed for seo operator workflows with specific checks, examples, and next actions."

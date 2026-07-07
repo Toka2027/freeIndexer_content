@@ -37,7 +37,7 @@ meta:
   word_target: 1400
 seo:
   meta_title: "Noindex Tag Checklist"
-  meta_description: "Learn a practical technical seo workflow for noindex tag checklist, including checks, prioritization, realistic expectations, and where submission tools fit."
+  meta_description: "Follow this noindex tag checklist for status codes, robots directives, canonical signals, and sitemaps, practical fixes, and clearer indexing follow-up."
 editorial_review: standard
 ---
 

@@ -35,7 +35,7 @@ meta:
   word_target: 1300
 seo:
   meta_title: "Google Search Console Pages Report Explained"
-  meta_description: "Learn a practical google search console workflow for google search console pages report, including checks, prioritization, realistic expectations, and where submission tools fit."
+  meta_description: "Learn about Google search console pages report, covering URL Inspection and Page indexing reports, common mistakes, and clear next actions for search discovery."
 editorial_review: standard
 ---
 

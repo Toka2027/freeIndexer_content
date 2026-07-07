@@ -1,7 +1,7 @@
 ---
 title: "SEO QA Process Before Publishing"
 slug: seo-qa-process-before-publishing
-description: "Informational-commercial"
+description: "A practical guide for SaaS and product teams to add SEO QA gates, covering owners, quality gates, and due dates and SEO QA process before publishing."
 keywords:
   primary: SEO QA process before publishing
   secondary:
@@ -40,7 +40,7 @@ meta:
   word_target: 1500
 seo:
   meta_title: "SEO QA Process Before Publishing"
-  meta_description: "Use SEO QA Process Before Publishing to plan, diagnose, prioritize, and report SEO QA process before publishing workflows for saas or product teams with pract"
+  meta_description: "Learn SEO QA process before publishing and add SEO QA gates, using practical checks for owners, quality gates, and due dates and clear next actions."
 editorial_review: standard
 content_quality:
   search_promise: "This article satisfies the title promise by explaining SEO QA process before publishing for saas or product team workflows with specific checks, examples, and next actions."

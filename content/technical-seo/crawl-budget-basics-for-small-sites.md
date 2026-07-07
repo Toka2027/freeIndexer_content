@@ -37,7 +37,7 @@ meta:
   word_target: 1400
 seo:
   meta_title: "Crawl Budget Basics For Small Sites"
-  meta_description: "Learn a practical technical seo workflow for crawl budget basics, including checks, prioritization, realistic expectations, and where submission tools fit."
+  meta_description: "Learn about crawl budget basics, covering status codes, robots directives, and canonical signals, common mistakes, and clear next actions for search discovery."
 editorial_review: standard
 ---
 

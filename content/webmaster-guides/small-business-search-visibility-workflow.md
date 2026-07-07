@@ -36,7 +36,7 @@ meta:
   word_target: 1200
 seo:
   meta_title: "Small Business Search Visibility Workflow"
-  meta_description: "Learn a practical webmaster guides workflow for small business search visibility workflow, including checks, prioritization, realistic expectations, and where submission tools fit."
+  meta_description: "Learn about small business search visibility workflow, covering crawlability and sitemaps, common mistakes, and clear next actions for search discovery."
 editorial_review: standard
 ---
 

@@ -1,7 +1,7 @@
 ---
 title: "Indexing vs Ranking vs Visibility"
 slug: indexing-vs-ranking-vs-visibility
-description: "Informational"
+description: "A practical guide for website owners to separate indexing ranking and visibility, covering crawlability, discovery signals, and sitemaps and indexing vs ranking vs visibility."
 keywords:
   primary: indexing vs ranking vs visibility
   secondary:
@@ -42,7 +42,7 @@ meta:
   word_target: 1500
 seo:
   meta_title: "Indexing vs Ranking vs Visibility"
-  meta_description: "Use Indexing vs Ranking vs Visibility to plan, diagnose, prioritize, and report indexing vs ranking vs visibility workflows for website owners with practical "
+  meta_description: "Compare indexing vs ranking vs visibility by crawlability and discovery signals to choose a practical workflow with realistic limits and clear reporting."
 editorial_review: standard
 content_quality:
   search_promise: "This article satisfies the title promise by explaining indexing vs ranking vs visibility for website owner workflows with specific checks, examples, and next actions."

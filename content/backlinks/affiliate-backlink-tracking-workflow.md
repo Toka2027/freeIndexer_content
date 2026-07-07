@@ -1,7 +1,7 @@
 ---
 title: "Affiliate Backlink Tracking Workflow"
 slug: affiliate-backlink-tracking-workflow
-description: "Informational-commercial"
+description: "A practical guide for affiliate marketers to prioritize affiliate campaign links, covering link verification, source-page quality, and discovery status and affiliate backlink tracking workflow."
 keywords:
   primary: affiliate backlink tracking workflow
   secondary:
@@ -41,7 +41,7 @@ meta:
   word_target: 1500
 seo:
   meta_title: "Affiliate Backlink Tracking Workflow"
-  meta_description: "Use Affiliate Backlink Tracking Workflow to plan, diagnose, prioritize, and report affiliate backlink tracking workflow workflows for affiliate marketers with"
+  meta_description: "Learn affiliate backlink tracking workflow and prioritize affiliate campaign links, using practical checks for link verification and clear next actions."
 editorial_review: standard
 content_quality:
   search_promise: "This article satisfies the title promise by explaining affiliate backlink tracking workflow for affiliate marketer workflows with specific checks, examples, and next actions."

@@ -35,7 +35,7 @@ meta:
   word_target: 1400
 seo:
   meta_title: "Page Crawled But Not Indexed: What It Means"
-  meta_description: "Learn a practical troubleshooting workflow for page crawled but not indexed, including checks, prioritization, realistic expectations, and where submission tools fit."
+  meta_description: "Diagnose page crawled but not indexed by reviewing live URL checks, crawl access, and canonical signals, practical fixes, and the next indexing action."
 editorial_review: standard
 ---
 

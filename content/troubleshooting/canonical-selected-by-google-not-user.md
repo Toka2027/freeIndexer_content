@@ -36,7 +36,7 @@ meta:
   word_target: 1400
 seo:
   meta_title: "Canonical Selected By Google: What To Do"
-  meta_description: "Learn a practical troubleshooting workflow for canonical selected by Google not user, including checks, prioritization, realistic expectations, and where submission tools fit."
+  meta_description: "Troubleshoot canonical selected by Google not user with checks for live URL checks and crawl access, then prioritize fixes and indexing follow-up."
 editorial_review: standard
 ---
 

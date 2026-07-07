@@ -1,7 +1,7 @@
 ---
 title: "Client Reporting Workflow For SEO Agencies"
 slug: client-reporting-workflow-for-seo-agencies
-description: "Informational-commercial"
+description: "A practical guide for SEO agencies to standardize client reporting, covering URL quality, workflow ownership, and prioritization and client reporting workflow for SEO agencies."
 keywords:
   primary: client reporting workflow for SEO agencies
   secondary:
@@ -40,7 +40,7 @@ meta:
   word_target: 1500
 seo:
   meta_title: "Client Reporting Workflow For SEO Agencies"
-  meta_description: "Use Client Reporting Workflow For SEO Agencies to plan, diagnose, prioritize, and report client reporting workflow for SEO agencies workflows for seo agencys "
+  meta_description: "Learn client reporting workflow for SEO agencies and standardize client reporting, using practical checks for URL quality and clear next actions."
 editorial_review: standard
 content_quality:
   search_promise: "This article satisfies the title promise by explaining client reporting workflow for SEO agencies for seo agency workflows with specific checks, examples, and next actions."

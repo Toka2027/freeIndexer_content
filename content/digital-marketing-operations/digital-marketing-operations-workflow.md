@@ -1,7 +1,7 @@
 ---
 title: "Digital Marketing Operations Workflow"
 slug: digital-marketing-operations-workflow
-description: "Informational"
+description: "A practical guide for growth teams to build a marketing operating system, covering owners, quality gates, and due dates and digital marketing operations workflow."
 keywords:
   primary: digital marketing operations workflow
   secondary:
@@ -40,7 +40,7 @@ meta:
   word_target: 1500
 seo:
   meta_title: "Digital Marketing Operations Workflow"
-  meta_description: "Use Digital Marketing Operations Workflow to plan, diagnose, prioritize, and report digital marketing operations workflow workflows for growth operators with "
+  meta_description: "Learn about digital marketing operations workflow, covering owners and quality gates, common mistakes, and clear next actions for search discovery."
 editorial_review: standard
 content_quality:
   search_promise: "This article satisfies the title promise by explaining digital marketing operations workflow for growth operator workflows with specific checks, examples, and next actions."

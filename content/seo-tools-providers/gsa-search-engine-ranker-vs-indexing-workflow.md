@@ -45,7 +45,7 @@ meta:
   word_target: 1600
 seo:
   meta_title: "GSA Search Engine Ranker vs Indexing Workflow"
-  meta_description: "Compare GSA SER with indexing workflows by role, risk, verification, backlink tracking, and responsible SEO operations."
+  meta_description: "Compare GSA Search Engine Ranker vs indexing workflow across workflow roles, then choose the workflow that fits your indexing and reporting needs."
 editorial_review: standard
 content_quality:
   search_promise: "This article explains the difference between GSA Search Engine Ranker and an indexing workflow, with responsible quality checks."

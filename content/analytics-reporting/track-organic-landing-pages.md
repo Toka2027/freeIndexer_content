@@ -1,7 +1,7 @@
 ---
 title: "Track Organic Landing Pages"
 slug: track-organic-landing-pages
-description: "Informational-commercial"
+description: "A practical guide for SaaS and product teams to monitor landing page value, covering indexing status, Search Console data, and landing pages and track organic landing pages."
 keywords:
   primary: track organic landing pages
   secondary:
@@ -41,7 +41,7 @@ meta:
   word_target: 1500
 seo:
   meta_title: "Track Organic Landing Pages"
-  meta_description: "Use Track Organic Landing Pages to plan, diagnose, prioritize, and report track organic landing pages workflows for saas or product teams with practical check"
+  meta_description: "Learn about track organic landing pages, covering indexing status and Search Console data, common mistakes, and clear next actions for search discovery."
 editorial_review: standard
 content_quality:
   search_promise: "This article satisfies the title promise by explaining track organic landing pages for saas or product team workflows with specific checks, examples, and next actions."

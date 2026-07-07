@@ -36,7 +36,7 @@ meta:
   word_target: 1300
 seo:
   meta_title: "Batch URL Submission Workflow"
-  meta_description: "Learn a practical bulk seo operations workflow for batch URL submission workflow, including checks, prioritization, realistic expectations, and where submission tools fit."
+  meta_description: "Learn about batch URL submission workflow, covering URL inventory fields and quality gates, common mistakes, and clear next actions for search discovery."
 editorial_review: standard
 ---
 

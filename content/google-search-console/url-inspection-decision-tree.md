@@ -1,7 +1,7 @@
 ---
 title: "URL Inspection Decision Tree"
 slug: url-inspection-decision-tree
-description: "Informational"
+description: "A practical guide for SEO operators to choose the next action by status, covering URL Inspection, Page indexing reports, and sitemaps and URL Inspection decision tree."
 keywords:
   primary: URL Inspection decision tree
   secondary:
@@ -42,7 +42,7 @@ meta:
   word_target: 1500
 seo:
   meta_title: "URL Inspection Decision Tree"
-  meta_description: "Use URL Inspection Decision Tree to plan, diagnose, prioritize, and report URL Inspection decision tree workflows for seo operators with practical checks and "
+  meta_description: "Learn about URL Inspection decision tree, covering URL Inspection and Page indexing reports, common mistakes, and clear next actions for search discovery."
 editorial_review: standard
 content_quality:
   search_promise: "This article satisfies the title promise by explaining URL Inspection decision tree for seo operator workflows with specific checks, examples, and next actions."

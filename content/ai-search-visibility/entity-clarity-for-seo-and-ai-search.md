@@ -1,7 +1,7 @@
 ---
 title: "Entity Clarity For SEO And AI Search"
 slug: entity-clarity-for-seo-and-ai-search
-description: "Informational"
+description: "A practical guide for SEO operators to clarify entities, covering crawlable content, entity clarity, and structured information and entity clarity for SEO and AI search."
 keywords:
   primary: entity clarity for SEO and AI search
   secondary:
@@ -42,7 +42,7 @@ meta:
   word_target: 1500
 seo:
   meta_title: "Entity Clarity For SEO And AI Search"
-  meta_description: "Use Entity Clarity For SEO And AI Search to plan, diagnose, prioritize, and report entity clarity for SEO and AI search workflows for seo operators with pract"
+  meta_description: "Learn entity clarity for SEO and AI search and clarify entities, using practical checks for crawlable content and entity clarity and clear next actions."
 editorial_review: standard
 content_quality:
   search_promise: "This article satisfies the title promise by explaining entity clarity for SEO and AI search for seo operator workflows with specific checks, examples, and next actions."

@@ -35,7 +35,7 @@ meta:
   word_target: 1300
 seo:
   meta_title: "How To Use The URL Inspection Tool"
-  meta_description: "Learn a practical google search console workflow for url inspection tool, including checks, prioritization, realistic expectations, and where submission tools fit."
+  meta_description: "Learn about URL inspection tool, covering URL Inspection and Page indexing reports, common mistakes, and clear next actions for search discovery."
 editorial_review: standard
 ---
 

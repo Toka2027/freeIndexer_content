@@ -1,7 +1,7 @@
 ---
 title: "Noindex Mistakes SEO Teams Miss"
 slug: noindex-mistakes-seo-teams-miss
-description: "Troubleshooting"
+description: "A practical guide for SEO operators to find accidental exclusions, covering live URL checks, crawl access, and canonical signals and noindex mistakes SEO."
 keywords:
   primary: noindex mistakes SEO
   secondary:
@@ -42,7 +42,7 @@ meta:
   word_target: 1500
 seo:
   meta_title: "Noindex Mistakes SEO Teams Miss"
-  meta_description: "Use Noindex Mistakes SEO Teams Miss to plan, diagnose, prioritize, and report noindex mistakes SEO workflows for seo operators with practical checks and next "
+  meta_description: "Troubleshoot noindex mistakes SEO with checks for live URL checks, crawl access, and canonical signals, then prioritize fixes and indexing follow-up."
 editorial_review: standard
 content_quality:
   search_promise: "This article satisfies the title promise by explaining noindex mistakes SEO for seo operator workflows with specific checks, examples, and next actions."

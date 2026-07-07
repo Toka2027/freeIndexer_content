@@ -1,7 +1,7 @@
 ---
 title: "Internal Linking System For Large Sites"
 slug: internal-linking-system-for-large-sites
-description: "Informational-commercial"
+description: "A practical guide for programmatic SEO teams to build repeatable linking rules, covering status codes, robots directives, and canonical signals and internal linking system for large sites."
 keywords:
   primary: internal linking system for large sites
   secondary:
@@ -42,7 +42,7 @@ meta:
   word_target: 1500
 seo:
   meta_title: "Internal Linking System For Large Sites"
-  meta_description: "Use Internal Linking System For Large Sites to plan, diagnose, prioritize, and report internal linking system for large sites workflows for programmatic seo b"
+  meta_description: "Learn internal linking system for large sites and build repeatable linking rules, using practical checks for status codes and clear next actions."
 editorial_review: standard
 content_quality:
   search_promise: "This article satisfies the title promise by explaining internal linking system for large sites for programmatic seo builder workflows with specific checks, examples, and next actions."

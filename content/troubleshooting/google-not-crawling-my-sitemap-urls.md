@@ -1,7 +1,7 @@
 ---
 title: "Google Not Crawling My Sitemap URLs"
 slug: google-not-crawling-my-sitemap-urls
-description: "Diagnose why Google may not be crawling URLs listed in your sitemap."
+description: "A practical guide for webmasters to check sitemap quality, crawlability, internal links, and URL value before resubmitting the sitemap., covering live URL checks, crawl access, and canonical signals and Google not crawling sitemap URLs."
 keywords:
   primary: Google not crawling sitemap URLs
   secondary:
@@ -36,7 +36,7 @@ meta:
   word_target: 1400
 seo:
   meta_title: "Google Not Crawling My Sitemap URLs"
-  meta_description: "Learn a practical troubleshooting workflow for Google not crawling sitemap URLs, including checks, prioritization, realistic expectations, and where submission tools fit."
+  meta_description: "Diagnose Google not crawling sitemap URLs by reviewing live URL checks, crawl access, and canonical signals, practical fixes, and the next indexing action."
 editorial_review: standard
 ---
 

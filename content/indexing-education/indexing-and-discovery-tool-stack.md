@@ -1,7 +1,7 @@
 ---
 title: "Indexing And Discovery Tool Stack"
 slug: indexing-and-discovery-tool-stack
-description: "Commercial investigation"
+description: "A practical guide for SEO operators to build a discovery stack, covering crawlability, discovery signals, and sitemaps and indexing and discovery tool stack."
 keywords:
   primary: indexing and discovery tool stack
   secondary:
@@ -42,7 +42,7 @@ meta:
   word_target: 1500
 seo:
   meta_title: "Indexing And Discovery Tool Stack"
-  meta_description: "Use Indexing And Discovery Tool Stack to plan, diagnose, prioritize, and report indexing and discovery tool stack workflows for seo operators with practical c"
+  meta_description: "Learn about indexing and discovery tool stack, covering crawlability and discovery signals, common mistakes, and clear next actions for search discovery."
 editorial_review: standard
 content_quality:
   search_promise: "This article satisfies the title promise by explaining indexing and discovery tool stack for seo operator workflows with specific checks, examples, and next actions."

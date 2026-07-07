@@ -1,7 +1,7 @@
 ---
 title: "Content Calendar For SEO Growth"
 slug: content-calendar-for-seo-growth
-description: "Informational"
+description: "A practical guide for content teams to plan content operations, covering owners, quality gates, and due dates and content calendar for SEO growth."
 keywords:
   primary: content calendar for SEO growth
   secondary:
@@ -41,7 +41,7 @@ meta:
   word_target: 1500
 seo:
   meta_title: "Content Calendar For SEO Growth"
-  meta_description: "Use Content Calendar For SEO Growth to plan, diagnose, prioritize, and report content calendar for SEO growth workflows for content marketers with practical c"
+  meta_description: "A practical guide to content calendar for SEO growth for content teams, covering owners, quality gates, and due dates and how to plan content operations."
 editorial_review: standard
 content_quality:
   search_promise: "This article satisfies the title promise by explaining content calendar for SEO growth for content marketer workflows with specific checks, examples, and next actions."

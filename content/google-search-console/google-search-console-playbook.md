@@ -1,7 +1,7 @@
 ---
 title: "Google Search Console Playbook"
 slug: google-search-console-playbook
-description: "Informational"
+description: "A practical guide for webmasters to use GSC as the diagnostic base, covering URL Inspection, Page indexing reports, and sitemaps and Google Search Console playbook."
 keywords:
   primary: Google Search Console playbook
   secondary:
@@ -40,7 +40,7 @@ meta:
   word_target: 1500
 seo:
   meta_title: "Google Search Console Playbook"
-  meta_description: "Use Google Search Console Playbook to plan, diagnose, prioritize, and report Google Search Console playbook workflows for webmasters with practical checks and"
+  meta_description: "Learn about Google Search Console playbook, covering URL Inspection and Page indexing reports, common mistakes, and clear next actions for search discovery."
 editorial_review: standard
 content_quality:
   search_promise: "This article satisfies the title promise by explaining Google Search Console playbook for webmaster workflows with specific checks, examples, and next actions."

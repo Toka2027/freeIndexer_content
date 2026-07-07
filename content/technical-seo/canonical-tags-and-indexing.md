@@ -35,7 +35,7 @@ meta:
   word_target: 1400
 seo:
   meta_title: "Canonical Tags And Indexing: A Practical Guide"
-  meta_description: "Learn a practical technical seo workflow for canonical tags indexing, including checks, prioritization, realistic expectations, and where submission tools fit."
+  meta_description: "Learn about canonical tags indexing, covering status codes and robots directives, common mistakes, and clear next actions for search discovery."
 editorial_review: standard
 ---
 

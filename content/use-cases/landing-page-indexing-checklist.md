@@ -1,7 +1,7 @@
 ---
 title: "Landing Page Indexing Checklist"
 slug: landing-page-indexing-checklist
-description: "Informational-commercial"
+description: "A practical guide for SEO operators to submit pages after checks, covering URL quality, workflow ownership, and prioritization and landing page indexing checklist."
 keywords:
   primary: landing page indexing checklist
   secondary:
@@ -40,7 +40,7 @@ meta:
   word_target: 1500
 seo:
   meta_title: "Landing Page Indexing Checklist"
-  meta_description: "Use Landing Page Indexing Checklist to plan, diagnose, prioritize, and report landing page indexing checklist workflows for seo operators with practical check"
+  meta_description: "Follow this landing page indexing checklist for URL quality, workflow ownership, and prioritization, practical fixes, and clearer indexing follow-up."
 editorial_review: standard
 content_quality:
   search_promise: "This article satisfies the title promise by explaining landing page indexing checklist for seo operator workflows with specific checks, examples, and next actions."

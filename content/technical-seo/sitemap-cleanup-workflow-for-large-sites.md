@@ -1,7 +1,7 @@
 ---
 title: "Sitemap Cleanup Workflow For Large Sites"
 slug: sitemap-cleanup-workflow-for-large-sites
-description: "Informational"
+description: "A practical guide for programmatic SEO teams to clean sitemap inventories, covering status codes, robots directives, and canonical signals and sitemap cleanup workflow."
 keywords:
   primary: sitemap cleanup workflow
   secondary:
@@ -42,7 +42,7 @@ meta:
   word_target: 1500
 seo:
   meta_title: "Sitemap Cleanup Workflow For Large Sites"
-  meta_description: "Use Sitemap Cleanup Workflow For Large Sites to plan, diagnose, prioritize, and report sitemap cleanup workflow workflows for programmatic seo builders with p"
+  meta_description: "Learn sitemap cleanup workflow and clean sitemap inventories, using practical checks for status codes and robots directives and clear next actions."
 editorial_review: standard
 content_quality:
   search_promise: "This article satisfies the title promise by explaining sitemap cleanup workflow for programmatic seo builder workflows with specific checks, examples, and next actions."

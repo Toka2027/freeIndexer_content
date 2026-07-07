@@ -1,7 +1,7 @@
 ---
 title: "Free URL Indexer: When To Use One And What To Expect"
 slug: free-url-indexer
-description: "A practical guide to free URL indexers, what they can and cannot do, and how FreeIndexer fits into a low-cost indexing workflow."
+description: "A practical guide for website owners to try the FreeIndexer workflow and upgrade only when you need more daily capacity., covering crawlability, discovery signals, and sitemaps and free URL indexer."
 keywords:
   primary: free url indexer
   secondary:

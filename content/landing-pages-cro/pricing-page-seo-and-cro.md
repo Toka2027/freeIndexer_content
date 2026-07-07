@@ -1,7 +1,7 @@
 ---
 title: "Pricing Page SEO And CRO"
 slug: pricing-page-seo-and-cro
-description: "Commercial investigation"
+description: "A practical guide for SaaS and product teams to make pricing pages discoverable, covering search intent, page structure, and trust signals and pricing page SEO and CRO."
 keywords:
   primary: pricing page SEO and CRO
   secondary:
@@ -41,7 +41,7 @@ meta:
   word_target: 1500
 seo:
   meta_title: "Pricing Page SEO And CRO"
-  meta_description: "Use Pricing Page SEO And CRO to plan, diagnose, prioritize, and report pricing page SEO and CRO workflows for saas or product teams with practical checks and "
+  meta_description: "Learn pricing page SEO and CRO and make pricing pages discoverable, using practical checks for search intent and page structure and clear next actions."
 editorial_review: standard
 content_quality:
   search_promise: "This article satisfies the title promise by explaining pricing page SEO and CRO for saas or product team workflows with specific checks, examples, and next actions."

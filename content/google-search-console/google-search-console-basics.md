@@ -1,7 +1,7 @@
 ---
 title: "Google Search Console Basics"
 slug: google-search-console-basics
-description: "Informational"
+description: "A practical guide for website owners to set up basic GSC checks, covering URL Inspection, Page indexing reports, and sitemaps and Google Search Console basics."
 keywords:
   primary: Google Search Console basics
   secondary:
@@ -42,7 +42,7 @@ meta:
   word_target: 1500
 seo:
   meta_title: "Google Search Console Basics"
-  meta_description: "Use Google Search Console Basics to plan, diagnose, prioritize, and report Google Search Console basics workflows for website owners with practical checks and"
+  meta_description: "Learn about Google Search Console basics, covering URL Inspection and Page indexing reports, common mistakes, and clear next actions for search discovery."
 editorial_review: standard
 content_quality:
   search_promise: "This article satisfies the title promise by explaining Google Search Console basics for website owner workflows with specific checks, examples, and next actions."

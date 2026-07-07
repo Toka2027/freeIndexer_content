@@ -1,7 +1,7 @@
 ---
 title: "Fixing Crawled Currently Not Indexed"
 slug: fixing-crawled-currently-not-indexed
-description: "Troubleshooting"
+description: "A practical guide for SEO operators to improve page readiness, covering live URL checks, crawl access, and canonical signals and fix crawled currently not indexed."
 keywords:
   primary: fix crawled currently not indexed
   secondary:
@@ -42,7 +42,7 @@ meta:
   word_target: 1500
 seo:
   meta_title: "Fixing Crawled Currently Not Indexed"
-  meta_description: "Use Fixing Crawled Currently Not Indexed to plan, diagnose, prioritize, and report fix crawled currently not indexed workflows for seo operators with practica"
+  meta_description: "Diagnose fix crawled currently not indexed by reviewing live URL checks, crawl access, and canonical signals, practical fixes, and the next indexing action."
 editorial_review: standard
 content_quality:
   search_promise: "This article satisfies the title promise by explaining fix crawled currently not indexed for seo operator workflows with specific checks, examples, and next actions."

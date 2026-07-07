@@ -1,7 +1,7 @@
 ---
 title: "Content Structure For AI Search Discovery"
 slug: content-structure-for-ai-search-discovery
-description: "Informational"
+description: "A practical guide for SaaS and product teams to structure content clearly, covering crawlable content, entity clarity, and structured information and content structure for AI search discovery."
 keywords:
   primary: content structure for AI search discovery
   secondary:
@@ -41,7 +41,7 @@ meta:
   word_target: 1500
 seo:
   meta_title: "Content Structure For AI Search Discovery"
-  meta_description: "Use Content Structure For AI Search Discovery to plan, diagnose, prioritize, and report content structure for AI search discovery workflows for saas or produc"
+  meta_description: "Learn content structure for AI search discovery and structure content clearly, using practical checks for crawlable content and clear next actions."
 editorial_review: standard
 content_quality:
   search_promise: "This article satisfies the title promise by explaining content structure for AI search discovery for saas or product team workflows with specific checks, examples, and next actions."

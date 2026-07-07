@@ -1,7 +1,7 @@
 ---
 title: "How Search Visibility Works"
 slug: how-search-visibility-works
-description: "Informational"
+description: "A practical guide for website owners to understand the visibility system, covering crawlability, discovery signals, and sitemaps and how search visibility works."
 keywords:
   primary: how search visibility works
   secondary:
@@ -42,7 +42,7 @@ meta:
   word_target: 1500
 seo:
   meta_title: "How Search Visibility Works"
-  meta_description: "Use How Search Visibility Works to plan, diagnose, prioritize, and report how search visibility works workflows for website owners with practical checks and n"
+  meta_description: "Learn about how search visibility works, covering crawlability and discovery signals, common mistakes, and clear next actions for search discovery."
 editorial_review: standard
 content_quality:
   search_promise: "This article satisfies the title promise by explaining how search visibility works for website owner workflows with specific checks, examples, and next actions."

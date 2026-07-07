@@ -35,7 +35,7 @@ meta:
   word_target: 1300
 seo:
   meta_title: "SEO Workflow For Blog And Network Owners"
-  meta_description: "Learn a practical use cases workflow for seo workflow for blog network owners, including checks, prioritization, realistic expectations, and where submission tools fit."
+  meta_description: "Learn about SEO workflow for blog network owners, covering URL quality and workflow ownership, common mistakes, and clear next actions for search discovery."
 editorial_review: standard
 ---
 

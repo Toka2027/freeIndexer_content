@@ -35,7 +35,7 @@ meta:
   word_target: 1200
 seo:
   meta_title: "Content Visibility Checklist For Website Owners"
-  meta_description: "Learn a practical webmaster guides workflow for content visibility checklist, including checks, prioritization, realistic expectations, and where submission tools fit."
+  meta_description: "Follow this content visibility checklist for crawlability, sitemaps, internal links, and Search Console, practical fixes, and clearer indexing follow-up."
 editorial_review: standard
 ---
 

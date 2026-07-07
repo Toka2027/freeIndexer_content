@@ -37,7 +37,7 @@ meta:
   word_target: 1600
 seo:
   meta_title: "Google Found The Wrong Canonical: Diagnosis And Fixes"
-  meta_description: "Diagnose wrong Google-selected canonical URLs with examples, checks, a decision table, and fixes for SEO operators."
+  meta_description: "Diagnose Google found wrong canonical by reviewing live URL checks, crawl access, and canonical signals, practical fixes, and the next indexing action."
 editorial_review: standard
 content_quality:
   search_promise: "This article explains why Google may choose a different canonical URL and gives SEO operators a diagnostic workflow for fixing or accepting the choice."

@@ -1,7 +1,7 @@
 ---
 title: "GSC Client Reporting Workflow"
 slug: gsc-client-reporting-workflow
-description: "Informational-commercial"
+description: "A practical guide for SEO agencies to report GSC issues honestly, covering URL Inspection, Page indexing reports, and sitemaps and GSC client reporting workflow."
 keywords:
   primary: GSC client reporting workflow
   secondary:
@@ -41,7 +41,7 @@ meta:
   word_target: 1500
 seo:
   meta_title: "GSC Client Reporting Workflow"
-  meta_description: "Use GSC Client Reporting Workflow to plan, diagnose, prioritize, and report GSC client reporting workflow workflows for seo agencys with practical checks and "
+  meta_description: "Learn about GSC client reporting workflow, covering URL Inspection and Page indexing reports, common mistakes, and clear next actions for search discovery."
 editorial_review: standard
 content_quality:
   search_promise: "This article satisfies the title promise by explaining GSC client reporting workflow for seo agency workflows with specific checks, examples, and next actions."

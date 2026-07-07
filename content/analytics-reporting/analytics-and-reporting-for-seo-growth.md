@@ -1,7 +1,7 @@
 ---
 title: "Analytics And Reporting For SEO Growth"
 slug: analytics-and-reporting-for-seo-growth
-description: "Informational"
+description: "A practical guide for growth teams to build an SEO reporting base, covering indexing status, Search Console data, and landing pages and analytics and reporting for SEO growth."
 keywords:
   primary: analytics and reporting for SEO growth
   secondary:
@@ -40,7 +40,7 @@ meta:
   word_target: 1500
 seo:
   meta_title: "Analytics And Reporting For SEO Growth"
-  meta_description: "Use Analytics And Reporting For SEO Growth to plan, diagnose, prioritize, and report analytics and reporting for SEO growth workflows for growth operators wit"
+  meta_description: "Learn analytics and reporting for SEO growth and build an SEO reporting base, using practical checks for indexing status and clear next actions."
 editorial_review: standard
 content_quality:
   search_promise: "This article satisfies the title promise by explaining analytics and reporting for SEO growth for growth operator workflows with specific checks, examples, and next actions."

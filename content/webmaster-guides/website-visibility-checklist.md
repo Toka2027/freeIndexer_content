@@ -1,7 +1,7 @@
 ---
 title: "Website Visibility Checklist"
 slug: website-visibility-checklist
-description: "Informational"
+description: "A practical guide for website owners to run a monthly visibility checklist, covering crawlability, sitemaps, and internal links and website visibility checklist."
 keywords:
   primary: website visibility checklist
   secondary:
@@ -41,7 +41,7 @@ meta:
   word_target: 1500
 seo:
   meta_title: "Website Visibility Checklist"
-  meta_description: "Use Website Visibility Checklist to plan, diagnose, prioritize, and report website visibility checklist workflows for website owners with practical checks and"
+  meta_description: "Follow this website visibility checklist for crawlability, sitemaps, internal links, and Search Console, practical fixes, and clearer indexing follow-up."
 editorial_review: standard
 content_quality:
   search_promise: "This article satisfies the title promise by explaining website visibility checklist for website owner workflows with specific checks, examples, and next actions."

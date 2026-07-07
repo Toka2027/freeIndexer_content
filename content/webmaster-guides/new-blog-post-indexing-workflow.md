@@ -36,7 +36,7 @@ meta:
   word_target: 1200
 seo:
   meta_title: "New Blog Post Indexing Workflow"
-  meta_description: "Learn a practical webmaster guides workflow for new blog post indexing workflow, including checks, prioritization, realistic expectations, and where submission tools fit."
+  meta_description: "Learn about new blog post indexing workflow, covering crawlability and sitemaps, common mistakes, and clear next actions for search discovery."
 editorial_review: standard
 ---
 

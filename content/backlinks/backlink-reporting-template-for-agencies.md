@@ -1,7 +1,7 @@
 ---
 title: "Backlink Reporting Template For Agencies"
 slug: backlink-reporting-template-for-agencies
-description: "Informational-commercial"
+description: "A practical guide for SEO agencies to report backlinks in client-safe language, covering link verification, source-page quality, and discovery status and backlink reporting template for agencies."
 keywords:
   primary: backlink reporting template for agencies
   secondary:
@@ -40,7 +40,7 @@ meta:
   word_target: 1500
 seo:
   meta_title: "Backlink Reporting Template For Agencies"
-  meta_description: "Use Backlink Reporting Template For Agencies to plan, diagnose, prioritize, and report backlink reporting template for agencies workflows for seo agencys with"
+  meta_description: "Learn about backlink reporting template for agencies, covering link verification, common mistakes, and clear next actions for search discovery."
 editorial_review: standard
 content_quality:
   search_promise: "This article satisfies the title promise by explaining backlink reporting template for agencies for seo agency workflows with specific checks, examples, and next actions."

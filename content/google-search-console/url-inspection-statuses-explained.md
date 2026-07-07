@@ -37,7 +37,7 @@ meta:
   word_target: 1300
 seo:
   meta_title: "URL Inspection Statuses Explained"
-  meta_description: "Learn a practical google search console workflow for URL Inspection statuses, including checks, prioritization, realistic expectations, and where submission tools fit."
+  meta_description: "Learn about URL Inspection statuses, covering URL Inspection and Page indexing reports, common mistakes, and clear next actions for search discovery."
 editorial_review: standard
 ---
 

@@ -1,7 +1,7 @@
 ---
 title: "Internal Linking Basics For Website Owners"
 slug: internal-linking-basics-for-website-owners
-description: "Informational"
+description: "A practical guide for website owners to improve discovery paths, covering crawlability, sitemaps, and internal links and internal linking basics for website owners."
 keywords:
   primary: internal linking basics for website owners
   secondary:
@@ -42,7 +42,7 @@ meta:
   word_target: 1500
 seo:
   meta_title: "Internal Linking Basics For Website Owners"
-  meta_description: "Use Internal Linking Basics For Website Owners to plan, diagnose, prioritize, and report internal linking basics for website owners workflows for website owne"
+  meta_description: "Learn about internal linking basics for website owners, covering crawlability and sitemaps, common mistakes, and clear next actions for search discovery."
 editorial_review: standard
 content_quality:
   search_promise: "This article satisfies the title promise by explaining internal linking basics for website owners for website owner workflows with specific checks, examples, and next actions."

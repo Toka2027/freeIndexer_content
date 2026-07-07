@@ -1,7 +1,7 @@
 ---
 title: "Vendor Management Workflow For SEO Campaigns"
 slug: vendor-management-workflow-for-seo-campaigns
-description: "Informational-commercial"
+description: "A practical guide for SEO agencies to manage provider handoffs, covering owners, quality gates, and due dates and vendor management workflow for SEO campaigns."
 keywords:
   primary: vendor management workflow for SEO campaigns
   secondary:
@@ -41,7 +41,7 @@ meta:
   word_target: 1500
 seo:
   meta_title: "Vendor Management Workflow For SEO Campaigns"
-  meta_description: "Use Vendor Management Workflow For SEO Campaigns to plan, diagnose, prioritize, and report vendor management workflow for SEO campaigns workflows for seo agen"
+  meta_description: "Learn about vendor management workflow for SEO campaigns, covering owners and quality gates, common mistakes, and clear next actions for search discovery."
 editorial_review: standard
 content_quality:
   search_promise: "This article satisfies the title promise by explaining vendor management workflow for SEO campaigns for seo agency workflows with specific checks, examples, and next actions."

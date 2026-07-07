@@ -1,7 +1,7 @@
 ---
 title: "Conversion Focused CTA Checklist"
 slug: conversion-focused-cta-checklist
-description: "Informational"
+description: "A practical guide for founders to improve page actions, covering search intent, page structure, and trust signals and conversion focused CTA checklist."
 keywords:
   primary: conversion focused CTA checklist
   secondary:
@@ -40,7 +40,7 @@ meta:
   word_target: 1500
 seo:
   meta_title: "Conversion Focused CTA Checklist"
-  meta_description: "Use Conversion Focused CTA Checklist to plan, diagnose, prioritize, and report conversion focused CTA checklist workflows for founders with practical checks a"
+  meta_description: "Follow this conversion focused CTA checklist for search intent, page structure, and trust signals, practical fixes, and clearer indexing follow-up."
 editorial_review: standard
 content_quality:
   search_promise: "This article satisfies the title promise by explaining conversion focused CTA checklist for founder workflows with specific checks, examples, and next actions."

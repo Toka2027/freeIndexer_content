@@ -36,7 +36,7 @@ meta:
   word_target: 1200
 seo:
   meta_title: "Website Owner SEO Maintenance Checklist"
-  meta_description: "Learn a practical webmaster guides workflow for SEO maintenance checklist, including checks, prioritization, realistic expectations, and where submission tools fit."
+  meta_description: "Follow this SEO maintenance checklist for crawlability, sitemaps, internal links, and Search Console, practical fixes, and clearer indexing follow-up."
 editorial_review: standard
 ---
 

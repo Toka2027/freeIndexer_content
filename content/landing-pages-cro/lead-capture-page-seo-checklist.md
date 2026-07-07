@@ -1,7 +1,7 @@
 ---
 title: "Lead Capture Page SEO Checklist"
 slug: lead-capture-page-seo-checklist
-description: "Informational-commercial"
+description: "A practical guide for founders to build better lead pages, covering search intent, page structure, and trust signals and lead capture page SEO checklist."
 keywords:
   primary: lead capture page SEO checklist
   secondary:
@@ -41,7 +41,7 @@ meta:
   word_target: 1500
 seo:
   meta_title: "Lead Capture Page SEO Checklist"
-  meta_description: "Use Lead Capture Page SEO Checklist to plan, diagnose, prioritize, and report lead capture page SEO checklist workflows for founders with practical checks and"
+  meta_description: "Follow this lead capture page SEO checklist for search intent, page structure, and trust signals, practical fixes, and clearer indexing follow-up."
 editorial_review: standard
 content_quality:
   search_promise: "This article satisfies the title promise by explaining lead capture page SEO checklist for founder workflows with specific checks, examples, and next actions."

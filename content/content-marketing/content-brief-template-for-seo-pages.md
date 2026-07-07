@@ -1,7 +1,7 @@
 ---
 title: "Content Brief Template For SEO Pages"
 slug: content-brief-template-for-seo-pages
-description: "Informational-commercial"
+description: "A practical guide for SaaS and product teams to create stronger SEO briefs, covering search intent, content structure, and internal links and content brief template for SEO pages."
 keywords:
   primary: content brief template for SEO pages
   secondary:
@@ -41,7 +41,7 @@ meta:
   word_target: 1500
 seo:
   meta_title: "Content Brief Template For SEO Pages"
-  meta_description: "Use Content Brief Template For SEO Pages to plan, diagnose, prioritize, and report content brief template for SEO pages workflows for saas or product teams wi"
+  meta_description: "Learn about content brief template for SEO pages, covering search intent and content structure, common mistakes, and clear next actions for search discovery."
 editorial_review: standard
 content_quality:
   search_promise: "This article satisfies the title promise by explaining content brief template for SEO pages for saas or product team workflows with specific checks, examples, and next actions."

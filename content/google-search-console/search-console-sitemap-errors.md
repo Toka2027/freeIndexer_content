@@ -36,7 +36,7 @@ meta:
   word_target: 1300
 seo:
   meta_title: "Search Console Sitemap Errors"
-  meta_description: "Learn a practical google search console workflow for Search Console sitemap errors, including checks, prioritization, realistic expectations, and where submission tools fit."
+  meta_description: "Diagnose Search Console sitemap errors by reviewing URL Inspection, Page indexing reports, and sitemaps, practical fixes, and the next indexing action."
 editorial_review: standard
 ---
 

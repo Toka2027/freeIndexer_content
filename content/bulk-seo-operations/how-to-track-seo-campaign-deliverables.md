@@ -1,7 +1,7 @@
 ---
 title: "How To Track SEO Campaign Deliverables"
 slug: how-to-track-seo-campaign-deliverables
-description: "Informational-commercial"
+description: "A practical guide for SEO agencies to track campaign outputs, covering URL inventory fields, quality gates, and priority tiers and track SEO campaign deliverables."
 keywords:
   primary: track SEO campaign deliverables
   secondary:
@@ -41,7 +41,7 @@ meta:
   word_target: 1500
 seo:
   meta_title: "How To Track SEO Campaign Deliverables"
-  meta_description: "Use How To Track SEO Campaign Deliverables to plan, diagnose, prioritize, and report track SEO campaign deliverables workflows for seo agencys with practical "
+  meta_description: "Learn track SEO campaign deliverables and track campaign outputs, using practical checks for URL inventory fields and quality gates and clear next actions."
 editorial_review: standard
 content_quality:
   search_promise: "This article satisfies the title promise by explaining track SEO campaign deliverables for seo agency workflows with specific checks, examples, and next actions."

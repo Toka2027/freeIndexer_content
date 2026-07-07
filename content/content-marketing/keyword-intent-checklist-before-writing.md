@@ -1,7 +1,7 @@
 ---
 title: "Keyword Intent Checklist Before Writing"
 slug: keyword-intent-checklist-before-writing
-description: "Informational"
+description: "A practical guide for content teams to match content to intent, covering search intent, content structure, and internal links and keyword intent checklist before writing."
 keywords:
   primary: keyword intent checklist before writing
   secondary:
@@ -41,7 +41,7 @@ meta:
   word_target: 1500
 seo:
   meta_title: "Keyword Intent Checklist Before Writing"
-  meta_description: "Use Keyword Intent Checklist Before Writing to plan, diagnose, prioritize, and report keyword intent checklist before writing workflows for content marketers "
+  meta_description: "Use this keyword intent checklist before writing to review search intent and content structure, prioritize fixes, and plan reliable indexing follow-up."
 editorial_review: standard
 content_quality:
   search_promise: "This article satisfies the title promise by explaining keyword intent checklist before writing for content marketer workflows with specific checks, examples, and next actions."

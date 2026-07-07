@@ -35,7 +35,7 @@ meta:
   word_target: 1300
 seo:
   meta_title: "Bulk URL Operations Workflow For SEO Teams"
-  meta_description: "Learn a practical bulk seo operations workflow for bulk url operations workflow, including checks, prioritization, realistic expectations, and where submission tools fit."
+  meta_description: "Learn about bulk URL operations workflow, covering URL inventory fields and quality gates, common mistakes, and clear next actions for search discovery."
 editorial_review: standard
 ---
 

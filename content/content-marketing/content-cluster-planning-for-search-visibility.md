@@ -1,7 +1,7 @@
 ---
 title: "Content Cluster Planning For Search Visibility"
 slug: content-cluster-planning-for-search-visibility
-description: "Informational"
+description: "A practical guide for content teams to build a cluster map, covering search intent, content structure, and internal links and content cluster planning for search visibility."
 keywords:
   primary: content cluster planning for search visibility
   secondary:
@@ -40,7 +40,7 @@ meta:
   word_target: 1500
 seo:
   meta_title: "Content Cluster Planning For Search Visibility"
-  meta_description: "Use Content Cluster Planning For Search Visibility to plan, diagnose, prioritize, and report content cluster planning for search visibility workflows for cont"
+  meta_description: "Learn about content cluster planning for search visibility, covering search intent, common mistakes, and clear next actions for search discovery."
 editorial_review: standard
 content_quality:
   search_promise: "This article satisfies the title promise by explaining content cluster planning for search visibility for content marketer workflows with specific checks, examples, and next actions."

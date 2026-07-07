@@ -35,7 +35,7 @@ meta:
   word_target: 1300
 seo:
   meta_title: "Google Indexing Delay Checklist"
-  meta_description: "Learn a practical indexing education workflow for google indexing delay, including checks, prioritization, realistic expectations, and where submission tools fit."
+  meta_description: "Follow this Google indexing delay for crawlability, discovery signals, sitemaps, and internal links, practical fixes, and clearer indexing follow-up."
 editorial_review: standard
 ---
 

@@ -37,7 +37,7 @@ meta:
   word_target: 1300
 seo:
   meta_title: "Indexing Signals That Help Google Discover Content"
-  meta_description: "Learn a practical indexing education workflow for indexing signals, including checks, prioritization, realistic expectations, and where submission tools fit."
+  meta_description: "Learn about indexing signals, covering crawlability, discovery signals, and sitemaps, common mistakes, and clear next actions for search discovery."
 editorial_review: standard
 ---
 

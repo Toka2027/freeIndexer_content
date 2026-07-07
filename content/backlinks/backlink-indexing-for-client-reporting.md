@@ -36,7 +36,7 @@ meta:
   word_target: 1300
 seo:
   meta_title: "Backlink Indexing For Client Reporting"
-  meta_description: "Learn a practical backlinks workflow for backlink indexing client reporting, including checks, prioritization, realistic expectations, and where submission tools fit."
+  meta_description: "Learn about backlink indexing client reporting, covering link verification, common mistakes, and clear next actions for search discovery."
 editorial_review: standard
 ---
 

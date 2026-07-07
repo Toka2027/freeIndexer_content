@@ -77,6 +77,13 @@ GENERIC_TEMPLATE_PHRASES = [
     "keep the workflow honest: check the url",
 ]
 
+GENERIC_DESCRIPTIONS = {
+    "informational",
+    "informational-commercial",
+    "commercial investigation",
+    "troubleshooting",
+}
+
 QUALITY_CHECKS = [
     "search_intent_match",
     "icp_fit",
@@ -202,6 +209,8 @@ def main() -> int:
     warnings: list[str] = []
     files = sorted(CONTENT_DIR.rglob("*.md"))
     taxonomy_categories, taxonomy_tags = load_taxonomy()
+    descriptions: dict[str, Path] = {}
+    meta_descriptions: dict[str, Path] = {}
 
     for path in files:
         rel = path.relative_to(ROOT)
@@ -230,6 +239,36 @@ def main() -> int:
             for tag in frontmatter_list(fm, "blog_tags"):
                 if tag not in taxonomy_tags:
                     errors.append(f"{rel}: blog_tag '{tag}' is not in reference/blog_taxonomy.json")
+
+        description = frontmatter_value(fm, "description")
+        if description.lower() in GENERIC_DESCRIPTIONS:
+            errors.append(f"{rel}: description is a search-intent label, not a public summary")
+        if len(description) < 70:
+            errors.append(f"{rel}: description is too short ({len(description)} characters)")
+        if description and not re.search(r"[.!?]$", description):
+            errors.append(f"{rel}: description must end with sentence punctuation")
+        description_key = description.casefold()
+        if description_key in descriptions:
+            errors.append(f"{rel}: duplicate description also used by {descriptions[description_key]}")
+        elif description_key:
+            descriptions[description_key] = rel
+
+        seo_block = frontmatter_block(fm, "seo")
+        meta_description = block_scalar(seo_block, "meta_description")
+        if not 120 <= len(meta_description) <= 160:
+            errors.append(
+                f"{rel}: seo.meta_description must be 120-160 characters "
+                f"(found {len(meta_description)})"
+            )
+        if meta_description and not re.search(r"[.!?]$", meta_description):
+            errors.append(f"{rel}: seo.meta_description must end with sentence punctuation")
+        meta_key = meta_description.casefold()
+        if meta_key in meta_descriptions:
+            errors.append(
+                f"{rel}: duplicate seo.meta_description also used by {meta_descriptions[meta_key]}"
+            )
+        elif meta_key:
+            meta_descriptions[meta_key] = rel
 
         lower = text.lower()
         for phrase in FORBIDDEN:

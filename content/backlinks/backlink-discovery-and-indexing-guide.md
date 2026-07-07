@@ -1,7 +1,7 @@
 ---
 title: "Backlink Discovery And Indexing Guide"
 slug: backlink-discovery-and-indexing-guide
-description: "A practical guide to backlink discovery, backlink indexing, and building a clean workflow for links that deserve search engine discovery."
+description: "A practical guide for affiliate marketers to build a clean backlink discovery list, then submit the links that are worth tracking., covering link verification, source-page quality, and discovery status and backlink discovery."
 keywords:
   primary: backlink discovery
   secondary:
@@ -46,7 +46,7 @@ meta:
   word_target: 1200
 seo:
   meta_title: "Backlink Discovery And Indexing Guide"
-  meta_description: "Learn a practical backlink discovery and indexing workflow for known links, supporting pages, affiliate campaigns, and agency reporting."
+  meta_description: "Learn about backlink discovery, covering link verification and source-page quality, common mistakes, and clear next actions for search discovery."
 editorial_review: standard
 content_quality:
   search_promise: "This article explains backlink discovery and indexing workflows for affiliates and agencies, including qualification, prioritization, submission, tracking, and reporting limits."

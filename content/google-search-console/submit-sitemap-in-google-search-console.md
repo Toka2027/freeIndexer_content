@@ -45,7 +45,7 @@ meta:
   word_target: 1300
 seo:
   meta_title: "How To Submit A Sitemap In Google Search Console"
-  meta_description: "Learn a practical google search console workflow for submit sitemap google search console, including checks, prioritization, realistic expectations, and where submission tools fit."
+  meta_description: "Learn about submit sitemap Google search console, covering URL Inspection, common mistakes, and clear next actions for search discovery."
 editorial_review: standard
 content_quality:
   search_promise: "This article satisfies the title promise of How To Submit A Sitemap In Google Search Console for website owner workflows with specific checks, examples, and next actions."

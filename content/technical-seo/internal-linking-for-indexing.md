@@ -35,7 +35,7 @@ meta:
   word_target: 1400
 seo:
   meta_title: "Internal Linking For Indexing And Discovery"
-  meta_description: "Learn a practical technical seo workflow for internal linking for indexing, including checks, prioritization, realistic expectations, and where submission tools fit."
+  meta_description: "Learn about internal linking for indexing, covering status codes and robots directives, common mistakes, and clear next actions for search discovery."
 editorial_review: standard
 ---
 

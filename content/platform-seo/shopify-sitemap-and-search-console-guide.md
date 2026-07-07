@@ -1,7 +1,7 @@
 ---
 title: "Shopify Sitemap And Search Console Guide"
 slug: shopify-sitemap-and-search-console-guide
-description: "Informational"
+description: "A practical guide for ecommerce teams to connect Shopify to GSC, covering template settings, canonical URLs, and sitemaps and Shopify sitemap Search Console guide."
 keywords:
   primary: Shopify sitemap Search Console guide
   secondary:
@@ -42,7 +42,7 @@ meta:
   word_target: 1500
 seo:
   meta_title: "Shopify Sitemap And Search Console Guide"
-  meta_description: "Use Shopify Sitemap And Search Console Guide to plan, diagnose, prioritize, and report Shopify sitemap Search Console guide workflows for ecommerce store owne"
+  meta_description: "Learn Shopify sitemap Search Console guide and connect Shopify to GSC, using practical checks for template settings and canonical URLs and clear next actions."
 editorial_review: standard
 content_quality:
   search_promise: "This article satisfies the title promise by explaining Shopify sitemap Search Console guide for ecommerce store owner workflows with specific checks, examples, and next actions."

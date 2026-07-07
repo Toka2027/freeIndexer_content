@@ -1,0 +1,632 @@
+{
+  "mode": "apply",
+  "articles_updated": 78,
+  "descriptions_updated": 78,
+  "meta_descriptions_updated": 0,
+  "items": [
+    {
+      "slug": "content-structure-for-ai-search-discovery",
+      "description_changed": true,
+      "meta_description_changed": false,
+      "description": "A practical guide for SaaS and product teams to structure content clearly, covering crawlable content, entity clarity, and structured information and content structure for AI search discovery.",
+      "meta_description": "Learn content structure for AI search discovery and structure content clearly, using practical checks for crawlable content and clear next actions.",
+      "meta_length": 147
+    },
+    {
+      "slug": "entity-clarity-for-seo-and-ai-search",
+      "description_changed": true,
+      "meta_description_changed": false,
+      "description": "A practical guide for SEO operators to clarify entities, covering crawlable content, entity clarity, and structured information and entity clarity for SEO and AI search.",
+      "meta_description": "Learn entity clarity for SEO and AI search and clarify entities, using practical checks for crawlable content and entity clarity and clear next actions.",
+      "meta_length": 152
+    },
+    {
+      "slug": "analytics-and-reporting-for-seo-growth",
+      "description_changed": true,
+      "meta_description_changed": false,
+      "description": "A practical guide for growth teams to build an SEO reporting base, covering indexing status, Search Console data, and landing pages and analytics and reporting for SEO growth.",
+      "meta_description": "Learn analytics and reporting for SEO growth and build an SEO reporting base, using practical checks for indexing status and clear next actions.",
+      "meta_length": 144
+    },
+    {
+      "slug": "ga4-basics-for-seo-reporting",
+      "description_changed": true,
+      "meta_description_changed": false,
+      "description": "A practical guide for webmasters to set up basic SEO reports, covering indexing status, Search Console data, and landing pages and GA4 basics for SEO reporting.",
+      "meta_description": "Learn about GA4 basics for SEO reporting, covering indexing status and Search Console data, common mistakes, and clear next actions for search discovery.",
+      "meta_length": 153
+    },
+    {
+      "slug": "indexing-vs-traffic-reporting",
+      "description_changed": true,
+      "meta_description_changed": false,
+      "description": "A practical guide for SEO agencies to explain outcome differences, covering indexing status, Search Console data, and landing pages and indexing vs traffic reporting.",
+      "meta_description": "Compare indexing vs traffic reporting by indexing status and Search Console data to choose a practical workflow with realistic limits and clear reporting.",
+      "meta_length": 154
+    },
+    {
+      "slug": "monthly-seo-reporting-dashboard",
+      "description_changed": true,
+      "meta_description_changed": false,
+      "description": "A practical guide for SEO agencies to create a monthly dashboard, covering indexing status, Search Console data, and landing pages and monthly SEO reporting dashboard.",
+      "meta_description": "Learn about monthly SEO reporting dashboard, covering indexing status and Search Console data, common mistakes, and clear next actions for search discovery.",
+      "meta_length": 156
+    },
+    {
+      "slug": "track-organic-landing-pages",
+      "description_changed": true,
+      "meta_description_changed": false,
+      "description": "A practical guide for SaaS and product teams to monitor landing page value, covering indexing status, Search Console data, and landing pages and track organic landing pages.",
+      "meta_description": "Learn about track organic landing pages, covering indexing status and Search Console data, common mistakes, and clear next actions for search discovery.",
+      "meta_length": 152
+    },
+    {
+      "slug": "affiliate-backlink-tracking-workflow",
+      "description_changed": true,
+      "meta_description_changed": false,
+      "description": "A practical guide for affiliate marketers to prioritize affiliate campaign links, covering link verification, source-page quality, and discovery status and affiliate backlink tracking workflow.",
+      "meta_description": "Learn affiliate backlink tracking workflow and prioritize affiliate campaign links, using practical checks for link verification and clear next actions.",
+      "meta_length": 152
+    },
+    {
+      "slug": "backlink-discovery-and-indexing-guide",
+      "description_changed": true,
+      "meta_description_changed": false,
+      "description": "A practical guide for affiliate marketers to build a clean backlink discovery list, then submit the links that are worth tracking., covering link verification, source-page quality, and discovery status and backlink discovery.",
+      "meta_description": "Learn about backlink discovery, covering link verification and source-page quality, common mistakes, and clear next actions for search discovery.",
+      "meta_length": 145
+    },
+    {
+      "slug": "backlink-reporting-template-for-agencies",
+      "description_changed": true,
+      "meta_description_changed": false,
+      "description": "A practical guide for SEO agencies to report backlinks in client-safe language, covering link verification, source-page quality, and discovery status and backlink reporting template for agencies.",
+      "meta_description": "Learn about backlink reporting template for agencies, covering link verification, common mistakes, and clear next actions for search discovery.",
+      "meta_length": 143
+    },
+    {
+      "slug": "campaign-checklist-for-repeatable-seo",
+      "description_changed": true,
+      "meta_description_changed": false,
+      "description": "A practical guide for growth teams to run campaigns with checks, covering URL inventory fields, quality gates, and priority tiers and campaign checklist for repeatable SEO.",
+      "meta_description": "Use this campaign checklist for repeatable SEO to review URL inventory fields and quality gates, prioritize fixes, and plan reliable indexing follow-up.",
+      "meta_length": 152
+    },
+    {
+      "slug": "how-to-manage-seo-software-without-losing-quality",
+      "description_changed": true,
+      "meta_description_changed": false,
+      "description": "A practical guide for SEO operators to add quality gates, covering URL inventory fields, quality gates, and priority tiers and manage SEO software without losing quality.",
+      "meta_description": "Learn about manage SEO software without losing quality, covering URL inventory fields, common mistakes, and clear next actions for search discovery.",
+      "meta_length": 148
+    },
+    {
+      "slug": "how-to-track-seo-campaign-deliverables",
+      "description_changed": true,
+      "meta_description_changed": false,
+      "description": "A practical guide for SEO agencies to track campaign outputs, covering URL inventory fields, quality gates, and priority tiers and track SEO campaign deliverables.",
+      "meta_description": "Learn track SEO campaign deliverables and track campaign outputs, using practical checks for URL inventory fields and quality gates and clear next actions.",
+      "meta_length": 155
+    },
+    {
+      "slug": "saas-website-seo-indexing-workflow",
+      "description_changed": true,
+      "meta_description_changed": false,
+      "description": "A practical guide for SaaS and product teams to prioritize SaaS URLs, covering URL inventory fields, quality gates, and priority tiers and SaaS website SEO indexing workflow.",
+      "meta_description": "Learn SaaS website SEO indexing workflow and prioritize SaaS URLs, using practical checks for URL inventory fields and quality gates and clear next actions.",
+      "meta_length": 156
+    },
+    {
+      "slug": "free-url-indexer",
+      "description_changed": true,
+      "meta_description_changed": false,
+      "description": "A practical guide for website owners to try the FreeIndexer workflow and upgrade only when you need more daily capacity., covering crawlability, discovery signals, and sitemaps and free URL indexer.",
+      "meta_description": "Learn what a free URL indexer can do, what it cannot guarantee, and how FreeIndexer supports a practical URL submission workflow.",
+      "meta_length": 129
+    },
+    {
+      "slug": "link-building-tools-vs-indexing-tools",
+      "description_changed": true,
+      "meta_description_changed": false,
+      "description": "A practical guide for tool evaluators to separate creation from discovery, covering setup effort, workflow control, and verification and link-building tools vs indexing tools.",
+      "meta_description": "Compare link-building tools vs indexing tools by setup effort and workflow control to choose a practical workflow with realistic limits and clear reporting.",
+      "meta_length": 156
+    },
+    {
+      "slug": "tools-providers-and-workflow-comparisons",
+      "description_changed": true,
+      "meta_description_changed": false,
+      "description": "A practical guide for tool evaluators to choose the workflow role first, covering setup effort, workflow control, and verification and SEO tools and providers comparison.",
+      "meta_description": "Compare SEO tools and providers comparison by setup effort and workflow control to choose a practical workflow with realistic limits and clear reporting.",
+      "meta_length": 153
+    },
+    {
+      "slug": "blog-publishing-checklist-for-indexing",
+      "description_changed": true,
+      "meta_description_changed": false,
+      "description": "A practical guide for blog and network owners to publish with discovery checks, covering search intent, content structure, and internal links and blog publishing checklist for indexing.",
+      "meta_description": "Use this blog publishing checklist for indexing to review search intent and content structure, prioritize fixes, and plan reliable indexing follow-up.",
+      "meta_length": 150
+    },
+    {
+      "slug": "content-brief-template-for-seo-pages",
+      "description_changed": true,
+      "meta_description_changed": false,
+      "description": "A practical guide for SaaS and product teams to create stronger SEO briefs, covering search intent, content structure, and internal links and content brief template for SEO pages.",
+      "meta_description": "Learn about content brief template for SEO pages, covering search intent and content structure, common mistakes, and clear next actions for search discovery.",
+      "meta_length": 157
+    },
+    {
+      "slug": "content-cluster-planning-for-search-visibility",
+      "description_changed": true,
+      "meta_description_changed": false,
+      "description": "A practical guide for content teams to build a cluster map, covering search intent, content structure, and internal links and content cluster planning for search visibility.",
+      "meta_description": "Learn about content cluster planning for search visibility, covering search intent, common mistakes, and clear next actions for search discovery.",
+      "meta_length": 145
+    },
+    {
+      "slug": "content-refresh-workflow-for-organic-growth",
+      "description_changed": true,
+      "meta_description_changed": false,
+      "description": "A practical guide for growth teams to refresh pages by data, covering search intent, content structure, and internal links and content refresh workflow for organic growth.",
+      "meta_description": "Learn about content refresh workflow for organic growth, covering search intent, common mistakes, and clear next actions for search discovery.",
+      "meta_length": 142
+    },
+    {
+      "slug": "content-visibility-reporting-for-content-teams",
+      "description_changed": true,
+      "meta_description_changed": false,
+      "description": "A practical guide for content teams to report content progress clearly, covering search intent, content structure, and internal links and content visibility reporting for content teams.",
+      "meta_description": "Learn content visibility reporting for content teams and report content progress clearly, using practical checks for search intent and clear next actions.",
+      "meta_length": 154
+    },
+    {
+      "slug": "keyword-intent-checklist-before-writing",
+      "description_changed": true,
+      "meta_description_changed": false,
+      "description": "A practical guide for content teams to match content to intent, covering search intent, content structure, and internal links and keyword intent checklist before writing.",
+      "meta_description": "Use this keyword intent checklist before writing to review search intent and content structure, prioritize fixes, and plan reliable indexing follow-up.",
+      "meta_length": 151
+    },
+    {
+      "slug": "on-page-seo-checklist-for-new-content",
+      "description_changed": true,
+      "meta_description_changed": false,
+      "description": "A practical guide for website owners to publish stronger pages, covering search intent, content structure, and internal links and on-page SEO checklist for new content.",
+      "meta_description": "Use this on-page SEO checklist for new content to review search intent and content structure, prioritize fixes, and plan reliable indexing follow-up.",
+      "meta_length": 149
+    },
+    {
+      "slug": "freeindexer-desktop-app-workflow-stack",
+      "description_changed": true,
+      "meta_description_changed": false,
+      "description": "A practical guide for blog and network owners to use desktop workflows for repeat lists, covering local URL lists, batch controls, and verification and FreeIndexer desktop app workflow stack.",
+      "meta_description": "Learn FreeIndexer desktop app workflow stack and use desktop workflows for repeat lists, using practical checks for local URL lists and clear next actions.",
+      "meta_length": 155
+    },
+    {
+      "slug": "how-to-track-links-created-by-seo-software",
+      "description_changed": true,
+      "meta_description_changed": false,
+      "description": "A practical guide for SEO operators to track created links responsibly, covering local URL lists, batch controls, and verification and track links created by SEO software.",
+      "meta_description": "Learn about track links created by SEO software, covering local URL lists and batch controls, common mistakes, and clear next actions for search discovery.",
+      "meta_length": 155
+    },
+    {
+      "slug": "content-calendar-for-seo-growth",
+      "description_changed": true,
+      "meta_description_changed": false,
+      "description": "A practical guide for content teams to plan content operations, covering owners, quality gates, and due dates and content calendar for SEO growth.",
+      "meta_description": "A practical guide to content calendar for SEO growth for content teams, covering owners, quality gates, and due dates and how to plan content operations.",
+      "meta_length": 153
+    },
+    {
+      "slug": "digital-marketing-operations-workflow",
+      "description_changed": true,
+      "meta_description_changed": false,
+      "description": "A practical guide for growth teams to build a marketing operating system, covering owners, quality gates, and due dates and digital marketing operations workflow.",
+      "meta_description": "Learn about digital marketing operations workflow, covering owners and quality gates, common mistakes, and clear next actions for search discovery.",
+      "meta_length": 147
+    },
+    {
+      "slug": "marketing-task-workflow-for-small-teams",
+      "description_changed": true,
+      "meta_description_changed": false,
+      "description": "A practical guide for founders to assign repeatable work, covering owners, quality gates, and due dates and marketing task workflow for small teams.",
+      "meta_description": "Learn marketing task workflow for small teams and assign repeatable work, using practical checks for owners and quality gates and clear next actions.",
+      "meta_length": 149
+    },
+    {
+      "slug": "seo-qa-process-before-publishing",
+      "description_changed": true,
+      "meta_description_changed": false,
+      "description": "A practical guide for SaaS and product teams to add SEO QA gates, covering owners, quality gates, and due dates and SEO QA process before publishing.",
+      "meta_description": "Learn SEO QA process before publishing and add SEO QA gates, using practical checks for owners, quality gates, and due dates and clear next actions.",
+      "meta_length": 148
+    },
+    {
+      "slug": "vendor-management-workflow-for-seo-campaigns",
+      "description_changed": true,
+      "meta_description_changed": false,
+      "description": "A practical guide for SEO agencies to manage provider handoffs, covering owners, quality gates, and due dates and vendor management workflow for SEO campaigns.",
+      "meta_description": "Learn about vendor management workflow for SEO campaigns, covering owners and quality gates, common mistakes, and clear next actions for search discovery.",
+      "meta_length": 154
+    },
+    {
+      "slug": "google-search-console-basics",
+      "description_changed": true,
+      "meta_description_changed": false,
+      "description": "A practical guide for website owners to set up basic GSC checks, covering URL Inspection, Page indexing reports, and sitemaps and Google Search Console basics.",
+      "meta_description": "Learn about Google Search Console basics, covering URL Inspection and Page indexing reports, common mistakes, and clear next actions for search discovery.",
+      "meta_length": 154
+    },
+    {
+      "slug": "google-search-console-indexing-guide",
+      "description_changed": true,
+      "meta_description_changed": false,
+      "description": "A practical guide for webmasters to use Search Console to diagnose the URL first, then submit priority URLs through a repeatable workflow., covering URL Inspection, Page indexing reports, and sitemaps and Google search console indexing.",
+      "meta_description": "Use this Google Search Console indexing guide to check URL Inspection, sitemaps, crawlability, and the right next step before URL submission.",
+      "meta_length": 141
+    },
+    {
+      "slug": "google-search-console-playbook",
+      "description_changed": true,
+      "meta_description_changed": false,
+      "description": "A practical guide for webmasters to use GSC as the diagnostic base, covering URL Inspection, Page indexing reports, and sitemaps and Google Search Console playbook.",
+      "meta_description": "Learn about Google Search Console playbook, covering URL Inspection and Page indexing reports, common mistakes, and clear next actions for search discovery.",
+      "meta_length": 156
+    },
+    {
+      "slug": "gsc-client-reporting-workflow",
+      "description_changed": true,
+      "meta_description_changed": false,
+      "description": "A practical guide for SEO agencies to report GSC issues honestly, covering URL Inspection, Page indexing reports, and sitemaps and GSC client reporting workflow.",
+      "meta_description": "Learn about GSC client reporting workflow, covering URL Inspection and Page indexing reports, common mistakes, and clear next actions for search discovery.",
+      "meta_length": 155
+    },
+    {
+      "slug": "pages-report-troubleshooting-workflow",
+      "description_changed": true,
+      "meta_description_changed": false,
+      "description": "A practical guide for webmasters to group GSC issues by fix type, covering URL Inspection, Page indexing reports, and sitemaps and Pages report troubleshooting workflow.",
+      "meta_description": "Learn Pages report troubleshooting workflow and group GSC issues by fix type, using practical checks for URL Inspection and clear next actions.",
+      "meta_length": 143
+    },
+    {
+      "slug": "url-inspection-decision-tree",
+      "description_changed": true,
+      "meta_description_changed": false,
+      "description": "A practical guide for SEO operators to choose the next action by status, covering URL Inspection, Page indexing reports, and sitemaps and URL Inspection decision tree.",
+      "meta_description": "Learn about URL Inspection decision tree, covering URL Inspection and Page indexing reports, common mistakes, and clear next actions for search discovery.",
+      "meta_length": 154
+    },
+    {
+      "slug": "documentation-site-indexing-workflow",
+      "description_changed": true,
+      "meta_description_changed": false,
+      "description": "A practical guide for SaaS and product teams to improve docs discovery, covering crawlability, discovery signals, and sitemaps and documentation site indexing workflow.",
+      "meta_description": "Learn documentation site indexing workflow and improve docs discovery, using practical checks for crawlability and discovery signals and clear next actions.",
+      "meta_length": 156
+    },
+    {
+      "slug": "how-search-visibility-works",
+      "description_changed": true,
+      "meta_description_changed": false,
+      "description": "A practical guide for website owners to understand the visibility system, covering crawlability, discovery signals, and sitemaps and how search visibility works.",
+      "meta_description": "Learn about how search visibility works, covering crawlability and discovery signals, common mistakes, and clear next actions for search discovery.",
+      "meta_length": 147
+    },
+    {
+      "slug": "indexing-and-discovery-tool-stack",
+      "description_changed": true,
+      "meta_description_changed": false,
+      "description": "A practical guide for SEO operators to build a discovery stack, covering crawlability, discovery signals, and sitemaps and indexing and discovery tool stack.",
+      "meta_description": "Learn about indexing and discovery tool stack, covering crawlability and discovery signals, common mistakes, and clear next actions for search discovery.",
+      "meta_length": 153
+    },
+    {
+      "slug": "indexing-vs-ranking-vs-visibility",
+      "description_changed": true,
+      "meta_description_changed": false,
+      "description": "A practical guide for website owners to separate indexing ranking and visibility, covering crawlability, discovery signals, and sitemaps and indexing vs ranking vs visibility.",
+      "meta_description": "Compare indexing vs ranking vs visibility by crawlability and discovery signals to choose a practical workflow with realistic limits and clear reporting.",
+      "meta_length": 153
+    },
+    {
+      "slug": "seo-campaign-workflow-from-provider-to-indexing",
+      "description_changed": true,
+      "meta_description_changed": false,
+      "description": "A practical guide for SEO agencies to connect provider work to follow-up, covering crawlability, discovery signals, and sitemaps and SEO campaign workflow from provider to indexing.",
+      "meta_description": "Learn about SEO campaign workflow from provider to indexing, covering crawlability, common mistakes, and clear next actions for search discovery.",
+      "meta_length": 145
+    },
+    {
+      "slug": "conversion-focused-cta-checklist",
+      "description_changed": true,
+      "meta_description_changed": false,
+      "description": "A practical guide for founders to improve page actions, covering search intent, page structure, and trust signals and conversion focused CTA checklist.",
+      "meta_description": "Follow this conversion focused CTA checklist for search intent, page structure, and trust signals, practical fixes, and clearer indexing follow-up.",
+      "meta_length": 147
+    },
+    {
+      "slug": "landing-page-trust-section-checklist",
+      "description_changed": true,
+      "meta_description_changed": false,
+      "description": "A practical guide for SaaS and product teams to add proof and clarity, covering search intent, page structure, and trust signals and landing page trust section checklist.",
+      "meta_description": "Follow this landing page trust section checklist for search intent, page structure, and trust signals, practical fixes, and clearer indexing follow-up.",
+      "meta_length": 151
+    },
+    {
+      "slug": "lead-capture-page-seo-checklist",
+      "description_changed": true,
+      "meta_description_changed": false,
+      "description": "A practical guide for founders to build better lead pages, covering search intent, page structure, and trust signals and lead capture page SEO checklist.",
+      "meta_description": "Follow this lead capture page SEO checklist for search intent, page structure, and trust signals, practical fixes, and clearer indexing follow-up.",
+      "meta_length": 146
+    },
+    {
+      "slug": "pricing-page-seo-and-cro",
+      "description_changed": true,
+      "meta_description_changed": false,
+      "description": "A practical guide for SaaS and product teams to make pricing pages discoverable, covering search intent, page structure, and trust signals and pricing page SEO and CRO.",
+      "meta_description": "Learn pricing page SEO and CRO and make pricing pages discoverable, using practical checks for search intent and page structure and clear next actions.",
+      "meta_length": 151
+    },
+    {
+      "slug": "seo-landing-page-structure",
+      "description_changed": true,
+      "meta_description_changed": false,
+      "description": "A practical guide for SaaS and product teams to structure pages for search and action, covering search intent, page structure, and trust signals and SEO landing page structure.",
+      "meta_description": "Learn about SEO landing page structure, covering search intent and page structure, common mistakes, and clear next actions for search discovery.",
+      "meta_length": 144
+    },
+    {
+      "slug": "platform-seo-playbooks",
+      "description_changed": true,
+      "meta_description_changed": false,
+      "description": "A practical guide for ecommerce teams to choose the right platform checks, covering template settings, canonical URLs, and sitemaps and platform SEO playbooks.",
+      "meta_description": "Learn platform SEO playbooks and choose the right platform checks, using practical checks for template settings and canonical URLs and clear next actions.",
+      "meta_length": 154
+    },
+    {
+      "slug": "shopify-sitemap-and-search-console-guide",
+      "description_changed": true,
+      "meta_description_changed": false,
+      "description": "A practical guide for ecommerce teams to connect Shopify to GSC, covering template settings, canonical URLs, and sitemaps and Shopify sitemap Search Console guide.",
+      "meta_description": "Learn Shopify sitemap Search Console guide and connect Shopify to GSC, using practical checks for template settings and canonical URLs and clear next actions.",
+      "meta_length": 158
+    },
+    {
+      "slug": "webflow-seo-indexing-guide",
+      "description_changed": true,
+      "meta_description_changed": false,
+      "description": "A practical guide for website owners to audit Webflow discoverability, covering template settings, canonical URLs, and sitemaps and Webflow SEO indexing guide.",
+      "meta_description": "Learn about Webflow SEO indexing guide, covering template settings and canonical URLs, common mistakes, and clear next actions for search discovery.",
+      "meta_length": 148
+    },
+    {
+      "slug": "woocommerce-category-page-seo-workflow",
+      "description_changed": true,
+      "meta_description_changed": false,
+      "description": "A practical guide for ecommerce teams to improve category visibility, covering template settings, canonical URLs, and sitemaps and WooCommerce category page SEO workflow.",
+      "meta_description": "Learn WooCommerce category page SEO workflow and improve category visibility, using practical checks for template settings and clear next actions.",
+      "meta_length": 146
+    },
+    {
+      "slug": "best-seo-automation-tools-for-agencies",
+      "description_changed": true,
+      "meta_description_changed": false,
+      "description": "A practical guide for SEO agencies to compare automation responsibly, covering workflow roles, quality control, and verification and best SEO automation tools for agencies.",
+      "meta_description": "Learn best SEO automation tools for agencies and compare automation responsibly, using practical checks for workflow roles and clear next actions.",
+      "meta_length": 146
+    },
+    {
+      "slug": "seo-automation-vs-managed-seo-services",
+      "description_changed": true,
+      "meta_description_changed": false,
+      "description": "A practical guide for SEO agencies to choose execution model, covering workflow roles, quality control, and verification and SEO automation vs managed SEO services.",
+      "meta_description": "Compare SEO automation vs managed SEO services by workflow roles and quality control to choose a practical workflow with realistic limits and clear reporting.",
+      "meta_length": 158
+    },
+    {
+      "slug": "seo-software-and-automation-tools",
+      "description_changed": true,
+      "meta_description_changed": false,
+      "description": "A practical guide for SEO operators to use automation responsibly, covering workflow roles, quality control, and verification and SEO software and automation tools.",
+      "meta_description": "Learn about SEO software and automation tools, covering workflow roles and quality control, common mistakes, and clear next actions for search discovery.",
+      "meta_length": 153
+    },
+    {
+      "slug": "canonical-audit-workflow-for-seo-teams",
+      "description_changed": true,
+      "meta_description_changed": false,
+      "description": "A practical guide for SEO operators to audit canonical patterns, covering status codes, robots directives, and canonical signals and canonical audit workflow.",
+      "meta_description": "Learn canonical audit workflow and audit canonical patterns, using practical checks for status codes and robots directives and clear next actions.",
+      "meta_length": 146
+    },
+    {
+      "slug": "crawlability-audit-workflow",
+      "description_changed": true,
+      "meta_description_changed": false,
+      "description": "A practical guide for SEO operators to find crawl blockers before submission, covering status codes, robots directives, and canonical signals and crawlability audit workflow.",
+      "meta_description": "Learn about crawlability audit workflow, covering status codes and robots directives, common mistakes, and clear next actions for search discovery.",
+      "meta_length": 147
+    },
+    {
+      "slug": "internal-linking-system-for-large-sites",
+      "description_changed": true,
+      "meta_description_changed": false,
+      "description": "A practical guide for programmatic SEO teams to build repeatable linking rules, covering status codes, robots directives, and canonical signals and internal linking system for large sites.",
+      "meta_description": "Learn internal linking system for large sites and build repeatable linking rules, using practical checks for status codes and clear next actions.",
+      "meta_length": 145
+    },
+    {
+      "slug": "sitemap-and-robots-basics",
+      "description_changed": true,
+      "meta_description_changed": false,
+      "description": "A practical guide for webmasters to fix discovery basics before submission, covering status codes, robots directives, and canonical signals and sitemap and robots basics.",
+      "meta_description": "Learn about sitemap and robots basics, covering status codes and robots directives, common mistakes, and clear next actions for search discovery.",
+      "meta_length": 145
+    },
+    {
+      "slug": "sitemap-cleanup-workflow-for-large-sites",
+      "description_changed": true,
+      "meta_description_changed": false,
+      "description": "A practical guide for programmatic SEO teams to clean sitemap inventories, covering status codes, robots directives, and canonical signals and sitemap cleanup workflow.",
+      "meta_description": "Learn sitemap cleanup workflow and clean sitemap inventories, using practical checks for status codes and robots directives and clear next actions.",
+      "meta_length": 147
+    },
+    {
+      "slug": "technical-seo-for-operators",
+      "description_changed": true,
+      "meta_description_changed": false,
+      "description": "A practical guide for SEO operators to build a technical SEO operating queue, covering status codes, robots directives, and canonical signals and technical SEO for operators.",
+      "meta_description": "Learn about technical SEO for operators, covering status codes and robots directives, common mistakes, and clear next actions for search discovery.",
+      "meta_length": 147
+    },
+    {
+      "slug": "technical-seo-foundations-for-ai-search",
+      "description_changed": true,
+      "meta_description_changed": false,
+      "description": "A practical guide for SEO operators to keep AI discovery crawlable, covering status codes, robots directives, and canonical signals and technical SEO foundations for AI search.",
+      "meta_description": "Learn technical SEO foundations for AI search and keep AI discovery crawlable, using practical checks for status codes and clear next actions.",
+      "meta_length": 142
+    },
+    {
+      "slug": "fixing-crawled-currently-not-indexed",
+      "description_changed": true,
+      "meta_description_changed": false,
+      "description": "A practical guide for SEO operators to improve page readiness, covering live URL checks, crawl access, and canonical signals and fix crawled currently not indexed.",
+      "meta_description": "Diagnose fix crawled currently not indexed by reviewing live URL checks, crawl access, and canonical signals, practical fixes, and the next indexing action.",
+      "meta_length": 156
+    },
+    {
+      "slug": "fixing-discovered-currently-not-indexed",
+      "description_changed": true,
+      "meta_description_changed": false,
+      "description": "A practical guide for SEO operators to fix discovery without guessing, covering live URL checks, crawl access, and canonical signals and fix discovered currently not indexed.",
+      "meta_description": "Troubleshoot fix discovered currently not indexed with checks for live URL checks and crawl access, then prioritize fixes and indexing follow-up.",
+      "meta_length": 145
+    },
+    {
+      "slug": "google-not-crawling-my-sitemap-urls",
+      "description_changed": true,
+      "meta_description_changed": false,
+      "description": "A practical guide for webmasters to check sitemap quality, crawlability, internal links, and URL value before resubmitting the sitemap., covering live URL checks, crawl access, and canonical signals and Google not crawling sitemap URLs.",
+      "meta_description": "Diagnose Google not crawling sitemap URLs by reviewing live URL checks, crawl access, and canonical signals, practical fixes, and the next indexing action.",
+      "meta_length": 155
+    },
+    {
+      "slug": "how-to-verify-seo-campaign-results",
+      "description_changed": true,
+      "meta_description_changed": false,
+      "description": "A practical guide for growth teams to verify outcomes carefully, covering live URL checks, crawl access, and canonical signals and verify SEO campaign results.",
+      "meta_description": "Diagnose verify SEO campaign results by reviewing live URL checks, crawl access, and canonical signals, practical fixes, and the next indexing action.",
+      "meta_length": 150
+    },
+    {
+      "slug": "noindex-mistakes-seo-teams-miss",
+      "description_changed": true,
+      "meta_description_changed": false,
+      "description": "A practical guide for SEO operators to find accidental exclusions, covering live URL checks, crawl access, and canonical signals and noindex mistakes SEO.",
+      "meta_description": "Troubleshoot noindex mistakes SEO with checks for live URL checks, crawl access, and canonical signals, then prioritize fixes and indexing follow-up.",
+      "meta_length": 149
+    },
+    {
+      "slug": "troubleshooting-tool-stack-for-seo-teams",
+      "description_changed": true,
+      "meta_description_changed": false,
+      "description": "A practical guide for SEO operators to choose tools for diagnosis first, covering live URL checks, crawl access, and canonical signals and troubleshooting tool stack for SEO teams.",
+      "meta_description": "Troubleshoot troubleshooting tool stack for SEO teams with checks for live URL checks and crawl access, then prioritize fixes and indexing follow-up.",
+      "meta_length": 149
+    },
+    {
+      "slug": "client-reporting-workflow-for-seo-agencies",
+      "description_changed": true,
+      "meta_description_changed": false,
+      "description": "A practical guide for SEO agencies to standardize client reporting, covering URL quality, workflow ownership, and prioritization and client reporting workflow for SEO agencies.",
+      "meta_description": "Learn client reporting workflow for SEO agencies and standardize client reporting, using practical checks for URL quality and clear next actions.",
+      "meta_length": 145
+    },
+    {
+      "slug": "landing-page-indexing-checklist",
+      "description_changed": true,
+      "meta_description_changed": false,
+      "description": "A practical guide for SEO operators to submit pages after checks, covering URL quality, workflow ownership, and prioritization and landing page indexing checklist.",
+      "meta_description": "Follow this landing page indexing checklist for URL quality, workflow ownership, and prioritization, practical fixes, and clearer indexing follow-up.",
+      "meta_length": 149
+    },
+    {
+      "slug": "link-building-provider-checklist-for-local-seo-campaigns",
+      "description_changed": true,
+      "meta_description_changed": false,
+      "description": "A practical guide for SEO agencies to verify local campaign links, covering URL quality, workflow ownership, and prioritization and link-building provider checklist local SEO.",
+      "meta_description": "Use this link-building provider checklist local SEO to review URL quality and workflow ownership, prioritize fixes, and plan reliable indexing follow-up.",
+      "meta_length": 153
+    },
+    {
+      "slug": "small-website-seo-provider-handoff-checklist",
+      "description_changed": true,
+      "meta_description_changed": false,
+      "description": "A practical guide for website owners to prepare a clean provider handoff, covering URL quality, workflow ownership, and prioritization and small website SEO provider handoff checklist.",
+      "meta_description": "Use this small website SEO provider handoff checklist to review URL quality and workflow ownership, prioritize fixes, and plan reliable indexing follow-up.",
+      "meta_length": 155
+    },
+    {
+      "slug": "client-seo-reporting-template",
+      "description_changed": true,
+      "meta_description_changed": false,
+      "description": "A practical guide for SEO agencies to report SEO work with context, covering crawlability, sitemaps, and internal links and client SEO reporting template.",
+      "meta_description": "Learn client SEO reporting template and report SEO work with context, using practical checks for crawlability and sitemaps and clear next actions.",
+      "meta_length": 146
+    },
+    {
+      "slug": "how-to-plan-an-seo-campaign-for-a-new-website",
+      "description_changed": true,
+      "meta_description_changed": false,
+      "description": "A practical guide for website owners to plan a new-site campaign, covering crawlability, sitemaps, and internal links and plan SEO campaign for new website.",
+      "meta_description": "Learn plan SEO campaign for new website and plan a new-site campaign, using practical checks for crawlability and sitemaps and clear next actions.",
+      "meta_length": 146
+    },
+    {
+      "slug": "indexing-checklist-for-new-websites",
+      "description_changed": true,
+      "meta_description_changed": false,
+      "description": "A practical guide for website owners to complete the launch checks before submitting your most important pages., covering crawlability, sitemaps, and internal links and indexing checklist for new website.",
+      "meta_description": "Use this indexing checklist for new website to review crawlability, sitemaps, and internal links, prioritize fixes, and plan reliable indexing follow-up.",
+      "meta_length": 153
+    },
+    {
+      "slug": "internal-linking-basics-for-website-owners",
+      "description_changed": true,
+      "meta_description_changed": false,
+      "description": "A practical guide for website owners to improve discovery paths, covering crawlability, sitemaps, and internal links and internal linking basics for website owners.",
+      "meta_description": "Learn about internal linking basics for website owners, covering crawlability and sitemaps, common mistakes, and clear next actions for search discovery.",
+      "meta_length": 153
+    },
+    {
+      "slug": "seo-basics-for-website-owners",
+      "description_changed": true,
+      "meta_description_changed": false,
+      "description": "A practical guide for website owners to build a simple visibility checklist, covering crawlability, sitemaps, and internal links and SEO basics for website owners.",
+      "meta_description": "Learn SEO basics for website owners and build a simple visibility checklist, using practical checks for crawlability and sitemaps and clear next actions.",
+      "meta_length": 153
+    },
+    {
+      "slug": "seo-tool-stack-for-small-websites",
+      "description_changed": true,
+      "meta_description_changed": false,
+      "description": "A practical guide for website owners to choose a lean SEO stack, covering crawlability, sitemaps, and internal links and SEO tool stack for small websites.",
+      "meta_description": "Learn SEO tool stack for small websites and choose a lean SEO stack, using practical checks for crawlability and sitemaps and clear next actions.",
+      "meta_length": 145
+    },
+    {
+      "slug": "website-visibility-checklist",
+      "description_changed": true,
+      "meta_description_changed": false,
+      "description": "A practical guide for website owners to run a monthly visibility checklist, covering crawlability, sitemaps, and internal links and website visibility checklist.",
+      "meta_description": "Follow this website visibility checklist for crawlability, sitemaps, internal links, and Search Console, practical fixes, and clearer indexing follow-up.",
+      "meta_length": 153
+    }
+  ]
+}

@@ -35,7 +35,7 @@ meta:
   word_target: 1400
 seo:
   meta_title: "Robots.txt And Indexing: What Website Owners Should Check"
-  meta_description: "Learn a practical technical seo workflow for robots txt indexing, including checks, prioritization, realistic expectations, and where submission tools fit."
+  meta_description: "Learn robots txt indexing and audit robots rules before using URL submission., using practical checks for status codes and clear next actions."
 editorial_review: standard
 ---
 

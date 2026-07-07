@@ -1,7 +1,7 @@
 ---
 title: "Client SEO Reporting Template"
 slug: client-seo-reporting-template
-description: "Informational-commercial"
+description: "A practical guide for SEO agencies to report SEO work with context, covering crawlability, sitemaps, and internal links and client SEO reporting template."
 keywords:
   primary: client SEO reporting template
   secondary:
@@ -40,7 +40,7 @@ meta:
   word_target: 1500
 seo:
   meta_title: "Client SEO Reporting Template"
-  meta_description: "Use Client SEO Reporting Template to plan, diagnose, prioritize, and report client SEO reporting template workflows for seo agencys with practical checks and "
+  meta_description: "Learn client SEO reporting template and report SEO work with context, using practical checks for crawlability and sitemaps and clear next actions."
 editorial_review: standard
 content_quality:
   search_promise: "This article satisfies the title promise by explaining client SEO reporting template for seo agency workflows with specific checks, examples, and next actions."

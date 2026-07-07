@@ -1,7 +1,7 @@
 ---
 title: "SEO Landing Page Structure"
 slug: seo-landing-page-structure
-description: "Informational-commercial"
+description: "A practical guide for SaaS and product teams to structure pages for search and action, covering search intent, page structure, and trust signals and SEO landing page structure."
 keywords:
   primary: SEO landing page structure
   secondary:
@@ -40,7 +40,7 @@ meta:
   word_target: 1500
 seo:
   meta_title: "SEO Landing Page Structure"
-  meta_description: "Use SEO Landing Page Structure to plan, diagnose, prioritize, and report SEO landing page structure workflows for saas or product teams with practical checks "
+  meta_description: "Learn about SEO landing page structure, covering search intent and page structure, common mistakes, and clear next actions for search discovery."
 editorial_review: standard
 content_quality:
   search_promise: "This article satisfies the title promise by explaining SEO landing page structure for saas or product team workflows with specific checks, examples, and next actions."

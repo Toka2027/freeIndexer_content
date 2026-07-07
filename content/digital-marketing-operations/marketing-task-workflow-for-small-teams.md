@@ -1,7 +1,7 @@
 ---
 title: "Marketing Task Workflow For Small Teams"
 slug: marketing-task-workflow-for-small-teams
-description: "Informational"
+description: "A practical guide for founders to assign repeatable work, covering owners, quality gates, and due dates and marketing task workflow for small teams."
 keywords:
   primary: marketing task workflow for small teams
   secondary:
@@ -41,7 +41,7 @@ meta:
   word_target: 1500
 seo:
   meta_title: "Marketing Task Workflow For Small Teams"
-  meta_description: "Use Marketing Task Workflow For Small Teams to plan, diagnose, prioritize, and report marketing task workflow for small teams workflows for founders with prac"
+  meta_description: "Learn marketing task workflow for small teams and assign repeatable work, using practical checks for owners and quality gates and clear next actions."
 editorial_review: standard
 content_quality:
   search_promise: "This article satisfies the title promise by explaining marketing task workflow for small teams for founder workflows with specific checks, examples, and next actions."

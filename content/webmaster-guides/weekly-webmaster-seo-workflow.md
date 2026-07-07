@@ -35,7 +35,7 @@ meta:
   word_target: 1200
 seo:
   meta_title: "Weekly Webmaster SEO Workflow"
-  meta_description: "Learn a practical webmaster guides workflow for weekly webmaster seo workflow, including checks, prioritization, realistic expectations, and where submission tools fit."
+  meta_description: "Learn about weekly webmaster SEO workflow, covering crawlability, sitemaps, and internal links, common mistakes, and clear next actions for search discovery."
 editorial_review: standard
 ---
 

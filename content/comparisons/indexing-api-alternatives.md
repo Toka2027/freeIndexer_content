@@ -35,7 +35,7 @@ meta:
   word_target: 1400
 seo:
   meta_title: "Indexing API Alternatives For SEO Workflows"
-  meta_description: "Learn a practical comparisons workflow for indexing api alternatives, including checks, prioritization, realistic expectations, and where submission tools fit."
+  meta_description: "Compare indexing API alternatives across setup effort and workflow control, then choose the workflow that fits your indexing and reporting needs."
 editorial_review: standard
 ---
 

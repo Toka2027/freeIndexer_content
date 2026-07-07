@@ -43,7 +43,7 @@ meta:
   word_target: 1300
 seo:
   meta_title: "Backlink Quality Before Indexing"
-  meta_description: "Learn a practical backlinks workflow for backlink quality before indexing, including checks, prioritization, realistic expectations, and where submission tools fit."
+  meta_description: "Learn about backlink quality before indexing, covering link verification and source-page quality, common mistakes, and clear next actions for search discovery."
 editorial_review: standard
 content_quality:
   search_promise: "This article satisfies the title promise of Backlink Quality Before Indexing for affiliate marketer workflows with specific checks, examples, and next actions."

@@ -1,7 +1,7 @@
 ---
 title: "How To Plan An SEO Campaign For A New Website"
 slug: how-to-plan-an-seo-campaign-for-a-new-website
-description: "Informational-commercial"
+description: "A practical guide for website owners to plan a new-site campaign, covering crawlability, sitemaps, and internal links and plan SEO campaign for new website."
 keywords:
   primary: plan SEO campaign for new website
   secondary:
@@ -41,7 +41,7 @@ meta:
   word_target: 1500
 seo:
   meta_title: "How To Plan An SEO Campaign For A New Website"
-  meta_description: "Use How To Plan An SEO Campaign For A New Website to plan, diagnose, prioritize, and report plan SEO campaign for new website workflows for website owners wit"
+  meta_description: "Learn plan SEO campaign for new website and plan a new-site campaign, using practical checks for crawlability and sitemaps and clear next actions."
 editorial_review: standard
 content_quality:
   search_promise: "This article satisfies the title promise by explaining plan SEO campaign for new website for website owner workflows with specific checks, examples, and next actions."

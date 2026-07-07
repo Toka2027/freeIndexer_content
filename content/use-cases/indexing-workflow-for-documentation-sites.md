@@ -36,7 +36,7 @@ meta:
   word_target: 1300
 seo:
   meta_title: "Indexing Workflow For Documentation Sites"
-  meta_description: "Learn a practical use cases workflow for documentation site indexing workflow, including checks, prioritization, realistic expectations, and where submission tools fit."
+  meta_description: "Learn about documentation site indexing workflow, covering URL quality and workflow ownership, common mistakes, and clear next actions for search discovery."
 editorial_review: standard
 ---
 

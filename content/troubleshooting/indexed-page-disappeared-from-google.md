@@ -36,7 +36,7 @@ meta:
   word_target: 1400
 seo:
   meta_title: "Indexed Page Disappeared From Google"
-  meta_description: "Learn a practical troubleshooting workflow for indexed page disappeared from Google, including checks, prioritization, realistic expectations, and where submission tools fit."
+  meta_description: "Troubleshoot indexed page disappeared from Google with checks for live URL checks and crawl access, then prioritize fixes and indexing follow-up."
 editorial_review: standard
 ---
 

@@ -1,7 +1,7 @@
 ---
 title: "SaaS Website SEO Indexing Workflow"
 slug: saas-website-seo-indexing-workflow
-description: "Informational-commercial"
+description: "A practical guide for SaaS and product teams to prioritize SaaS URLs, covering URL inventory fields, quality gates, and priority tiers and SaaS website SEO indexing workflow."
 keywords:
   primary: SaaS website SEO indexing workflow
   secondary:
@@ -42,7 +42,7 @@ meta:
   word_target: 1500
 seo:
   meta_title: "SaaS Website SEO Indexing Workflow"
-  meta_description: "Use SaaS Website SEO Indexing Workflow to plan, diagnose, prioritize, and report SaaS website SEO indexing workflow workflows for saas or product teams with p"
+  meta_description: "Learn SaaS website SEO indexing workflow and prioritize SaaS URLs, using practical checks for URL inventory fields and quality gates and clear next actions."
 editorial_review: standard
 content_quality:
   search_promise: "This article satisfies the title promise by explaining SaaS website SEO indexing workflow for saas or product team workflows with specific checks, examples, and next actions."

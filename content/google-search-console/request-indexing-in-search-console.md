@@ -36,7 +36,7 @@ meta:
   word_target: 1300
 seo:
   meta_title: "Request Indexing In Search Console"
-  meta_description: "Learn a practical google search console workflow for request indexing in Search Console, including checks, prioritization, realistic expectations, and where submission tools fit."
+  meta_description: "Learn about request indexing in Search Console, covering URL Inspection and Page indexing reports, common mistakes, and clear next actions for search discovery."
 editorial_review: standard
 ---
 

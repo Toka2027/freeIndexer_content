@@ -45,7 +45,7 @@ meta:
   word_target: 1300
 seo:
   meta_title: "URL Inventory Management For SEO Teams"
-  meta_description: "Learn a practical bulk seo operations workflow for URL inventory management, including checks, prioritization, realistic expectations, and where submission tools fit."
+  meta_description: "Learn about URL inventory management, covering URL inventory fields and quality gates, common mistakes, and clear next actions for search discovery."
 editorial_review: standard
 content_quality:
   search_promise: "This article satisfies the title promise of URL Inventory Management For SEO Teams for seo agency workflows with specific checks, examples, and next actions."

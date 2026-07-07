@@ -1,7 +1,7 @@
 ---
 title: "Platform SEO Playbooks"
 slug: platform-seo-playbooks
-description: "Informational"
+description: "A practical guide for ecommerce teams to choose the right platform checks, covering template settings, canonical URLs, and sitemaps and platform SEO playbooks."
 keywords:
   primary: platform SEO playbooks
   secondary:
@@ -39,7 +39,7 @@ meta:
   word_target: 1500
 seo:
   meta_title: "Platform SEO Playbooks"
-  meta_description: "Use Platform SEO Playbooks to plan, diagnose, prioritize, and report platform SEO playbooks workflows for ecommerce store owners with practical checks and nex"
+  meta_description: "Learn platform SEO playbooks and choose the right platform checks, using practical checks for template settings and canonical URLs and clear next actions."
 editorial_review: standard
 content_quality:
   search_promise: "This article satisfies the title promise by explaining platform SEO playbooks for ecommerce store owner workflows with specific checks, examples, and next actions."

@@ -37,7 +37,7 @@ meta:
   word_target: 1400
 seo:
   meta_title: "Orphan Pages And Indexing"
-  meta_description: "Learn a practical technical seo workflow for orphan pages and indexing, including checks, prioritization, realistic expectations, and where submission tools fit."
+  meta_description: "Learn about orphan pages and indexing, covering status codes and robots directives, common mistakes, and clear next actions for search discovery."
 editorial_review: standard
 ---
 

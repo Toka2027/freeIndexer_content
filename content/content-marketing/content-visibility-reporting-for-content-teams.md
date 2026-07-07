@@ -1,7 +1,7 @@
 ---
 title: "Content Visibility Reporting For Content Teams"
 slug: content-visibility-reporting-for-content-teams
-description: "Informational"
+description: "A practical guide for content teams to report content progress clearly, covering search intent, content structure, and internal links and content visibility reporting for content teams."
 keywords:
   primary: content visibility reporting for content teams
   secondary:
@@ -40,7 +40,7 @@ meta:
   word_target: 1500
 seo:
   meta_title: "Content Visibility Reporting For Content Teams"
-  meta_description: "Use Content Visibility Reporting For Content Teams to plan, diagnose, prioritize, and report content visibility reporting for content teams workflows for cont"
+  meta_description: "Learn content visibility reporting for content teams and report content progress clearly, using practical checks for search intent and clear next actions."
 editorial_review: standard
 content_quality:
   search_promise: "This article satisfies the title promise by explaining content visibility reporting for content teams for content marketer workflows with specific checks, examples, and next actions."

@@ -1,7 +1,7 @@
 ---
 title: "SEO Basics For Website Owners"
 slug: seo-basics-for-website-owners
-description: "Informational"
+description: "A practical guide for website owners to build a simple visibility checklist, covering crawlability, sitemaps, and internal links and SEO basics for website owners."
 keywords:
   primary: seo basics for website owners
   secondary:
@@ -40,7 +40,7 @@ meta:
   word_target: 1500
 seo:
   meta_title: "SEO Basics For Website Owners"
-  meta_description: "Use SEO Basics For Website Owners to plan, diagnose, prioritize, and report seo basics for website owners workflows for website owners with practical checks a"
+  meta_description: "Learn SEO basics for website owners and build a simple visibility checklist, using practical checks for crawlability and sitemaps and clear next actions."
 editorial_review: standard
 content_quality:
   search_promise: "This article satisfies the title promise by explaining seo basics for website owners for website owner workflows with specific checks, examples, and next actions."

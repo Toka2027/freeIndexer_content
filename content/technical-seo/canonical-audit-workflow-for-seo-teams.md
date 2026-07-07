@@ -1,7 +1,7 @@
 ---
 title: "Canonical Audit Workflow For SEO Teams"
 slug: canonical-audit-workflow-for-seo-teams
-description: "Informational"
+description: "A practical guide for SEO operators to audit canonical patterns, covering status codes, robots directives, and canonical signals and canonical audit workflow."
 keywords:
   primary: canonical audit workflow
   secondary:
@@ -42,7 +42,7 @@ meta:
   word_target: 1500
 seo:
   meta_title: "Canonical Audit Workflow For SEO Teams"
-  meta_description: "Use Canonical Audit Workflow For SEO Teams to plan, diagnose, prioritize, and report canonical audit workflow workflows for seo operators with practical check"
+  meta_description: "Learn canonical audit workflow and audit canonical patterns, using practical checks for status codes and robots directives and clear next actions."
 editorial_review: standard
 content_quality:
   search_promise: "This article satisfies the title promise by explaining canonical audit workflow for seo operator workflows with specific checks, examples, and next actions."

@@ -1,7 +1,7 @@
 ---
 title: "Landing Page Trust Section Checklist"
 slug: landing-page-trust-section-checklist
-description: "Informational"
+description: "A practical guide for SaaS and product teams to add proof and clarity, covering search intent, page structure, and trust signals and landing page trust section checklist."
 keywords:
   primary: landing page trust section checklist
   secondary:
@@ -40,7 +40,7 @@ meta:
   word_target: 1500
 seo:
   meta_title: "Landing Page Trust Section Checklist"
-  meta_description: "Use Landing Page Trust Section Checklist to plan, diagnose, prioritize, and report landing page trust section checklist workflows for saas or product teams wi"
+  meta_description: "Follow this landing page trust section checklist for search intent, page structure, and trust signals, practical fixes, and clearer indexing follow-up."
 editorial_review: standard
 content_quality:
   search_promise: "This article satisfies the title promise by explaining landing page trust section checklist for saas or product team workflows with specific checks, examples, and next actions."

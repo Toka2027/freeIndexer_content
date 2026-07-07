@@ -1,7 +1,7 @@
 ---
 title: "Webflow SEO Indexing Guide"
 slug: webflow-seo-indexing-guide
-description: "Informational"
+description: "A practical guide for website owners to audit Webflow discoverability, covering template settings, canonical URLs, and sitemaps and Webflow SEO indexing guide."
 keywords:
   primary: Webflow SEO indexing guide
   secondary:
@@ -41,7 +41,7 @@ meta:
   word_target: 1500
 seo:
   meta_title: "Webflow SEO Indexing Guide"
-  meta_description: "Use Webflow SEO Indexing Guide to plan, diagnose, prioritize, and report Webflow SEO indexing guide workflows for website owners with practical checks and nex"
+  meta_description: "Learn about Webflow SEO indexing guide, covering template settings and canonical URLs, common mistakes, and clear next actions for search discovery."
 editorial_review: standard
 content_quality:
   search_promise: "This article satisfies the title promise by explaining Webflow SEO indexing guide for website owner workflows with specific checks, examples, and next actions."

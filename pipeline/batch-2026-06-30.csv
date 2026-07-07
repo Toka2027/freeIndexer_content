@@ -1,0 +1,31 @@
+batch_order,slug,title,category,primary_keyword,primary_icp,search_intent,hero_template,content_status,hero_status,publish_status
+1,how-to-check-if-a-page-is-indexed-by-google,How To Check If A Page Is Indexed By Google,indexing-education,how to check if a page is indexed by Google,Website Owner,informational,1,created,uploaded,scheduled
+2,url-is-not-on-google-search-console,"How To Fix ""URL Is Not On Google"" In Search Console",google-search-console,URL is not on Google,Website Owner,troubleshooting,2,created,uploaded,scheduled
+3,page-with-redirect-search-console,"How To Handle ""Page With Redirect"" In Search Console",google-search-console,page with redirect Search Console,Webmaster,troubleshooting,3,created,uploaded,scheduled
+4,excluded-by-noindex-tag-fix,"How To Fix ""Excluded By Noindex Tag""",troubleshooting,excluded by noindex tag,Webmaster,troubleshooting,1,created,uploaded,scheduled
+5,duplicate-without-user-selected-canonical,"How To Fix ""Duplicate Without User-Selected Canonical""",troubleshooting,duplicate without user-selected canonical,SEO Operator,troubleshooting,2,created,uploaded,scheduled
+6,soft-404-indexing-issues,Soft 404 Indexing Issues: Diagnosis And Fixes,troubleshooting,soft 404 indexing issues,SEO Operator,troubleshooting,3,created,uploaded,scheduled
+7,blocked-due-to-access-forbidden-403,"How To Fix ""Blocked Due To Access Forbidden (403)""",troubleshooting,blocked due to access forbidden 403,Webmaster,troubleshooting,1,created,uploaded,scheduled
+8,server-error-5xx-indexing,Server Error 5xx And Indexing: Recovery Workflow,troubleshooting,server error 5xx indexing,Webmaster,troubleshooting,2,created,uploaded,scheduled
+9,sitemap-zero-discovered-urls,Sitemap Shows Zero Discovered URLs: What To Check,google-search-console,sitemap zero discovered URLs,Webmaster,troubleshooting,3,created,uploaded,scheduled
+10,xml-sitemap-lastmod-indexing,XML Sitemap Lastmod And Indexing: Practical Rules,technical-seo,XML sitemap lastmod indexing,SEO Operator,informational,1,created,uploaded,scheduled
+11,new-page-internal-linking-checklist,Internal Linking Checklist For A New Page,technical-seo,internal linking checklist for new page,Content Marketer,informational,2,created,uploaded,scheduled
+12,orphan-page-audit-with-search-console,How To Run An Orphan Page Audit With Search Console,google-search-console,orphan page audit Search Console,SEO Operator,informational,3,created,uploaded,scheduled
+13,indexation-rate-calculation,How To Calculate Indexation Rate Without Misleading Reports,analytics-reporting,indexation rate calculation,SEO Agency,informational,1,created,uploaded,scheduled
+14,bulk-indexing-monitoring-workflow,Bulk Indexing Monitoring Workflow For SEO Teams,bulk-seo-operations,bulk indexing monitoring workflow,SEO Operator,informational-commercial,2,created,uploaded,scheduled
+15,backlink-indexing-checker-workflow,Backlink Indexing Checker Workflow: What To Verify,backlinks,backlink indexing checker workflow,SEO Agency,informational-commercial,3,created,uploaded,scheduled
+16,backlinks-not-showing-in-search-console,Why Backlinks Are Not Showing In Search Console,backlinks,backlinks not showing in Search Console,SEO Agency,troubleshooting,1,created,uploaded,scheduled
+17,how-long-backlinks-take-to-be-discovered,How Long Do Backlinks Take To Be Discovered?,backlinks,how long backlinks take to be discovered,Affiliate Marketer,informational,2,created,uploaded,scheduled
+18,tiered-link-indexing-risks,Tiered Link Indexing Risks And Safer Alternatives,backlinks,tiered link indexing risks,SEO Operator,informational,3,created,uploaded,scheduled
+19,404-vs-410-for-indexing,404 vs 410 For Indexing: Which Status Should You Use?,technical-seo,404 vs 410 for indexing,Webmaster,informational,1,created,uploaded,scheduled
+20,javascript-seo-indexing-checklist,JavaScript SEO Indexing Checklist,technical-seo,JavaScript SEO indexing checklist,SaaS Or Product Team,informational,2,created,uploaded,scheduled
+21,faceted-navigation-indexing-guide,Faceted Navigation Indexing Guide For Ecommerce,platform-seo,faceted navigation indexing guide,Ecommerce Store Owner,informational-commercial,3,created,uploaded,scheduled
+22,pagination-indexing-for-ecommerce,Pagination And Indexing For Ecommerce Category Pages,platform-seo,pagination indexing ecommerce,Ecommerce Store Owner,informational,1,created,uploaded,scheduled
+23,hreflang-indexing-checklist,Hreflang And Indexing Checklist For Multilingual Sites,technical-seo,hreflang indexing checklist,SEO Operator,informational,2,created,uploaded,scheduled
+24,staging-site-noindex-launch-checklist,Staging Site Noindex Removal Launch Checklist,webmaster-guides,staging site noindex removal checklist,Webmaster,informational,3,created,uploaded,scheduled
+25,site-migration-indexing-checklist,Site Migration Indexing Checklist,technical-seo,site migration indexing checklist,SEO Operator,informational-commercial,1,created,uploaded,scheduled
+26,domain-change-indexing-recovery,Domain Change Indexing Recovery Workflow,technical-seo,domain change indexing recovery,Website Owner,troubleshooting,2,created,uploaded,scheduled
+27,news-article-indexing-workflow,News Article Indexing Workflow For Fast Publishing Teams,content-marketing,news article indexing workflow,Content Marketer,informational-commercial,3,created,uploaded,scheduled
+28,seasonal-page-indexing-strategy,"Seasonal Page Indexing Strategy: Reuse, Refresh, Or Replace?",content-marketing,seasonal page indexing strategy,Content Marketer,informational-commercial,1,created,uploaded,scheduled
+29,url-indexing-campaign-setup,How To Set Up A URL Indexing Campaign,bulk-seo-operations,URL indexing campaign setup,SEO Agency,informational-commercial,2,created,uploaded,scheduled
+30,freeindexer-first-campaign-guide,FreeIndexer First Campaign Guide,use-cases,FreeIndexer first campaign,Website Owner,commercial investigation,3,created,uploaded,scheduled

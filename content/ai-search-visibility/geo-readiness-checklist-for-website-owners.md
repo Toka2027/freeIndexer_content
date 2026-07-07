@@ -44,7 +44,7 @@ meta:
   word_target: 1200
 seo:
   meta_title: "GEO Readiness Checklist For Website Owners"
-  meta_description: "Learn a practical ai search visibility workflow for GEO readiness checklist, including checks, prioritization, realistic expectations, and where submission tools fit."
+  meta_description: "Follow this GEO readiness checklist for crawlable content, entity clarity, and structured information, practical fixes, and clearer indexing follow-up."
 editorial_review: standard
 content_quality:
   search_promise: "This article satisfies the title promise of GEO Readiness Checklist For Website Owners for website owner workflows with specific checks, examples, and next actions."

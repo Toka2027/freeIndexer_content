@@ -35,7 +35,7 @@ meta:
   word_target: 1400
 seo:
   meta_title: "Submitted URL Not Indexed: What To Check Next"
-  meta_description: "Learn a practical troubleshooting workflow for submitted url not indexed, including checks, prioritization, realistic expectations, and where submission tools fit."
+  meta_description: "Diagnose submitted URL not indexed by reviewing live URL checks, crawl access, and canonical signals, practical fixes, and the next indexing action."
 editorial_review: standard
 ---
 

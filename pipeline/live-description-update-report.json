@@ -1,0 +1,561 @@
+{
+    "mode":  "apply",
+    "published_records_scanned":  162,
+    "mismatches_selected":  137,
+    "updated_count":  137,
+    "would_update_count":  0,
+    "failed_count":  0,
+    "updated":  [
+                    {
+                        "slug":  "ai-search-visibility-for-seo-operators",
+                        "id":  6494
+                    },
+                    {
+                        "slug":  "content-structure-for-ai-search-discovery",
+                        "id":  6599
+                    },
+                    {
+                        "slug":  "entity-clarity-for-seo-and-ai-search",
+                        "id":  6600
+                    },
+                    {
+                        "slug":  "geo-readiness-checklist-for-website-owners",
+                        "id":  6524
+                    },
+                    {
+                        "slug":  "analytics-and-reporting-for-seo-growth",
+                        "id":  6559
+                    },
+                    {
+                        "slug":  "ga4-basics-for-seo-reporting",
+                        "id":  6583
+                    },
+                    {
+                        "slug":  "indexing-vs-traffic-reporting",
+                        "id":  6585
+                    },
+                    {
+                        "slug":  "monthly-seo-reporting-dashboard",
+                        "id":  6586
+                    },
+                    {
+                        "slug":  "track-organic-landing-pages",
+                        "id":  6584
+                    },
+                    {
+                        "slug":  "affiliate-backlink-tracking-workflow",
+                        "id":  6575
+                    },
+                    {
+                        "slug":  "backlink-indexing-checklist",
+                        "id":  6477
+                    },
+                    {
+                        "slug":  "backlink-indexing-for-client-reporting",
+                        "id":  6508
+                    },
+                    {
+                        "slug":  "backlink-quality-before-indexing",
+                        "id":  6506
+                    },
+                    {
+                        "slug":  "backlink-reporting-template-for-agencies",
+                        "id":  6574
+                    },
+                    {
+                        "slug":  "best-backlink-indexer",
+                        "id":  6478
+                    },
+                    {
+                        "slug":  "how-to-get-backlinks-discovered",
+                        "id":  6476
+                    },
+                    {
+                        "slug":  "track-backlink-discovery-for-seo-campaigns",
+                        "id":  6507
+                    },
+                    {
+                        "slug":  "batch-url-submission-workflow",
+                        "id":  6522
+                    },
+                    {
+                        "slug":  "bulk-url-operations-workflow",
+                        "id":  6491
+                    },
+                    {
+                        "slug":  "campaign-checklist-for-repeatable-seo",
+                        "id":  6597
+                    },
+                    {
+                        "slug":  "daily-indexing-points-planning",
+                        "id":  6492
+                    },
+                    {
+                        "slug":  "how-to-manage-seo-software-without-losing-quality",
+                        "id":  6606
+                    },
+                    {
+                        "slug":  "how-to-track-seo-campaign-deliverables",
+                        "id":  6610
+                    },
+                    {
+                        "slug":  "saas-website-seo-indexing-workflow",
+                        "id":  6619
+                    },
+                    {
+                        "slug":  "url-inventory-management-for-seo-teams",
+                        "id":  6521
+                    },
+                    {
+                        "slug":  "backlink-indexing-tool-vs-seo-provider",
+                        "id":  6531
+                    },
+                    {
+                        "slug":  "desktop-indexer-vs-online-indexing-tool",
+                        "id":  6516
+                    },
+                    {
+                        "slug":  "free-url-indexer-vs-paid-indexing-tool",
+                        "id":  6486
+                    },
+                    {
+                        "slug":  "google-search-console-vs-indexing-tool",
+                        "id":  6485
+                    },
+                    {
+                        "slug":  "indexing-api-alternatives",
+                        "id":  6487
+                    },
+                    {
+                        "slug":  "link-building-tools-vs-indexing-tools",
+                        "id":  6604
+                    },
+                    {
+                        "slug":  "manual-url-submission-vs-bulk-indexing-workflow",
+                        "id":  6515
+                    },
+                    {
+                        "slug":  "seo-platform-vs-indexing-tool",
+                        "id":  6517
+                    },
+                    {
+                        "slug":  "tools-providers-and-workflow-comparisons",
+                        "id":  6562
+                    },
+                    {
+                        "slug":  "blog-publishing-checklist-for-indexing",
+                        "id":  6580
+                    },
+                    {
+                        "slug":  "content-brief-template-for-seo-pages",
+                        "id":  6578
+                    },
+                    {
+                        "slug":  "content-cluster-planning-for-search-visibility",
+                        "id":  6576
+                    },
+                    {
+                        "slug":  "content-refresh-workflow-for-organic-growth",
+                        "id":  6581
+                    },
+                    {
+                        "slug":  "content-visibility-reporting-for-content-teams",
+                        "id":  6582
+                    },
+                    {
+                        "slug":  "keyword-intent-checklist-before-writing",
+                        "id":  6577
+                    },
+                    {
+                        "slug":  "on-page-seo-checklist-for-new-content",
+                        "id":  6579
+                    },
+                    {
+                        "slug":  "freeindexer-desktop-app-guide",
+                        "id":  6493
+                    },
+                    {
+                        "slug":  "freeindexer-desktop-app-workflow-stack",
+                        "id":  6623
+                    },
+                    {
+                        "slug":  "how-to-track-links-created-by-seo-software",
+                        "id":  6608
+                    },
+                    {
+                        "slug":  "windows-url-indexing-software-workflow",
+                        "id":  6523
+                    },
+                    {
+                        "slug":  "content-calendar-for-seo-growth",
+                        "id":  6594
+                    },
+                    {
+                        "slug":  "digital-marketing-operations-workflow",
+                        "id":  6561
+                    },
+                    {
+                        "slug":  "marketing-task-workflow-for-small-teams",
+                        "id":  6595
+                    },
+                    {
+                        "slug":  "seo-qa-process-before-publishing",
+                        "id":  6593
+                    },
+                    {
+                        "slug":  "vendor-management-workflow-for-seo-campaigns",
+                        "id":  6596
+                    },
+                    {
+                        "slug":  "google-search-console-basics",
+                        "id":  6551
+                    },
+                    {
+                        "slug":  "google-search-console-pages-report-explained",
+                        "id":  6474
+                    },
+                    {
+                        "slug":  "google-search-console-playbook",
+                        "id":  6558
+                    },
+                    {
+                        "slug":  "gsc-client-reporting-workflow",
+                        "id":  6573
+                    },
+                    {
+                        "slug":  "how-to-use-url-inspection-tool",
+                        "id":  6473
+                    },
+                    {
+                        "slug":  "pages-report-troubleshooting-workflow",
+                        "id":  6570
+                    },
+                    {
+                        "slug":  "request-indexing-in-search-console",
+                        "id":  6504
+                    },
+                    {
+                        "slug":  "search-console-sitemap-errors",
+                        "id":  6505
+                    },
+                    {
+                        "slug":  "submit-sitemap-in-google-search-console",
+                        "id":  6475
+                    },
+                    {
+                        "slug":  "url-inspection-decision-tree",
+                        "id":  6569
+                    },
+                    {
+                        "slug":  "url-inspection-statuses-explained",
+                        "id":  6503
+                    },
+                    {
+                        "slug":  "documentation-site-indexing-workflow",
+                        "id":  6620
+                    },
+                    {
+                        "slug":  "google-indexing-delay-checklist",
+                        "id":  6467
+                    },
+                    {
+                        "slug":  "how-google-discovers-new-urls",
+                        "id":  6465
+                    },
+                    {
+                        "slug":  "how-search-engines-crawl-and-index-pages",
+                        "id":  6495
+                    },
+                    {
+                        "slug":  "how-search-visibility-works",
+                        "id":  6548
+                    },
+                    {
+                        "slug":  "how-to-prioritize-urls-for-indexing",
+                        "id":  6468
+                    },
+                    {
+                        "slug":  "indexing-and-discovery-tool-stack",
+                        "id":  6622
+                    },
+                    {
+                        "slug":  "indexing-signals-that-help-google-discover-content",
+                        "id":  6496
+                    },
+                    {
+                        "slug":  "indexing-vs-ranking-vs-visibility",
+                        "id":  6549
+                    },
+                    {
+                        "slug":  "search-discovery-workflow-for-new-content",
+                        "id":  6498
+                    },
+                    {
+                        "slug":  "seo-campaign-workflow-from-provider-to-indexing",
+                        "id":  6612
+                    },
+                    {
+                        "slug":  "url-indexed-crawled-discovered-difference",
+                        "id":  6529
+                    },
+                    {
+                        "slug":  "url-indexing-vs-ranking",
+                        "id":  6466
+                    },
+                    {
+                        "slug":  "url-submission-checklist-before-indexing",
+                        "id":  6497
+                    },
+                    {
+                        "slug":  "conversion-focused-cta-checklist",
+                        "id":  6588
+                    },
+                    {
+                        "slug":  "landing-page-trust-section-checklist",
+                        "id":  6589
+                    },
+                    {
+                        "slug":  "lead-capture-page-seo-checklist",
+                        "id":  6591
+                    },
+                    {
+                        "slug":  "pricing-page-seo-and-cro",
+                        "id":  6590
+                    },
+                    {
+                        "slug":  "seo-landing-page-structure",
+                        "id":  6560
+                    },
+                    {
+                        "slug":  "platform-seo-playbooks",
+                        "id":  6564
+                    },
+                    {
+                        "slug":  "shopify-sitemap-and-search-console-guide",
+                        "id":  6615
+                    },
+                    {
+                        "slug":  "webflow-seo-indexing-guide",
+                        "id":  6618
+                    },
+                    {
+                        "slug":  "woocommerce-category-page-seo-workflow",
+                        "id":  6616
+                    },
+                    {
+                        "slug":  "best-seo-automation-tools-for-agencies",
+                        "id":  6605
+                    },
+                    {
+                        "slug":  "gsa-search-engine-ranker-vs-indexing-workflow",
+                        "id":  6541
+                    },
+                    {
+                        "slug":  "seo-automation-vs-managed-seo-services",
+                        "id":  6607
+                    },
+                    {
+                        "slug":  "seo-software-and-automation-tools",
+                        "id":  6563
+                    },
+                    {
+                        "slug":  "canonical-audit-workflow-for-seo-teams",
+                        "id":  6565
+                    },
+                    {
+                        "slug":  "canonical-tags-and-indexing",
+                        "id":  6471
+                    },
+                    {
+                        "slug":  "crawl-budget-basics-for-small-sites",
+                        "id":  6501
+                    },
+                    {
+                        "slug":  "crawlability-audit-workflow",
+                        "id":  6555
+                    },
+                    {
+                        "slug":  "crawlability-checklist",
+                        "id":  6469
+                    },
+                    {
+                        "slug":  "internal-linking-for-indexing",
+                        "id":  6472
+                    },
+                    {
+                        "slug":  "internal-linking-system-for-large-sites",
+                        "id":  6568
+                    },
+                    {
+                        "slug":  "noindex-tag-checklist",
+                        "id":  6499
+                    },
+                    {
+                        "slug":  "orphan-pages-and-indexing",
+                        "id":  6502
+                    },
+                    {
+                        "slug":  "robots-txt-and-indexing",
+                        "id":  6470
+                    },
+                    {
+                        "slug":  "sitemap-and-robots-basics",
+                        "id":  6550
+                    },
+                    {
+                        "slug":  "sitemap-cleanup-workflow-for-large-sites",
+                        "id":  6567
+                    },
+                    {
+                        "slug":  "sitemap-indexing-checklist",
+                        "id":  6500
+                    },
+                    {
+                        "slug":  "technical-seo-for-operators",
+                        "id":  6554
+                    },
+                    {
+                        "slug":  "technical-seo-foundations-for-ai-search",
+                        "id":  6601
+                    },
+                    {
+                        "slug":  "canonical-selected-by-google-not-user",
+                        "id":  6519
+                    },
+                    {
+                        "slug":  "fixing-crawled-currently-not-indexed",
+                        "id":  6572
+                    },
+                    {
+                        "slug":  "fixing-discovered-currently-not-indexed",
+                        "id":  6571
+                    },
+                    {
+                        "slug":  "google-found-wrong-canonical-fixes",
+                        "id":  6530
+                    },
+                    {
+                        "slug":  "google-not-crawling-my-sitemap-urls",
+                        "id":  6518
+                    },
+                    {
+                        "slug":  "how-to-verify-seo-campaign-results",
+                        "id":  6611
+                    },
+                    {
+                        "slug":  "indexed-page-disappeared-from-google",
+                        "id":  6520
+                    },
+                    {
+                        "slug":  "noindex-mistakes-seo-teams-miss",
+                        "id":  6566
+                    },
+                    {
+                        "slug":  "page-crawled-but-not-indexed",
+                        "id":  6490
+                    },
+                    {
+                        "slug":  "sitemap-not-discovered",
+                        "id":  6489
+                    },
+                    {
+                        "slug":  "submitted-url-not-indexed",
+                        "id":  6488
+                    },
+                    {
+                        "slug":  "troubleshooting-tool-stack-for-seo-teams",
+                        "id":  6624
+                    },
+                    {
+                        "slug":  "client-reporting-workflow-for-seo-agencies",
+                        "id":  6598
+                    },
+                    {
+                        "slug":  "indexing-workflow-for-documentation-sites",
+                        "id":  6514
+                    },
+                    {
+                        "slug":  "indexing-workflow-for-ecommerce-category-pages",
+                        "id":  6513
+                    },
+                    {
+                        "slug":  "indexing-workflow-for-local-seo-pages",
+                        "id":  6512
+                    },
+                    {
+                        "slug":  "landing-page-indexing-checklist",
+                        "id":  6592
+                    },
+                    {
+                        "slug":  "link-building-provider-checklist-for-local-seo-campaigns",
+                        "id":  6613
+                    },
+                    {
+                        "slug":  "saas-content-indexing-workflow",
+                        "id":  6484
+                    },
+                    {
+                        "slug":  "search-discovery-workflow-for-seo-agencies",
+                        "id":  6482
+                    },
+                    {
+                        "slug":  "seo-workflow-for-blog-network-owners",
+                        "id":  6483
+                    },
+                    {
+                        "slug":  "small-website-seo-provider-handoff-checklist",
+                        "id":  6614
+                    },
+                    {
+                        "slug":  "client-seo-reporting-template",
+                        "id":  6587
+                    },
+                    {
+                        "slug":  "content-visibility-checklist",
+                        "id":  6481
+                    },
+                    {
+                        "slug":  "how-to-plan-an-seo-campaign-for-a-new-website",
+                        "id":  6609
+                    },
+                    {
+                        "slug":  "indexing-checklist-for-new-websites",
+                        "id":  6480
+                    },
+                    {
+                        "slug":  "internal-linking-basics-for-website-owners",
+                        "id":  6552
+                    },
+                    {
+                        "slug":  "new-blog-post-indexing-workflow",
+                        "id":  6510
+                    },
+                    {
+                        "slug":  "seo-basics-for-website-owners",
+                        "id":  6547
+                    },
+                    {
+                        "slug":  "seo-tool-stack-for-small-websites",
+                        "id":  6621
+                    },
+                    {
+                        "slug":  "small-business-search-visibility-workflow",
+                        "id":  6511
+                    },
+                    {
+                        "slug":  "website-owner-seo-maintenance-checklist",
+                        "id":  6509
+                    },
+                    {
+                        "slug":  "website-visibility-checklist",
+                        "id":  6553
+                    },
+                    {
+                        "slug":  "weekly-webmaster-seo-workflow",
+                        "id":  6479
+                    }
+                ],
+    "failed":  [
+
+               ]
+}

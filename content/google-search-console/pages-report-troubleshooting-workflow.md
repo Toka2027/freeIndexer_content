@@ -1,7 +1,7 @@
 ---
 title: "Pages Report Troubleshooting Workflow"
 slug: pages-report-troubleshooting-workflow
-description: "Troubleshooting"
+description: "A practical guide for webmasters to group GSC issues by fix type, covering URL Inspection, Page indexing reports, and sitemaps and Pages report troubleshooting workflow."
 keywords:
   primary: Pages report troubleshooting workflow
   secondary:
@@ -42,7 +42,7 @@ meta:
   word_target: 1500
 seo:
   meta_title: "Pages Report Troubleshooting Workflow"
-  meta_description: "Use Pages Report Troubleshooting Workflow to plan, diagnose, prioritize, and report Pages report troubleshooting workflow workflows for webmasters with practi"
+  meta_description: "Learn Pages report troubleshooting workflow and group GSC issues by fix type, using practical checks for URL Inspection and clear next actions."
 editorial_review: standard
 content_quality:
   search_promise: "This article satisfies the title promise by explaining Pages report troubleshooting workflow for webmaster workflows with specific checks, examples, and next actions."

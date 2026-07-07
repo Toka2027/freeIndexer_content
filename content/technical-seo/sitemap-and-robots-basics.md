@@ -1,7 +1,7 @@
 ---
 title: "Sitemap And Robots Basics"
 slug: sitemap-and-robots-basics
-description: "Informational"
+description: "A practical guide for webmasters to fix discovery basics before submission, covering status codes, robots directives, and canonical signals and sitemap and robots basics."
 keywords:
   primary: sitemap and robots basics
   secondary:
@@ -42,7 +42,7 @@ meta:
   word_target: 1500
 seo:
   meta_title: "Sitemap And Robots Basics"
-  meta_description: "Use Sitemap And Robots Basics to plan, diagnose, prioritize, and report sitemap and robots basics workflows for webmasters with practical checks and next acti"
+  meta_description: "Learn about sitemap and robots basics, covering status codes and robots directives, common mistakes, and clear next actions for search discovery."
 editorial_review: standard
 content_quality:
   search_promise: "This article satisfies the title promise by explaining sitemap and robots basics for webmaster workflows with specific checks, examples, and next actions."

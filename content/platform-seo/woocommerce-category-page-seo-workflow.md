@@ -1,7 +1,7 @@
 ---
 title: "WooCommerce Category Page SEO Workflow"
 slug: woocommerce-category-page-seo-workflow
-description: "Informational-commercial"
+description: "A practical guide for ecommerce teams to improve category visibility, covering template settings, canonical URLs, and sitemaps and WooCommerce category page SEO workflow."
 keywords:
   primary: WooCommerce category page SEO workflow
   secondary:
@@ -40,7 +40,7 @@ meta:
   word_target: 1500
 seo:
   meta_title: "WooCommerce Category Page SEO Workflow"
-  meta_description: "Use WooCommerce Category Page SEO Workflow to plan, diagnose, prioritize, and report WooCommerce category page SEO workflow workflows for ecommerce store owne"
+  meta_description: "Learn WooCommerce category page SEO workflow and improve category visibility, using practical checks for template settings and clear next actions."
 editorial_review: standard
 content_quality:
   search_promise: "This article satisfies the title promise by explaining WooCommerce category page SEO workflow for ecommerce store owner workflows with specific checks, examples, and next actions."

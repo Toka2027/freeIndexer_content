@@ -1,7 +1,7 @@
 ---
 title: "Small Website SEO Provider Handoff Checklist"
 slug: small-website-seo-provider-handoff-checklist
-description: "Informational-commercial"
+description: "A practical guide for website owners to prepare a clean provider handoff, covering URL quality, workflow ownership, and prioritization and small website SEO provider handoff checklist."
 keywords:
   primary: small website SEO provider handoff checklist
   secondary:
@@ -40,7 +40,7 @@ meta:
   word_target: 1500
 seo:
   meta_title: "Small Website SEO Provider Handoff Checklist"
-  meta_description: "Use Small Website SEO Provider Handoff Checklist to plan, diagnose, prioritize, and report small website SEO provider handoff checklist workflows for website "
+  meta_description: "Use this small website SEO provider handoff checklist to review URL quality and workflow ownership, prioritize fixes, and plan reliable indexing follow-up."
 editorial_review: standard
 content_quality:
   search_promise: "This article satisfies the title promise by explaining small website SEO provider handoff checklist for website owner workflows with specific checks, examples, and next actions."

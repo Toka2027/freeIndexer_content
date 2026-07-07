@@ -37,7 +37,7 @@ meta:
   word_target: 1300
 seo:
   meta_title: "How Search Engines Crawl And Index Pages"
-  meta_description: "Learn a practical indexing education workflow for how search engines crawl and index pages, including checks, prioritization, realistic expectations, and where submission tools fit."
+  meta_description: "Learn about how search engines crawl and index pages, covering crawlability and discovery signals, common mistakes, and clear next actions for search discovery."
 editorial_review: standard
 ---
 

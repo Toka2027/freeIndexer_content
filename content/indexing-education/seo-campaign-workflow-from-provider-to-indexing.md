@@ -1,7 +1,7 @@
 ---
 title: "SEO Campaign Workflow From Provider To Indexing"
 slug: seo-campaign-workflow-from-provider-to-indexing
-description: "Informational-commercial"
+description: "A practical guide for SEO agencies to connect provider work to follow-up, covering crawlability, discovery signals, and sitemaps and SEO campaign workflow from provider to indexing."
 keywords:
   primary: SEO campaign workflow from provider to indexing
   secondary:
@@ -41,7 +41,7 @@ meta:
   word_target: 1500
 seo:
   meta_title: "SEO Campaign Workflow From Provider To Indexing"
-  meta_description: "Use SEO Campaign Workflow From Provider To Indexing to plan, diagnose, prioritize, and report SEO campaign workflow from provider to indexing workflows for se"
+  meta_description: "Learn about SEO campaign workflow from provider to indexing, covering crawlability, common mistakes, and clear next actions for search discovery."
 editorial_review: standard
 content_quality:
   search_promise: "This article satisfies the title promise by explaining SEO campaign workflow from provider to indexing for seo agency workflows with specific checks, examples, and next actions."

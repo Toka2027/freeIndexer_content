@@ -35,7 +35,7 @@ meta:
   word_target: 1300
 seo:
   meta_title: "Backlink Indexing Checklist"
-  meta_description: "Learn a practical backlinks workflow for backlink indexing checklist, including checks, prioritization, realistic expectations, and where submission tools fit."
+  meta_description: "Follow this backlink indexing checklist for link verification, source-page quality, and discovery status, practical fixes, and clearer indexing follow-up."
 editorial_review: standard
 ---
 

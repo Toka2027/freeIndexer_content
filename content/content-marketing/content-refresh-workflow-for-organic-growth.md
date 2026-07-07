@@ -1,7 +1,7 @@
 ---
 title: "Content Refresh Workflow For Organic Growth"
 slug: content-refresh-workflow-for-organic-growth
-description: "Informational-commercial"
+description: "A practical guide for growth teams to refresh pages by data, covering search intent, content structure, and internal links and content refresh workflow for organic growth."
 keywords:
   primary: content refresh workflow for organic growth
   secondary:
@@ -41,7 +41,7 @@ meta:
   word_target: 1500
 seo:
   meta_title: "Content Refresh Workflow For Organic Growth"
-  meta_description: "Use Content Refresh Workflow For Organic Growth to plan, diagnose, prioritize, and report content refresh workflow for organic growth workflows for growth ope"
+  meta_description: "Learn about content refresh workflow for organic growth, covering search intent, common mistakes, and clear next actions for search discovery."
 editorial_review: standard
 content_quality:
   search_promise: "This article satisfies the title promise by explaining content refresh workflow for organic growth for growth operator workflows with specific checks, examples, and next actions."

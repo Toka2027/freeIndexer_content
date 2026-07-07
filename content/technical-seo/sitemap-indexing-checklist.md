@@ -37,7 +37,7 @@ meta:
   word_target: 1400
 seo:
   meta_title: "Sitemap Indexing Checklist"
-  meta_description: "Learn a practical technical seo workflow for sitemap indexing checklist, including checks, prioritization, realistic expectations, and where submission tools fit."
+  meta_description: "Follow this sitemap indexing checklist for status codes, robots directives, and canonical signals, practical fixes, and clearer indexing follow-up."
 editorial_review: standard
 ---
 

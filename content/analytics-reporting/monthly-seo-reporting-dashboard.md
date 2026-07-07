@@ -1,7 +1,7 @@
 ---
 title: "Monthly SEO Reporting Dashboard"
 slug: monthly-seo-reporting-dashboard
-description: "Informational-commercial"
+description: "A practical guide for SEO agencies to create a monthly dashboard, covering indexing status, Search Console data, and landing pages and monthly SEO reporting dashboard."
 keywords:
   primary: monthly SEO reporting dashboard
   secondary:
@@ -41,7 +41,7 @@ meta:
   word_target: 1500
 seo:
   meta_title: "Monthly SEO Reporting Dashboard"
-  meta_description: "Use Monthly SEO Reporting Dashboard to plan, diagnose, prioritize, and report monthly SEO reporting dashboard workflows for seo agencys with practical checks "
+  meta_description: "Learn about monthly SEO reporting dashboard, covering indexing status and Search Console data, common mistakes, and clear next actions for search discovery."
 editorial_review: standard
 content_quality:
   search_promise: "This article satisfies the title promise by explaining monthly SEO reporting dashboard for seo agency workflows with specific checks, examples, and next actions."

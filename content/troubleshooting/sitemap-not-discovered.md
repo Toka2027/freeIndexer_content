@@ -35,7 +35,7 @@ meta:
   word_target: 1400
 seo:
   meta_title: "Sitemap Not Discovered: Causes And Fixes"
-  meta_description: "Learn a practical troubleshooting workflow for sitemap not discovered, including checks, prioritization, realistic expectations, and where submission tools fit."
+  meta_description: "Troubleshoot sitemap not discovered with checks for live URL checks, crawl access, and canonical signals, then prioritize fixes and indexing follow-up."
 editorial_review: standard
 ---
 

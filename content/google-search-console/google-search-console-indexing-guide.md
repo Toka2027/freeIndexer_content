@@ -1,7 +1,7 @@
 ---
 title: "Google Search Console Indexing Guide"
 slug: google-search-console-indexing-guide
-description: "A practical guide to using Google Search Console for indexing checks, URL Inspection, sitemaps, and deciding when a URL is ready for submission."
+description: "A practical guide for webmasters to use Search Console to diagnose the URL first, then submit priority URLs through a repeatable workflow., covering URL Inspection, Page indexing reports, and sitemaps and Google search console indexing."
 keywords:
   primary: google search console indexing
   secondary:
