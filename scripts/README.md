@@ -17,7 +17,7 @@ This folder mirrors the CaptchaRank content production scripts, adapted for the 
 
 - `prepare_blog_draft.py`: converts markdown to Bootstrap-friendly HTML, uploads the hero to object storage, and creates or updates a draft through the signed 99sync API.
 - `sync_blog_taxonomy.py`: creates or updates FreeIndexer categories and tags, including the Central Blogs API `min_description` and `image` fields when available, then writes live IDs to `reference/blog_taxonomy_live.json`.
-- `sync_publishing_tracker.py`: audits tracker rows locally and can verify `published_url` values with `--check-live`.
+- `sync_publishing_tracker.py`: audits tracker rows locally and can verify `published_url` values with `--check-live`. Live checks retry transient network failures, report failed URLs, separate not-yet-live future scheduled URLs, and, when written, store HTTP audit details in `live_check_ok` / `live_check_note` without overwriting publishing notes.
 
 `blog_api_client.py` follows the `blogs_center.postman_collection.json` signing
 model and supports both `https://blogs.99sync.com` and
@@ -38,6 +38,7 @@ python scripts/build_hero.py --slug free-url-indexer --template all --check-asse
 python scripts/build_hero.py --slug free-url-indexer
 python scripts/build_hero.py --slug free-url-indexer --template all --validator
 python scripts/sync_blog_taxonomy.py --validate-only
+python scripts/sync_publishing_tracker.py --check-live
 python scripts/prepare_blog_draft.py content/commercial/free-url-indexer.md --dry-run
 python scripts/prepare_blog_draft.py content/commercial/free-url-indexer.md --upload-image --dry-run
 python scripts/prepare_blog_draft.py content/commercial/free-url-indexer.md --check-config
