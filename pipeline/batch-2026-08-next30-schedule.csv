@@ -1,0 +1,31 @@
+batch_order,slug,title,cms_input_at,publish_date_cairo,scheduled_time_cairo,status,blog_post_id,blog_url
+1,search-engine-discovery-pipeline,Search Engine Discovery Pipeline For New URLs,2026-08-19T09:00:00Z,2026-08-19,09:00,scheduled,9347,https://blog.freeindexer.com/search-engine-discovery-pipeline
+2,indexing-audit-for-service-pages,Indexing Audit For Service Pages,2026-08-19T15:00:00Z,2026-08-19,15:00,scheduled,9348,https://blog.freeindexer.com/indexing-audit-for-service-pages
+3,homepage-to-deep-page-discovery-workflow,Homepage To Deep Page Discovery Workflow,2026-08-20T09:00:00Z,2026-08-20,09:00,scheduled,9349,https://blog.freeindexer.com/homepage-to-deep-page-discovery-workflow
+4,url-normalization-before-indexing,URL Normalization Before Indexing,2026-08-20T15:00:00Z,2026-08-20,15:00,scheduled,9350,https://blog.freeindexer.com/url-normalization-before-indexing
+5,indexing-evidence-log-template,Indexing Evidence Log Template For SEO Teams,2026-08-21T09:00:00Z,2026-08-21,09:00,scheduled,9351,https://blog.freeindexer.com/indexing-evidence-log-template
+6,canonical-url-map-for-large-sites,Canonical URL Map For Large Sites,2026-08-21T15:00:00Z,2026-08-21,15:00,scheduled,9352,https://blog.freeindexer.com/canonical-url-map-for-large-sites
+7,parameter-url-cleanup-before-submission,Parameter URL Cleanup Before Submission,2026-08-22T09:00:00Z,2026-08-22,09:00,scheduled,9353,https://blog.freeindexer.com/parameter-url-cleanup-before-submission
+8,hreflang-canonical-conflict-workflow,Hreflang And Canonical Conflict Workflow,2026-08-22T15:00:00Z,2026-08-22,15:00,scheduled,9354,https://blog.freeindexer.com/hreflang-canonical-conflict-workflow
+9,staging-to-production-indexing-release-plan,Staging To Production Indexing Release Plan,2026-08-23T09:00:00Z,2026-08-23,09:00,scheduled,9355,https://blog.freeindexer.com/staging-to-production-indexing-release-plan
+10,sitemap-lastmod-trust-checklist,Sitemap Lastmod Trust Checklist,2026-08-23T15:00:00Z,2026-08-23,15:00,scheduled,9356,https://blog.freeindexer.com/sitemap-lastmod-trust-checklist
+11,structured-data-indexing-qa-workflow,Structured Data Indexing QA Workflow,2026-08-24T09:00:00Z,2026-08-24,09:00,scheduled,9357,https://blog.freeindexer.com/structured-data-indexing-qa-workflow
+12,paginated-content-indexing-audit,Paginated Content Indexing Audit,2026-08-24T15:00:00Z,2026-08-24,15:00,scheduled,9358,https://blog.freeindexer.com/paginated-content-indexing-audit
+13,search-console-export-indexing-triage,Search Console Export Indexing Triage,2026-08-25T09:00:00Z,2026-08-25,09:00,scheduled,9359,https://blog.freeindexer.com/search-console-export-indexing-triage
+14,indexed-not-submitted-in-sitemap-explained,"Indexed, Not Submitted In Sitemap Explained",2026-08-25T15:00:00Z,2026-08-25,15:00,scheduled,9360,https://blog.freeindexer.com/indexed-not-submitted-in-sitemap-explained
+15,discovered-url-priority-fixes,Discovered URL Priority Fixes,2026-08-26T09:00:00Z,2026-08-26,09:00,scheduled,9361,https://blog.freeindexer.com/discovered-url-priority-fixes
+16,crawl-stats-indexing-diagnostics-workflow,Crawl Stats Indexing Diagnostics Workflow,2026-08-26T15:00:00Z,2026-08-26,15:00,scheduled,9362,https://blog.freeindexer.com/crawl-stats-indexing-diagnostics-workflow
+17,live-test-vs-indexed-status-search-console,Live Test vs Indexed Status In Search Console,2026-08-27T09:00:00Z,2026-08-27,09:00,scheduled,9363,https://blog.freeindexer.com/live-test-vs-indexed-status-search-console
+18,niche-edit-backlink-indexing-qa,Niche Edit Backlink Indexing QA,2026-08-27T15:00:00Z,2026-08-27,15:00,scheduled,9364,https://blog.freeindexer.com/niche-edit-backlink-indexing-qa
+19,broken-backlink-recovery-and-indexing,Broken Backlink Recovery And Indexing Workflow,2026-08-28T09:00:00Z,2026-08-28,09:00,scheduled,9365,https://blog.freeindexer.com/broken-backlink-recovery-and-indexing
+20,press-release-backlink-discovery-workflow,Press Release Backlink Discovery Workflow,2026-08-28T15:00:00Z,2026-08-28,15:00,scheduled,9366,https://blog.freeindexer.com/press-release-backlink-discovery-workflow
+21,earned-media-link-indexing-checklist,Earned Media Link Indexing Checklist,2026-08-29T09:00:00Z,2026-08-29,09:00,scheduled,9367,https://blog.freeindexer.com/earned-media-link-indexing-checklist
+22,tier-two-link-reporting-rules,Tier Two Link Reporting Rules Without Overclaiming,2026-08-29T15:00:00Z,2026-08-29,15:00,scheduled,9368,https://blog.freeindexer.com/tier-two-link-reporting-rules
+23,wordpress-plugin-indexing-audit-workflow,WordPress Plugin Indexing Audit Workflow,2026-08-30T09:00:00Z,2026-08-30,09:00,scheduled,9369,https://blog.freeindexer.com/wordpress-plugin-indexing-audit-workflow
+24,shopify-collection-indexing-workflow,Shopify Collection Indexing Workflow,2026-08-30T15:00:00Z,2026-08-30,15:00,scheduled,9370,https://blog.freeindexer.com/shopify-collection-indexing-workflow
+25,woocommerce-product-indexing-checklist,WooCommerce Product Indexing Checklist,2026-08-31T09:00:00Z,2026-08-31,09:00,scheduled,9371,https://blog.freeindexer.com/woocommerce-product-indexing-checklist
+26,webflow-cms-page-indexing-workflow,Webflow CMS Page Indexing Workflow,2026-08-31T15:00:00Z,2026-08-31,15:00,scheduled,9372,https://blog.freeindexer.com/webflow-cms-page-indexing-workflow
+27,api-documentation-indexing-workflow,API Documentation Indexing Workflow,2026-09-01T09:00:00Z,2026-09-01,09:00,scheduled,9373,https://blog.freeindexer.com/api-documentation-indexing-workflow
+28,saas-feature-page-indexing-workflow,SaaS Feature Page Indexing Workflow,2026-09-01T15:00:00Z,2026-09-01,15:00,scheduled,9374,https://blog.freeindexer.com/saas-feature-page-indexing-workflow
+29,monthly-indexing-operations-calendar,Monthly Indexing Operations Calendar,2026-09-02T09:00:00Z,2026-09-02,09:00,scheduled,9375,https://blog.freeindexer.com/monthly-indexing-operations-calendar
+30,seo-provider-deliverable-indexing-checklist,SEO Provider Deliverable Indexing Checklist,2026-09-02T15:00:00Z,2026-09-02,15:00,scheduled,9376,https://blog.freeindexer.com/seo-provider-deliverable-indexing-checklist

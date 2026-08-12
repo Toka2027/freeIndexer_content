@@ -1,0 +1,31 @@
+batch_order,slug,title,category,primary_keyword,primary_icp,search_intent,hero_template,content_status,hero_status,publish_status
+1,indexing-priority-scorecard,Indexing Priority Scorecard: Which URLs Should Go First?,indexing-education,indexing priority scorecard,SEO Operator,informational-commercial,1,created,pending,planned
+2,crawlability-vs-indexability-checklist,Crawlability vs Indexability: A Practical Checklist,indexing-education,crawlability vs indexability,Website Owner,informational,2,created,pending,planned
+3,request-indexing-after-page-updates,When To Request Indexing After Page Updates,google-search-console,request indexing after page updates,SEO Operator,informational-commercial,3,created,pending,planned
+4,search-console-validation-after-fixes,Search Console Validation After Indexing Fixes,google-search-console,Search Console validation after indexing fixes,Webmaster,troubleshooting,1,created,pending,planned
+5,sitemap-segmentation-for-indexing-diagnostics,Sitemap Segmentation For Indexing Diagnostics,technical-seo,sitemap segmentation for indexing,Webmaster,informational,2,created,pending,planned
+6,canonical-conflict-audit-workflow,Canonical Conflict Audit Workflow For Indexing,technical-seo,canonical conflict audit,SEO Operator,troubleshooting,3,created,pending,planned
+7,internal-links-for-faster-page-discovery,Internal Links For Faster Page Discovery,indexing-education,internal links for faster page discovery,Content Team,informational,1,created,pending,planned
+8,orphan-url-recovery-playbook,Orphan URL Recovery Playbook For SEO Teams,troubleshooting,orphan URL recovery,SEO Agency,troubleshooting,2,created,pending,planned
+9,redirect-chain-cleanup-for-indexing,Redirect Chain Cleanup For Indexing,technical-seo,redirect chain cleanup for indexing,Webmaster,troubleshooting,3,created,pending,planned
+10,robots-txt-audit-before-submission,Robots.txt Audit Before URL Submission,technical-seo,robots.txt audit before submission,Webmaster,informational-commercial,1,created,pending,planned
+11,log-file-indexing-signals,Log File Signals For Indexing Diagnostics,technical-seo,log file indexing signals,SEO Operator,informational,2,created,pending,planned
+12,crawl-budget-prioritization-for-large-sites,Crawl Budget Prioritization For Large Sites,technical-seo,crawl budget prioritization,SEO Operator,informational-commercial,3,created,pending,planned
+13,javascript-rendering-indexing-test,JavaScript Rendering Indexing Test For SEO,technical-seo,JavaScript rendering indexing test,Webmaster,troubleshooting,1,created,pending,planned
+14,client-side-rendering-indexing-risks,Client-Side Rendering Indexing Risks,technical-seo,client-side rendering indexing risks,Developer,informational,2,created,pending,planned
+15,faceted-url-indexing-rules,Faceted URL Indexing Rules For Ecommerce Sites,platform-seo,faceted URL indexing rules,Ecommerce SEO Team,informational-commercial,3,created,pending,planned
+16,product-variant-indexing-workflow,Product Variant Indexing Workflow,platform-seo,product variant indexing workflow,Ecommerce SEO Team,informational-commercial,1,created,pending,planned
+17,content-refresh-indexing-workflow,Content Refresh Indexing Workflow,content-marketing,content refresh indexing workflow,Content Team,informational-commercial,2,created,pending,planned
+18,thin-content-indexing-decision-tree,Thin Content Indexing Decision Tree,troubleshooting,thin content indexing decision tree,SEO Operator,troubleshooting,3,created,pending,planned
+19,ai-generated-page-indexing-checklist,AI-Generated Page Indexing Checklist,content-marketing,AI-generated page indexing checklist,Content Team,informational,1,created,pending,planned
+20,landing-page-relaunch-indexing-plan,Landing Page Relaunch Indexing Plan,landing-pages-cro,landing page relaunch indexing plan,Growth Operator,informational-commercial,2,created,pending,planned
+21,backlink-indexing-priority-list,Backlink Indexing Priority List: What To Submit First,backlinks,backlink indexing priority list,SEO Agency,informational-commercial,3,created,pending,planned
+22,guest-post-backlink-indexing-workflow,Guest Post Backlink Indexing Workflow,backlinks,guest post backlink indexing workflow,Link Builder,informational-commercial,1,created,pending,planned
+23,local-citation-indexing-workflow,Local Citation Indexing Workflow,backlinks,local citation indexing workflow,Local SEO Operator,informational-commercial,2,created,pending,planned
+24,digital-pr-backlink-discovery-workflow,Digital PR Backlink Discovery Workflow,backlinks,digital PR backlink discovery workflow,SEO Agency,informational,3,created,pending,planned
+25,link-building-campaign-indexing-qa,Link Building Campaign Indexing QA,backlinks,link building campaign indexing QA,SEO Agency,informational-commercial,1,created,pending,planned
+26,agency-indexing-sla-reporting,Agency Indexing SLA Reporting Without Overpromising,analytics-reporting,indexing SLA reporting,SEO Agency,informational-commercial,2,created,pending,planned
+27,bulk-url-submission-qa-checklist,Bulk URL Submission QA Checklist,bulk-seo-operations,bulk URL submission QA checklist,SEO Operator,informational-commercial,3,created,pending,planned
+28,freeindexer-campaign-naming-and-tracking,FreeIndexer Campaign Naming And Tracking Workflow,use-cases,FreeIndexer campaign naming,SEO Operator,commercial investigation,1,created,pending,planned
+29,google-indexing-tool-buyers-checklist,Google Indexing Tool Buyers Checklist,seo-tools-providers,Google indexing tool buyers checklist,SEO Agency,commercial investigation,2,created,pending,planned
+30,indexing-workflow-for-remote-seo-teams,Indexing Workflow For Remote SEO Teams,use-cases,indexing workflow for remote SEO teams,SEO Agency,informational-commercial,3,created,pending,planned

@@ -1,0 +1,600 @@
+{
+  "verified_at_cairo": "2026-08-05T14:24:09.460163+03:00",
+  "timezone_note": "CMS input clock values are application-local; verifier normalizes stored UTC to UTC+3 Cairo.",
+  "batch_size": 30,
+  "api_records_verified": 30,
+  "global_scheduled_count": 57,
+  "cadence": "2 per day",
+  "daily_slots_cairo": [
+    "09:00",
+    "15:00"
+  ],
+  "first_publish_datetime_cairo": "2026-08-19 09:00",
+  "last_publish_datetime_cairo": "2026-09-02 15:00",
+  "publish_days": 15,
+  "unique_publish_datetimes": 30,
+  "per_day": {
+    "2026-08-19": [
+      "09:00",
+      "15:00"
+    ],
+    "2026-08-20": [
+      "09:00",
+      "15:00"
+    ],
+    "2026-08-21": [
+      "09:00",
+      "15:00"
+    ],
+    "2026-08-22": [
+      "09:00",
+      "15:00"
+    ],
+    "2026-08-23": [
+      "09:00",
+      "15:00"
+    ],
+    "2026-08-24": [
+      "09:00",
+      "15:00"
+    ],
+    "2026-08-25": [
+      "09:00",
+      "15:00"
+    ],
+    "2026-08-26": [
+      "09:00",
+      "15:00"
+    ],
+    "2026-08-27": [
+      "09:00",
+      "15:00"
+    ],
+    "2026-08-28": [
+      "09:00",
+      "15:00"
+    ],
+    "2026-08-29": [
+      "09:00",
+      "15:00"
+    ],
+    "2026-08-30": [
+      "09:00",
+      "15:00"
+    ],
+    "2026-08-31": [
+      "09:00",
+      "15:00"
+    ],
+    "2026-09-01": [
+      "09:00",
+      "15:00"
+    ],
+    "2026-09-02": [
+      "09:00",
+      "15:00"
+    ]
+  },
+  "template_distribution": {
+    "1": 10,
+    "2": 10,
+    "3": 10
+  },
+  "image_checks_ok": true,
+  "conflicts": {},
+  "errors": [],
+  "records": [
+    {
+      "order": "1",
+      "id": 9347,
+      "slug": "search-engine-discovery-pipeline",
+      "title": "Search Engine Discovery Pipeline For New URLs",
+      "status": "scheduled",
+      "scheduled_at_raw": "2026-08-19T06:00:00.000000Z",
+      "scheduled_at_cairo": "2026-08-19 09:00:00 Africa/Cairo",
+      "description_length": 138,
+      "meta_description_length": 138,
+      "featured_image": "https://cen-public-st.nbg1.your-objectstorage.com/freeindexer/blog/search-engine-discovery-pipeline-hero.png"
+    },
+    {
+      "order": "2",
+      "id": 9348,
+      "slug": "indexing-audit-for-service-pages",
+      "title": "Indexing Audit For Service Pages",
+      "status": "scheduled",
+      "scheduled_at_raw": "2026-08-19T12:00:00.000000Z",
+      "scheduled_at_cairo": "2026-08-19 15:00:00 Africa/Cairo",
+      "description_length": 145,
+      "meta_description_length": 145,
+      "featured_image": "https://cen-public-st.nbg1.your-objectstorage.com/freeindexer/blog/indexing-audit-for-service-pages-hero.png"
+    },
+    {
+      "order": "3",
+      "id": 9349,
+      "slug": "homepage-to-deep-page-discovery-workflow",
+      "title": "Homepage To Deep Page Discovery Workflow",
+      "status": "scheduled",
+      "scheduled_at_raw": "2026-08-20T06:00:00.000000Z",
+      "scheduled_at_cairo": "2026-08-20 09:00:00 Africa/Cairo",
+      "description_length": 131,
+      "meta_description_length": 139,
+      "featured_image": "https://cen-public-st.nbg1.your-objectstorage.com/freeindexer/blog/homepage-to-deep-page-discovery-workflow-hero.png"
+    },
+    {
+      "order": "4",
+      "id": 9350,
+      "slug": "url-normalization-before-indexing",
+      "title": "URL Normalization Before Indexing",
+      "status": "scheduled",
+      "scheduled_at_raw": "2026-08-20T12:00:00.000000Z",
+      "scheduled_at_cairo": "2026-08-20 15:00:00 Africa/Cairo",
+      "description_length": 127,
+      "meta_description_length": 148,
+      "featured_image": "https://cen-public-st.nbg1.your-objectstorage.com/freeindexer/blog/url-normalization-before-indexing-hero.png"
+    },
+    {
+      "order": "5",
+      "id": 9351,
+      "slug": "indexing-evidence-log-template",
+      "title": "Indexing Evidence Log Template For SEO Teams",
+      "status": "scheduled",
+      "scheduled_at_raw": "2026-08-21T06:00:00.000000Z",
+      "scheduled_at_cairo": "2026-08-21 09:00:00 Africa/Cairo",
+      "description_length": 138,
+      "meta_description_length": 145,
+      "featured_image": "https://cen-public-st.nbg1.your-objectstorage.com/freeindexer/blog/indexing-evidence-log-template-hero.png"
+    },
+    {
+      "order": "6",
+      "id": 9352,
+      "slug": "canonical-url-map-for-large-sites",
+      "title": "Canonical URL Map For Large Sites",
+      "status": "scheduled",
+      "scheduled_at_raw": "2026-08-21T12:00:00.000000Z",
+      "scheduled_at_cairo": "2026-08-21 15:00:00 Africa/Cairo",
+      "description_length": 125,
+      "meta_description_length": 140,
+      "featured_image": "https://cen-public-st.nbg1.your-objectstorage.com/freeindexer/blog/canonical-url-map-for-large-sites-hero.png"
+    },
+    {
+      "order": "7",
+      "id": 9353,
+      "slug": "parameter-url-cleanup-before-submission",
+      "title": "Parameter URL Cleanup Before Submission",
+      "status": "scheduled",
+      "scheduled_at_raw": "2026-08-22T06:00:00.000000Z",
+      "scheduled_at_cairo": "2026-08-22 09:00:00 Africa/Cairo",
+      "description_length": 135,
+      "meta_description_length": 144,
+      "featured_image": "https://cen-public-st.nbg1.your-objectstorage.com/freeindexer/blog/parameter-url-cleanup-before-submission-hero.png"
+    },
+    {
+      "order": "8",
+      "id": 9354,
+      "slug": "hreflang-canonical-conflict-workflow",
+      "title": "Hreflang And Canonical Conflict Workflow",
+      "status": "scheduled",
+      "scheduled_at_raw": "2026-08-22T12:00:00.000000Z",
+      "scheduled_at_cairo": "2026-08-22 15:00:00 Africa/Cairo",
+      "description_length": 139,
+      "meta_description_length": 139,
+      "featured_image": "https://cen-public-st.nbg1.your-objectstorage.com/freeindexer/blog/hreflang-canonical-conflict-workflow-hero.png"
+    },
+    {
+      "order": "9",
+      "id": 9355,
+      "slug": "staging-to-production-indexing-release-plan",
+      "title": "Staging To Production Indexing Release Plan",
+      "status": "scheduled",
+      "scheduled_at_raw": "2026-08-23T06:00:00.000000Z",
+      "scheduled_at_cairo": "2026-08-23 09:00:00 Africa/Cairo",
+      "description_length": 137,
+      "meta_description_length": 138,
+      "featured_image": "https://cen-public-st.nbg1.your-objectstorage.com/freeindexer/blog/staging-to-production-indexing-release-plan-hero.png"
+    },
+    {
+      "order": "10",
+      "id": 9356,
+      "slug": "sitemap-lastmod-trust-checklist",
+      "title": "Sitemap Lastmod Trust Checklist",
+      "status": "scheduled",
+      "scheduled_at_raw": "2026-08-23T12:00:00.000000Z",
+      "scheduled_at_cairo": "2026-08-23 15:00:00 Africa/Cairo",
+      "description_length": 141,
+      "meta_description_length": 144,
+      "featured_image": "https://cen-public-st.nbg1.your-objectstorage.com/freeindexer/blog/sitemap-lastmod-trust-checklist-hero.png"
+    },
+    {
+      "order": "11",
+      "id": 9357,
+      "slug": "structured-data-indexing-qa-workflow",
+      "title": "Structured Data Indexing QA Workflow",
+      "status": "scheduled",
+      "scheduled_at_raw": "2026-08-24T06:00:00.000000Z",
+      "scheduled_at_cairo": "2026-08-24 09:00:00 Africa/Cairo",
+      "description_length": 137,
+      "meta_description_length": 147,
+      "featured_image": "https://cen-public-st.nbg1.your-objectstorage.com/freeindexer/blog/structured-data-indexing-qa-workflow-hero.png"
+    },
+    {
+      "order": "12",
+      "id": 9358,
+      "slug": "paginated-content-indexing-audit",
+      "title": "Paginated Content Indexing Audit",
+      "status": "scheduled",
+      "scheduled_at_raw": "2026-08-24T12:00:00.000000Z",
+      "scheduled_at_cairo": "2026-08-24 15:00:00 Africa/Cairo",
+      "description_length": 135,
+      "meta_description_length": 136,
+      "featured_image": "https://cen-public-st.nbg1.your-objectstorage.com/freeindexer/blog/paginated-content-indexing-audit-hero.png"
+    },
+    {
+      "order": "13",
+      "id": 9359,
+      "slug": "search-console-export-indexing-triage",
+      "title": "Search Console Export Indexing Triage",
+      "status": "scheduled",
+      "scheduled_at_raw": "2026-08-25T06:00:00.000000Z",
+      "scheduled_at_cairo": "2026-08-25 09:00:00 Africa/Cairo",
+      "description_length": 134,
+      "meta_description_length": 142,
+      "featured_image": "https://cen-public-st.nbg1.your-objectstorage.com/freeindexer/blog/search-console-export-indexing-triage-hero.png"
+    },
+    {
+      "order": "14",
+      "id": 9360,
+      "slug": "indexed-not-submitted-in-sitemap-explained",
+      "title": "Indexed, Not Submitted In Sitemap Explained",
+      "status": "scheduled",
+      "scheduled_at_raw": "2026-08-25T12:00:00.000000Z",
+      "scheduled_at_cairo": "2026-08-25 15:00:00 Africa/Cairo",
+      "description_length": 155,
+      "meta_description_length": 140,
+      "featured_image": "https://cen-public-st.nbg1.your-objectstorage.com/freeindexer/blog/indexed-not-submitted-in-sitemap-explained-hero.png"
+    },
+    {
+      "order": "15",
+      "id": 9361,
+      "slug": "discovered-url-priority-fixes",
+      "title": "Discovered URL Priority Fixes",
+      "status": "scheduled",
+      "scheduled_at_raw": "2026-08-26T06:00:00.000000Z",
+      "scheduled_at_cairo": "2026-08-26 09:00:00 Africa/Cairo",
+      "description_length": 139,
+      "meta_description_length": 148,
+      "featured_image": "https://cen-public-st.nbg1.your-objectstorage.com/freeindexer/blog/discovered-url-priority-fixes-hero.png"
+    },
+    {
+      "order": "16",
+      "id": 9362,
+      "slug": "crawl-stats-indexing-diagnostics-workflow",
+      "title": "Crawl Stats Indexing Diagnostics Workflow",
+      "status": "scheduled",
+      "scheduled_at_raw": "2026-08-26T12:00:00.000000Z",
+      "scheduled_at_cairo": "2026-08-26 15:00:00 Africa/Cairo",
+      "description_length": 131,
+      "meta_description_length": 145,
+      "featured_image": "https://cen-public-st.nbg1.your-objectstorage.com/freeindexer/blog/crawl-stats-indexing-diagnostics-workflow-hero.png"
+    },
+    {
+      "order": "17",
+      "id": 9363,
+      "slug": "live-test-vs-indexed-status-search-console",
+      "title": "Live Test vs Indexed Status In Search Console",
+      "status": "scheduled",
+      "scheduled_at_raw": "2026-08-27T06:00:00.000000Z",
+      "scheduled_at_cairo": "2026-08-27 09:00:00 Africa/Cairo",
+      "description_length": 137,
+      "meta_description_length": 143,
+      "featured_image": "https://cen-public-st.nbg1.your-objectstorage.com/freeindexer/blog/live-test-vs-indexed-status-search-console-hero.png"
+    },
+    {
+      "order": "18",
+      "id": 9364,
+      "slug": "niche-edit-backlink-indexing-qa",
+      "title": "Niche Edit Backlink Indexing QA",
+      "status": "scheduled",
+      "scheduled_at_raw": "2026-08-27T12:00:00.000000Z",
+      "scheduled_at_cairo": "2026-08-27 15:00:00 Africa/Cairo",
+      "description_length": 137,
+      "meta_description_length": 150,
+      "featured_image": "https://cen-public-st.nbg1.your-objectstorage.com/freeindexer/blog/niche-edit-backlink-indexing-qa-hero.png"
+    },
+    {
+      "order": "19",
+      "id": 9365,
+      "slug": "broken-backlink-recovery-and-indexing",
+      "title": "Broken Backlink Recovery And Indexing Workflow",
+      "status": "scheduled",
+      "scheduled_at_raw": "2026-08-28T06:00:00.000000Z",
+      "scheduled_at_cairo": "2026-08-28 09:00:00 Africa/Cairo",
+      "description_length": 146,
+      "meta_description_length": 147,
+      "featured_image": "https://cen-public-st.nbg1.your-objectstorage.com/freeindexer/blog/broken-backlink-recovery-and-indexing-hero.png"
+    },
+    {
+      "order": "20",
+      "id": 9366,
+      "slug": "press-release-backlink-discovery-workflow",
+      "title": "Press Release Backlink Discovery Workflow",
+      "status": "scheduled",
+      "scheduled_at_raw": "2026-08-28T12:00:00.000000Z",
+      "scheduled_at_cairo": "2026-08-28 15:00:00 Africa/Cairo",
+      "description_length": 145,
+      "meta_description_length": 150,
+      "featured_image": "https://cen-public-st.nbg1.your-objectstorage.com/freeindexer/blog/press-release-backlink-discovery-workflow-hero.png"
+    },
+    {
+      "order": "21",
+      "id": 9367,
+      "slug": "earned-media-link-indexing-checklist",
+      "title": "Earned Media Link Indexing Checklist",
+      "status": "scheduled",
+      "scheduled_at_raw": "2026-08-29T06:00:00.000000Z",
+      "scheduled_at_cairo": "2026-08-29 09:00:00 Africa/Cairo",
+      "description_length": 135,
+      "meta_description_length": 148,
+      "featured_image": "https://cen-public-st.nbg1.your-objectstorage.com/freeindexer/blog/earned-media-link-indexing-checklist-hero.png"
+    },
+    {
+      "order": "22",
+      "id": 9368,
+      "slug": "tier-two-link-reporting-rules",
+      "title": "Tier Two Link Reporting Rules Without Overclaiming",
+      "status": "scheduled",
+      "scheduled_at_raw": "2026-08-29T12:00:00.000000Z",
+      "scheduled_at_cairo": "2026-08-29 15:00:00 Africa/Cairo",
+      "description_length": 136,
+      "meta_description_length": 154,
+      "featured_image": "https://cen-public-st.nbg1.your-objectstorage.com/freeindexer/blog/tier-two-link-reporting-rules-hero.png"
+    },
+    {
+      "order": "23",
+      "id": 9369,
+      "slug": "wordpress-plugin-indexing-audit-workflow",
+      "title": "WordPress Plugin Indexing Audit Workflow",
+      "status": "scheduled",
+      "scheduled_at_raw": "2026-08-30T06:00:00.000000Z",
+      "scheduled_at_cairo": "2026-08-30 09:00:00 Africa/Cairo",
+      "description_length": 137,
+      "meta_description_length": 145,
+      "featured_image": "https://cen-public-st.nbg1.your-objectstorage.com/freeindexer/blog/wordpress-plugin-indexing-audit-workflow-hero.png"
+    },
+    {
+      "order": "24",
+      "id": 9370,
+      "slug": "shopify-collection-indexing-workflow",
+      "title": "Shopify Collection Indexing Workflow",
+      "status": "scheduled",
+      "scheduled_at_raw": "2026-08-30T12:00:00.000000Z",
+      "scheduled_at_cairo": "2026-08-30 15:00:00 Africa/Cairo",
+      "description_length": 149,
+      "meta_description_length": 148,
+      "featured_image": "https://cen-public-st.nbg1.your-objectstorage.com/freeindexer/blog/shopify-collection-indexing-workflow-hero.png"
+    },
+    {
+      "order": "25",
+      "id": 9371,
+      "slug": "woocommerce-product-indexing-checklist",
+      "title": "WooCommerce Product Indexing Checklist",
+      "status": "scheduled",
+      "scheduled_at_raw": "2026-08-31T06:00:00.000000Z",
+      "scheduled_at_cairo": "2026-08-31 09:00:00 Africa/Cairo",
+      "description_length": 147,
+      "meta_description_length": 147,
+      "featured_image": "https://cen-public-st.nbg1.your-objectstorage.com/freeindexer/blog/woocommerce-product-indexing-checklist-hero.png"
+    },
+    {
+      "order": "26",
+      "id": 9372,
+      "slug": "webflow-cms-page-indexing-workflow",
+      "title": "Webflow CMS Page Indexing Workflow",
+      "status": "scheduled",
+      "scheduled_at_raw": "2026-08-31T12:00:00.000000Z",
+      "scheduled_at_cairo": "2026-08-31 15:00:00 Africa/Cairo",
+      "description_length": 136,
+      "meta_description_length": 140,
+      "featured_image": "https://cen-public-st.nbg1.your-objectstorage.com/freeindexer/blog/webflow-cms-page-indexing-workflow-hero.png"
+    },
+    {
+      "order": "27",
+      "id": 9373,
+      "slug": "api-documentation-indexing-workflow",
+      "title": "API Documentation Indexing Workflow",
+      "status": "scheduled",
+      "scheduled_at_raw": "2026-09-01T06:00:00.000000Z",
+      "scheduled_at_cairo": "2026-09-01 09:00:00 Africa/Cairo",
+      "description_length": 141,
+      "meta_description_length": 149,
+      "featured_image": "https://cen-public-st.nbg1.your-objectstorage.com/freeindexer/blog/api-documentation-indexing-workflow-hero.png"
+    },
+    {
+      "order": "28",
+      "id": 9374,
+      "slug": "saas-feature-page-indexing-workflow",
+      "title": "SaaS Feature Page Indexing Workflow",
+      "status": "scheduled",
+      "scheduled_at_raw": "2026-09-01T12:00:00.000000Z",
+      "scheduled_at_cairo": "2026-09-01 15:00:00 Africa/Cairo",
+      "description_length": 139,
+      "meta_description_length": 145,
+      "featured_image": "https://cen-public-st.nbg1.your-objectstorage.com/freeindexer/blog/saas-feature-page-indexing-workflow-hero.png"
+    },
+    {
+      "order": "29",
+      "id": 9375,
+      "slug": "monthly-indexing-operations-calendar",
+      "title": "Monthly Indexing Operations Calendar",
+      "status": "scheduled",
+      "scheduled_at_raw": "2026-09-02T06:00:00.000000Z",
+      "scheduled_at_cairo": "2026-09-02 09:00:00 Africa/Cairo",
+      "description_length": 143,
+      "meta_description_length": 151,
+      "featured_image": "https://cen-public-st.nbg1.your-objectstorage.com/freeindexer/blog/monthly-indexing-operations-calendar-hero.png"
+    },
+    {
+      "order": "30",
+      "id": 9376,
+      "slug": "seo-provider-deliverable-indexing-checklist",
+      "title": "SEO Provider Deliverable Indexing Checklist",
+      "status": "scheduled",
+      "scheduled_at_raw": "2026-09-02T12:00:00.000000Z",
+      "scheduled_at_cairo": "2026-09-02 15:00:00 Africa/Cairo",
+      "description_length": 133,
+      "meta_description_length": 144,
+      "featured_image": "https://cen-public-st.nbg1.your-objectstorage.com/freeindexer/blog/seo-provider-deliverable-indexing-checklist-hero.png"
+    }
+  ],
+  "image_checks": [
+    {
+      "slug": "search-engine-discovery-pipeline",
+      "image": "https://cen-public-st.nbg1.your-objectstorage.com/freeindexer/blog/search-engine-discovery-pipeline-hero.png",
+      "head_status": "200"
+    },
+    {
+      "slug": "indexing-audit-for-service-pages",
+      "image": "https://cen-public-st.nbg1.your-objectstorage.com/freeindexer/blog/indexing-audit-for-service-pages-hero.png",
+      "head_status": "200"
+    },
+    {
+      "slug": "homepage-to-deep-page-discovery-workflow",
+      "image": "https://cen-public-st.nbg1.your-objectstorage.com/freeindexer/blog/homepage-to-deep-page-discovery-workflow-hero.png",
+      "head_status": "200"
+    },
+    {
+      "slug": "url-normalization-before-indexing",
+      "image": "https://cen-public-st.nbg1.your-objectstorage.com/freeindexer/blog/url-normalization-before-indexing-hero.png",
+      "head_status": "200"
+    },
+    {
+      "slug": "indexing-evidence-log-template",
+      "image": "https://cen-public-st.nbg1.your-objectstorage.com/freeindexer/blog/indexing-evidence-log-template-hero.png",
+      "head_status": "200"
+    },
+    {
+      "slug": "canonical-url-map-for-large-sites",
+      "image": "https://cen-public-st.nbg1.your-objectstorage.com/freeindexer/blog/canonical-url-map-for-large-sites-hero.png",
+      "head_status": "200"
+    },
+    {
+      "slug": "parameter-url-cleanup-before-submission",
+      "image": "https://cen-public-st.nbg1.your-objectstorage.com/freeindexer/blog/parameter-url-cleanup-before-submission-hero.png",
+      "head_status": "200"
+    },
+    {
+      "slug": "hreflang-canonical-conflict-workflow",
+      "image": "https://cen-public-st.nbg1.your-objectstorage.com/freeindexer/blog/hreflang-canonical-conflict-workflow-hero.png",
+      "head_status": "200"
+    },
+    {
+      "slug": "staging-to-production-indexing-release-plan",
+      "image": "https://cen-public-st.nbg1.your-objectstorage.com/freeindexer/blog/staging-to-production-indexing-release-plan-hero.png",
+      "head_status": "200"
+    },
+    {
+      "slug": "sitemap-lastmod-trust-checklist",
+      "image": "https://cen-public-st.nbg1.your-objectstorage.com/freeindexer/blog/sitemap-lastmod-trust-checklist-hero.png",
+      "head_status": "200"
+    },
+    {
+      "slug": "structured-data-indexing-qa-workflow",
+      "image": "https://cen-public-st.nbg1.your-objectstorage.com/freeindexer/blog/structured-data-indexing-qa-workflow-hero.png",
+      "head_status": "200"
+    },
+    {
+      "slug": "paginated-content-indexing-audit",
+      "image": "https://cen-public-st.nbg1.your-objectstorage.com/freeindexer/blog/paginated-content-indexing-audit-hero.png",
+      "head_status": "200"
+    },
+    {
+      "slug": "search-console-export-indexing-triage",
+      "image": "https://cen-public-st.nbg1.your-objectstorage.com/freeindexer/blog/search-console-export-indexing-triage-hero.png",
+      "head_status": "200"
+    },
+    {
+      "slug": "indexed-not-submitted-in-sitemap-explained",
+      "image": "https://cen-public-st.nbg1.your-objectstorage.com/freeindexer/blog/indexed-not-submitted-in-sitemap-explained-hero.png",
+      "head_status": "200"
+    },
+    {
+      "slug": "discovered-url-priority-fixes",
+      "image": "https://cen-public-st.nbg1.your-objectstorage.com/freeindexer/blog/discovered-url-priority-fixes-hero.png",
+      "head_status": "200"
+    },
+    {
+      "slug": "crawl-stats-indexing-diagnostics-workflow",
+      "image": "https://cen-public-st.nbg1.your-objectstorage.com/freeindexer/blog/crawl-stats-indexing-diagnostics-workflow-hero.png",
+      "head_status": "200"
+    },
+    {
+      "slug": "live-test-vs-indexed-status-search-console",
+      "image": "https://cen-public-st.nbg1.your-objectstorage.com/freeindexer/blog/live-test-vs-indexed-status-search-console-hero.png",
+      "head_status": "200"
+    },
+    {
+      "slug": "niche-edit-backlink-indexing-qa",
+      "image": "https://cen-public-st.nbg1.your-objectstorage.com/freeindexer/blog/niche-edit-backlink-indexing-qa-hero.png",
+      "head_status": "200"
+    },
+    {
+      "slug": "broken-backlink-recovery-and-indexing",
+      "image": "https://cen-public-st.nbg1.your-objectstorage.com/freeindexer/blog/broken-backlink-recovery-and-indexing-hero.png",
+      "head_status": "200"
+    },
+    {
+      "slug": "press-release-backlink-discovery-workflow",
+      "image": "https://cen-public-st.nbg1.your-objectstorage.com/freeindexer/blog/press-release-backlink-discovery-workflow-hero.png",
+      "head_status": "200"
+    },
+    {
+      "slug": "earned-media-link-indexing-checklist",
+      "image": "https://cen-public-st.nbg1.your-objectstorage.com/freeindexer/blog/earned-media-link-indexing-checklist-hero.png",
+      "head_status": "200"
+    },
+    {
+      "slug": "tier-two-link-reporting-rules",
+      "image": "https://cen-public-st.nbg1.your-objectstorage.com/freeindexer/blog/tier-two-link-reporting-rules-hero.png",
+      "head_status": "200"
+    },
+    {
+      "slug": "wordpress-plugin-indexing-audit-workflow",
+      "image": "https://cen-public-st.nbg1.your-objectstorage.com/freeindexer/blog/wordpress-plugin-indexing-audit-workflow-hero.png",
+      "head_status": "200"
+    },
+    {
+      "slug": "shopify-collection-indexing-workflow",
+      "image": "https://cen-public-st.nbg1.your-objectstorage.com/freeindexer/blog/shopify-collection-indexing-workflow-hero.png",
+      "head_status": "200"
+    },
+    {
+      "slug": "woocommerce-product-indexing-checklist",
+      "image": "https://cen-public-st.nbg1.your-objectstorage.com/freeindexer/blog/woocommerce-product-indexing-checklist-hero.png",
+      "head_status": "200"
+    },
+    {
+      "slug": "webflow-cms-page-indexing-workflow",
+      "image": "https://cen-public-st.nbg1.your-objectstorage.com/freeindexer/blog/webflow-cms-page-indexing-workflow-hero.png",
+      "head_status": "200"
+    },
+    {
+      "slug": "api-documentation-indexing-workflow",
+      "image": "https://cen-public-st.nbg1.your-objectstorage.com/freeindexer/blog/api-documentation-indexing-workflow-hero.png",
+      "head_status": "200"
+    },
+    {
+      "slug": "saas-feature-page-indexing-workflow",
+      "image": "https://cen-public-st.nbg1.your-objectstorage.com/freeindexer/blog/saas-feature-page-indexing-workflow-hero.png",
+      "head_status": "200"
+    },
+    {
+      "slug": "monthly-indexing-operations-calendar",
+      "image": "https://cen-public-st.nbg1.your-objectstorage.com/freeindexer/blog/monthly-indexing-operations-calendar-hero.png",
+      "head_status": "200"
+    },
+    {
+      "slug": "seo-provider-deliverable-indexing-checklist",
+      "image": "https://cen-public-st.nbg1.your-objectstorage.com/freeindexer/blog/seo-provider-deliverable-indexing-checklist-hero.png",
+      "head_status": "200"
+    }
+  ]
+}

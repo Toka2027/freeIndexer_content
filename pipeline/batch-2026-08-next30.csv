@@ -1,0 +1,31 @@
+batch_order,slug,title,category,primary_keyword,primary_icp,search_intent,hero_template,content_status,hero_status,publish_status
+1,search-engine-discovery-pipeline,Search Engine Discovery Pipeline For New URLs,indexing-education,search engine discovery pipeline,SEO Operator,informational,1,created,uploaded,scheduled
+2,indexing-audit-for-service-pages,Indexing Audit For Service Pages,indexing-education,service page indexing audit,Website Owner,informational-commercial,2,created,uploaded,scheduled
+3,homepage-to-deep-page-discovery-workflow,Homepage To Deep Page Discovery Workflow,indexing-education,deep page discovery workflow,Webmaster,informational,3,created,uploaded,scheduled
+4,url-normalization-before-indexing,URL Normalization Before Indexing,technical-seo,URL normalization before indexing,SEO Operator,informational-commercial,1,created,uploaded,scheduled
+5,indexing-evidence-log-template,Indexing Evidence Log Template For SEO Teams,analytics-reporting,indexing evidence log,SEO Agency,informational-commercial,2,created,uploaded,scheduled
+6,canonical-url-map-for-large-sites,Canonical URL Map For Large Sites,technical-seo,canonical URL map,Webmaster,informational,3,created,uploaded,scheduled
+7,parameter-url-cleanup-before-submission,Parameter URL Cleanup Before Submission,technical-seo,parameter URL cleanup,SEO Operator,informational-commercial,1,created,uploaded,scheduled
+8,hreflang-canonical-conflict-workflow,Hreflang And Canonical Conflict Workflow,technical-seo,hreflang canonical conflict,Webmaster,troubleshooting,2,created,uploaded,scheduled
+9,staging-to-production-indexing-release-plan,Staging To Production Indexing Release Plan,technical-seo,staging to production indexing release plan,Webmaster,informational-commercial,3,created,uploaded,scheduled
+10,sitemap-lastmod-trust-checklist,Sitemap Lastmod Trust Checklist,technical-seo,sitemap lastmod checklist,Webmaster,informational,1,created,uploaded,scheduled
+11,structured-data-indexing-qa-workflow,Structured Data Indexing QA Workflow,technical-seo,structured data indexing QA,SEO Operator,informational,2,created,uploaded,scheduled
+12,paginated-content-indexing-audit,Paginated Content Indexing Audit,technical-seo,paginated content indexing audit,Webmaster,informational,3,created,uploaded,scheduled
+13,search-console-export-indexing-triage,Search Console Export Indexing Triage,google-search-console,Search Console export indexing triage,SEO Operator,troubleshooting,1,created,uploaded,scheduled
+14,indexed-not-submitted-in-sitemap-explained,"Indexed, Not Submitted In Sitemap Explained",google-search-console,indexed not submitted in sitemap,Website Owner,informational,2,created,uploaded,scheduled
+15,discovered-url-priority-fixes,Discovered URL Priority Fixes,google-search-console,discovered URL priority fixes,SEO Operator,troubleshooting,3,created,uploaded,scheduled
+16,crawl-stats-indexing-diagnostics-workflow,Crawl Stats Indexing Diagnostics Workflow,google-search-console,crawl stats indexing diagnostics,Webmaster,informational,1,created,uploaded,scheduled
+17,live-test-vs-indexed-status-search-console,Live Test vs Indexed Status In Search Console,google-search-console,live test vs indexed status,Website Owner,informational,2,created,uploaded,scheduled
+18,niche-edit-backlink-indexing-qa,Niche Edit Backlink Indexing QA,backlinks,niche edit backlink indexing QA,SEO Agency,informational-commercial,3,created,uploaded,scheduled
+19,broken-backlink-recovery-and-indexing,Broken Backlink Recovery And Indexing Workflow,backlinks,broken backlink recovery indexing,SEO Operator,informational-commercial,1,created,uploaded,scheduled
+20,press-release-backlink-discovery-workflow,Press Release Backlink Discovery Workflow,backlinks,press release backlink discovery,SEO Agency,informational-commercial,2,created,uploaded,scheduled
+21,earned-media-link-indexing-checklist,Earned Media Link Indexing Checklist,backlinks,earned media link indexing checklist,PR Team,informational-commercial,3,created,uploaded,scheduled
+22,tier-two-link-reporting-rules,Tier Two Link Reporting Rules Without Overclaiming,backlinks,tier two link reporting rules,SEO Agency,informational-commercial,1,created,uploaded,scheduled
+23,wordpress-plugin-indexing-audit-workflow,WordPress Plugin Indexing Audit Workflow,platform-seo,WordPress plugin indexing audit,Website Owner,troubleshooting,2,created,uploaded,scheduled
+24,shopify-collection-indexing-workflow,Shopify Collection Indexing Workflow,platform-seo,Shopify collection indexing workflow,Ecommerce Team,informational-commercial,3,created,uploaded,scheduled
+25,woocommerce-product-indexing-checklist,WooCommerce Product Indexing Checklist,platform-seo,WooCommerce product indexing checklist,Ecommerce Team,informational-commercial,1,created,uploaded,scheduled
+26,webflow-cms-page-indexing-workflow,Webflow CMS Page Indexing Workflow,platform-seo,Webflow CMS page indexing workflow,Website Owner,informational-commercial,2,created,uploaded,scheduled
+27,api-documentation-indexing-workflow,API Documentation Indexing Workflow,use-cases,API documentation indexing workflow,SaaS Or Product Team,informational-commercial,3,created,uploaded,scheduled
+28,saas-feature-page-indexing-workflow,SaaS Feature Page Indexing Workflow,use-cases,SaaS feature page indexing workflow,SaaS Or Product Team,informational-commercial,1,created,uploaded,scheduled
+29,monthly-indexing-operations-calendar,Monthly Indexing Operations Calendar,digital-marketing-operations,monthly indexing operations calendar,SEO Operator,informational-commercial,2,created,uploaded,scheduled
+30,seo-provider-deliverable-indexing-checklist,SEO Provider Deliverable Indexing Checklist,seo-tools-providers,SEO provider deliverable indexing checklist,Website Owner,commercial investigation,3,created,uploaded,scheduled

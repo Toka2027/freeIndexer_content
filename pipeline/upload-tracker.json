@@ -798,5 +798,245 @@
   "faster-google-indexing-for-website-owners": {
     "public_url": "https://cen-public-st.nbg1.your-objectstorage.com/freeindexer/blog/faster-google-indexing-for-website-owners-hero.png",
     "object_key": "freeindexer/blog/faster-google-indexing-for-website-owners-hero.png"
+  },
+  "indexing-priority-scorecard": {
+    "public_url": "https://cen-public-st.nbg1.your-objectstorage.com/freeindexer/blog/indexing-priority-scorecard-hero.png",
+    "object_key": "freeindexer/blog/indexing-priority-scorecard-hero.png"
+  },
+  "crawlability-vs-indexability-checklist": {
+    "public_url": "https://cen-public-st.nbg1.your-objectstorage.com/freeindexer/blog/crawlability-vs-indexability-checklist-hero.png",
+    "object_key": "freeindexer/blog/crawlability-vs-indexability-checklist-hero.png"
+  },
+  "request-indexing-after-page-updates": {
+    "public_url": "https://cen-public-st.nbg1.your-objectstorage.com/freeindexer/blog/request-indexing-after-page-updates-hero.png",
+    "object_key": "freeindexer/blog/request-indexing-after-page-updates-hero.png"
+  },
+  "search-console-validation-after-fixes": {
+    "public_url": "https://cen-public-st.nbg1.your-objectstorage.com/freeindexer/blog/search-console-validation-after-fixes-hero.png",
+    "object_key": "freeindexer/blog/search-console-validation-after-fixes-hero.png"
+  },
+  "sitemap-segmentation-for-indexing-diagnostics": {
+    "public_url": "https://cen-public-st.nbg1.your-objectstorage.com/freeindexer/blog/sitemap-segmentation-for-indexing-diagnostics-hero.png",
+    "object_key": "freeindexer/blog/sitemap-segmentation-for-indexing-diagnostics-hero.png"
+  },
+  "canonical-conflict-audit-workflow": {
+    "public_url": "https://cen-public-st.nbg1.your-objectstorage.com/freeindexer/blog/canonical-conflict-audit-workflow-hero.png",
+    "object_key": "freeindexer/blog/canonical-conflict-audit-workflow-hero.png"
+  },
+  "internal-links-for-faster-page-discovery": {
+    "public_url": "https://cen-public-st.nbg1.your-objectstorage.com/freeindexer/blog/internal-links-for-faster-page-discovery-hero.png",
+    "object_key": "freeindexer/blog/internal-links-for-faster-page-discovery-hero.png"
+  },
+  "orphan-url-recovery-playbook": {
+    "public_url": "https://cen-public-st.nbg1.your-objectstorage.com/freeindexer/blog/orphan-url-recovery-playbook-hero.png",
+    "object_key": "freeindexer/blog/orphan-url-recovery-playbook-hero.png"
+  },
+  "redirect-chain-cleanup-for-indexing": {
+    "public_url": "https://cen-public-st.nbg1.your-objectstorage.com/freeindexer/blog/redirect-chain-cleanup-for-indexing-hero.png",
+    "object_key": "freeindexer/blog/redirect-chain-cleanup-for-indexing-hero.png"
+  },
+  "robots-txt-audit-before-submission": {
+    "public_url": "https://cen-public-st.nbg1.your-objectstorage.com/freeindexer/blog/robots-txt-audit-before-submission-hero.png",
+    "object_key": "freeindexer/blog/robots-txt-audit-before-submission-hero.png"
+  },
+  "log-file-indexing-signals": {
+    "public_url": "https://cen-public-st.nbg1.your-objectstorage.com/freeindexer/blog/log-file-indexing-signals-hero.png",
+    "object_key": "freeindexer/blog/log-file-indexing-signals-hero.png"
+  },
+  "crawl-budget-prioritization-for-large-sites": {
+    "public_url": "https://cen-public-st.nbg1.your-objectstorage.com/freeindexer/blog/crawl-budget-prioritization-for-large-sites-hero.png",
+    "object_key": "freeindexer/blog/crawl-budget-prioritization-for-large-sites-hero.png"
+  },
+  "javascript-rendering-indexing-test": {
+    "public_url": "https://cen-public-st.nbg1.your-objectstorage.com/freeindexer/blog/javascript-rendering-indexing-test-hero.png",
+    "object_key": "freeindexer/blog/javascript-rendering-indexing-test-hero.png"
+  },
+  "client-side-rendering-indexing-risks": {
+    "public_url": "https://cen-public-st.nbg1.your-objectstorage.com/freeindexer/blog/client-side-rendering-indexing-risks-hero.png",
+    "object_key": "freeindexer/blog/client-side-rendering-indexing-risks-hero.png"
+  },
+  "faceted-url-indexing-rules": {
+    "public_url": "https://cen-public-st.nbg1.your-objectstorage.com/freeindexer/blog/faceted-url-indexing-rules-hero.png",
+    "object_key": "freeindexer/blog/faceted-url-indexing-rules-hero.png"
+  },
+  "product-variant-indexing-workflow": {
+    "public_url": "https://cen-public-st.nbg1.your-objectstorage.com/freeindexer/blog/product-variant-indexing-workflow-hero.png",
+    "object_key": "freeindexer/blog/product-variant-indexing-workflow-hero.png"
+  },
+  "content-refresh-indexing-workflow": {
+    "public_url": "https://cen-public-st.nbg1.your-objectstorage.com/freeindexer/blog/content-refresh-indexing-workflow-hero.png",
+    "object_key": "freeindexer/blog/content-refresh-indexing-workflow-hero.png"
+  },
+  "thin-content-indexing-decision-tree": {
+    "public_url": "https://cen-public-st.nbg1.your-objectstorage.com/freeindexer/blog/thin-content-indexing-decision-tree-hero.png",
+    "object_key": "freeindexer/blog/thin-content-indexing-decision-tree-hero.png"
+  },
+  "ai-generated-page-indexing-checklist": {
+    "public_url": "https://cen-public-st.nbg1.your-objectstorage.com/freeindexer/blog/ai-generated-page-indexing-checklist-hero.png",
+    "object_key": "freeindexer/blog/ai-generated-page-indexing-checklist-hero.png"
+  },
+  "landing-page-relaunch-indexing-plan": {
+    "public_url": "https://cen-public-st.nbg1.your-objectstorage.com/freeindexer/blog/landing-page-relaunch-indexing-plan-hero.png",
+    "object_key": "freeindexer/blog/landing-page-relaunch-indexing-plan-hero.png"
+  },
+  "backlink-indexing-priority-list": {
+    "public_url": "https://cen-public-st.nbg1.your-objectstorage.com/freeindexer/blog/backlink-indexing-priority-list-hero.png",
+    "object_key": "freeindexer/blog/backlink-indexing-priority-list-hero.png"
+  },
+  "guest-post-backlink-indexing-workflow": {
+    "public_url": "https://cen-public-st.nbg1.your-objectstorage.com/freeindexer/blog/guest-post-backlink-indexing-workflow-hero.png",
+    "object_key": "freeindexer/blog/guest-post-backlink-indexing-workflow-hero.png"
+  },
+  "local-citation-indexing-workflow": {
+    "public_url": "https://cen-public-st.nbg1.your-objectstorage.com/freeindexer/blog/local-citation-indexing-workflow-hero.png",
+    "object_key": "freeindexer/blog/local-citation-indexing-workflow-hero.png"
+  },
+  "digital-pr-backlink-discovery-workflow": {
+    "public_url": "https://cen-public-st.nbg1.your-objectstorage.com/freeindexer/blog/digital-pr-backlink-discovery-workflow-hero.png",
+    "object_key": "freeindexer/blog/digital-pr-backlink-discovery-workflow-hero.png"
+  },
+  "link-building-campaign-indexing-qa": {
+    "public_url": "https://cen-public-st.nbg1.your-objectstorage.com/freeindexer/blog/link-building-campaign-indexing-qa-hero.png",
+    "object_key": "freeindexer/blog/link-building-campaign-indexing-qa-hero.png"
+  },
+  "agency-indexing-sla-reporting": {
+    "public_url": "https://cen-public-st.nbg1.your-objectstorage.com/freeindexer/blog/agency-indexing-sla-reporting-hero.png",
+    "object_key": "freeindexer/blog/agency-indexing-sla-reporting-hero.png"
+  },
+  "bulk-url-submission-qa-checklist": {
+    "public_url": "https://cen-public-st.nbg1.your-objectstorage.com/freeindexer/blog/bulk-url-submission-qa-checklist-hero.png",
+    "object_key": "freeindexer/blog/bulk-url-submission-qa-checklist-hero.png"
+  },
+  "freeindexer-campaign-naming-and-tracking": {
+    "public_url": "https://cen-public-st.nbg1.your-objectstorage.com/freeindexer/blog/freeindexer-campaign-naming-and-tracking-hero.png",
+    "object_key": "freeindexer/blog/freeindexer-campaign-naming-and-tracking-hero.png"
+  },
+  "google-indexing-tool-buyers-checklist": {
+    "public_url": "https://cen-public-st.nbg1.your-objectstorage.com/freeindexer/blog/google-indexing-tool-buyers-checklist-hero.png",
+    "object_key": "freeindexer/blog/google-indexing-tool-buyers-checklist-hero.png"
+  },
+  "indexing-workflow-for-remote-seo-teams": {
+    "public_url": "https://cen-public-st.nbg1.your-objectstorage.com/freeindexer/blog/indexing-workflow-for-remote-seo-teams-hero.png",
+    "object_key": "freeindexer/blog/indexing-workflow-for-remote-seo-teams-hero.png"
+  },
+  "search-engine-discovery-pipeline": {
+    "public_url": "https://cen-public-st.nbg1.your-objectstorage.com/freeindexer/blog/search-engine-discovery-pipeline-hero.png",
+    "object_key": "freeindexer/blog/search-engine-discovery-pipeline-hero.png"
+  },
+  "indexing-audit-for-service-pages": {
+    "public_url": "https://cen-public-st.nbg1.your-objectstorage.com/freeindexer/blog/indexing-audit-for-service-pages-hero.png",
+    "object_key": "freeindexer/blog/indexing-audit-for-service-pages-hero.png"
+  },
+  "homepage-to-deep-page-discovery-workflow": {
+    "public_url": "https://cen-public-st.nbg1.your-objectstorage.com/freeindexer/blog/homepage-to-deep-page-discovery-workflow-hero.png",
+    "object_key": "freeindexer/blog/homepage-to-deep-page-discovery-workflow-hero.png"
+  },
+  "url-normalization-before-indexing": {
+    "public_url": "https://cen-public-st.nbg1.your-objectstorage.com/freeindexer/blog/url-normalization-before-indexing-hero.png",
+    "object_key": "freeindexer/blog/url-normalization-before-indexing-hero.png"
+  },
+  "indexing-evidence-log-template": {
+    "public_url": "https://cen-public-st.nbg1.your-objectstorage.com/freeindexer/blog/indexing-evidence-log-template-hero.png",
+    "object_key": "freeindexer/blog/indexing-evidence-log-template-hero.png"
+  },
+  "canonical-url-map-for-large-sites": {
+    "public_url": "https://cen-public-st.nbg1.your-objectstorage.com/freeindexer/blog/canonical-url-map-for-large-sites-hero.png",
+    "object_key": "freeindexer/blog/canonical-url-map-for-large-sites-hero.png"
+  },
+  "parameter-url-cleanup-before-submission": {
+    "public_url": "https://cen-public-st.nbg1.your-objectstorage.com/freeindexer/blog/parameter-url-cleanup-before-submission-hero.png",
+    "object_key": "freeindexer/blog/parameter-url-cleanup-before-submission-hero.png"
+  },
+  "hreflang-canonical-conflict-workflow": {
+    "public_url": "https://cen-public-st.nbg1.your-objectstorage.com/freeindexer/blog/hreflang-canonical-conflict-workflow-hero.png",
+    "object_key": "freeindexer/blog/hreflang-canonical-conflict-workflow-hero.png"
+  },
+  "staging-to-production-indexing-release-plan": {
+    "public_url": "https://cen-public-st.nbg1.your-objectstorage.com/freeindexer/blog/staging-to-production-indexing-release-plan-hero.png",
+    "object_key": "freeindexer/blog/staging-to-production-indexing-release-plan-hero.png"
+  },
+  "sitemap-lastmod-trust-checklist": {
+    "public_url": "https://cen-public-st.nbg1.your-objectstorage.com/freeindexer/blog/sitemap-lastmod-trust-checklist-hero.png",
+    "object_key": "freeindexer/blog/sitemap-lastmod-trust-checklist-hero.png"
+  },
+  "structured-data-indexing-qa-workflow": {
+    "public_url": "https://cen-public-st.nbg1.your-objectstorage.com/freeindexer/blog/structured-data-indexing-qa-workflow-hero.png",
+    "object_key": "freeindexer/blog/structured-data-indexing-qa-workflow-hero.png"
+  },
+  "paginated-content-indexing-audit": {
+    "public_url": "https://cen-public-st.nbg1.your-objectstorage.com/freeindexer/blog/paginated-content-indexing-audit-hero.png",
+    "object_key": "freeindexer/blog/paginated-content-indexing-audit-hero.png"
+  },
+  "search-console-export-indexing-triage": {
+    "public_url": "https://cen-public-st.nbg1.your-objectstorage.com/freeindexer/blog/search-console-export-indexing-triage-hero.png",
+    "object_key": "freeindexer/blog/search-console-export-indexing-triage-hero.png"
+  },
+  "indexed-not-submitted-in-sitemap-explained": {
+    "public_url": "https://cen-public-st.nbg1.your-objectstorage.com/freeindexer/blog/indexed-not-submitted-in-sitemap-explained-hero.png",
+    "object_key": "freeindexer/blog/indexed-not-submitted-in-sitemap-explained-hero.png"
+  },
+  "discovered-url-priority-fixes": {
+    "public_url": "https://cen-public-st.nbg1.your-objectstorage.com/freeindexer/blog/discovered-url-priority-fixes-hero.png",
+    "object_key": "freeindexer/blog/discovered-url-priority-fixes-hero.png"
+  },
+  "crawl-stats-indexing-diagnostics-workflow": {
+    "public_url": "https://cen-public-st.nbg1.your-objectstorage.com/freeindexer/blog/crawl-stats-indexing-diagnostics-workflow-hero.png",
+    "object_key": "freeindexer/blog/crawl-stats-indexing-diagnostics-workflow-hero.png"
+  },
+  "live-test-vs-indexed-status-search-console": {
+    "public_url": "https://cen-public-st.nbg1.your-objectstorage.com/freeindexer/blog/live-test-vs-indexed-status-search-console-hero.png",
+    "object_key": "freeindexer/blog/live-test-vs-indexed-status-search-console-hero.png"
+  },
+  "niche-edit-backlink-indexing-qa": {
+    "public_url": "https://cen-public-st.nbg1.your-objectstorage.com/freeindexer/blog/niche-edit-backlink-indexing-qa-hero.png",
+    "object_key": "freeindexer/blog/niche-edit-backlink-indexing-qa-hero.png"
+  },
+  "broken-backlink-recovery-and-indexing": {
+    "public_url": "https://cen-public-st.nbg1.your-objectstorage.com/freeindexer/blog/broken-backlink-recovery-and-indexing-hero.png",
+    "object_key": "freeindexer/blog/broken-backlink-recovery-and-indexing-hero.png"
+  },
+  "press-release-backlink-discovery-workflow": {
+    "public_url": "https://cen-public-st.nbg1.your-objectstorage.com/freeindexer/blog/press-release-backlink-discovery-workflow-hero.png",
+    "object_key": "freeindexer/blog/press-release-backlink-discovery-workflow-hero.png"
+  },
+  "earned-media-link-indexing-checklist": {
+    "public_url": "https://cen-public-st.nbg1.your-objectstorage.com/freeindexer/blog/earned-media-link-indexing-checklist-hero.png",
+    "object_key": "freeindexer/blog/earned-media-link-indexing-checklist-hero.png"
+  },
+  "tier-two-link-reporting-rules": {
+    "public_url": "https://cen-public-st.nbg1.your-objectstorage.com/freeindexer/blog/tier-two-link-reporting-rules-hero.png",
+    "object_key": "freeindexer/blog/tier-two-link-reporting-rules-hero.png"
+  },
+  "wordpress-plugin-indexing-audit-workflow": {
+    "public_url": "https://cen-public-st.nbg1.your-objectstorage.com/freeindexer/blog/wordpress-plugin-indexing-audit-workflow-hero.png",
+    "object_key": "freeindexer/blog/wordpress-plugin-indexing-audit-workflow-hero.png"
+  },
+  "shopify-collection-indexing-workflow": {
+    "public_url": "https://cen-public-st.nbg1.your-objectstorage.com/freeindexer/blog/shopify-collection-indexing-workflow-hero.png",
+    "object_key": "freeindexer/blog/shopify-collection-indexing-workflow-hero.png"
+  },
+  "woocommerce-product-indexing-checklist": {
+    "public_url": "https://cen-public-st.nbg1.your-objectstorage.com/freeindexer/blog/woocommerce-product-indexing-checklist-hero.png",
+    "object_key": "freeindexer/blog/woocommerce-product-indexing-checklist-hero.png"
+  },
+  "webflow-cms-page-indexing-workflow": {
+    "public_url": "https://cen-public-st.nbg1.your-objectstorage.com/freeindexer/blog/webflow-cms-page-indexing-workflow-hero.png",
+    "object_key": "freeindexer/blog/webflow-cms-page-indexing-workflow-hero.png"
+  },
+  "api-documentation-indexing-workflow": {
+    "public_url": "https://cen-public-st.nbg1.your-objectstorage.com/freeindexer/blog/api-documentation-indexing-workflow-hero.png",
+    "object_key": "freeindexer/blog/api-documentation-indexing-workflow-hero.png"
+  },
+  "saas-feature-page-indexing-workflow": {
+    "public_url": "https://cen-public-st.nbg1.your-objectstorage.com/freeindexer/blog/saas-feature-page-indexing-workflow-hero.png",
+    "object_key": "freeindexer/blog/saas-feature-page-indexing-workflow-hero.png"
+  },
+  "monthly-indexing-operations-calendar": {
+    "public_url": "https://cen-public-st.nbg1.your-objectstorage.com/freeindexer/blog/monthly-indexing-operations-calendar-hero.png",
+    "object_key": "freeindexer/blog/monthly-indexing-operations-calendar-hero.png"
+  },
+  "seo-provider-deliverable-indexing-checklist": {
+    "public_url": "https://cen-public-st.nbg1.your-objectstorage.com/freeindexer/blog/seo-provider-deliverable-indexing-checklist-hero.png",
+    "object_key": "freeindexer/blog/seo-provider-deliverable-indexing-checklist-hero.png"
   }
 }

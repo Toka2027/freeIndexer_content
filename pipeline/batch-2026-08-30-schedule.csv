@@ -1,0 +1,31 @@
+batch_order,slug,title,cms_input_at,publish_date_cairo,scheduled_time_cairo,status,blog_post_id,blog_url
+1,indexing-priority-scorecard,Indexing Priority Scorecard: Which URLs Should Go First?,2026-08-04T09:00:00Z,2026-08-04,09:00,scheduled,9294,https://blog.freeindexer.com/indexing-priority-scorecard
+2,crawlability-vs-indexability-checklist,Crawlability vs Indexability: A Practical Checklist,2026-08-04T15:00:00Z,2026-08-04,15:00,scheduled,9295,https://blog.freeindexer.com/crawlability-vs-indexability-checklist
+3,request-indexing-after-page-updates,When To Request Indexing After Page Updates,2026-08-05T09:00:00Z,2026-08-05,09:00,scheduled,9296,https://blog.freeindexer.com/request-indexing-after-page-updates
+4,search-console-validation-after-fixes,Search Console Validation After Indexing Fixes,2026-08-05T15:00:00Z,2026-08-05,15:00,scheduled,9297,https://blog.freeindexer.com/search-console-validation-after-fixes
+5,sitemap-segmentation-for-indexing-diagnostics,Sitemap Segmentation For Indexing Diagnostics,2026-08-06T09:00:00Z,2026-08-06,09:00,scheduled,9298,https://blog.freeindexer.com/sitemap-segmentation-for-indexing-diagnostics
+6,canonical-conflict-audit-workflow,Canonical Conflict Audit Workflow For Indexing,2026-08-06T15:00:00Z,2026-08-06,15:00,scheduled,9299,https://blog.freeindexer.com/canonical-conflict-audit-workflow
+7,internal-links-for-faster-page-discovery,Internal Links For Faster Page Discovery,2026-08-07T09:00:00Z,2026-08-07,09:00,scheduled,9300,https://blog.freeindexer.com/internal-links-for-faster-page-discovery
+8,orphan-url-recovery-playbook,Orphan URL Recovery Playbook For SEO Teams,2026-08-07T15:00:00Z,2026-08-07,15:00,scheduled,9301,https://blog.freeindexer.com/orphan-url-recovery-playbook
+9,redirect-chain-cleanup-for-indexing,Redirect Chain Cleanup For Indexing,2026-08-08T09:00:00Z,2026-08-08,09:00,scheduled,9302,https://blog.freeindexer.com/redirect-chain-cleanup-for-indexing
+10,robots-txt-audit-before-submission,Robots.txt Audit Before URL Submission,2026-08-08T15:00:00Z,2026-08-08,15:00,scheduled,9303,https://blog.freeindexer.com/robots-txt-audit-before-submission
+11,log-file-indexing-signals,Log File Signals For Indexing Diagnostics,2026-08-09T09:00:00Z,2026-08-09,09:00,scheduled,9304,https://blog.freeindexer.com/log-file-indexing-signals
+12,crawl-budget-prioritization-for-large-sites,Crawl Budget Prioritization For Large Sites,2026-08-09T15:00:00Z,2026-08-09,15:00,scheduled,9305,https://blog.freeindexer.com/crawl-budget-prioritization-for-large-sites
+13,javascript-rendering-indexing-test,JavaScript Rendering Indexing Test For SEO,2026-08-10T09:00:00Z,2026-08-10,09:00,scheduled,9306,https://blog.freeindexer.com/javascript-rendering-indexing-test
+14,client-side-rendering-indexing-risks,Client-Side Rendering Indexing Risks,2026-08-10T15:00:00Z,2026-08-10,15:00,scheduled,9307,https://blog.freeindexer.com/client-side-rendering-indexing-risks
+15,faceted-url-indexing-rules,Faceted URL Indexing Rules For Ecommerce Sites,2026-08-11T09:00:00Z,2026-08-11,09:00,scheduled,9308,https://blog.freeindexer.com/faceted-url-indexing-rules
+16,product-variant-indexing-workflow,Product Variant Indexing Workflow,2026-08-11T15:00:00Z,2026-08-11,15:00,scheduled,9309,https://blog.freeindexer.com/product-variant-indexing-workflow
+17,content-refresh-indexing-workflow,Content Refresh Indexing Workflow,2026-08-12T09:00:00Z,2026-08-12,09:00,scheduled,9310,https://blog.freeindexer.com/content-refresh-indexing-workflow
+18,thin-content-indexing-decision-tree,Thin Content Indexing Decision Tree,2026-08-12T15:00:00Z,2026-08-12,15:00,scheduled,9311,https://blog.freeindexer.com/thin-content-indexing-decision-tree
+19,ai-generated-page-indexing-checklist,AI-Generated Page Indexing Checklist,2026-08-13T09:00:00Z,2026-08-13,09:00,scheduled,9312,https://blog.freeindexer.com/ai-generated-page-indexing-checklist
+20,landing-page-relaunch-indexing-plan,Landing Page Relaunch Indexing Plan,2026-08-13T15:00:00Z,2026-08-13,15:00,scheduled,9313,https://blog.freeindexer.com/landing-page-relaunch-indexing-plan
+21,backlink-indexing-priority-list,Backlink Indexing Priority List: What To Submit First,2026-08-14T09:00:00Z,2026-08-14,09:00,scheduled,9314,https://blog.freeindexer.com/backlink-indexing-priority-list
+22,guest-post-backlink-indexing-workflow,Guest Post Backlink Indexing Workflow,2026-08-14T15:00:00Z,2026-08-14,15:00,scheduled,9315,https://blog.freeindexer.com/guest-post-backlink-indexing-workflow
+23,local-citation-indexing-workflow,Local Citation Indexing Workflow,2026-08-15T09:00:00Z,2026-08-15,09:00,scheduled,9316,https://blog.freeindexer.com/local-citation-indexing-workflow
+24,digital-pr-backlink-discovery-workflow,Digital PR Backlink Discovery Workflow,2026-08-15T15:00:00Z,2026-08-15,15:00,scheduled,9317,https://blog.freeindexer.com/digital-pr-backlink-discovery-workflow
+25,link-building-campaign-indexing-qa,Link Building Campaign Indexing QA,2026-08-16T09:00:00Z,2026-08-16,09:00,scheduled,9318,https://blog.freeindexer.com/link-building-campaign-indexing-qa
+26,agency-indexing-sla-reporting,Agency Indexing SLA Reporting Without Overpromising,2026-08-16T15:00:00Z,2026-08-16,15:00,scheduled,9319,https://blog.freeindexer.com/agency-indexing-sla-reporting
+27,bulk-url-submission-qa-checklist,Bulk URL Submission QA Checklist,2026-08-17T09:00:00Z,2026-08-17,09:00,scheduled,9320,https://blog.freeindexer.com/bulk-url-submission-qa-checklist
+28,freeindexer-campaign-naming-and-tracking,FreeIndexer Campaign Naming And Tracking Workflow,2026-08-17T15:00:00Z,2026-08-17,15:00,scheduled,9321,https://blog.freeindexer.com/freeindexer-campaign-naming-and-tracking
+29,google-indexing-tool-buyers-checklist,Google Indexing Tool Buyers Checklist,2026-08-18T09:00:00Z,2026-08-18,09:00,scheduled,9322,https://blog.freeindexer.com/google-indexing-tool-buyers-checklist
+30,indexing-workflow-for-remote-seo-teams,Indexing Workflow For Remote SEO Teams,2026-08-18T15:00:00Z,2026-08-18,15:00,scheduled,9323,https://blog.freeindexer.com/indexing-workflow-for-remote-seo-teams
